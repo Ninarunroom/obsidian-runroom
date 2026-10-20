@@ -4,6 +4,7 @@ sector:
 cliente_desde: 
 estado: activo
 ---
+<!-- Claude: antes de responder o escribir sobre este cliente, lee "Claude/Instrucciones - BAU - Hubspot.md" -->
 # BAU - Hubspot
 
 ## Información general
@@ -33,4 +34,4 @@ estado: activo
 *(pendiente — completar)*
 
 ## Pendientes
-![[Pendientes#BAU - Hubspot]]
+![[Pendientes - BAU - Hubspot]]

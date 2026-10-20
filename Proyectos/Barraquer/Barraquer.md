@@ -4,6 +4,7 @@ sector:
 cliente_desde: 
 estado: activo
 ---
+<!-- Claude: antes de responder o escribir sobre este cliente, lee "Claude/Instrucciones - Barraquer.md" -->
 # Barraquer
 
 ## Información general
@@ -36,4 +37,4 @@ Ver [[Equipo Runroom]] para el equipo interno y externos.
 *(pendiente — completar)*
 
 ## Pendientes
-![[Pendientes#Barraquer]]
+![[Pendientes - Barraquer]]

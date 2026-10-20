@@ -4,6 +4,7 @@ sector:
 cliente_desde: 
 estado: activo
 ---
+<!-- Claude: antes de responder o escribir sobre este cliente, lee "Claude/Instrucciones - Spradling.md" -->
 # Spradling
 
 ## Información general
@@ -33,4 +34,4 @@ Ver [[Equipo Runroom]].
 *(pendiente — completar)*
 
 ## Pendientes
-![[Pendientes#Spradling]]
+![[Pendientes - Spradling]]

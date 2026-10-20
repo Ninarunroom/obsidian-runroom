@@ -4,6 +4,7 @@ sector: automoción de lujo
 cliente_desde: 2023-04
 estado: activo
 ---
+<!-- Claude: antes de responder o escribir sobre este cliente, lee "Claude/Instrucciones - Hispano Suiza.md" -->
 # Hispano Suiza
 
 ## Información general
@@ -33,4 +34,4 @@ Ver [[Equipo Runroom]].
 *(pendiente — completar)*
 
 ## Pendientes
-![[Pendientes#Hispano Suiza]]
+![[Pendientes - Hispano Suiza]]

@@ -1,22 +1,6 @@
-# Pendientes
+# Pendientes — Esade
 
-Tareas pendientes detectadas automáticamente en Basecamp y en el correo de cada cliente. Se actualiza cada mañana (~9:49h): se añaden solo tareas nuevas, nunca se borran ni se marcan como hechas automáticamente — márcalas tú aquí con `[x]` cuando las completes.
-
-## Barraquer
-
-- [ ] Cristian (cliente) debe dar feedback sobre la revisión de conversiones de Google Ads de septiembre que envió Ari (categorización de conversiones, propuesta de seguimiento). — [Transversal - Revisión conversiones Google Ads (sept 26)](https://basecamp.com/1771388/projects/17192035/todos/520415512) — detectado 21/09/2026
-- [x] Confirmar con Cristian si las campañas de Instituto siguen activas o se paran (la fecha fin de promo era el 20/09 y Nina preguntó si seguían "hasta nuevo aviso", sin respuesta). — [Campañas Instituto](https://basecamp.com/1771388/projects/17192035/messages/112502045) — detectado 18/09/2026
-- [ ] Recargar el saldo de Google Ads antes de que se agote (van justos de presupuesto, según el recap de Ari del status del 30/9). — [Status 30/9](https://basecamp.com/1771388/projects/17192035/todos/520642038) — detectado 30/09/2026
-- [ ] Actualizar el Excel de presupuestos revisados por ROI con los datos de septiembre cuando se haga el reporting (la semana del 5/10); Cristian debe revisarlo por si ve algo raro. — [Status 30/9](https://basecamp.com/1771388/projects/17192035/todos/520642038) — detectado 30/09/2026
-
-## BAU - Hubspot
-
-- [ ] Idoia debe avisar a Guillermo cuando lance el test del nuevo Nurturing con el Máster en Diseño de Espacios Escénicos; a la vuelta de Guillermo (7 de octubre) retoman el proyecto de Nurturing de Grados. — [Reunión Nurturing & WF Hubspot](https://basecamp.com/1771388/projects/17190777/messages/112722625) — detectado 22/09/2026
-- [ ] Guillermo debe repetir el test del nuevo Nurturing del Máster en Diseño de Espacios Escénicos: el primer intento falló porque su contacto está en una lista de exclusión por tener la Etapa de Ciclo de Vida "Preinscripción Iniciada". — [Reunión Nurturing & WF Hubspot](https://basecamp.com/1771388/projects/17190777/messages/112722625) — detectado 30/09/2026
-- [ ] Idoia debe revisar por qué los registros importados de las ferias de México y Colombia no reciben el correo de descarga de folleto al inscribirlos en el Workflow "Sales e-mail - one to one" (la importación a HubSpot sí funciona correctamente). — [Importaciones ferias](https://basecamp.com/1771388/projects/17190777/messages/113421836) — detectado 30/09/2026
-- [ ] Confirmar con Guillermo (BAU) si el Workflow "Sales email - one to one" sigue siendo el correcto para las próximas importaciones de ferias: esta semana quedan dos de Másters y la semana siguiente empiezan las de Grados. — [Importaciones ferias](https://basecamp.com/1771388/projects/17190777/messages/113421836) — detectado 06/10/2026
-
-## Esade
+Tareas pendientes de este cliente, detectadas automáticamente en Basecamp y en su correo. Se actualiza cada mañana (~9:49h): se añaden solo tareas nuevas, nunca se borran ni se marcan como hechas automáticamente — márcalas tú aquí con `[x]` cuando las completes.
 
 ### ESADE OPENS 2025/2026
 
@@ -43,15 +27,3 @@ Tareas pendientes detectadas automáticamente en Basecamp y en el correo de cada
 - [ ] Enviar a Sergi Fernandez (Esade) los 50 prompts que se usan en Sistrix, sobre qué IAs/modelos se ejecutan y cómo se recogen los datos (API/scraping), con export por prompt si es posible — lo piden para contrastar con una prueba de 60 prompts que ha hecho el Natzir, cuyos resultados varían según las preguntas. — (email) sergi.fernandez@esade.edu, "Sistrix Esade", 02/10/2026 — detectado 04/10/2026
 - [ ] Marta debe confirmar con los desarrolladores de FormAssembly los cambios recientes en el formulario (de la versión 61 a la 67) y aplicar en GTM la exclusión del referral de tfaforms.net (ignore_referrer) para corregir la mala atribución de conversiones en GA4 desde abril (en EMBA, ~205 brochures mal atribuidos, 6% del total); Marta se comprometió a avisar a Sergi/Natzir en cuanto los desarrolladores respondan, sin confirmación registrada desde entonces. — (email) Sergi Fernandez / Natzir / Marta Baldó, "GTM", 29/09/2026 — detectado 05/10/2026
 - [ ] Responder a Marc Rius y David Ferré (Esade) si el problema de atribución de tfaforms.net en GA4 ocurre en todos los formularios o solo en algunos, para poder comparar qué diferencia hay entre los que funcionan bien y los que no. — (email) Marc Rius / David Ferré, "RE: GTM", 07/10/2026 — detectado 07/10/2026
-
-## Hispano Suiza
-
-- [x] Pablo y Pipo deben confirmar la propuesta de presupuesto de septiembre (en especial el punto 3: mantener la factura de 11.785,58€ y que absorba parte de octubre), idealmente antes de cerrar la semana. — [2026 - Revisión presupuesto septiembre](https://basecamp.com/1771388/projects/19038192/todos/520390057) — detectado 23/09/2026
-- [ ] Regularizar en la factura de noviembre el saldo a favor de Hispano Suiza (241,82€) acordado con Pablo, al no facturar nada en octubre (diferencia entre lo facturado y lo consumido hasta septiembre + previsión de octubre). — [2026 - Revisión presupuesto septiembre](https://basecamp.com/1771388/projects/19038192/todos/520390057) — detectado 06/10/2026
-
-## Spradling
-
-- [ ] Spradling debe confirmar fechas de lanzamiento de las campañas de Awareness (Meta/YouTube, faltan creatividades definitivas) y de los próximos lanzamientos de producto (sept-oct); mientras tanto Runroom mantiene reservado el presupuesto. — [Tracking campañas - CRM](https://basecamp.com/1771388/projects/19500347/todos/514738790) — detectado 24/09/2026
-- [ ] Nina debe revisar el volumen de búsqueda y valorar la propuesta de campañas específicas Valencia™/Silvertex® E-sense junto con Dèlia, previsto para inicios de la semana del 29/09. — [Tracking campañas - CRM](https://basecamp.com/1771388/projects/19500347/todos/514738790) — detectado 21/09/2026
-- [ ] Confirmar si Dèlia/Colombia necesitan una reunión para explicar cómo se mide la conversión en sesiones sin consentimiento de cookies (Ari se ofreció a organizarla, a la espera de respuesta). — [Reunión medición](https://basecamp.com/1771388/projects/19500347/messages/113375145) — detectado 22/09/2026
-- [ ] Migrar las campañas a las nuevas audiencias de GA4 (ya creadas por país y tipo en la propiedad nueva) en cuanto acumulen suficiente tráfico — previsto para mediados/finales de octubre; mientras tanto se sigue trabajando con las audiencias de la web anterior. — [2026. Generación audiencias nuevo GA4](https://basecamp.com/1771388/projects/19500347/todos/520639425) — detectado 05/10/2026

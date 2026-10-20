@@ -4,6 +4,7 @@ sector: educación superior / business school
 cliente_desde: 
 estado: activo
 ---
+<!-- Claude: antes de responder o escribir sobre este cliente, lee "Claude/Instrucciones - Esade.md" -->
 # Esade
 
 Cuenta de Esade: contenidos, SEO, analítica y medios.
@@ -60,4 +61,4 @@ Ver [[Equipo Runroom]] para más detalle.
 - [[Do Better]] — agencia externa que colabora en analítica/SEO de Esade
 
 ## Pendientes
-![[Pendientes#Esade]]
+![[Pendientes - Esade]]
