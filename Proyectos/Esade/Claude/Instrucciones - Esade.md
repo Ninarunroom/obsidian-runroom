@@ -3,13 +3,15 @@
 Esto es lo que debo tener en cuenta (en chat o en la tarea programada diaria) antes de escribir o responder algo sobre este cliente.
 
 ## Tono y estilo con el cliente
-*(pendiente — completar)*
+- Cuenta con varios interlocutores y workstreams separados: OPENS/paid media (Helena Soler, tono muy orientado a datos/KPIs), SEO (Astrid/Sergi, técnico y de contenidos), y el extinto workstream de Marca (Rosa Martin/Cristina Isern, más institucional). No asumir que lo que aplica a uno aplica a los demás.
 
 ## Cosas que nunca debo hacer o decir
-*(pendiente — completar)*
+- No mezclar el workstream de "Marca" (finalizado en julio 2026) con OPENS o SEO al hablar de la cuenta — son equipos de Esade y Runroom distintos.
+- No dar por sentado que un pendiente de una reunión antigua (anterior a septiembre 2026) sigue abierto sin verificarlo primero — varios de los contactos y procesos han cambiado (ej. salida de Sandra Hernández en Do Better, fin de Marca).
 
 ## Aprobaciones necesarias antes de actuar
-*(pendiente — completar)*
+- Cambios de presupuesto en campañas de OPENS que afecten a varios programas a la vez (p. ej. mover presupuesto del híbrido a Madrid): seguir el patrón ya validado por Helena Soler, pero confirmar con Araceli antes de aplicar cambios no triviales.
+- Cualquier compromiso de coste con Financial Times: requiere validación explícita del presupuesto disponible (ha habido tensión repetida por incrementos de presupuesto en estos acuerdos).
 
 ## Otros
 *(pendiente — completar)*

@@ -27,3 +27,11 @@ Tareas pendientes de este cliente, detectadas automáticamente en Basecamp y en 
 - [ ] Enviar a Sergi Fernandez (Esade) los 50 prompts que se usan en Sistrix, sobre qué IAs/modelos se ejecutan y cómo se recogen los datos (API/scraping), con export por prompt si es posible — lo piden para contrastar con una prueba de 60 prompts que ha hecho el Natzir, cuyos resultados varían según las preguntas. — (email) sergi.fernandez@esade.edu, "Sistrix Esade", 02/10/2026 — detectado 04/10/2026
 - [ ] Marta debe confirmar con los desarrolladores de FormAssembly los cambios recientes en el formulario (de la versión 61 a la 67) y aplicar en GTM la exclusión del referral de tfaforms.net (ignore_referrer) para corregir la mala atribución de conversiones en GA4 desde abril (en EMBA, ~205 brochures mal atribuidos, 6% del total); Marta se comprometió a avisar a Sergi/Natzir en cuanto los desarrolladores respondan, sin confirmación registrada desde entonces. — (email) Sergi Fernandez / Natzir / Marta Baldó, "GTM", 29/09/2026 — detectado 05/10/2026
 - [ ] Responder a Marc Rius y David Ferré (Esade) si el problema de atribución de tfaforms.net en GA4 ocurre en todos los formularios o solo en algunos, para poder comparar qué diferencia hay entre los que funcionan bien y los que no. — (email) Marc Rius / David Ferré, "RE: GTM", 07/10/2026 — detectado 07/10/2026
+
+### Marca (finalizada — seguimiento del cierre)
+
+- [ ] Confirmar con Araceli cómo se resolvió finalmente la orden de compra de los rankings de Financial Times (publicación de septiembre 2026, presupuesto ~37.000€ vs. propuesta de 44.253€) y si la comunicación a "Aurelio" sobre el cambio de agencia se hizo correctamente — última tarea pendiente a 21/07/2026, sin reuniones posteriores que lo confirmen. — [Status Marca 21/07](https://docs.google.com/document/d/1dqsvvWaLIF-88O5WL6Yvq8Q5trOjq6Cq8Y0FVGkiTCQ/edit) — detectado 21/07/2026
+
+### Esade SEO tècnic
+
+- [ ] Confirmar con Olga/Fernando (Do Better) si el plan de limpieza de enlaces tóxicos (disavow), aprobado para julio-octubre 2026, se completó, y si se decidió mantenerlo de forma recurrente cada 3 meses. — [Enlazado competencia + toxicidad](https://docs.google.com/document/d/1QpfFR1NZoFCI-MEcA-A4a52QTYtVVM5VgLE5LkVii-I/edit) — detectado 02/07/2026

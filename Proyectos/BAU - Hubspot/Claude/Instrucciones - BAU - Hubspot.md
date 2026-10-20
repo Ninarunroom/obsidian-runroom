@@ -3,16 +3,17 @@
 Esto es lo que debo tener en cuenta (en chat o en la tarea programada diaria) antes de escribir o responder algo sobre este cliente.
 
 ## Tono y estilo con el cliente
-*(pendiente — completar)*
+- Conversación técnica orientada a HubSpot/automatizaciones (workflows, plantillas, segmentación); tono cercano, de trabajo conjunto entre Idoia/Julia (Runroom) y Guillermo/Adrià (BAU).
 
 ## Cosas que nunca debo hacer o decir
-*(pendiente — completar)*
+- No activar/mostrar canales o comunicaciones (p. ej. WhatsApp) a público no segmentado correctamente sin confirmar antes con el cliente — ya han pedido explícitamente restringir ciertos canales por idioma/país (ej. no mostrar WhatsApp a estudiantes no españoles).
 
 ## Aprobaciones necesarias antes de actuar
-*(pendiente — completar)*
+- Cualquier plantilla de WhatsApp Business nueva requiere aprobación de Meta antes de poder enviarse — no asumir que está lista sin confirmarlo.
+- Cambios de consentimiento/checkbox legal en formularios: consultar con el equipo legal antes de implementar (mencionado explícitamente en la reunión de febrero 2026).
 
 ## Otros
-*(pendiente — completar)*
+- Verificar con Guillermo/Idoia el estado actual del proyecto de WhatsApp para Grados y de la traducción al catalán de las comunicaciones de Grados (última reunión documentada es de febrero 2026, sin seguimiento posterior en este Drive).
 
 
 ## Cómo mantener esta carpeta (patrón LLM Wiki)

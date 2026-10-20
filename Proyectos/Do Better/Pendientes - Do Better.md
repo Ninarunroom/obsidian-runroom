@@ -1,0 +1,17 @@
+# Pendientes — Do Better
+
+Tareas pendientes detectadas en las reuniones de seguimiento (informes mensuales / estrategia). No hay integración automática con Basecamp/email para esta carpeta (Do Better es la agencia externa de SEO/analítica de la cuenta Esade, no un cliente con su propio Basecamp) — esta lista se nutre de lo que sale en las reuniones. Se añaden solo tareas nuevas; márcalas tú con `[x]` cuando se completen.
+
+- [ ] Auditoría técnica SEO (nov–dic) para limpiar errores técnicos del sitio. — [Estrategia 26/27](https://docs.google.com/document/d/1jtGXV2huhAKwqSCD1egxGM2GhuRbZk9LRZry2kZl_bI/edit) — detectado 04/09/2026
+- [ ] Olga: calendario editorial a 3 meses vista (hasta noviembre) + definir estrategia para después. — [Estrategia 26/27](https://docs.google.com/document/d/1jtGXV2huhAKwqSCD1egxGM2GhuRbZk9LRZry2kZl_bI/edit) — detectado 04/09/2026
+- [ ] Olga: diseñar alternativa de mejora del blog sin tocar contenido firmado por profesores (sigue sin solucionarse el tema de la firma). — [Estrategia 26/27](https://docs.google.com/document/d/1jtGXV2huhAKwqSCD1egxGM2GhuRbZk9LRZry2kZl_bI/edit) — detectado 04/09/2026
+- [ ] Implementar módulo de suscripción a newsletter al final de los artículos (tarjeta editorial, no comercial). — [Estrategia 26/27](https://docs.google.com/document/d/1jtGXV2huhAKwqSCD1egxGM2GhuRbZk9LRZry2kZl_bI/edit) — detectado 04/09/2026
+- [ ] Incluir 2-3 gráficos simples de datos por artículo (vía CMS). — [Estrategia 26/27](https://docs.google.com/document/d/1jtGXV2huhAKwqSCD1egxGM2GhuRbZk9LRZry2kZl_bI/edit) — detectado 04/09/2026
+- [ ] Añadir iconografía en subtítulos H2/H3. — [Estrategia 26/27](https://docs.google.com/document/d/1jtGXV2huhAKwqSCD1egxGM2GhuRbZk9LRZry2kZl_bI/edit) — detectado 04/09/2026
+- [ ] Validar viabilidad de pop-ups de suscripción a los 60s (solo nuevos visitantes) — pendiente de quién lo retoma tras la salida de Sandra. — [Estrategia 26/27](https://docs.google.com/document/d/1jtGXV2huhAKwqSCD1egxGM2GhuRbZk9LRZry2kZl_bI/edit) — detectado 04/09/2026
+- [ ] Desarrollar 2-3 ebooks como imán de prospectos durante el curso. — [Estrategia 26/27](https://docs.google.com/document/d/1jtGXV2huhAKwqSCD1egxGM2GhuRbZk9LRZry2kZl_bI/edit) — detectado 04/09/2026
+- [ ] Reunión de traspaso con Dulce (nueva responsable SEO/analítica por parte de Esade) para presentarle el calendario y las propuestas. — [Estrategia 26/27](https://docs.google.com/document/d/1jtGXV2huhAKwqSCD1egxGM2GhuRbZk9LRZry2kZl_bI/edit) — detectado 04/09/2026
+- [ ] Elaborar propuesta técnica detallada para evaluar viabilidad con TIC (Fernando, Olga, Dulce). — [Estrategia 26/27](https://docs.google.com/document/d/1jtGXV2huhAKwqSCD1egxGM2GhuRbZk9LRZry2kZl_bI/edit) — detectado 04/09/2026
+- [ ] Coordinar con Judith Magran (nueva responsable de contenidos periodísticos) pautas editoriales y flujo con Marta. — [Estrategia 26/27](https://docs.google.com/document/d/1jtGXV2huhAKwqSCD1egxGM2GhuRbZk9LRZry2kZl_bI/edit) — detectado 04/09/2026
+- [ ] Nina: validar con compras (Runroom) la actualización de tarifas por IPC (posible +3% en diciembre). — [Estrategia 26/27](https://docs.google.com/document/d/1jtGXV2huhAKwqSCD1egxGM2GhuRbZk9LRZry2kZl_bI/edit) — detectado 04/09/2026
+- [ ] Confirmar si el presupuesto y plan de trabajo quedaron firmados antes de la salida de Sandra (lo dejó como compromiso, verificar con Dulce/María). — [Estrategia 26/27](https://docs.google.com/document/d/1jtGXV2huhAKwqSCD1egxGM2GhuRbZk9LRZry2kZl_bI/edit) — detectado 04/09/2026
