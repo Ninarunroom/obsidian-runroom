@@ -12,9 +12,6 @@ Wiki de contexto de cuentas de Runroom: quién es quién en cada proyecto, cómo
 - [[Hispano Suiza]] — performance media (automoción de lujo)
 - [[Spradling]] — web, tracking y GTM/UTM cruzado con Colombia
 
-## Colaboradores (no son clientes)
-- [[Do Better]] — agencia externa de SEO/analítica en la cuenta de Esade
-
 ## Cómo está organizada cada carpeta de cliente
 Cada cliente tiene, dentro de su carpeta en Proyectos/<Cliente>/, un patrón de "wiki persistente" (fuentes en bruto → wiki mantenida por Claude → esquema de cómo mantenerla):
 - `<Cliente>.md` — info general, contactos, equipo, servicios y contexto (la wiki propiamente)

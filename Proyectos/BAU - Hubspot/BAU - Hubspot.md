@@ -16,8 +16,8 @@ estado: activo
 
 ## Contactos cliente
 - **Guillermo Krauel** — guillermo.krauel@bau.cat — comunicaciones y mailings
-- **Adrià Batlle** — adria.batlle@bau.cat — *(rol pendiente de completar; posible duplicado/corrección de "Adrià Paz" más abajo — mismo nombre de pila y mismo dominio bau.cat, verificar con Nina si es la misma persona)*
-- **Adrià Paz** — *(rol pendiente de completar)*
+- **Adrià Batlle** — adria.batlle@bau.cat — *(rol pendiente de completar)*
+- **Adrià Paz** — *(rol pendiente de completar; confirmado por Nina que es una persona distinta de Adrià Batlle)*
 
 ## Equipo Runroom
 - **Idoia Mañes Esnaola** (idoia.ext@runroom.com) — responsable de la cuenta HubSpot de BAU. De cara al cliente actúa como si fuera del equipo de Runroom.

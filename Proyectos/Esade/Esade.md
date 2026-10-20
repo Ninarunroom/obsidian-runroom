@@ -22,12 +22,14 @@ Cuenta de Esade: contenidos, SEO, analítica y medios.
 - **Helen** — jefa de Astrid y Sergi
 - **Natzir** — colabora con Sergi en el análisis de visibilidad en IA/Sistrix
 - **Dulce Torres** — sustituye temporalmente a Sandra Hernández durante su baja de maternidad; gestiona peticiones de datos de Do Better y analítica
+- **Judith Magran** — nueva responsable de la parte periodística de contenidos del blog (equipo "Do Better"), junto con Marta
 - **David Ferré** y **Marc Rius** — equipo técnico de Esade, incorporados a la investigación de atribución de tfaforms.net
 
 ## Equipo Runroom (externos que actúan como Runroom)
-- **Fer Alonso** — agencia SEO
-- **Olga** — agencia SEO
+- **Fer Alonso** (Fernando Alonso, falonso.ext@runroom.com) — agencia SEO, equipo "Do Better" (blog de Esade)
+- **Olga** (Olga Castillo, olga.ext@runroom.com) — agencia SEO, equipo "Do Better"
 - **Marta** — agencia SEO, analítica
+- **David Viejo** (dviejo.ext@runroom.com) — agencia SEO, equipo "Do Better" (aparece en informes de backlinks/enlaces tóxicos)
 
 Ver [[Equipo Runroom]] para más detalle.
 
@@ -38,6 +40,7 @@ Ver [[Equipo Runroom]] para más detalle.
 - **SEO de Contenidos** — [ESADE SEO de Contenidos](https://basecamp.com/1771388/projects/15430351)
 - **SEO técnico** — [Esade SEO tècnic](https://basecamp.com/1771388/projects/19742261)
 - **Marca** — *(finalizada 21/07/2026, ver Contexto y estado — no hay proyecto de Basecamp localizado para esta línea)*
+- **Blog / "Do Better" (SEO y analítica de contenidos)** — [Esade Dobetter - Analítica & SEO](https://basecamp.com/1771388/projects/19338495)
 
 ## Contexto y estado
 
@@ -62,12 +65,21 @@ Ver [[Equipo Runroom]] para más detalle.
 - Se detectó un problema de atribución en GA4 desde abril 2026 (las conversiones del formulario FormAssembly se atribuyen a "tfaforms.net" en vez de al canal real) y actividad de un bot generando brochures falsos en el sitio (13-24 sept); Marta está corrigiendo vía GTM (ignore_referrer)
 - En la investigación de la atribución de tfaforms.net se han incorporado David Ferré y Marc Rius, del equipo técnico de Esade, junto a Sergi y Natzir
 
+### Do Better (agencia externa de SEO/analítica del blog)
+- No es un cliente propio de Runroom: es la agencia externa que gestiona el blog de Esade (SEO y analítica de contenidos), coordinada antes por Sandra Hernández y ahora por Dulce (SEO/analítica) y Judith Magran (contenidos periodísticos). Se mantenía como nota aparte en la vault hasta el 20/10/2026; se fusionó aquí porque las 3 reuniones encontradas en Drive eran enteramente sobre este workstream de Esade.
+- **Qué entrega:** informes mensuales/periódicos de rendimiento SEO y analítica del blog (impresiones, keywords Top 10/Top 100, AI Overviews, domain rating/authority, backlinks, rendimiento por país); calendario editorial de artículos (los firmados por profesores de Esade están limitados por autorización); estrategia anual alineada con el calendario académico, revisada cada septiembre.
+- **Estado:** curso 25/26 cerrado por encima de objetivo (impresiones, clics, keywords Top 10; domain rating en 76). Curso 26/27 planteado como continuista/conservador (menos recursos tras la salida de Sandra): foco en mantener posición, sin canales nuevos (WhatsApp descartado), mejoras ligeras de formato (gráficos, iconografía, FAQs) y preparación de contenido para buscadores de IA.
+- **Limitación recurrente sin resolver:** no se puede modificar contenido firmado por profesores sin autorización de Esade.
+- **Presupuesto:** precio se mantiene; posible +3% en diciembre 2026 por IPC, pendiente de validación de compras (Runroom).
+- Proyecto en Basecamp: [Esade Dobetter - Analítica & SEO](https://basecamp.com/1771388/projects/19338495)
+- Ver Reuniones/Raw y Procesadas con prefijo "Do Better -" (mayo-septiembre 2026) para el detalle completo.
+
 ### General / transversal
 - Curso 26/27: las horas contratadas de SEO/Analítica se reducen a 50h/mes, con pedidos revisados cada 4 meses
 - Para los KPIs mensuales de visibilidad en IA, Esade (Astrid/Helena) pide que el dato se dé siempre a cierre de mes (no a mitad de mes)
 
 ## Relacionado
-- [[Do Better]] — agencia externa que colabora en analítica/SEO de Esade
+*(pendiente — completar)*
 
 ## Pendientes
 ![[Pendientes - Esade]]

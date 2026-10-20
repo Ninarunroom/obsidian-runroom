@@ -8,13 +8,16 @@ Esto es lo que debo tener en cuenta (en chat o en la tarea programada diaria) an
 ## Cosas que nunca debo hacer o decir
 - No mezclar el workstream de "Marca" (finalizado en julio 2026) con OPENS o SEO al hablar de la cuenta — son equipos de Esade y Runroom distintos.
 - No dar por sentado que un pendiente de una reunión antigua (anterior a septiembre 2026) sigue abierto sin verificarlo primero — varios de los contactos y procesos han cambiado (ej. salida de Sandra Hernández en Do Better, fin de Marca).
+- No prometer cambios técnicos del blog (Do Better) que dependan del equipo de TIC de Esade (el calendario y presupuesto de TIC del curso en curso ya está cerrado).
+- No sugerir tocar o modificar contenido del blog firmado por profesores sin autorización explícita de Esade (limitación recurrente, no resuelta).
 
 ## Aprobaciones necesarias antes de actuar
 - Cambios de presupuesto en campañas de OPENS que afecten a varios programas a la vez (p. ej. mover presupuesto del híbrido a Madrid): seguir el patrón ya validado por Helena Soler, pero confirmar con Araceli antes de aplicar cambios no triviales.
 - Cualquier compromiso de coste con Financial Times: requiere validación explícita del presupuesto disponible (ha habido tensión repetida por incrementos de presupuesto en estos acuerdos).
+- Cambios de tarifa/presupuesto del blog (Do Better, p. ej. el ajuste por IPC) requieren validación de compras (Runroom) antes de comunicarse al cliente.
 
 ## Otros
-*(pendiente — completar)*
+**Equipo "Do Better" (blog de Esade):** Fernando Alonso / Fer Alonso (falonso.ext@runroom.com) y Olga Castillo (olga.ext@runroom.com) son el equipo externo habitual; David Viejo (dviejo.ext@runroom.com) aparece en informes anteriores (backlinks/enlaces tóxicos). Cambio de contacto por parte de Esade (sept. 2026): Sandra Hernández Blanco dejó el puesto a finales de septiembre 2026 (baja de maternidad); sus funciones se reparten entre Dulce (SEO/analítica) y Judith Magran (contenidos periodísticos, junto con Marta).
 
 
 ## Cómo mantener esta carpeta (patrón LLM Wiki)
