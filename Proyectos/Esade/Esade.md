@@ -34,20 +34,24 @@ Cuenta de Esade: contenidos, SEO, analítica y medios.
 Ver [[Equipo Runroom]] para más detalle.
 
 ## Servicios / líneas de trabajo
-- **Analítica** — [Esade - Analítica](https://basecamp.com/1771388/projects/16901662)
-- **SEM + Medios (BS&LS)** — [ESADE BS&LS SEM + MEDIOS 2025-2026](https://basecamp.com/1771388/projects/19989371) — *(contexto pendiente de completar)*
-- **OPENS (programas ejecutivos)** — [ESADE OPENS 2025/2026](https://basecamp.com/1771388/projects/20013134)
-- **SEO de Contenidos** — [ESADE SEO de Contenidos](https://basecamp.com/1771388/projects/15430351)
-- **SEO técnico** — [Esade SEO tècnic](https://basecamp.com/1771388/projects/19742261)
+- **Analítica y SEO** — [Esade - Analítica](https://basecamp.com/1771388/projects/16901662) + [Esade SEO tècnic](https://basecamp.com/1771388/projects/19742261) *(dos hilos de Basecamp distintos, pero una sola línea de trabajo, según indicó Nina)*
+- **Do Better (blog)** — [Esade Dobetter - Analítica & SEO](https://basecamp.com/1771388/projects/19338495)
+- **Contenidos** — [ESADE SEO de Contenidos](https://basecamp.com/1771388/projects/15430351)
+- **BS&LS (SEM + Medios)** — [ESADE BS&LS SEM + MEDIOS 2025-2026](https://basecamp.com/1771388/projects/19989371) — *(finalizada, según Nina; fecha/motivo pendiente — completar)*
+- **OPENS (programas ejecutivos)** — [ESADE OPENS 2025/2026](https://basecamp.com/1771388/projects/20013134) — *(Nina indica que esta línea está finalizada — sin confirmar aún en la ficha, ver nota en Contexto y estado: hay Pendientes de Basecamp muy recientes, de la primera semana de octubre 2026)*
 - **Marca** — *(finalizada 21/07/2026, ver Contexto y estado — no hay proyecto de Basecamp localizado para esta línea)*
-- **Blog / "Do Better" (SEO y analítica de contenidos)** — [Esade Dobetter - Analítica & SEO](https://basecamp.com/1771388/projects/19338495)
 
 ## Contexto y estado
 
-### OPENS
+### OPENS (Nina indica que está finalizada — pendiente de confirmar, ver nota abajo)
 - Gestión multi-sede (Barcelona/Madrid) de programas como PMD, PDC, RBAI, AMP, LPGE, PGE, EPG, Control de Gestión, Directores Propietarios; facturación mensual y planificación de presupuesto 26/27; contacto habitual Helena Soler
 - Adsmurai es otra agencia externa que gestiona medios de pago de OPENS (PMD Madrid) en paralelo a Runroom; ha habido conflictos por modificaciones duplicadas de presupuesto en las mismas campañas *(sin nota propia en el vault todavía — dime si quieres que le cree una, como a Do Better)*
 - **Cierre de curso 25/26 (reunión 25/06/2026):** +50% inversión, +49% leads, CPL global estable (~93€); detectado desequilibrio estructural (86% del presupuesto en captación vs. solo 5% en awareness, objetivo 40%). Decisiones para 26/27: subir awareness+consideración al 25% del presupuesto, activar formalmente pujas basadas en valor ("by ratings"), mantener campañas transversales pese a problemas de atribución, y nueva línea de creatividades segmentadas por género (mujeres mejor en Google/Bing, hombres más baratos en Meta).
+
+- **Nota (22/10/2026):** Nina indicó que esta línea está finalizada, igual que Marca y BS&LS. Sin embargo, el feed automático de Pendientes de Basecamp tiene tareas de OPENS tan recientes como el 07/10/2026 (conflicto de presupuesto PMD Madrid con Adsmurai, caída de calidad de leads en Barcelona), con tono de trabajo activo normal, no de cierre. No se marca aquí como finalizada hasta confirmarlo con Nina — podría tratarse de otra línea con nombre parecido, o de un cierre muy reciente/aún no reflejado en Basecamp.
+
+### BS&LS (SEM + Medios) — finalizada
+- *(finalizada, según indicó Nina el 22/10/2026; fecha y motivo del cierre pendientes de completar — no había contexto previo en la vault sobre esta línea)*
 
 ### Marca (finalizada 21/07/2026)
 - Workstream separado de OPENS/SEO, gestionado para Esade por Rosa Martin y Cristina Isern (equipo de Business/Identidad y Misión); no aparecía hasta ahora en esta ficha.
@@ -55,10 +59,10 @@ Ver [[Equipo Runroom]] para más detalle.
 - Quedaba pendiente a 21/07: resolver la orden de compra de los rankings de Financial Times (publicación de septiembre; presupuesto ~37.000€ vs. propuesta de 44.253€) y la comunicación a "Aurelio" sobre el cambio de agencia — gestionado como última tarea por Araceli/Nina antes del traspaso. **Sin confirmación posterior de cómo se cerró** — conviene preguntar a Araceli.
 - Ver Reuniones/Raw y Procesadas de 2026 (mayo-julio) para el detalle completo.
 
-### SEO de Contenidos
+### Contenidos
 - Blogging y link building de alto volumen y cadencia semanal/mensual; propuesta 26-27 en curso
 
-### SEO técnico
+### Analítica y SEO *(une los proyectos de Basecamp "Esade - Analítica" y "Esade SEO tècnic")*
 - Sitemap, indexación, core updates y uso de IA/LLMs en buscadores; contacto habitual Sergi Fernandez
 - **Plan de limpieza de enlaces tóxicos (disavow), aprobado 02/07/2026** con el equipo de Do Better (Olga, Fernando): ejecución progresiva jul-oct 2026, con posible mantenimiento recurrente cada 3 meses (pendiente de confirmar si se completó y si se decidió mantenerlo). Esade reduce distancia con IE/IS en autoridad de dominio; Universidad de Navarra (UNF) avanza vía citación académica en medios — relevante también para visibilidad en motores de IA.
 - EMBA: caída sostenida de tráfico y conversiones desde junio 2026; en septiembre Fer y Sergi activaron un plan de acción (verificación previa de campañas/tagging, mejoras GEO/IA en páginas de decisión, recuperación de posiciones 4-10 en URLs afectadas)

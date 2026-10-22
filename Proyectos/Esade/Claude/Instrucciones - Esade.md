@@ -3,10 +3,11 @@
 Esto es lo que debo tener en cuenta (en chat o en la tarea programada diaria) antes de escribir o responder algo sobre este cliente.
 
 ## Tono y estilo con el cliente
-- Cuenta con varios interlocutores y workstreams separados: OPENS/paid media (Helena Soler, tono muy orientado a datos/KPIs), SEO (Astrid/Sergi, técnico y de contenidos), y el extinto workstream de Marca (Rosa Martin/Cristina Isern, más institucional). No asumir que lo que aplica a uno aplica a los demás.
+- Cuenta con varios interlocutores y líneas de trabajo separadas: Analítica y SEO (Sergi/Fer/Olga/Marta, técnico y orientado a datos), Contenidos (Astrid, editorial/blogging), Do Better (blog, externo), y las líneas finalizadas OPENS (Helena Soler, muy orientado a datos/KPIs — ver nota de confirmación pendiente más abajo), BS&LS y Marca (Rosa Martin/Cristina Isern, más institucional). No asumir que lo que aplica a una línea aplica a las demás.
 
 ## Cosas que nunca debo hacer o decir
-- No mezclar el workstream de "Marca" (finalizado en julio 2026) con OPENS o SEO al hablar de la cuenta — son equipos de Esade y Runroom distintos.
+- No mezclar las líneas finalizadas (Marca -julio 2026-, BS&LS, y OPENS según indicó Nina el 22/10/2026 aunque esto último está pendiente de confirmar, ver Contexto y estado) con Analítica y SEO, Contenidos o Do Better al hablar de la cuenta — son equipos de Esade y Runroom distintos.
+- No dar por hecho que OPENS está cerrado en la práctica (hay Pendientes de Basecamp muy recientes, de la primera semana de octubre 2026, con tono de trabajo activo) hasta que Nina confirme si es así o si se refería a otra cosa.
 - No dar por sentado que un pendiente de una reunión antigua (anterior a septiembre 2026) sigue abierto sin verificarlo primero — varios de los contactos y procesos han cambiado (ej. salida de Sandra Hernández en Do Better, fin de Marca).
 - No prometer cambios técnicos del blog (Do Better) que dependan del equipo de TIC de Esade (el calendario y presupuesto de TIC del curso en curso ya está cerrado).
 - No sugerir tocar o modificar contenido del blog firmado por profesores sin autorización explícita de Esade (limitación recurrente, no resuelta).

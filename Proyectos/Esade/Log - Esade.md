@@ -13,3 +13,6 @@ Por decisión de Nina, se fusiona la nota independiente "Do Better" dentro de Es
 ## [2026-05-20] reunion | Do Better: informe mensual (crecimiento anual +57% impresiones, limpieza de enlaces tóxicos en curso)
 ## [2026-07-17] reunion | Do Better: informe mayo + junio (KPIs superados, Sandra Hernández anuncia su salida a final de julio)
 ## [2026-09-04] reunion | Do Better: estrategia 26/27 (balance curso 25/26, objetivos conservadores, cambio de equipo: Dulce y Judith Magran)
+
+## [2026-10-22] reorganización | Nueva taxonomía de líneas de trabajo (indicada por Nina)
+Nina confirma la lista definitiva de líneas: Analítica y SEO (fusión de los 2 hilos de Basecamp "Analítica" y "SEO tècnic", un solo proyecto), Do Better (blog), Contenidos (antes "SEO de Contenidos"), y 3 líneas finalizadas: BS&LS, OPENS y Marca. Se renombran y fusionan secciones en Esade.md y Pendientes - Esade.md en consecuencia. **Sin embargo, se deja flaggeado y NO se marca como finalizada la línea OPENS**: el feed automático de Pendientes de Basecamp tiene tareas tan recientes como el 07/10/2026 con tono de trabajo activo normal (no de cierre) — pendiente de confirmar con Nina si de verdad está finalizada o si se refería a otra cosa.
