@@ -44,3 +44,9 @@ Lo leen las skills de preparación y de después de reunión (y es la misma lóg
 ## Reuniones
 - **Mensual de informe**. La fecha la decide Nina con Ari y después la cierra con el cliente. La card de informe se crea a principios de mes, en Ready, sin fecha, con la subtask "Nina - cerrar fecha de la reunión con Ari".
 - Pre-acta: la tarde anterior. Post-acta: la tarde de la reunión (ver "Actas de reunión" arriba).
+
+## Pendientes (formato tablero)
+`Pendientes - Hispano Suiza.md` tiene cuatro secciones, en este orden: `## 🟦 Runroom` (nuestro, en marcha) · `## 🟧 Cliente` (esperando al cliente) · `## 📥 Backlog` (nuestro, sin empezar) · `## ✅ Done`. Se ve como tablero en [[Tareas - Hispano Suiza]].
+- Cada tarea nueva va en la sección que toque, como `- [ ] texto` y, si hay contexto, debajo con sangría.
+- No crear otras secciones ni subsecciones.
+- Cerrar tareas lo hace Claude (cuando Nina lo dice o Basecamp, correo o un acta lo dejan claro): `[x]` hecha o `[-]` ya no aplica, se mueve a `## ✅ Done` con una línea "Cerrada DD/MM: motivo".

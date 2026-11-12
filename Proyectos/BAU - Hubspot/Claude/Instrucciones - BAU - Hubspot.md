@@ -22,3 +22,9 @@ Esta carpeta sigue el patrón de "wiki persistente" de Karpathy: las fuentes en 
 - **Ingest** (llega una fuente nueva, p. ej. una transcripción en `Reuniones/Raw/`): léela entera, resume lo clave, guarda la versión trabajada en `Reuniones/Procesadas/`, actualiza las secciones que correspondan de `BAU - Hubspot.md` (no todo al final) y añade a `Pendientes - BAU - Hubspot.md` cualquier tarea nueva que salga de ahí. Registra la entrada en `Log - BAU - Hubspot.md`.
 - **Query** (me preguntas algo sobre este cliente): contesto a partir de lo que ya hay en esta carpeta, no repito la búsqueda desde cero. Si la respuesta genera algo que vale la pena conservar (un análisis, una comparación, una decisión), te lo ofrezco para guardarlo aquí en vez de que se quede solo en el chat.
 - **Lint** (me pides una revisión): reviso esta carpeta buscando contradicciones entre notas, datos que parezcan desactualizados, huecos de información y referencias cruzadas que falten, y te los señalo.
+
+## Pendientes (formato tablero)
+`Pendientes - BAU - Hubspot.md` tiene cuatro secciones, en este orden: `## 🟦 Runroom` (nuestro, en marcha) · `## 🟧 Cliente` (esperando al cliente) · `## 📥 Backlog` (nuestro, sin empezar) · `## ✅ Done`. Se ve como tablero en [[Tareas - BAU - Hubspot]].
+- Cada tarea nueva va en la sección que toque, como `- [ ] texto` y, si hay contexto, debajo con sangría.
+- No crear otras secciones ni subsecciones.
+- Cerrar tareas lo hace Claude (cuando Nina lo dice o Basecamp, correo o un acta lo dejan claro): `[x]` hecha o `[-]` ya no aplica, se mueve a `## ✅ Done` con una línea "Cerrada DD/MM: motivo".

@@ -16,3 +16,10 @@ Presupuestos (semanal) y Facturación (mensual) las crea la tarea "Kanbanize - C
 
 ## [2026-11-12] automatización | Cards de informe y preparación de reuniones
 Kanbanize (lunes 8:47): informe mensual de Barraquer la semana antes de la "Status barraquer / RR" (Ready, Fixed-date, fecha = día de la reunión); trimestral de Spradling el lunes de la semana del 15 de mar/jun/sep/dic (Backlog, sin fecha, recordatorio para fijar fecha con el cliente); mensual de Hispano Suiza al inicio de mes (Ready, sin fecha). Nueva tarea "Preparación de reuniones de cliente (día antes)" (L-V 16:13): nota en Reuniones/Preparación/ + notificación.
+
+## [2026-11-12] actas | Post-acta: informe mensual octubre (29/10) + brief 2026 (17/12/2025)
+- Procesadas: 2026-10-29 Informe mensual octubre (Gemini de Nina) y 2025-12-17 Brief 2026 (acta manual en 02. Actas). Raw, acta en Procesadas, ficha actualizada (mix de canales desde octubre, reparto, criterio Black Friday/remanentes, contexto oct., brief 2026, actualización fase 2).
+- Vacía: "Documento sin título" (1yFWn…) de 02. Actas.
+- Pendientes: 4 tareas nuevas (Ari ×3: vídeo nuevo de Pipo, optimizaciones Q4/Black Friday, Search; Nina: fecha del informe de noviembre). Ninguna cerrada.
+- Mensaje para Basecamp: Reuniones/Para Basecamp/2026-10-29 - Informe mensual octubre (para Basecamp).md (carpeta creada). Sin mensaje para el brief de 2025.
+- Movidos a 02. Actas: notas de Gemini del 20/02, 22/04, 22/07 y 29/10.

@@ -1,3 +1,7 @@
+---
+cssclasses:
+  - rr-ancho
+---
 # Tareas — Barraquer
 
 Todo lo pendiente en un solo sitio: la estrategia 2026 y las tareas de Basecamp y de las reuniones, separadas entre lo nuestro y lo del cliente.
@@ -105,6 +109,10 @@ if (pen) {
   if (m) { const card = el('div', 'card', null, root); el('div', 'eyebrow', 'Status de hoy', card); const ul = el('ul', 'list', null, card); for (const l of m[1].split('\n').filter((l) => l.trim().startsWith('- '))) { const li = el('li', null, null, ul); li.innerHTML = l.trim().slice(2).replace(/\*\*(.+?)\*\*/g, '<b>$1</b>'); } }
 }
 
+// Tablero de tareas (vista común: 1. Cómo funciona/Vistas/tablero)
+{ const f = dv.current().file.folder; const raiz = f.slice(0, f.indexOf('Proyectos/'));
+  await dv.view(raiz + 'Proyectos/1. Cómo funciona/Vistas/tablero', { pendientes: 'Pendientes - Barraquer', cliente: 'Barraquer' }); }
+
 // Avance de la estrategia
 const g = el('div', 'card global', null, root);
 const izq = el('div', null, null, g);
@@ -118,38 +126,5 @@ for (const s of [...new Set(estTasks.map((t) => t.section?.subpath ?? ''))]) {
 }
 const leg = el('div', 'legend muted', null, waf);
 for (const [k, txt] of [['hecho', 'hecho'], ['parcial', 'a medias'], ['cliente', 'cliente'], ['runroom', 'Runroom'], ['duda', 'sin confirmar'], ['descartado', 'descartado']]) { const s = el('span', null, null, leg); el('span', `cell ${k}`, null, s); s.append(txt); }
-
-// Qué falta y quién lo tiene
-const items = [];
-for (const t of ts) { const sec = t.section?.subpath ?? ''; const quien = sec.includes('Cliente') ? 'cliente' : sec.includes('Runroom') ? 'runroom' : null; if (!quien) continue; const f = fechaDe(t); items.push({ quien, origen: 'Tarea', txt: limpia(t.text), dias: f ? Math.round(hoy.diff(f, 'days').days) : null, link: linkDe(t), motivo: null }); }
-const urlsTareas = new Set(ts.flatMap((t) => txtAll(t).match(/https?:\/\/[^)\s\]]+/g) ?? []));
-for (const t of estTasks.filter((t) => ['cliente', 'runroom', 'duda'].includes(tipo(t)))) { if (t.basecamp && urlsTareas.has(String(t.basecamp).trim())) continue; items.push({ quien: tipo(t), origen: 'Estrategia', txt: limpia(t.text), dias: null, link: t.basecamp ? String(t.basecamp) : null, motivo: t.motivo ? String(t.motivo) : null }); }
-const card = el('div', 'card', null, root);
-const nCl = items.filter((i) => i.quien === 'cliente').length, nRr = items.filter((i) => i.quien === 'runroom').length, nDu = items.filter((i) => i.quien === 'duda').length;
-const viejas = items.filter((i) => i.quien === 'cliente' && (i.dias ?? 0) > 7).length;
-cabecera(card, anillo(items.length ? Math.round(100 * nCl / items.length) : 0, `${items.length}`, NARANJA), 'Estrategia + Basecamp y actas', 'Qué falta y quién lo tiene', `${nCl} esperando al cliente · ${nRr} nuestras · ${nDu} sin confirmar`, `${viejas} del cliente con más de 7 días`, viejas ? NARANJA : VERDE);
-const cols = el('div', 'cols', null, card);
-const maxd = Math.max(1, ...items.map((i) => i.dias ?? 0));
-for (const [k, titulo] of [['cliente', '🟧 Esperando al cliente'], ['runroom', '🟦 Nuestro'], ['duda', '❔ Sin confirmar (revisar con Ari)']]) {
-  const lista = items.filter((i) => i.quien === k).sort((a, b) => (b.dias ?? -1) - (a.dias ?? -1)); if (!lista.length) continue;
-  const c = el('div', 'rows', null, cols); el('div', 'eyebrow', `${titulo} · ${lista.length}`, c);
-  for (const i of lista) {
-    const row = el('div', 'row', null, c); const iz = el('span', null, null, row); el('span', `tag ${i.origen === 'Estrategia' ? 'est' : 'bc'}`, i.origen, iz); iz.append(' ' + i.txt);
-    const der = el('span', 'muted', i.dias != null ? `${i.dias} d ` : '', row);
-    if (i.link) { const a = el('a', 'external-link', i.link.includes('basecamp.com') ? 'Basecamp' : 'Fuente', der); a.href = i.link; a.target = '_blank'; a.rel = 'noopener'; }
-    if (i.motivo) el('div', 'muted sub', i.motivo, row);
-    if (i.dias != null) { const tr = el('div', 'track', null, row); const f = el('div', 'fill', null, tr); f.style.width = `${100 * i.dias / maxd}%`; f.style.background = i.dias > 30 ? ROJO : i.dias > 7 ? NARANJA : VERDE; }
-  }
-}
-
-// Marcar tareas (casillas reales: al marcar aquí se marca en la nota de origen)
-const det = el('div', 'card', null, root);
-el('div', 'eyebrow', 'Marcar como hecho', det);
-el('div', 'muted', 'Marca la casilla cuando una tarea esté hecha. Se guarda en la nota de origen (Claude/Datos).', det);
-
-dv.header(4, '🟦 Nuestro');
-dv.taskList(pen ? pen.file.tasks.where((t) => !t.parent && !t.completed && t.status !== '-' && (t.section?.subpath ?? '').includes('Runroom')) : [], false);
-dv.header(4, '🟧 Esperando al cliente');
-dv.taskList(pen ? pen.file.tasks.where((t) => !t.parent && !t.completed && t.status !== '-' && (t.section?.subpath ?? '').includes('Cliente')) : [], false);
 
 ```

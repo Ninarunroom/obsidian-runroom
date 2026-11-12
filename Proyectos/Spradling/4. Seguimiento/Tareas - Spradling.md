@@ -109,68 +109,9 @@ if (pen) {
   if (m) { const card = el('div', 'card', null, root); el('div', 'eyebrow', 'Status de hoy', card); const ul = el('ul', 'list', null, card); for (const l of m[1].split('\n').filter((l) => l.trim().startsWith('- '))) { const li = el('li', null, null, ul); li.innerHTML = l.trim().slice(2).replace(/\*\*(.+?)\*\*/g, '<b>$1</b>'); } }
 }
 
-// Tablero de tareas (mismo formato que Kanbanize)
-el('style', null, `
-.rr-ancho .markdown-preview-sizer, .rr-ancho .cm-sizer, .rr-ancho .cm-contentContainer, .rr-ancho .cm-content { max-width: 100% !important; }
-.rr-panel .kboard { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; margin-bottom: 12px; }
-@media (max-width: 700px) { .rr-panel .kboard { grid-template-columns: 1fr; } }
-.rr-panel details.kdonebox { margin-bottom: 16px; }
-.rr-panel details.kdonebox > summary { cursor: pointer; font-weight: 600; font-size: var(--font-ui-small); margin-bottom: 8px; }
-.rr-panel .kcol { background: var(--background-secondary); border: 1px solid var(--background-modifier-border); border-radius: 10px; padding: 10px; display: flex; flex-direction: column; gap: 8px; min-width: 0; }
-.rr-panel .kcol h4 { margin: 0 0 2px; font-size: var(--font-ui-small); display: flex; justify-content: space-between; }
-.rr-panel details.kcard { background: var(--background-primary); border: 1px solid var(--background-modifier-border); border-left: 4px solid var(--kc, var(--background-modifier-border)); border-radius: 8px; padding: 8px 10px; font-size: var(--font-ui-small); }
-.rr-panel details.kcard summary { cursor: pointer; line-height: 1.35; list-style-position: outside; }
-.rr-panel details.kcard ul { margin: 8px 0 0; padding-left: 1.1em; }
-.rr-panel details.kcard li { margin: 2px 0; }
-.rr-panel .ktype { display: inline-block; font-size: 10px; padding: 0 6px; border-radius: 999px; border: 1px solid var(--background-modifier-border); color: var(--text-muted); margin-right: 4px; }
-.rr-panel .kdays { float: right; color: var(--text-muted); font-size: 10px; margin-left: 6px; }
-.rr-panel .kdone summary { color: var(--text-muted); text-decoration: line-through; }
-`, root);
-if (pen) {
-  const txt = await dv.io.load(pen.file.path);
-  const secc = {}; let act = null;
-  for (const l of txt.split('\n')) {
-    const h = l.match(/^## (.*)/); if (h) { act = h[1]; secc[act] = []; continue; }
-    if (!act) continue;
-    const m = l.match(/^- \[(.)\] (.*)/);
-    if (m) { secc[act].push({ st: m[1], head: m[2], body: [] }); continue; }
-    if (/^\s{2,}- /.test(l) && secc[act].length) secc[act][secc[act].length - 1].body.push(l.trim().slice(2));
-  }
-  const esc = (s) => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
-  const md = (s) => esc(s)
-    .replace(/\[\[([^\]|]+)\|([^\]]+)\]\]/g, '<a class="internal-link" data-href="$1" href="$1">$2</a>')
-    .replace(/\[\[([^\]]+)\]\]/g, '<a class="internal-link" data-href="$1" href="$1">$1</a>')
-    .replace(/\[([^\]]+)\]\((https?:[^)\s]+)\)/g, '<a class="external-link" href="$2" target="_blank" rel="noopener">$1</a>')
-    .replace(/\*\*(.+?)\*\*/g, '<b>$1</b>').replace(/`([^`]+)`/g, '<code>$1</code>');
-  const dias = (c) => { const m = c.body.join(' ').match(/(?:Esperando desde|detectado)[:*\s]*?(\d{2})\/(\d{2})\/(\d{4})/i); return m ? Math.round(dv.date('today').diff(dv.date(`${m[3]}-${m[2]}-${m[1]}`), 'days').days) : null; };
-  const cols = [
-    { k: 'Runroom', t: '🟦 Pendiente Runroom', c: AZUL },
-    { k: 'Cliente', t: '🟧 Pendiente cliente', c: NARANJA },
-    { k: 'Backlog', t: '📥 Backlog', c: 'var(--text-faint)' },
-    { k: 'Done', t: '✅ Done', c: VERDE },
-  ];
-  const todas = Object.entries(secc).flatMap(([s, cs]) => cs.map((c) => ({ ...c, s })));
-  const enCol = (k) => k === 'Done'
-    ? todas.filter((c) => c.s.includes('Done') || c.st === 'x' || c.st === 'X' || c.st === '-')
-    : todas.filter((c) => c.s.includes(k) && !c.s.includes('Done') && c.st !== 'x' && c.st !== 'X' && c.st !== '-');
-  const kb = el('div', 'kboard', null, root);
-  const doneBox = el('details', 'kdonebox', null, root);
-  for (const col of cols) {
-    let lista = enCol(col.k); if (col.k === 'Done') lista = lista.slice(-15).reverse();
-    if (col.k === 'Done') { el('summary', null, `${col.t} · ${enCol(col.k).length}`, doneBox); }
-    const box = el('div', 'kcol', null, col.k === 'Done' ? doneBox : kb);
-    const h = el('h4', null, null, box); el('span', null, col.t, h); el('span', 'muted', String(enCol(col.k).length), h);
-    if (!lista.length) el('div', 'muted', 'Nada por aquí', box);
-    for (const c of lista) {
-      const d = el('details', 'kcard' + (col.k === 'Done' ? ' kdone' : ''), null, box); d.style.setProperty('--kc', col.c);
-      const tipo = (c.head.match(/^\*\*\[([^\]]+)\]\*\*/) || [])[1];
-      const titulo = c.head.replace(/^\*\*\[[^\]]*\]\*\*\s*/, '').replace(/^Spradling\s*—\s*/, '');
-      const n = col.k === 'Done' ? null : dias(c);
-      d.createEl('summary').innerHTML = (n != null ? `<span class="kdays">${n} d</span>` : '') + (tipo ? `<span class="ktype">${esc(tipo)}</span>` : '') + md(titulo);
-      const ul = d.createEl('ul'); for (const b of c.body) ul.createEl('li').innerHTML = md(b);
-    }
-  }
-}
+// Tablero de tareas (vista común: 1. Cómo funciona/Vistas/tablero)
+{ const f = dv.current().file.folder; const raiz = f.slice(0, f.indexOf('Proyectos/'));
+  await dv.view(raiz + 'Proyectos/1. Cómo funciona/Vistas/tablero', { pendientes: 'Pendientes - Spradling', cliente: 'Spradling' }); }
 
 // Avance de la estrategia
 const g = el('div', 'card global', null, root);

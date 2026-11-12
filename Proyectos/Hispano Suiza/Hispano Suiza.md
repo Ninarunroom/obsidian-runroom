@@ -29,6 +29,8 @@ Ver [[Equipo Runroom]].
   - Segmentación de audiencia/presupuesto (estrategia 2026): Fans ~50%, Dealers and Collectors ~30% (con tendencia a reducirse en favor de inversores estratégicos), Genérico ~15%, reserva táctica 5%
   - Mercados prioritarios: EEUU y Europa; Asia (Dubái/Abu Dabi) con menos inversión
   - Cadencia de informes: mensual (a veces se fusionan dos meses, p. ej. agosto+septiembre)
+  - **Desde octubre 2026** (tras el recorte): solo YouTube, Meta y Search. Fuera TikTok y Demand Gen (no llegaba a la inversión mínima diaria); PMax pausado e integrado en Search. Reparto real oct.: fans 50 % · dealers 31 % · genérica 19 %; geo: Europa 40 % · Asia 36 % · EEUU 24 %. — [[2026-10-29 - Informe mensual octubre]]
+  - Criterio acordado: no pausar campañas en picos de coste (Black Friday), sino modular presupuesto; los remanentes mensuales se reparten proporcionalmente o pasan al mes siguiente, hablándolo con el cliente. — [[2026-10-29 - Informe mensual octubre]]
 
 ## Contexto y estado
 - Performance media: Google Ads, Meta y LinkedIn Ads; informes y creatividades con cadencia mensual/trimestral
@@ -37,6 +39,9 @@ Ver [[Equipo Runroom]].
 - **"Fase 2" de Hispano Suiza (tema de fondo desde al menos feb-jul 2026):** el cliente está cerrando un acuerdo con un socio/partner industrial; la decisión final de dirección estratégica (más unidades tipo supercar vs. seguir en hypercar con hibridación) depende de la familia propietaria. Mientras no se firme, la inversión en marketing se mantiene baja ("a mínimos") — esto explica meses de bajo perfil y no es un problema de rendimiento. A fecha del informe de julio seguía sin firmarse; conviene preguntar a Pablo/Pipo si ya se resolvió antes de dar por aplicable esta nota.
 - Marzo 2026 fue el mejor mes de performance del último año (YouTube BTR 80%, LinkedIn recién lanzado con BTR 40%, +1M reproducciones completas de vídeo).
 - Julio 2026: inversión deliberadamente baja (-54% YoY) con métricas sanas; prueba activa de "IA Max" en Search (50% de la inversión, evaluación a 2 meses). Septiembre 2026 iba a traer más actividad ligada a la Fórmula 1 de Madrid (10-13 sept.) y a un vídeo de 56 segundos de la serie "Day One".
+- Brief 2026 (17/12/2025): presupuesto 2026 sin aprobar por presidencia; arrancar con la misma estacionalidad que 2025, sin garantía de los 110k; pausar en enero los mercados no activos en enero de 2025 (Asia); 2026 como año de transición (mejora del Carmen, probablemente híbrido). Pregunta abierta de Carol sobre bots en TikTok. — [[2025-12-17 - Brief 2026]]
+- Octubre 2026: inversión ≈ 4.000 € (−62 % YoY); VTR y CPV se mantienen buenos con el vídeo del 122 aniversario; Meta con desgaste creativo (VTR −40 %). Pipo compartió un vídeo nuevo de producto (Sagrera, 3 formatos) para rotar; no habrá material nuevo cada mes y el cambio real de inversión/contenidos no llegará hasta 2027. Pablo conforme con el control de presupuesto. Próximo informe a finales de noviembre con datos de noviembre. — [[2026-10-29 - Informe mensual octubre]]
+- Actualización fase 2 (29/10/2026, interno): sigue sin firmarse; Pipo espera cerrar el inversor/socio industrial antes de finales de noviembre. Si se cierra, propone empezar con contenidos testimoniales de quien lidere la nueva etapa. — [[2026-10-29 - Informe mensual octubre]]
 - Pendiente de confirmar: acceso de Runroom a Google Analytics del cliente (contacto interno: Marta, Analítica de Runroom) — mencionado como sin resolver en el informe de julio.
 
 ## Relacionado
