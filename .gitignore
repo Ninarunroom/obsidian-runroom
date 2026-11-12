@@ -11,3 +11,6 @@
 .env
 # Copias de seguridad locales (git ya guarda el historial)
 *.tar.gz
+*.tar.gz
+.obsidian/workspace*.json
+.DS_Store

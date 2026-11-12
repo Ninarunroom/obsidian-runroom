@@ -35,7 +35,7 @@ Ver [[Equipo Runroom]] para más detalle.
 
 ## Servicios / líneas de trabajo
 - **Analítica y SEO** — [Esade - Analítica](https://basecamp.com/1771388/projects/16901662) + [Esade SEO tècnic](https://basecamp.com/1771388/projects/19742261) *(dos hilos de Basecamp distintos, pero una sola línea de trabajo, según indicó Nina)*
-- **Do Better (blog)** — [Esade Dobetter - Analítica & SEO](https://basecamp.com/1771388/projects/19338495)
+- **Do Better (blog)** — [Esade Dobetter - Analítica & SEO](https://basecamp.com/1771388/projects/19338495) · KB propio: [[00 Ficha de cliente - Esade Do Better]]
 - **Contenidos** — [ESADE SEO de Contenidos](https://basecamp.com/1771388/projects/15430351)
 - **BS&LS (SEM + Medios)** — [ESADE BS&LS SEM + MEDIOS 2025-2026](https://basecamp.com/1771388/projects/19989371) — *(finalizada, según Nina; fecha/motivo pendiente — completar)*
 - **OPENS (programas ejecutivos)** — [ESADE OPENS 2025/2026](https://basecamp.com/1771388/projects/20013134) — *(Nina indica que esta línea está finalizada — sin confirmar aún en la ficha, ver nota en Contexto y estado: hay Pendientes de Basecamp muy recientes, de la primera semana de octubre 2026)*
@@ -60,6 +60,9 @@ Ver [[Equipo Runroom]] para más detalle.
 - Ver Reuniones/Raw y Procesadas de 2026 (mayo-julio) para el detalle completo.
 
 ### Contenidos
+> [!tip] KB propio desde el 12/11/2026
+> Contenidos del blog Beyond y link building tienen su knowledge base en la subcarpeta `Contenidos Beyond/`: empieza por [[00 Ficha de cliente - Esade Beyond]]. Lo que sigue aquí es el resumen histórico.
+
 - Blogging y link building de alto volumen y cadencia semanal/mensual; propuesta 26-27 en curso
 
 ### Analítica y SEO *(une los proyectos de Basecamp "Esade - Analítica" y "Esade SEO tècnic")*
@@ -73,14 +76,13 @@ Ver [[Equipo Runroom]] para más detalle.
 - En la investigación de la atribución de tfaforms.net se han incorporado David Ferré y Marc Rius, del equipo técnico de Esade, junto a Sergi y Natzir
 - Sergi propuso (02/11/2026) incorporar datos de component_view para medir CTR por tipo de componente; Marta se ofreció a probar a implementar la etiqueta en GTM. Sergi hará un nuevo build de las estadísticas la semana del 02/11 y pidió que le trasladen cambios para incluir. Sergi avisó a Nina de que vaya controlando la dedicación de horas del equipo en esta cuenta, que está al límite ("a full").
 
-### Do Better (agencia externa de SEO/analítica del blog)
-- No es un cliente propio de Runroom: es la agencia externa que gestiona el blog de Esade (SEO y analítica de contenidos), coordinada antes por Sandra Hernández y ahora por Dulce (SEO/analítica) y Judith Magran (contenidos periodísticos). Se mantenía como nota aparte en la vault hasta el 20/10/2026; se fusionó aquí porque las 3 reuniones encontradas en Drive eran enteramente sobre este workstream de Esade.
-- **Qué entrega:** informes mensuales/periódicos de rendimiento SEO y analítica del blog (impresiones, keywords Top 10/Top 100, AI Overviews, domain rating/authority, backlinks, rendimiento por país); calendario editorial de artículos (los firmados por profesores de Esade están limitados por autorización); estrategia anual alineada con el calendario académico, revisada cada septiembre.
-- **Estado:** curso 25/26 cerrado por encima de objetivo (impresiones, clics, keywords Top 10; domain rating en 76). Curso 26/27 planteado como continuista/conservador (menos recursos tras la salida de Sandra): foco en mantener posición, sin canales nuevos (WhatsApp descartado), mejoras ligeras de formato (gráficos, iconografía, FAQs) y preparación de contenido para buscadores de IA.
-- **Limitación recurrente sin resolver:** no se puede modificar contenido firmado por profesores sin autorización de Esade.
-- **Presupuesto:** precio se mantiene; posible +3% en diciembre 2026 por IPC, pendiente de validación de compras (Runroom).
-- Proyecto en Basecamp: [Esade Dobetter - Analítica & SEO](https://basecamp.com/1771388/projects/19338495)
-- Ver Reuniones/Raw y Procesadas con prefijo "Do Better -" (mayo-septiembre 2026) para el detalle completo.
+### Do Better (blog de Esade)
+> [!tip] KB propio desde el 12/11/2026
+> Do Better tiene su knowledge base en la subcarpeta `Do Better/`: empieza por [[00 Ficha de cliente - Esade Do Better]].
+
+- Do Better es el **blog de Esade** (dobetter.esade.edu), no una agencia. Le hacemos SEO, GEO, iteración de contenidos y analítica: 25 h/mes (Fer, Olga, Marta Baldó y Nina), 23.360,4 € el curso 26/27, ya facturado.
+- Contacto: Dulce Torres (sustituye a Sandra Hernández), con Judith Mangrane y Marta Barquier en la redacción.
+- Basecamp: [Esade Dobetter - Analítica & SEO](https://basecamp.com/1771388/projects/19338495).
 
 ### General / transversal
 - Curso 26/27: las horas contratadas de SEO/Analítica se reducen a 50h/mes, con pedidos revisados cada 4 meses

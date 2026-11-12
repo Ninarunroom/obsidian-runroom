@@ -19,8 +19,7 @@ fecha: 2026-11-12
 - **Excel del EMBA sin actualizar**: las 20 tareas del backlog siguen en "Pendiente", también la F0-01, que se entregó el 26/10. Última edición: Natzir, 05/11. → [Excel EMBA](https://drive.google.com/file/d/17wPCCI_OlSEpzuTz6EX7LARGX6vP9JEN/view)
 
 **🔄 En curso (falta fecha de entrega)**
-- EMBA F0-02, análisis de SERP, y el inventario "existe / actualizar / crear" que Sergi pidió antes de la F1. → [Basecamp: EMBA](https://basecamp.com/1771388/projects/19742261/messages/113264682)
-- Plan EMBA: recuperar las queries caídas de 4-10 (WIP en el Excel).
+- **EMBA, recuperar las posiciones 4-10** (es un único trabajo: el backlog F0-F4 del Excel y la línea "Recuperar las consultas caídas de 4-10" del plan de acción). La ficha de queries perdidas (F0-01) se entregó el 26/10. Fer dijo el 26/10 que se ponía con la F0-02 (qué competidores ocupan ahora esas posiciones y con qué contenido) y desde entonces no hay novedades en el hilo; el 27/10 Sergi escribió "estem d'emergència". Sergi pidió el 01/10, en el mismo hilo, un inventario de "ja existeix / cal actualitzar / cal crear" antes de producir el contenido de F1-01, 02, 05, 06, 07 y 08. → [Basecamp: EMBA](https://basecamp.com/1771388/projects/19742261/messages/113264682)
 - Full Time MBA: análisis de la ficha y del mercado indio (Sergi: "Activem tots els next steps", 29/10). → [Basecamp: Full Time MBA](https://basecamp.com/1771388/projects/19742261/messages/113563313)
 
 **⬜ Por empezar**
@@ -59,36 +58,58 @@ fecha: 2026-11-12
 
 ## Texto para Slack
 
+> [!tip] Cómo escribirlo
+> Un mensaje por persona. Puntos numerados con enlace en el título (Basecamp o Drive) o "Email - <asunto>, fecha". Si una tarea tiene varias acciones, van como subpuntos (1.1, 1.2…). Cada punto acaba en una pregunta concreta. Al final, lo pendiente de Esade que le afecta.
+
+### Para Fer
 ```
-*Esade SEO y Analítica · status 12/11* 📋
-A partir de ahora os paso este status cada lunes. Respondedme en el hilo antes del martes a mediodía con: qué cerráis, fecha de entrega de lo que está en curso y bloqueos 🙏
+*Esade SEO · status 12/11* 📋
+Fer, te paso lo que tenemos abierto. Contéstame en el hilo con el número y una línea: hecho / fecha en que lo tendrás / qué te bloquea. ¡Gracias! 🙏
 
-*Fer · SEO técnico*
-⏰ *Vencido / sin movimiento*
-• Schema: los matices a la propuesta de Sergi (la envió el 07/10 y solo ha respondido Natzir)
-• Informe de marca en LLMs: tocaba en oct–nov según el roadmap, sin arrancar
-• Mapa competitivo ampliado: acordado el 18/09, sin arrancar
-• Excel del EMBA: todo sigue en "Pendiente", incluido el F0-01 que entregaste el 26/10. Sergi y Natzir lo usan para seguir el plan; actualízalo cada semana, por favor
-🔄 *En curso → ¿fecha?*
-• EMBA F0-02 (SERP) + inventario "existe / actualizar / crear" para la F1
-• Plan EMBA: recuperar las queries de 4-10
-• Full Time MBA (ok de Sergi el 29/10)
-⬜ *Por empezar*
-• "student loans" de 100k impresiones a 0 (Sergi, 03/11)
-• Acciones fuera de la web del EMBA con Olga (desde el 20/11)
-📅 *Próximo*: auditoría técnica dic–ene (coordinar con Natzir)
-✅ Fichas de RRCC y Becas (09/11) · capturas KPIs IA (05/11)
+1. [EMBA – recuperar las posiciones 4-10](https://basecamp.com/1771388/projects/19742261/messages/113264682):
+   1. El 01/10 Sergi nos pidió que, antes de escribir contenido nuevo para esas páginas, hiciéramos un inventario de "ya existe / hay que actualizar / hay que crear". ¿Cuándo lo podrás tener?
+   2. El 26/10 dijimos que nos poníamos con la F0-02 (ver qué competidores ocupan ahora esas posiciones y qué contenido tienen). El 27/10 Sergi escribió que "estem d'emergència" con el EMBA. ¿Cuándo tienes previsto tenerlo?
+2. [Plan de acción - Excel EMBA](https://drive.google.com/file/d/17wPCCI_OlSEpzuTz6EX7LARGX6vP9JEN/view): Sergi y Natzir lo usan para seguir el plan, y todo sigue en "Pendiente", incluso la ficha de queries perdidas (F0-01) que entregaste el 26/10. ¿Puedes poner al día los estados (Done / WIP) y revisarlo cada semana?
+3. Schema (Email - Coses Schema (tot i que la IA potser no en fa cas), 07/10): Sergi nos pasó su propuesta de poner las redes sociales en el schema. Natzir le contestó el 08/10, pero nosotros todavía no. ¿Le mandas tus comentarios esta semana?
+4. [Full Time MBA](https://basecamp.com/1771388/projects/19742261/messages/113563313): el 29/10 Sergi dijo "Activem tots els next steps" de tu informe. Habría que bajar todas las acciones a un listado de tareas (una tarea FTMBA y dentro las subtareas), cada una con fecha. Las que salen en el hilo:
+   1. Analizar a fondo la ficha /programmes/full-time-mba (ha pasado de la posición 12,4 a la 25,8 y pierde un 52 % de los clics).
+   2. Analizar el mercado indio (−42 % de clics y peor posición).
+   3. Validar con Google Trends y comparando con otras escuelas si la caída de búsquedas de marca viene de la IA.
+   ¿Me pasas el listado completo con fechas?
+5. Grados – "student loans" (Email - Dashboard Setembre, 03/11): al pasar el dashboard de octubre, Sergi escribió "Fer, flipa la caiguda de student loans a Graus de 100.000 impressions a 0". No le hemos contestado. ¿Lo puedes mirar y decirme qué es?
+6. [Roadmap del curso](https://drive.google.com/file/d/1j-An1mGzy7ovzZyK4LJBpnQYWWhuRwP7/view): en oct–nov tocaba el primer informe de cómo aparece Esade en las IA (ChatGPT, Gemini…) y el mapa de competidores ampliado. ¿Cuándo los arrancamos?
+7. EMBA fuera de la web ([Plan de acción - Excel EMBA](https://drive.google.com/file/d/17wPCCI_OlSEpzuTz6EX7LARGX6vP9JEN/view), pestaña "Plan de acción conjunto"): en la reunión del 30/10 quedó como tarea nuestra revisar con Olga cómo dar visibilidad al EMBA fuera de la web (enlaces, menciones, prensa), a partir del 20/11. ¿Lo hablas con ella?
 
-*Marta · Analítica*
-🔄 *En curso → ¿fecha?*
-• Bots China (aprobado el 10/11)
-⬜ *Por empezar*
-• 5 ajustes de consentimiento en GTM (Sergi, 11/11)
-• Pico de sesiones del 10/11: ¿Consent Mode o cambio en GTM/sGTM/OneTrust?
-✅ Respuesta a la auditoría de píxeles de Adsmurai (10/11)
-⚠️ Tus horas de octubre llevan la OC de Do Better (OC012692)
+*Pendiente de Esade* (no tienes que hacer nada, es para que lo sepas):
+• Prompts de Sistrix / LLM Pulse que quieren monitorizar (desde el 02/10)
+• Validación de las fichas de keywords de Relaciones Corporativas y Becas por Comunicación y Marca (desde el 10/11)
+• Plan EMBA, lo de su lado: canonicals de prueba en 2-3 programas, menú móvil, precio de la edición de Madrid de febrero 2027 en las 27 URLs (20/11) y el chat que tapa el botón del folleto en móvil (13/11)
+```
 
-*Esperando a Esade*: URLs de CrazyEgg · Unibuddy · 'unknown' de OneTrust · prompts de Sistrix · validación de fichas RRCC/Becas · acciones del plan EMBA de su lado
+### Para Marta
+```
+*Esade Analítica · status 12/11* 📋
+Marta, te paso lo que tenemos abierto. Contéstame en el hilo con el número y una línea: hecho / fecha en que lo tendrás / qué te bloquea. ¡Gracias! 🙏
 
-*Horas*: nos quedan 29 h de remanente tras octubre
+1. [Bots de China](https://basecamp.com/1771388/projects/16901662/messages/113457396): el 10/11 Sergi aprobó tu propuesta. ¿Qué fecha le damos para cada punto?
+   1. sGTM (Stape): marcar con traffic_type=bot las combinaciones detectadas, no enviarlas a Google Ads ni a Meta y activar Bot Detection.
+   2. GA4: filtro de datos sobre traffic_type=bot, primero en prueba y luego activo.
+   3. Quitar user_active_120 de los eventos clave.
+   4. Segmento para los informes pasados (el filtro no es retroactivo).
+   5. Revisión mensual de las combinaciones (¿lo ponemos como tarea fija?).
+   6. Lo de Cloudflare: Natzir dice (Email - Pico de bots en GA4 el 4 de noviembre, 11/11) que la web va por CloudFront (AWS), no por Cloudflare, y que Sistemas ya puso un captcha. Esto es de Sistemas; solo confírmame que lo das por cerrado.
+2. Consentimiento en GTM (Email - www.esade.edu · Ajustos de consentiment de galetes a GTM, 11/11): Sergi pide revisar 5 puntos. ¿Qué fecha le damos?
+   1. CrazyEgg: que solo cargue con consentimiento de Rendimiento.
+   2. API de YouTube: que no cargue sin consentimiento de Publicidad.
+   3. Flowbox: condicionado a Funcionales.
+   4. Qué etiquetas generan _gcl_*, sbjs_* y crm_tracking, y que solo se disparen con su consentimiento.
+   5. functionality_storage tiene que empezar denegado; confirmar el mapeo entre OneTrust y Consent Mode y que el sGTM lo respeta.
+3. Pico de sesiones del 10/11 (Email - Esade: pic de sessions el 10/11 – és la modelització de Consent Mode?, 11/11): ¿cambió algo ese día en GTM, en el sGTM o en OneTrust, o es la modelización de Consent Mode, como dice Natzir? Sergi espera respuesta.
+4. Horas de octubre: en la Bolsa de horas tus filas llevan la OC de Do Better (OC012692). ¿Las cambias a la del fee?
+
+*Pendiente de Esade* (no tienes que hacer nada, es para que lo sepas):
+• Listado de URLs donde tiene que ir CrazyEgg (desde el 01/10; se puede resolver junto con el punto 2.1)
+• Que Unibuddy desactive su Hotjar y limpiar el inventario de OneTrust (desde el 01/10)
+• Respuesta de OneTrust sobre el 'unknown' y qué KPI de consentimiento usamos (desde el 07/10)
+• Que Helen y Adsmurai den por buena tu respuesta sobre los píxeles (desde el 10/11)
 ```

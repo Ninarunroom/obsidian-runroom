@@ -2,8 +2,13 @@
 
 Esto es lo que debo tener en cuenta (en chat o en la tarea programada diaria) antes de escribir o responder algo sobre este cliente.
 
+> [!important] Subproyectos con KB propio
+> - SEO técnico y analítica → `SEO y Analítica/` ([[Instrucciones - Esade SEO]]).
+> - Contenidos del blog Beyond y link building → `Contenidos Beyond/` ([[Instrucciones - Esade Beyond]]). Las tareas nuevas de **[Contenidos]** van a su Pendientes, no a `Pendientes - Esade.md`.
+> - Blog Do Better (SEO, GEO, contenidos y analítica) → `Do Better/` ([[Instrucciones - Esade Do Better]]). Las tareas de **[Do Better]** van a su Pendientes, no a `Pendientes - Esade.md`.
+
 ## Tono y estilo con el cliente
-- Cuenta con varios interlocutores y líneas de trabajo separadas: Analítica y SEO (Sergi/Fer/Olga/Marta, técnico y orientado a datos), Contenidos (Astrid, editorial/blogging), Do Better (blog, externo), y las líneas finalizadas OPENS (Helena Soler, muy orientado a datos/KPIs — ver nota de confirmación pendiente más abajo), BS&LS y Marca (Rosa Martin/Cristina Isern, más institucional). No asumir que lo que aplica a una línea aplica a las demás.
+- Cuenta con varios interlocutores y líneas de trabajo separadas: Analítica y SEO (Sergi/Fer/Olga/Marta, técnico y orientado a datos), Contenidos (Astrid, editorial/blogging), Do Better (blog de Esade; KB propio en `Do Better/`, con sus Instrucciones en `Do Better/Claude/Instrucciones - Esade Do Better.md`), y las líneas finalizadas OPENS (Helena Soler, muy orientado a datos/KPIs — ver nota de confirmación pendiente más abajo), BS&LS y Marca (Rosa Martin/Cristina Isern, más institucional). No asumir que lo que aplica a una línea aplica a las demás.
 
 ## Cosas que nunca debo hacer o decir
 - No mezclar las líneas finalizadas (Marca -julio 2026-, BS&LS, y OPENS según indicó Nina el 22/10/2026 aunque esto último está pendiente de confirmar, ver Contexto y estado) con Analítica y SEO, Contenidos o Do Better al hablar de la cuenta — son equipos de Esade y Runroom distintos.
