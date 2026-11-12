@@ -6,14 +6,14 @@ clientes: [Barraquer, Spradling, Hispano Suiza]
 ---
 # Sistema — Performance (Barraquer, Spradling, Hispano Suiza)
 
-← [[00 Sistema de gestión]]
+← [[Sistema de gestión]]
 
 Qué automatizaciones y reglas hay para **Barraquer, Spradling e Hispano Suiza**, dónde vive cada cosa y qué queda pendiente. El detalle de cada cliente está en su `Claude/Instrucciones - <Cliente>.md`, que **manda** sobre las tareas y las skills.
 
 - [[Instrucciones - Barraquer]] · [[Instrucciones - Spradling]] · [[Instrucciones - Hispano Suiza]]
 
 ## 1. Reglas
-Las reglas comunes están en [[00 Sistema de gestión]]. Aquí solo lo propio de performance.
+Las reglas comunes están en [[Sistema de gestión]]. Aquí solo lo propio de performance.
 
 ## 2. Tareas programadas
 | Tarea                                               | Cuándo     | Qué hace                                                                                                                                                                            | Ordenador |
@@ -24,7 +24,7 @@ Las reglas comunes están en [[00 Sistema de gestión]]. Aquí solo lo propio de
 | **Spradling - Actas de reunión**                    | L-V 17:52  | Igual, para Spradling                                                                                                                                                               | Sí        |
 | **Alertas Barraquer → Obsidian**                    | L-V 9:45   | Copia las alertas diarias de Google Ads de Barraquer                                                                                                                                | Sí        |
 
-La tarea diaria de Basecamp (común a todos los clientes) está en [[00 Sistema de gestión]].
+La tarea diaria de Basecamp (común a todos los clientes) está en [[Sistema de gestión]].
 
 Hispano Suiza **no** tiene tarea de actas: su acta se procesa al lanzar la skill de después de reunión.
 

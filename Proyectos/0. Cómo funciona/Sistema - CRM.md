@@ -5,11 +5,11 @@ actualizado: 2026-11-12
 ---
 # Sistema — CRM (BAU - Hubspot)
 
-← [[00 Sistema de gestión]]
+← [[Sistema de gestión]]
 
 ## Qué hay montado
 - KB con la estructura antigua en `BAU - Hubspot/` (`BAU - Hubspot.md`, `Pendientes - BAU - Hubspot.md`, `Reuniones/Raw` y `Procesadas`, `Log`). Instrucciones: [[Instrucciones - BAU - Hubspot]].
-- **Basecamp - Pendientes diarios** (L-V 10:12) lee el proyecto BAU - Hubspot y el correo de bau.cat. ⚠️ Ver [[00 Sistema de gestión]].
+- **Basecamp - Pendientes diarios** (L-V 10:12) lee el proyecto BAU - Hubspot y el correo de bau.cat. ⚠️ Ver [[Sistema de gestión]].
 - En Kanbanize existe la parent card **15667 · Bau - Hubspot** (tablero Sky, workflow Proyectos).
 
 ## Por definir

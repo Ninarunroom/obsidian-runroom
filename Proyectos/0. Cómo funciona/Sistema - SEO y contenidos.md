@@ -5,7 +5,7 @@ actualizado: 2026-11-12
 ---
 # Sistema — SEO y contenidos (Esade)
 
-← [[00 Sistema de gestión]]
+← [[Sistema de gestión]]
 
 ## Qué hay montado
 - **Esade SEO y Analítica** (fee de 50 h/mes: SEO técnico con Fer, analítica con Marta): KB con la estructura nueva en `Esade/SEO y Analítica/` (1. Conocer la cuenta, 2. Acuerdos, 3. Reuniones, 4. Seguimiento con Tareas, Horas y Facturación y fee). Instrucciones: [[Instrucciones - Esade SEO]].
@@ -15,7 +15,7 @@ actualizado: 2026-11-12
 | Tarea | Cuándo | Qué hace | Ordenador |
 |---|---|---|---|
 | **Esade SEO - Actas de reunión** | L-V 17:34 | Notas de Gemini de SEO técnico y analítica → acta, KB y Pendientes (las de Do Better, contenidos, OPENS o paid se descartan) | Sí |
-| **Basecamp - Pendientes diarios** | L-V 10:12 | Lee ESADE OPENS, ESADE SEO de Contenidos y Esade SEO tècnic | Sí ⚠️ (ver [[00 Sistema de gestión]]) |
+| **Basecamp - Pendientes diarios** | L-V 10:12 | Lee ESADE OPENS, ESADE SEO de Contenidos y Esade SEO tècnic | Sí ⚠️ (ver [[Sistema de gestión]]) |
 
 ## Por definir
 - [ ] **Kanbanize**: en el tablero Sky hay columnas de Esade (Transversal, BS&LS, Marca, Opens) y parent cards de SEM y medios (OPENS, BS&LS) y de la bolsa de horas. Falta decidir qué cards de SEO/contenidos se crean, dónde, con qué código Paprika y si hay recurrentes.

@@ -30,6 +30,8 @@ Nota padre: reglas comunes, lo que es transversal a todos los clientes y el índ
 
 ⚠️ Apunta a la carpeta antigua "Clientes RR": hay que cambiarla a `Documents/Obsidian/Runroom` en los ajustes de la tarea. Hasta entonces no escribe en Obsidian.
 
+**Cómo se monta un cliente nuevo**: [[Prompt - KB de cliente]].
+
 **Skills** (sirven para cualquier cliente con Instrucciones): **preparar-reunion-cliente** y **despues-reunion-cliente**. Ver [[Sistema - Performance]].
 
 **Credenciales** (Basecamp y Kanbanize): dentro de las tareas programadas, nunca en la bóveda (la bóveda se sube a GitHub).
