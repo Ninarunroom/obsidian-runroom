@@ -133,3 +133,9 @@ Lo leen las skills de preparación y de después de reunión (misma lógica en B
 - **Tipos del tablero Sky**: 13 Landings · 15 Informes · 18 Propuestas · 22 Implementación analítica · 24 Lanzamiento de campaña · 25 Optimización de campañas · 26 Control presupuestario · 27 Implementación canal · 30 Proyecto · 57 Test a/b.
 - **Cómo son las cards de Spradling hoy** (ej. 61669): título `Spradling - <tarea en minúscula>`, tipo 26, prioridad media, color amarillo (fdd835), etiqueta 502, fecha de entrega en `deadline` (12:00), descripción con el enlace a la fuente arriba.
 - **Basecamp para compartir actas**: Spradling Europa (19500347) para lo de España; Spradling Internacional (20351671) si afecta a Colombia, en el hilo "2026. Reuniones" (521134468)
+
+## Reuniones
+- **Trimestral de informe** (principios de enero, abril, julio y octubre). No está agendada: la fecha la cierra Nina con el cliente. La card de informe se crea unos 15 días antes, en Ready, con la subtask "Nina - cerrar fecha de la reunión con el cliente".
+- Otras reuniones (tracking, web, Colombia) cuando se convocan.
+- Pre-acta: la tarde anterior. Post-acta: la tarde de la reunión. Las notas de Gemini van a la carpeta de Drive "00. Actas" (`1Zr_cZ08Im-NHo471bTyRlwHQzIKWjUdM`).
+- Mensaje para Basecamp: Spradling Europa (19500347); si afecta a Colombia, Spradling Internacional (20351671), hilo "2026. Reuniones". Ruta del borrador: `3. Reuniones/Para Basecamp/`.

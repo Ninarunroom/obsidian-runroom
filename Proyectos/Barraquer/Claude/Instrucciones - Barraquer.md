@@ -68,7 +68,7 @@ Las notas de Gemini de cada reunión se guardan solas en el Drive de Nina (carpe
   - los **avisos de saldo sin confirmar la recarga**.
 - **🟦 Runroom**: campos Entrega, Responsable, Info, Fuente.
 - **🟧 Cliente**: campos Esperando desde, Info, Fuente.
-- **Nunca marques `[x]` ni borres**: eso lo hace Nina. Si una tarea tiene novedades, añade debajo "- **Actualización DD/MM:** …".
+- **Cerrar tareas lo hace Claude, no Nina**: cuando Nina lo dice o Basecamp, correo o un acta lo dejan claro, `[x]` si está hecha o `[-]` si ya no aplica, con el motivo en el Log. Si hay duda, no se cierra: se pregunta en el Status. Si una tarea tiene novedades sin cerrarse, añade debajo "- **Actualización DD/MM:** …".
 
 ### Query
 Contesto a partir de la wiki, citando las notas. Si la pregunta toca datos actuales (inversión, saldos, resultados), consulto en vivo los documentos de `1. Conocer la cuenta/Documentos - Barraquer`. Si no puedo, lo digo.
@@ -123,3 +123,9 @@ Lo leen las skills de preparación y de después de reunión (y es la misma lóg
 - **Código Paprika**: **BAR020061 (2026) · BAR020066 (2027)** (los mismos que en `Datos panel - Barraquer`).
 - **Formato de las cards de Barraquer**: título `Barraquer - <tarea>`, prioridad media, color verde (34a97b), etiqueta 62.
 - **Basecamp para compartir actas**: Barraquer - SEM (17192035).
+
+## Reuniones
+- **"Status barraquer"** (30 min, cada dos semanas, martes 13:30): seguimiento con Cristian y Ari.
+- **"Status barraquer / RR"** (1,5 h, mensual, jueves 11:00): reunión de **informe mensual**. La card de informe en Kanbanize se crea la semana antes (sticker Fixed-date, fecha = día de la reunión).
+- Pre-acta: la tarde anterior a cualquiera de las dos. Post-acta: la tarde de la reunión. Las notas de Gemini van a la carpeta de Drive "00. Actas reunión" (`1IuUso0j3HyA6tuvon6JVMkgyJeenk048`).
+- Mensaje para Basecamp: proyecto Barraquer - SEM (17192035). Ruta del borrador: `3. Reuniones/Para Basecamp/`.

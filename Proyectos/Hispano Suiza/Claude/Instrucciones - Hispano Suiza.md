@@ -35,3 +35,12 @@ Lo leen las skills de preparación y de después de reunión (y es la misma lóg
 - **Código Paprika**: **HIS010010 (2026)**. El de 2027 será otro: cuando Nina lo diga, apuntarlo aquí y en la tarea "Kanbanize - Cards recurrentes performance".
 - **Formato de las cards de Hispano Suiza**: título `Hispano Suiza - <tarea>`, prioridad media, color rojo (af0020), etiqueta 639.
 - **Basecamp para compartir actas**: Hispano Suiza - Performance Media (19038192).
+
+## Actas de reunión
+- **Drive**: las notas de Gemini se guardan en el "Meet Recordings" de Nina; la carpeta de actas del cliente es [Hispano Suiza/2026/02. Actas](https://drive.google.com/drive/folders/19n_3Ieb866Dv_H7g0kuSM7P1Swp920ln) (ID `19n_3Ieb866Dv_H7g0kuSM7P1Swp920ln`). Se buscan por título con "hispano" + "Gemini" o con invitados de @hispanosuizacars.com.
+- **Rutas**: `Reuniones/Raw` (transcripción), `Reuniones/Procesadas` (acta), `Reuniones/Para Basecamp` (mensaje listo para enviar), `Reuniones/Preparación` (pre-acta). Registro: `Claude/Actas procesadas - Hispano Suiza.md`. Ficha: `Hispano Suiza.md`. Tareas: `Pendientes - Hispano Suiza.md`. Log: `Log - Hispano Suiza.md`.
+- **Basecamp para enviar el acta**: Hispano Suiza - Performance Media (19038192).
+
+## Reuniones
+- **Mensual de informe**. La fecha la decide Nina con Ari y después la cierra con el cliente. La card de informe se crea a principios de mes, en Ready, sin fecha, con la subtask "Nina - cerrar fecha de la reunión con Ari".
+- Pre-acta: la tarde anterior. Post-acta: la tarde de la reunión (ver "Actas de reunión" arriba).
