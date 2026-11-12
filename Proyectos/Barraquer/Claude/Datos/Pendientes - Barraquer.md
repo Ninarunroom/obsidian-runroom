@@ -4,7 +4,7 @@ Status del día y tareas pendientes, separadas por **quién tiene la pelota**. S
 
 ## Status (05/11/2026)
 - 💶 **Saldo**: Google Ads (Clínica + Estética): 7.736,68 € disponibles el 05/11 → unos 10 días al ritmo de octubre (~770 €/día), 7 días al ritmo planificado para noviembre (~1.070 €/día).
-- 🟧 **Esperando al cliente más de 7 días**: push de patologías (20 d) · revisión de conversiones de Google Ads (45 d) · llamadas como conversión (19 d) · CPL / presupuestos por campaña (28 d) · ROI 2026 (7 d) · creatividades y landings (desde 03/2026, ~11k € bloqueados) · patologías Magreb (desde 09/2025) · info Instituto (desde 08/10, posiblemente obsoleta).
+- 🟧 **Esperando al cliente más de 7 días**: revisión de conversiones de Google Ads (45 d) · llamadas como conversión (19 d) · ROI 2026 (7 d) · creatividades y landings (desde 03/2026, ~11k € bloqueados) · patologías Magreb (desde 09/2025) · info Instituto (desde 08/10, posiblemente obsoleta).
 - 🟦 **Nuestro, vencido o a punto**: facturación de noviembre (entrega 02/11) · presupuesto de la semana del 02/11.
 
 ## 🟦 Runroom
@@ -14,13 +14,6 @@ Status del día y tareas pendientes, separadas por **quién tiene la pelota**. S
     - **Responsable:** Ari
     - **Info:** Ari envió la revisión el 18/09 y una segunda versión (2025 + 2026, hasta octubre) el 03/11 en el SharePoint del cliente. Queda la validación de Cristian (ver sección Cliente).
     - Fuente: [Status RR 10/09](https://docs.google.com/document/d/1dyr7KFhIneC5r0mO-PMql53OOIFCPmGeUf6Vp3gbrRY/edit) · acta: [[2026-09-10 - Status RR - traspaso de cuenta y discrepancias]] · [Revisión presupuesto ene-ago](https://basecamp.com/1771388/projects/17192035/todos/520391069) — detectado 10/09/2026
-
-- [ ] **[Tarea]** Barraquer — Decidir sobre la pausa de las campañas de reserva en países nuevos
-    - **Entrega:** sin fecha definida
-    - **Responsable:** Ari / Nina (debate interno)
-    - **Info:** Quedó "pendiente de más debate interno" el 08/10. Está ligado a la propuesta de push de Ari del 16/10 (15,7k en reserva).
-    - **Actualización 12/11:** la apertura de términos de marca no ha funcionado mucho. Ari plantea abrir awareness genérico por patología en estos mercados (sin propuesta formal). El remanente general se dedica a Madrid ([[2026-11-12 - Status RR - remanente, Madrid y contenidos]]).
-    - Fuente: [Status RR 08/10](https://docs.google.com/document/d/1hYqOpvq5nueiVLzWRTM-B0U3HeTQUrOiF4H6aK46-Io/edit) · acta: [[2026-10-08 - Status RR - optimizacion octubre]] — detectado 08/10/2026
 
 - [ ] **[Incidencia]** Barraquer — Aclarar el origen del acceso no autorizado a Google Ads (asociado a Dubái) y decidir si se revoca el acceso externo
     - **Entrega:** sin fecha definida
@@ -107,10 +100,6 @@ Status del día y tareas pendientes, separadas por **quién tiene la pelota**. S
     - **Info:** En el acta del 08/10 el siguiente paso es de Cristian. Nosotros deberíamos llevar los datos a la próxima reunión.
     - Fuente: [Status RR 08/10](https://docs.google.com/document/d/1hYqOpvq5nueiVLzWRTM-B0U3HeTQUrOiF4H6aK46-Io/edit) · acta: [[2026-10-08 - Status RR - optimizacion octubre]] — detectado 08/10/2026
 
-- [ ] **[Petición cliente]** Barraquer — Revisar y aprobar la propuesta de CPL / presupuestos por campaña
-    - **Esperando desde:** 08/10/2026
-    - Fuente: [Status RR 08/10](https://docs.google.com/document/d/1hYqOpvq5nueiVLzWRTM-B0U3HeTQUrOiF4H6aK46-Io/edit) · acta: [[2026-10-08 - Status RR - optimizacion octubre]] — detectado 05/11/2026
-
 - [ ] **[Petición cliente]** Barraquer — Compartir la información pendiente sobre el "Instituto"
     - **Esperando desde:** 08/10/2026
     - **Info:** En el acta del 08/10 queda como siguiente paso de Cristian, sin detallar qué información. Las campañas de Instituto 2026 terminaron el 30/09 (Ari, Status 30/9). Posiblemente obsoleta: confirmar con Nina.
@@ -129,9 +118,9 @@ Status del día y tareas pendientes, separadas por **quién tiene la pelota**. S
     - **Esperando desde:** 12/03/2026
     - Fuente: [2026 - Informe Abril](https://basecamp.com/1771388/projects/17192035/todos/517431691) — detectado 05/11/2026
 
-- [ ] **[Petición cliente]** Barraquer — Pasar los vídeos cortos (≈ 30 s) de los doctores de Madrid para campañas de consideración
+- [ ] **[Petición cliente]** Barraquer — Compartir las creatividades de Madrid: vídeos cortos (≈ 30 s) de los doctores para la propuesta de notoriedad/consideración
     - **Esperando desde:** 12/11/2026
-    - **Info:** Tendrá más vídeos en noviembre.
+    - **Info:** Acordado en el status del 12/11. Ari se lo recuerda en el hilo de patologías: "ens has de passar els vídeos per revisar" (para la propuesta de notoriedad en Madrid).
     - Fuente: [Status RR 12/11](https://docs.google.com/document/d/1KwOa2-ND1Jp3jMdOULItwlId1BO8vZPsvtlEL-pKoRM/edit) · acta: [[2026-11-12 - Status RR - remanente, Madrid y contenidos]] — detectado 12/11/2026
 
 ## Hechos y por confirmar (no borrar, sirven de histórico)
@@ -147,6 +136,19 @@ Nuestro, todavía sin empezar.
 ## ✅ Done
 
 Tareas cerradas (`[x]` hecha, `[-]` ya no aplica), con el motivo en una línea "Cerrada DD/MM".
+
+- [x] **[Tarea]** Barraquer — Decidir sobre la pausa de las campañas de reserva en países nuevos
+    - **Entrega:** sin fecha definida
+    - **Responsable:** Ari / Nina (debate interno)
+    - **Info:** Quedó "pendiente de más debate interno" el 08/10. Está ligado a la propuesta de push de Ari del 16/10 (15,7k en reserva).
+    - **Actualización 12/11:** la apertura de términos de marca no ha funcionado mucho. Ari plantea abrir awareness genérico por patología en estos mercados (sin propuesta formal). El remanente general se dedica a Madrid ([[2026-11-12 - Status RR - remanente, Madrid y contenidos]]).
+    - Fuente: [Status RR 08/10](https://docs.google.com/document/d/1hYqOpvq5nueiVLzWRTM-B0U3HeTQUrOiF4H6aK46-Io/edit) · acta: [[2026-10-08 - Status RR - optimizacion octubre]] — detectado 08/10/2026
+    - **Cerrada 12/11:** Cristian aprobó los movimientos y Ari los aplicó el 12/11 (sale reserva de Qatar y Kuwait para patologías y Madrid; quedan 10,2k de reserva, que van a la propuesta de genéricas en mercados nuevos). Lo confirma Nina. [Basecamp](https://basecamp.com/1771388/projects/17192035/todos/521039257)
+
+- [x] **[Petición cliente]** Barraquer — Revisar y aprobar la propuesta de CPL / presupuestos por campaña
+    - **Esperando desde:** 08/10/2026
+    - Fuente: [Status RR 08/10](https://docs.google.com/document/d/1hYqOpvq5nueiVLzWRTM-B0U3HeTQUrOiF4H6aK46-Io/edit) · acta: [[2026-10-08 - Status RR - optimizacion octubre]] — detectado 05/11/2026
+    - **Cerrada 12/11:** el resumen de CPL/presupuestos por campaña se pasó con la propuesta de refuerzo de patologías (16/10) y Cristian la aprobó en el status del 12/11. Lo confirma Nina. [Basecamp](https://basecamp.com/1771388/projects/17192035/todos/521039257)
 
 - [x] **[Tarea]** Barraquer — Activar el push de patologías y pasar a Cristian los números redondos del remanente (reparto para reforzar Madrid)
     - **Kanbanize:** https://runroom.kanbanize.com/ctrl_board/21/cards/61761/details/ (descartada por Nina: el trabajo se recoge en otra card)

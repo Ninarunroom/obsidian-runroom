@@ -112,3 +112,6 @@ Ari aplica el 12/11 el push de patologías (+3,5k), +2k a Madrid y pasa los 2,15
 
 ## [2026-11-12] kanbanize | Card de mercados nuevos
 Creada 61768 «Barraquer - Propuesta campañas genéricas en mercados nuevos» (Propuestas, 20/11, Backlog → Barraquer, hija de 51536, Paprika BAR020061). La 61761 la descarta Nina (lo recoge otra card). La reunión de presupuesto 2027 queda solo en el KB, sin card. El mensaje de Basecamp del 12/11 no se envía.
+
+## [2026-11-12] pendientes | Cierres tras el status
+Cerradas `[x]`: "Decidir sobre la pausa de las campañas de reserva en países nuevos" (aprobado y aplicado por Ari el 12/11) y "Revisar y aprobar la propuesta de CPL / presupuestos por campaña" (se pasó con el refuerzo de patologías y Cristian lo aprobó). Reformulada la de vídeos de Madrid como "Compartir las creatividades de Madrid". Confirmado por Nina.
