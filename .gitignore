@@ -3,3 +3,11 @@
 .obsidian/workspace-mobile.json
 .obsidian/graph.json
 .trash/
+
+# Credenciales: nunca al repo
+.basecamp-auth/
+.basecamp_token.json
+*.env
+.env
+# Copias de seguridad locales (git ya guarda el historial)
+*.tar.gz

@@ -1,0 +1,4 @@
+/* Panel KAM: oculta las propiedades (son datos para el dashboard, los mantiene Claude) */
+.panel-kam .metadata-container { display: none !important; }
+.panel-kam .inline-title { margin-bottom: 0.2em; }
+.panel-kam .block-language-dataviewjs { margin-top: 0.5em; }

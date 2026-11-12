@@ -1,1 +1,5 @@
-{}
+{
+  "enabledCssSnippets": [
+    "panel-kam"
+  ]
+}

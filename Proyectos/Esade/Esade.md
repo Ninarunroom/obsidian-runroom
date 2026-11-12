@@ -63,11 +63,15 @@ Ver [[Equipo Runroom]] para más detalle.
 - Blogging y link building de alto volumen y cadencia semanal/mensual; propuesta 26-27 en curso
 
 ### Analítica y SEO *(une los proyectos de Basecamp "Esade - Analítica" y "Esade SEO tècnic")*
+> [!tip] KB propio desde el 12/11/2026
+> El fee de SEO y analítica tiene su knowledge base en la subcarpeta `SEO y Analítica/`: empieza por [[00 Ficha de cliente - Esade SEO]]. Lo que sigue aquí es el resumen histórico.
+
 - Sitemap, indexación, core updates y uso de IA/LLMs en buscadores; contacto habitual Sergi Fernandez
 - **Plan de limpieza de enlaces tóxicos (disavow), aprobado 02/07/2026** con el equipo de Do Better (Olga, Fernando): ejecución progresiva jul-oct 2026, con posible mantenimiento recurrente cada 3 meses (pendiente de confirmar si se completó y si se decidió mantenerlo). Esade reduce distancia con IE/IS en autoridad de dominio; Universidad de Navarra (UNF) avanza vía citación académica en medios — relevante también para visibilidad en motores de IA.
 - EMBA: caída sostenida de tráfico y conversiones desde junio 2026; en septiembre Fer y Sergi activaron un plan de acción (verificación previa de campañas/tagging, mejoras GEO/IA en páginas de decisión, recuperación de posiciones 4-10 en URLs afectadas)
 - Se detectó un problema de atribución en GA4 desde abril 2026 (las conversiones del formulario FormAssembly se atribuyen a "tfaforms.net" en vez de al canal real) y actividad de un bot generando brochures falsos en el sitio (13-24 sept); Marta está corrigiendo vía GTM (ignore_referrer)
 - En la investigación de la atribución de tfaforms.net se han incorporado David Ferré y Marc Rius, del equipo técnico de Esade, junto a Sergi y Natzir
+- Sergi propuso (02/11/2026) incorporar datos de component_view para medir CTR por tipo de componente; Marta se ofreció a probar a implementar la etiqueta en GTM. Sergi hará un nuevo build de las estadísticas la semana del 02/11 y pidió que le trasladen cambios para incluir. Sergi avisó a Nina de que vaya controlando la dedicación de horas del equipo en esta cuenta, que está al límite ("a full").
 
 ### Do Better (agencia externa de SEO/analítica del blog)
 - No es un cliente propio de Runroom: es la agencia externa que gestiona el blog de Esade (SEO y analítica de contenidos), coordinada antes por Sandra Hernández y ahora por Dulce (SEO/analítica) y Judith Magran (contenidos periodísticos). Se mantenía como nota aparte en la vault hasta el 20/10/2026; se fusionó aquí porque las 3 reuniones encontradas en Drive eran enteramente sobre este workstream de Esade.
