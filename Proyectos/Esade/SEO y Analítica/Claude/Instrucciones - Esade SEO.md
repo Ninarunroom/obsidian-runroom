@@ -71,8 +71,9 @@ Las notas de Gemini se guardan solas en el Drive de Nina. La tarea las busca cad
   - 🟧 lo que está **esperando al cliente o a terceros más de 7 días** (con los días);
   - 🟦 lo **nuestro vencido o que vence en ≤2 días laborables**;
   - 💬 los **mensajes de Sergi, Helen o Natzir sin respuesta de RR después de 48 h laborables** (Basecamp o correo).
-- **🟦 Runroom**: campos Entrega, Responsable (Fer, Marta o Nina), Info, Fuente.
+- **🟦 Runroom**: campos Entrega, Responsable (Fer, Marta o Nina), Info, Fuente. Estado con la casilla: `[ ]` backlog (sin empezar) y `[/]` en curso. Claude puede pasar una tarea de `[ ]` a `[/]` cuando haya evidencia de que RR ya ha empezado (correo, Basecamp, horas imputadas), pero nunca a `[x]`. El panel de Tareas las pinta como tablero de tres columnas (Backlog · Esperando al cliente · En curso) con Hecho plegado debajo.
 - **🟧 Cliente (esperando a Esade o a terceros)**: campos Esperando desde, Info, Fuente. Aquí van también OneTrust, Unibuddy, TIC (Jira) y Natzir.
+- **Enlace de referencia obligatorio**: la línea `Fuente:` de cada tarea lleva siempre al menos un enlace clicable al origen, con formato markdown: `[Basecamp: <título del hilo>](url)`, `[📧 "<asunto del email>" (<remitente>, DD/MM)](enlace de Gmail del hilo: https://mail.google.com/mail/?authuser=nina@runroom.com#all/thread-f:<id>)`, `[Sheet: …](url)` o `[Acta …](url de Drive)`. Nada de "(email)" sin enlace. En la estrategia, cada tarea lleva `[basecamp:: url]` o `[fuente:: url]`. El panel muestra estos enlaces en cada tarjeta y avisa con "⚠️ sin enlace de referencia" si falta.
 - **🔍 Por verificar**: pendientes antiguos que quizá ya están cerrados. El panel no los lee.
 - **Nunca marques `[x]` ni borres**: eso lo hace Nina. Si una tarea tiene novedades, añade debajo "- **Actualización DD/MM:** …".
 

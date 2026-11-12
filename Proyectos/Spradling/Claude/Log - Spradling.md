@@ -64,3 +64,6 @@ Presupuestos (semanal) y Facturación (mensual) las crea la tarea "Kanbanize - C
 
 ## [2026-11-12] automatización | Cards de informe y preparación de reuniones
 Kanbanize (lunes 8:47): informe mensual de Barraquer la semana antes de la "Status barraquer / RR" (Ready, Fixed-date, fecha = día de la reunión); trimestral de Spradling el lunes de la semana del 15 de mar/jun/sep/dic (Backlog, sin fecha, recordatorio para fijar fecha con el cliente); mensual de Hispano Suiza al inicio de mes (Ready, sin fecha). Nueva tarea "Preparación de reuniones de cliente (día antes)" (L-V 16:13): nota en Reuniones/Preparación/ + notificación.
+
+## [2026-11-12] kanbanize | Cards de tareas pendientes
+Creadas 61757 (error "falta la etiqueta", Implementación analítica), 61758 (CPA de Italia, Optimización de campañas) y 61759 (colección sostenible iSense, Lanzamiento de campaña), en Backlog → Spradling, hijas de 52124, Paprika SPR010023, sin responsable ni fecha. Reporting Google Ads + CRM: sin card, va en el informe Q4. PMax por categoría: pendiente de que Nina lo hable con Ari. Gestión (Dèlia/IA, doc web antigua): sin card.

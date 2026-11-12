@@ -22,11 +22,13 @@ Status del día y tareas pendientes, separadas por **quién tiene la pelota**. S
     - **Responsable:** Ari
     - **Info:** Las 5 conversiones de descarga ya registran eventos, pero Google sigue avisando de que falta la etiqueta (ID AW-877284776, confirmado). Ari lo va a consultar con Google. Detalle en la pestaña "ETIQUETA GOOGLE" del Sheet de medición.
     - Fuente: [2026. Next steps tracking nueva web](https://basecamp.com/1771388/projects/20351671/todos/521133810#comment_980815729) — detectado 27/10/2026
+    - **Kanbanize:** [61757](https://runroom.kanbanize.com/ctrl_board/21/cards/61757/details/)
 - [ ] **[Petición cliente]** Spradling — Colección sostenible de Silvertex y Valencia (iSense): keywords y campañas
     - **Entrega:** sin fecha definida
     - **Responsable:** Ari
     - **Info:** El 18/02 Natalia pidió añadir "iSense" a las keywords de Silvertex y Valencia (versiones sostenibles), sin campañas nuevas. El 26/10 Spradling vuelve a sacarlo: quiere activar campañas de la colección sostenible, con las landings dentro de la web nueva. No consta que se haya hecho nada.
     - Fuente: [Notas de Gemini 18/02](https://docs.google.com/document/d/1ODdZYRTnlSmmhaLcjLu8gujWZo_SZDOv3Urv6Vxf8Qc/edit) · acta: [[2026-02-18 - Cierre 2025 y ajustes 2026]] · [Notas de Gemini 26/10](https://docs.google.com/document/d/1LWmIWTEJq2p6tLJsEQycigFqa-KgXEB4uCAY8M564DM/edit) · acta: [[2026-10-26 - Informe Q3 y conversiones nueva web]] — detectado 12/11/2026
+    - **Kanbanize:** [61759](https://runroom.kanbanize.com/ctrl_board/21/cards/61759/details/)
 
 - [ ] **[Tarea]** Spradling — Enviar al cliente el documento de referencia con la estructura de la web antigua
     - **Entrega:** sin fecha definida
@@ -38,11 +40,13 @@ Status del día y tareas pendientes, separadas por **quién tiene la pelota**. S
     - **Responsable:** Ari / Nina
     - **Info:** El reporting deja de basarse solo en la analítica web y pasa a cruzar las conversiones de Google Ads con el CRM.
     - Fuente: [Notas de Gemini 26/10](https://docs.google.com/document/d/1LWmIWTEJq2p6tLJsEQycigFqa-KgXEB4uCAY8M564DM/edit) · acta: [[2026-10-26 - Informe Q3 y conversiones nueva web]] — detectado 06/11/2026
+    - **Actualización 12/11:** sin card propia: va dentro del próximo informe trimestral (Q4), cuya card se crea el lunes 14/12 (Nina).
 - [ ] **[Tarea]** Spradling — Investigar el CPA de Italia (107 €, frente a 40-50 € en el resto)
     - **Entrega:** sin fecha definida
     - **Responsable:** Ari
     - **Info:** Spradling sugiere comprobar si hay descargas de catálogos que no se cuentan como conversión.
     - Fuente: [Notas de Gemini 26/10](https://docs.google.com/document/d/1LWmIWTEJq2p6tLJsEQycigFqa-KgXEB4uCAY8M564DM/edit) · acta: [[2026-10-26 - Informe Q3 y conversiones nueva web]] — detectado 06/11/2026
+    - **Kanbanize:** [61758](https://runroom.kanbanize.com/ctrl_board/21/cards/61758/details/)
 - [ ] **[Petición cliente]** Spradling — Contestar a Dèlia si las imágenes de Google Ads son las de PMax y etiquetar el uso de IA en las creatividades
     - **Entrega:** sin fecha definida
     - **Responsable:** Ari

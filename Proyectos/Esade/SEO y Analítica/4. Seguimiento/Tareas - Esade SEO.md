@@ -96,7 +96,10 @@ const hoy = dv.date('today');
 const txtAll = (t) => (t.children ?? []).map((c) => c.text).join(' ') + ' ' + t.text;
 const fechaDe = (t) => { const m = txtAll(t).match(/(?:Esperando desde|detectado)[:*\s]*?(\d{2})\/(\d{2})\/(\d{4})/i); return m ? dv.date(`${m[3]}-${m[2]}-${m[1]}`) : null; };
 const linkDe = (t) => { const a = txtAll(t); const m = a.match(/\((https:\/\/basecamp\.com[^)\s]+)\)/) ?? a.match(/\((https?:\/\/[^)\s]+)\)/); return m ? m[1] : null; };
-const limpia = (s) => String(s).replace(/\*\*\[[^\]]*\]\*\*\s*Esade\s*—\s*/, '').replace(/\[(pelota|motivo|nuevo|basecamp)::[^\]]*\]/g, '').replace(/\s*—\s*\[.*$/, '').trim();
+const linksDe = (t) => { const c = (t.children ?? []).find((c) => /^Fuente:/.test(String(c.text).trim())); const src = c ? String(c.text) : String(t.text); return [...src.matchAll(/\[([^\]]+)\]\((https?:\/\/[^)\s]+)\)/g)].map((m) => ({ label: m[1], url: m[2] })); };
+const icono = (u) => u.includes('mail.google') ? '📧' : u.includes('basecamp.com') ? '🏕️' : u.includes('docs.google.com/spreadsheets') ? '📊' : u.includes('drive.google') || u.includes('docs.google') ? '📄' : '🔗';
+const etiqueta = (l) => { const x = l.label.replace(/^📧\s*/, '').replace(/^Basecamp:\s*/, ''); return `${icono(l.url)} ${x.length > 60 ? x.slice(0, 58) + '…' : x}`; };
+const limpia = (s) => String(s).replace(/\*\*\[[^\]]*\]\*\*\s*Esade\s*—\s*/, '').replace(/\[(pelota|motivo|nuevo|basecamp|fuente)::[^\]]*\]/g, '').replace(/\s*—\s*\[.*$/, '').trim();
 
 // Status del día (sección "## Status" de Pendientes)
 if (pen) {
@@ -119,35 +122,73 @@ for (const s of [...new Set(estTasks.map((t) => t.section?.subpath ?? ''))]) {
 const leg = el('div', 'legend muted', null, waf);
 for (const [k, txt] of [['hecho', 'hecho'], ['parcial', 'a medias'], ['cliente', 'cliente'], ['runroom', 'Runroom'], ['duda', 'sin confirmar'], ['descartado', 'descartado']]) { const s = el('span', null, null, leg); el('span', `cell ${k}`, null, s); s.append(txt); }
 
-// Qué falta y quién lo tiene
-const items = [];
-for (const t of ts) { const sec = t.section?.subpath ?? ''; const quien = sec.includes('Cliente') ? 'cliente' : sec.includes('Runroom') ? 'runroom' : null; if (!quien) continue; const f = fechaDe(t); items.push({ quien, origen: 'Tarea', txt: limpia(t.text), dias: f ? Math.round(hoy.diff(f, 'days').days) : null, link: linkDe(t), motivo: null }); }
+// Tablero (tipo Kanban): esperando al cliente · en curso · backlog · hecho
+const kst = el('style', null, `.rr-panel .kb { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; align-items: start; }
+.rr-panel .kcol { background: var(--background-primary); border: 1px solid var(--background-modifier-border); border-radius: 10px; padding: 10px; display: flex; flex-direction: column; gap: 8px; min-width: 0; }
+.rr-panel .khead { display: flex; justify-content: space-between; align-items: baseline; font-weight: 600; padding-bottom: 6px; border-bottom: 3px solid var(--kc); }
+.rr-panel .kcard { border: 1px solid var(--background-modifier-border); border-left: 4px solid var(--kc); border-radius: 8px; padding: 8px 10px; background: var(--background-secondary); display: flex; flex-direction: column; gap: 4px; font-size: var(--font-ui-small); overflow-wrap: anywhere; min-width: 0; }
+.rr-panel .kcard .kmeta { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; color: var(--text-muted); font-size: var(--font-ui-smaller); }
+.rr-panel .kcard.old { border-left-color: hsl(4, 70%, 52%); }
+.rr-panel details.kdet > summary { cursor: pointer; color: var(--text-muted); font-size: var(--font-ui-smaller); padding: 4px 0; }
+.rr-panel details.kdet[open] > summary { margin-bottom: 8px; }
+.rr-panel details.kdet .kcard { margin-bottom: 8px; }
+.rr-panel .klinks { display: flex; flex-direction: column; gap: 2px; font-size: var(--font-ui-smaller); }
+.rr-panel .klinks a { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.rr-panel .khecho { margin-top: 12px; }
+.rr-panel .khecho .kgrid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 8px; }`, root);
+const respDe = (t) => { const c = (t.children ?? []).find((c) => /^\*\*Responsable:\*\*/.test(String(c.text).trim())); return c ? String(c.text).replace(/^\s*\*\*Responsable:\*\*\s*/, '').replace(/\s*\(.*\)\s*$/, '').trim() : null; };
 const urlsTareas = new Set(ts.flatMap((t) => txtAll(t).match(/https?:\/\/[^)\s\]]+/g) ?? []));
-for (const t of estTasks.filter((t) => ['cliente', 'runroom', 'duda'].includes(tipo(t)))) { if (t.basecamp && urlsTareas.has(String(t.basecamp).trim())) continue; items.push({ quien: tipo(t), origen: 'Estrategia', txt: limpia(t.text), dias: null, link: t.basecamp ? String(t.basecamp) : null, motivo: t.motivo ? String(t.motivo) : null }); }
-const card = el('div', 'card', null, root);
-const nCl = items.filter((i) => i.quien === 'cliente').length, nRr = items.filter((i) => i.quien === 'runroom').length, nDu = items.filter((i) => i.quien === 'duda').length;
-const viejas = items.filter((i) => i.quien === 'cliente' && (i.dias ?? 0) > 7).length;
-cabecera(card, anillo(items.length ? Math.round(100 * nCl / items.length) : 0, `${items.length}`, NARANJA), 'Estrategia + Basecamp, correo y actas', 'Qué falta y quién lo tiene', `${nCl} esperando al cliente · ${nRr} nuestras · ${nDu} sin confirmar`, `${viejas} del cliente con más de 7 días`, viejas ? NARANJA : VERDE);
-const cols = el('div', 'cols', null, card);
-const maxd = Math.max(1, ...items.map((i) => i.dias ?? 0));
-for (const [k, titulo] of [['cliente', '🟧 Esperando al cliente'], ['runroom', '🟦 Nuestro'], ['duda', '❔ Sin confirmar (revisar con Fer / Marta)']]) {
-  const lista = items.filter((i) => i.quien === k).sort((a, b) => (b.dias ?? -1) - (a.dias ?? -1)); if (!lista.length) continue;
-  const c = el('div', 'rows', null, cols); el('div', 'eyebrow', `${titulo} · ${lista.length}`, c);
-  for (const i of lista) {
-    const row = el('div', 'row', null, c); const iz = el('span', null, null, row); el('span', `tag ${i.origen === 'Estrategia' ? 'est' : 'bc'}`, i.origen, iz); iz.append(' ' + i.txt);
-    const der = el('span', 'muted', i.dias != null ? `${i.dias} d ` : '', row);
-    if (i.link) { const a = el('a', 'external-link', i.link.includes('basecamp.com') ? 'Basecamp' : 'Fuente', der); a.href = i.link; a.target = '_blank'; a.rel = 'noopener'; }
-    if (i.motivo) el('div', 'muted sub', i.motivo, row);
-    if (i.dias != null) { const tr = el('div', 'track', null, row); const f = el('div', 'fill', null, tr); f.style.width = `${100 * i.dias / maxd}%`; f.style.background = i.dias > 30 ? ROJO : i.dias > 7 ? NARANJA : VERDE; }
-  }
+const K = { cliente: [], curso: [], backlog: [], hecho: [] };
+for (const t of ts) {
+  const sec = t.section?.subpath ?? ''; const quien = sec.includes('Cliente') ? 'cliente' : sec.includes('Runroom') ? 'runroom' : null; if (!quien) continue;
+  const f = fechaDe(t); const it = { origen: 'Tarea', txt: limpia(t.text), dias: f ? Math.round(hoy.diff(f, 'days').days) : null, links: linksDe(t), motivo: null, resp: respDe(t) };
+  (quien === 'cliente' ? K.cliente : t.status === '/' ? K.curso : K.backlog).push(it);
 }
+const hechasPen = pen ? pen.file.tasks.where((t) => !t.parent && t.completed && /Runroom|Cliente/.test(t.section?.subpath ?? '')).array() : [];
+for (const t of hechasPen) K.hecho.push({ origen: 'Tarea', txt: limpia(t.text), dias: null, links: linksDe(t), motivo: null, resp: respDe(t) });
+for (const t of estTasks) {
+  const k = tipo(t); if (k === 'descartado') continue;
+  if (t.basecamp && urlsTareas.has(String(t.basecamp).trim()) && k !== 'hecho') continue;
+  const pel = String(t.pelota ?? '').toLowerCase();
+  const it = { origen: k === 'duda' ? 'Sin confirmar' : 'Estrategia', txt: limpia(t.text), dias: null, links: [t.basecamp ? { label: 'Basecamp', url: String(t.basecamp) } : null, t.fuente ? { label: /drive\.google/.test(String(t.fuente)) ? (/17wPCCI/.test(String(t.fuente)) ? 'Backlog EMBA F0-F4' : 'Estrategia SEO 26/27') : 'Plan de acción EMBA', url: String(t.fuente) } : null].filter(Boolean), motivo: t.motivo ? String(t.motivo) : null, resp: null, sec: t.section?.subpath ?? '' };
+  if (k === 'hecho') K.hecho.push(it); else if (k === 'cliente' || (k === 'parcial' && pel === 'cliente')) K.cliente.push(it); else if (k === 'parcial') K.curso.push(it); else K.backlog.push(it);
+}
+const tarjeta = (i, cont, kc) => {
+  const c = el('div', 'kcard' + (i.dias != null && i.dias > 30 ? ' old' : ''), null, cont); c.style.setProperty('--kc', kc);
+  const tt = el('div', null, null, c); el('span', `tag ${i.origen === 'Tarea' ? 'bc' : 'est'}`, i.origen, tt); tt.append(' ' + i.txt);
+  if (i.motivo) el('div', 'muted sub', i.motivo, c);
+  const meta = el('div', 'kmeta', null, c);
+  if (i.resp) el('span', null, '👤 ' + i.resp, meta);
+  if (i.dias != null) { const d = el('span', null, `⏱ ${i.dias} d`, meta); if (i.dias > 7) d.style.color = i.dias > 30 ? ROJO : NARANJA; }
+  if (i.sec && i.origen !== 'Tarea') el('span', null, i.sec, meta);
+  if (i.links && i.links.length) { const lk = el('div', 'klinks', null, c); for (const l of i.links) { const a = el('a', 'external-link', etiqueta(l), lk); a.href = l.url; a.target = '_blank'; a.rel = 'noopener'; a.title = l.label; } } else el('div', 'kmeta', '⚠️ sin enlace de referencia', c);
+};
+const nViejas = K.cliente.filter((i) => (i.dias ?? 0) > 7).length;
+const card = el('div', 'card', null, root);
+cabecera(card, null, 'Estrategia + Basecamp, correo y actas', 'Tablero de tareas', `${K.cliente.length} esperando al cliente · ${K.curso.length} en curso · ${K.backlog.length} en backlog · ${K.hecho.length} hechas`, `${nViejas} del cliente con más de 7 días`, nViejas ? NARANJA : VERDE);
+const kb = el('div', 'kb', null, card);
+const COLS = [['backlog', '⬜ Backlog (sin empezar)', 'hsl(210, 12%, 58%)'], ['cliente', '🟧 Esperando al cliente', NARANJA], ['curso', '🟦 En curso (nosotros)', AZUL]];
+for (const [k, titulo, kc] of COLS) {
+  const col = el('div', 'kcol', null, kb); col.style.setProperty('--kc', kc);
+  const h = el('div', 'khead', null, col); el('span', null, titulo, h); el('span', 'muted', String(K[k].length), h);
+  const tareas = K[k].filter((i) => i.origen === 'Tarea').sort((a, b) => (b.dias ?? -1) - (a.dias ?? -1));
+  const est2 = K[k].filter((i) => i.origen !== 'Tarea');
+  for (const i of tareas) tarjeta(i, col, kc);
+  if (est2.length) {
+    if (k === 'cliente' || k === 'curso') { for (const i of est2) tarjeta(i, col, kc); }
+    else { const d = el('details', 'kdet', null, col); el('summary', null, `Estrategia 26/27 · ${est2.length}`, d); for (const i of est2) tarjeta(i, d, kc); }
+  }
+  if (!K[k].length) el('div', 'muted', 'Nada por aquí', col);
+}
+{ const dh = el('details', 'kdet khecho', null, card); el('summary', null, `✅ Hecho · ${K.hecho.length}`, dh); const gh = el('div', 'kgrid', null, dh); for (const i of K.hecho) tarjeta(i, gh, VERDE); }
+el('div', 'muted', 'En el Pendientes, las tareas nuestras van con [ ] si están en backlog y con [/] si están en curso. En la estrategia, [/] es en curso y [ ] es backlog. Lo del cliente va siempre a su columna.', card);
 
 // Marcar tareas (casillas reales: al marcar aquí se marca en la nota de origen)
 const det = el('div', 'card', null, root);
 el('div', 'eyebrow', 'Marcar como hecho', det);
 el('div', 'muted', 'Marca la casilla cuando una tarea esté hecha. Se guarda en la nota de origen (Claude/Datos).', det);
 
-dv.header(4, '🟦 Nuestro');
+dv.header(4, '🟦 Nuestro (en curso y backlog)');
 dv.taskList(pen ? pen.file.tasks.where((t) => !t.parent && !t.completed && t.status !== '-' && (t.section?.subpath ?? '').includes('Runroom')) : [], false);
 dv.header(4, '🟧 Esperando al cliente');
 dv.taskList(pen ? pen.file.tasks.where((t) => !t.parent && !t.completed && t.status !== '-' && (t.section?.subpath ?? '').includes('Cliente')) : [], false);

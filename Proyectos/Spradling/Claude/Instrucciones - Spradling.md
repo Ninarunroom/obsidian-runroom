@@ -136,6 +136,7 @@ Lo leen las skills de preparación y de después de reunión (misma lógica en B
 
 ## Reuniones
 - **Trimestral de informe** (principios de enero, abril, julio y octubre). No está agendada: la fecha la cierra Nina con el cliente. La card de informe se crea unos 15 días antes, en Ready, con la subtask "Nina - cerrar fecha de la reunión con el cliente".
+- **Próximo informe (Q4 2026)**: debe incluir el reporting rehecho con las conversiones de Google Ads y el CRM (decidido por Nina el 12/11). Al crear o preparar la card y la reunión, recordarlo.
 - Otras reuniones (tracking, web, Colombia) cuando se convocan.
 - Pre-acta: la tarde anterior. Post-acta: la tarde de la reunión. Las notas de Gemini van a la carpeta de Drive "00. Actas" (`1Zr_cZ08Im-NHo471bTyRlwHQzIKWjUdM`).
 - Mensaje para Basecamp: Spradling Europa (19500347); si afecta a Colombia, Spradling Internacional (20351671), hilo "2026. Reuniones". Ruta del borrador: `3. Reuniones/Para Basecamp/`.
