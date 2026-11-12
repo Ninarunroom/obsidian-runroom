@@ -17,3 +17,7 @@ Preguntas abiertas para Nina en la Ficha y en Pendientes (cómo se factura, OC d
 ## [2026-11-12] cambio | Tarjetas desplegables ("Ver contexto") en el tablero; decisión: el tablero de trabajo es Obsidian, no Kanbanize; remanente 25/26 = 16,25 h confirmado (Seguimiento del fee, G146)
 
 ## [2026-11-12] status | Primer status semanal del equipo (Fer y Marta) en 4. Seguimiento/Status semanal/, con texto listo para Slack. Tarea programada "Esade SEO - Status semanal" cada lunes.
+
+## [2026-11-12] drive | Carpeta FTMBA creada en el Drive del curso 26/27 con el Sheet "Esade FTMBA - Plan de acción" (7 acciones del hilo de Basecamp), compartida con Fer como editor (petición de Nina).
+
+## [2026-11-12] cambio | Regla nueva en Instrucciones: comprobar que los adjuntos de Basecamp y correo están en la carpeta de Drive del curso 26/27; solo aviso en el status semanal, sin tocar Drive (opción 1, decisión de Nina).

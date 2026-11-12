@@ -4,7 +4,7 @@ Esto es lo que debo tener en cuenta (en chat o en las tareas programadas) antes 
 
 ## Alcance
 - **Entra**: SEO técnico (Fer) y analítica (Marta) del fee de 50 h/mes, más la gestión de Nina. Basecamp [Esade SEO tècnic](https://basecamp.com/1771388/projects/19742261) y [Esade - Analítica](https://basecamp.com/1771388/projects/16901662), y el correo de @esade.edu (y de Natzir) sobre estos temas.
-- **No entra**: Do Better, contenidos/Beyond y link building (Olga), OPENS y paid (Ari, Adsmurai), Eulerian y Medición LLMs. Si aparecen, se mencionan solo como contexto y sus tareas no van aquí (van a `Proyectos/Esade/Pendientes - Esade.md`).
+- **No entra**: Do Better, contenidos/Beyond y link building (Olga), OPENS y paid (Ari, Adsmurai), Eulerian y Medición LLMs. Si aparecen, se mencionan solo como contexto y sus tareas no van aquí (van al KB de su proyecto; ver [[Esade]]; OPENS está cerrada: [[Líneas cerradas - Esade]]).
 
 ## Tono y estilo con el cliente
 - Sergi escribe en **catalán** y es muy de datos; Helen escribe en castellano. Fer suele contestar en valenciano y Marta en catalán o castellano. Si Nina redacta para ellos, respeta el idioma del hilo.
@@ -83,6 +83,12 @@ Contesto a partir de la wiki, citando las notas. Si la pregunta toca datos actua
 
 ### Lint
 Busco contradicciones, datos desactualizados, pendientes que parezcan resueltos (los señalo, no los marco), enlaces rotos y huecos.
+
+## Adjuntos y carpeta de Drive (aviso, sin tocar Drive)
+Decisión de Nina (12/11/2026): todo entregable o documento que se adjunte en Basecamp (SEO 19742261, Analítica 16901662) o en los correos con Esade, Natzir o la agencia tiene que estar también en la carpeta de Drive del curso: [00. ESA010246ESADE - Fee SEO y Analítica Curso 26/27](https://drive.google.com/drive/folders/1Wk3tMp9RTMWyo9-ltTIVWTN4LK-EDzoE) (o en una subcarpeta suya, p. ej. FTMBA).
+- Cada semana, el status comprueba los adjuntos nuevos (nombre de fichero) contra esa carpeta y sus subcarpetas. Si es un Google Doc/Sheet enlazado, mira en qué carpeta está.
+- **Solo se avisa; no se sube, copia ni mueve nada en Drive.** Lo que falte sale en el status, en ⚠️ Gestión y en el mensaje de Slack de quien lo adjuntó ("sube <fichero> a <carpeta>"), con el enlace al hilo. Si lo adjuntó alguien de Esade, va a Nina.
+- Se ignoran imágenes incrustadas en correos (image.png, firmas) y los adjuntos anteriores al 01/09/2026.
 
 ## Paneles de seguimiento (4. Seguimiento)
 Tres notas con un bloque `dataviewjs` cada una (plugin Dataview). **Nunca se edita su código ni se les añaden propiedades**: los datos viven en otras notas.

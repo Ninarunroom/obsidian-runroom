@@ -63,6 +63,10 @@ fecha: 2026-11-12
 
 ### Para Fer
 ```
+¡Hola Fer! 👋 Estos días he estado ordenando todo lo que tenemos abierto en Esade SEO: he repasado los hilos de Basecamp, los correos con Sergi y Natzir, el Excel del EMBA y el roadmap del curso, y lo he juntado en un solo sitio, separado por lo que nos toca a nosotros y lo que está esperando a Esade.
+
+A partir de ahora te mandaré cada lunes un status como este. La idea es *sustituir la reunión de los lunes*: así ganamos tiempo y todo queda por escrito (qué hay, quién lo tiene y para cuándo). Solo te pido que contestes en el hilo, punto por punto.
+
 *Esade SEO · status 12/11* 📋
 Fer, te paso lo que tenemos abierto. Contéstame en el hilo con el número y una línea: hecho / fecha en que lo tendrás / qué te bloquea. ¡Gracias! 🙏
 
@@ -71,23 +75,23 @@ Fer, te paso lo que tenemos abierto. Contéstame en el hilo con el número y una
    2. El 26/10 dijimos que nos poníamos con la F0-02 (ver qué competidores ocupan ahora esas posiciones y qué contenido tienen). El 27/10 Sergi escribió que "estem d'emergència" con el EMBA. ¿Cuándo tienes previsto tenerlo?
 2. [Plan de acción - Excel EMBA](https://drive.google.com/file/d/17wPCCI_OlSEpzuTz6EX7LARGX6vP9JEN/view): Sergi y Natzir lo usan para seguir el plan, y todo sigue en "Pendiente", incluso la ficha de queries perdidas (F0-01) que entregaste el 26/10. ¿Puedes poner al día los estados (Done / WIP) y revisarlo cada semana?
 3. Schema (Email - Coses Schema (tot i que la IA potser no en fa cas), 07/10): Sergi nos pasó su propuesta de poner las redes sociales en el schema. Natzir le contestó el 08/10, pero nosotros todavía no. ¿Le mandas tus comentarios esta semana?
-4. [Full Time MBA](https://basecamp.com/1771388/projects/19742261/messages/113563313): el 29/10 Sergi dijo "Activem tots els next steps" de tu informe. Habría que bajar todas las acciones a un listado de tareas (una tarea FTMBA y dentro las subtareas), cada una con fecha. Las que salen en el hilo:
-   1. Analizar a fondo la ficha /programmes/full-time-mba (ha pasado de la posición 12,4 a la 25,8 y pierde un 52 % de los clics).
-   2. Analizar el mercado indio (−42 % de clics y peor posición).
-   3. Validar con Google Trends y comparando con otras escuelas si la caída de búsquedas de marca viene de la IA.
-   ¿Me pasas el listado completo con fechas?
+4. [Full Time MBA](https://basecamp.com/1771388/projects/19742261/messages/113563313): el 29/10 Sergi dijo "Activem tots els next steps" de tu informe. Te he creado el [Plan de acción FTMBA](https://docs.google.com/spreadsheets/d/1FUpa6tUAidxNhfkUkrLl_HfkGDgzhDhZtzsSU4VL8xM/edit) (carpeta FTMBA del Drive del curso 26/27) con las acciones que salen del hilo. ¿Lo completas con el resto de acciones de tu informe y le pones fecha a cada una?
 5. Grados – "student loans" (Email - Dashboard Setembre, 03/11): al pasar el dashboard de octubre, Sergi escribió "Fer, flipa la caiguda de student loans a Graus de 100.000 impressions a 0". No le hemos contestado. ¿Lo puedes mirar y decirme qué es?
 6. [Roadmap del curso](https://drive.google.com/file/d/1j-An1mGzy7ovzZyK4LJBpnQYWWhuRwP7/view): en oct–nov tocaba el primer informe de cómo aparece Esade en las IA (ChatGPT, Gemini…) y el mapa de competidores ampliado. ¿Cuándo los arrancamos?
 7. EMBA fuera de la web ([Plan de acción - Excel EMBA](https://drive.google.com/file/d/17wPCCI_OlSEpzuTz6EX7LARGX6vP9JEN/view), pestaña "Plan de acción conjunto"): en la reunión del 30/10 quedó como tarea nuestra revisar con Olga cómo dar visibilidad al EMBA fuera de la web (enlaces, menciones, prensa), a partir del 20/11. ¿Lo hablas con ella?
 
 *Pendiente de Esade* (no tienes que hacer nada, es para que lo sepas):
-• Prompts de Sistrix / LLM Pulse que quieren monitorizar (desde el 02/10)
-• Validación de las fichas de keywords de Relaciones Corporativas y Becas por Comunicación y Marca (desde el 10/11)
-• Plan EMBA, lo de su lado: canonicals de prueba en 2-3 programas, menú móvil, precio de la edición de Madrid de febrero 2027 en las 27 URLs (20/11) y el chat que tapa el botón del folleto en móvil (13/11)
+• Prompts de Sistrix / LLM Pulse que quieren monitorizar (Email - Sistrix Esade, desde el 02/10)
+• [Validación de las fichas de keywords de Relaciones Corporativas y Becas](https://basecamp.com/1771388/projects/19742261/messages/113570057) por Comunicación y Marca (desde el 10/11)
+• [Plan EMBA, lo de su lado](https://drive.google.com/file/d/17wPCCI_OlSEpzuTz6EX7LARGX6vP9JEN/view) (pestaña "Plan de acción conjunto"): canonicals de prueba en 2-3 programas, menú móvil, precio de la edición de Madrid de febrero 2027 en las 27 URLs (20/11) y el chat que tapa el botón del folleto en móvil (13/11)
 ```
 
 ### Para Marta
 ```
+¡Hola Marta! 👋 Estos días he estado ordenando todo lo que tenemos abierto en Esade Analítica: he repasado los hilos de Basecamp, los correos con Sergi y Natzir, y lo he juntado en un solo sitio, separado por lo que nos toca a nosotros y lo que está esperando a Esade.
+
+A partir de ahora te mandaré cada lunes un status como este. La idea es *sustituir la reunión de los lunes*: así ganamos tiempo y todo queda por escrito (qué hay, quién lo tiene y para cuándo). Solo te pido que contestes en el hilo, punto por punto.
+
 *Esade Analítica · status 12/11* 📋
 Marta, te paso lo que tenemos abierto. Contéstame en el hilo con el número y una línea: hecho / fecha en que lo tendrás / qué te bloquea. ¡Gracias! 🙏
 
@@ -108,8 +112,8 @@ Marta, te paso lo que tenemos abierto. Contéstame en el hilo con el número y u
 4. Horas de octubre: en la Bolsa de horas tus filas llevan la OC de Do Better (OC012692). ¿Las cambias a la del fee?
 
 *Pendiente de Esade* (no tienes que hacer nada, es para que lo sepas):
-• Listado de URLs donde tiene que ir CrazyEgg (desde el 01/10; se puede resolver junto con el punto 2.1)
-• Que Unibuddy desactive su Hotjar y limpiar el inventario de OneTrust (desde el 01/10)
-• Respuesta de OneTrust sobre el 'unknown' y qué KPI de consentimiento usamos (desde el 07/10)
-• Que Helen y Adsmurai den por buena tu respuesta sobre los píxeles (desde el 10/11)
+• [Listado de URLs donde tiene que ir CrazyEgg](https://basecamp.com/1771388/projects/16901662/messages/113008269) (desde el 01/10; se puede resolver junto con el punto 2.1)
+• [Que Unibuddy desactive su Hotjar y limpiar el inventario de OneTrust](https://basecamp.com/1771388/projects/16901662/messages/113008269) (desde el 01/10)
+• [Respuesta de OneTrust sobre el 'unknown' y qué KPI de consentimiento usamos](https://basecamp.com/1771388/projects/16901662/messages/108051224) (desde el 07/10)
+• Que Helen y Adsmurai den por buena tu respuesta sobre los píxeles (Email - Dudas píxels GTM Esade, desde el 10/11)
 ```

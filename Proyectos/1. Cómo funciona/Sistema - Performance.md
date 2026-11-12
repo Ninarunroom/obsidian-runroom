@@ -28,4 +28,4 @@ Las crea **Kanbanize - Cards recurrentes performance** (lunes 8:47), en Ready y 
 - **Alertas Barraquer → Obsidian** (L-V 9:45): copia las alertas diarias de Google Ads de Barraquer.
 
 ## Pendiente
-- [ ] Paprika 2027 de Hispano Suiza y parent cards 2027 de los tres, cuando existan (apuntarlos en las Instrucciones del cliente y en la tarea de Kanbanize).
+- [ ] Parent cards 2027 de los tres, cuando existan (apuntarlas en las Instrucciones del cliente y en la tarea de Kanbanize). El Paprika 2027 de Hispano Suiza (HIS010011) ya está puesto (12/11/2026).

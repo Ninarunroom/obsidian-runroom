@@ -56,7 +56,8 @@ Status del día y tareas pendientes, separadas por **quién tiene la pelota**. S
     - **Entrega:** sin fecha definida
     - **Responsable:** Fer
     - **Info:** /mba/en pierde un 37 % de clics (28/6-26/10, interanual). Cuatro URLs concentran el 83 % de lo perdido; la ficha /programmes/full-time-mba pasa de la posición 12,4 a la 25,8 (−52 % de clics) e India pierde un 42 %. Sergi: "Activem tots els next steps" (29/10).
-    - Fuente: [Basecamp: Full Time MBA](https://basecamp.com/1771388/projects/19742261/messages/113563313) — detectado 29/10/2026
+    - **Actualización 12/11:** plan de acción en [Sheet: Esade FTMBA - Plan de acción](https://docs.google.com/spreadsheets/d/1FUpa6tUAidxNhfkUkrLl_HfkGDgzhDhZtzsSU4VL8xM/edit) (carpeta FTMBA del Drive del curso 26/27, compartida con Fer). Fer tiene que completarlo con el resto de acciones de su informe y fechas.
+    - Fuente: [Basecamp: Full Time MBA](https://basecamp.com/1771388/projects/19742261/messages/113563313) · [Sheet: FTMBA - Plan de acción](https://docs.google.com/spreadsheets/d/1FUpa6tUAidxNhfkUkrLl_HfkGDgzhDhZtzsSU4VL8xM/edit) — detectado 29/10/2026
 - [/] **[Tarea]** Esade — Schema: devolver a Sergi los matices a su propuesta (redes sociales en schema)
     - **Línea:** SEO técnico
     - **Entrega:** sin fecha definida

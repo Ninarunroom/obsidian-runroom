@@ -4,92 +4,39 @@ sector: educación superior / business school
 cliente_desde: 
 estado: activo
 ---
-<!-- Claude: antes de responder o escribir sobre este cliente, lee "Claude/Instrucciones - Esade.md" -->
+<!-- Claude: antes de responder o escribir sobre Esade, lee "Claude/Instrucciones - Esade.md": dice a qué proyecto va cada cosa -->
 # Esade
 
-Cuenta de Esade: contenidos, SEO, analítica y medios.
+> [!tip] Empieza aquí
+> Esade (business school) tiene **3 proyectos activos** con Runroom. Cada uno es como un cliente aparte, con su propio knowledge base (ficha, acuerdos, reuniones, tareas, horas y facturación). Esta nota solo es el índice.
 
-## Información general
-- Sector: educación superior (business school)
-- Web: *(pendiente — completar)*
-- Cliente desde: *(pendiente — completar)*
-- Objetivo de la cuenta: *(pendiente — completar)*
-- Accesos (Drive, etc.): *(pendiente — completar)*
+| Proyecto | Qué es | Contacto en Esade | Equipo | Entra aquí |
+|---|---|---|---|---|
+| **Do Better** | El blog Do Better (dobetter.esade.edu): SEO, GEO, contenidos y analítica. | Sandra Hernández (de baja); la sustituye Dulce Torres | Fer, Olga, Marta y Nina | [[00 Ficha de cliente - Esade Do Better]] |
+| **Contenidos Beyond** | El blog Beyond (esade.edu/beyond), más comercial: keyword research de 2 artículos al mes y link building. | Astrid Gelabert; su jefa es Helen | Olga (Fer en los KPIs) y Nina | [[00 Ficha de cliente - Esade Beyond]] |
+| **SEO y Analítica** | Fee de SEO técnico y analítica web (50 h/mes). | Sergi Fernández | Fer, Marta y Nina | [[00 Ficha de cliente - Esade SEO]] |
 
-## Contactos cliente
-- **Astrid** — responsable del proyecto de contenidos
-- **Sergi** — responsable del proyecto de SEO y analítica
-- **Helen** — jefa de Astrid y Sergi
-- **Natzir** — colabora con Sergi en el análisis de visibilidad en IA/Sistrix
-- **Dulce Torres** — sustituye temporalmente a Sandra Hernández durante su baja de maternidad; gestiona peticiones de datos de Do Better y analítica
-- **Judith Magran** — nueva responsable de la parte periodística de contenidos del blog (equipo "Do Better"), junto con Marta
-- **David Ferré** y **Marc Rius** — equipo técnico de Esade, incorporados a la investigación de atribución de tfaforms.net
+## Basecamp
+- Do Better → [Esade Dobetter - Analítica & SEO](https://basecamp.com/1771388/projects/19338495)
+- Contenidos Beyond → [ESADE SEO de Contenidos](https://basecamp.com/1771388/projects/15430351)
+- SEO y Analítica → [Esade SEO tècnic](https://basecamp.com/1771388/projects/19742261) + [Esade - Analítica](https://basecamp.com/1771388/projects/16901662)
 
-## Equipo Runroom (externos que actúan como Runroom)
-- **Fer Alonso** (Fernando Alonso, falonso.ext@runroom.com) — agencia SEO, equipo "Do Better" (blog de Esade)
-- **Olga** (Olga Castillo, olga.ext@runroom.com) — agencia SEO, equipo "Do Better"
-- **Marta** — agencia SEO, analítica
-- **David Viejo** (dviejo.ext@runroom.com) — agencia SEO, equipo "Do Better" (aparece en informes de backlinks/enlaces tóxicos)
+## Comunes a varios proyectos
+- **Helen (Elena Sánchez González)**: Digital Marketing Manager BS&LS. Jefa de Astrid y de Sergi; decide presupuestos y pedidos. En Basecamp sale como "Elena".
+- **Natzir Turrado**: consultor externo de Esade (SEO técnico y growth). Sale en SEO y Analítica y en la plantilla nueva de Beyond.
+- **Fer, Olga y Marta** son de la agencia SEO partner y trabajan en varios proyectos: **cada hora va a su fee** (Bolsa de horas, pestaña ESADE).
+- Los KPIs se dan siempre **a cierre de mes**.
 
-Ver [[Equipo Runroom]] para más detalle.
+## Líneas cerradas
+OPENS, BS&LS y Marca ya no están activas: [[Líneas cerradas - Esade]].
 
-## Servicios / líneas de trabajo
-- **Analítica y SEO** — [Esade - Analítica](https://basecamp.com/1771388/projects/16901662) + [Esade SEO tècnic](https://basecamp.com/1771388/projects/19742261) *(dos hilos de Basecamp distintos, pero una sola línea de trabajo, según indicó Nina)*
-- **Do Better (blog)** — [Esade Dobetter - Analítica & SEO](https://basecamp.com/1771388/projects/19338495) · KB propio: [[00 Ficha de cliente - Esade Do Better]]
-- **Contenidos** — [ESADE SEO de Contenidos](https://basecamp.com/1771388/projects/15430351)
-- **BS&LS (SEM + Medios)** — [ESADE BS&LS SEM + MEDIOS 2025-2026](https://basecamp.com/1771388/projects/19989371) — *(finalizada, según Nina; fecha/motivo pendiente — completar)*
-- **OPENS (programas ejecutivos)** — [ESADE OPENS 2025/2026](https://basecamp.com/1771388/projects/20013134) — *(Nina indica que esta línea está finalizada — sin confirmar aún en la ficha, ver nota en Contexto y estado: hay Pendientes de Basecamp muy recientes, de la primera semana de octubre 2026)*
-- **Marca** — *(finalizada 21/07/2026, ver Contexto y estado — no hay proyecto de Basecamp localizado para esta línea)*
-
-## Contexto y estado
-
-### OPENS (Nina indica que está finalizada — pendiente de confirmar, ver nota abajo)
-- Gestión multi-sede (Barcelona/Madrid) de programas como PMD, PDC, RBAI, AMP, LPGE, PGE, EPG, Control de Gestión, Directores Propietarios; facturación mensual y planificación de presupuesto 26/27; contacto habitual Helena Soler
-- Adsmurai es otra agencia externa que gestiona medios de pago de OPENS (PMD Madrid) en paralelo a Runroom; ha habido conflictos por modificaciones duplicadas de presupuesto en las mismas campañas *(sin nota propia en el vault todavía — dime si quieres que le cree una, como a Do Better)*
-- **Cierre de curso 25/26 (reunión 25/06/2026):** +50% inversión, +49% leads, CPL global estable (~93€); detectado desequilibrio estructural (86% del presupuesto en captación vs. solo 5% en awareness, objetivo 40%). Decisiones para 26/27: subir awareness+consideración al 25% del presupuesto, activar formalmente pujas basadas en valor ("by ratings"), mantener campañas transversales pese a problemas de atribución, y nueva línea de creatividades segmentadas por género (mujeres mejor en Google/Bing, hombres más baratos en Meta).
-
-- **Nota (22/10/2026):** Nina indicó que esta línea está finalizada, igual que Marca y BS&LS. Sin embargo, el feed automático de Pendientes de Basecamp tiene tareas de OPENS tan recientes como el 07/10/2026 (conflicto de presupuesto PMD Madrid con Adsmurai, caída de calidad de leads en Barcelona), con tono de trabajo activo normal, no de cierre. No se marca aquí como finalizada hasta confirmarlo con Nina — podría tratarse de otra línea con nombre parecido, o de un cierre muy reciente/aún no reflejado en Basecamp.
-
-### BS&LS (SEM + Medios) — finalizada
-- *(finalizada, según indicó Nina el 22/10/2026; fecha y motivo del cierre pendientes de completar — no había contexto previo en la vault sobre esta línea)*
-
-### Marca (finalizada 21/07/2026)
-- Workstream separado de OPENS/SEO, gestionado para Esade por Rosa Martin y Cristina Isern (equipo de Business/Identidad y Misión); no aparecía hasta ahora en esta ficha.
-- **Esade comunicó formalmente el fin de la relación comercial en esta línea el 21/07/2026, tras 15 años de colaboración** (cambio de agencia; sin incidencia de desempeño señalada en la reunión). No afecta, por lo que se ve en las reuniones, a OPENS ni a SEO.
-- Quedaba pendiente a 21/07: resolver la orden de compra de los rankings de Financial Times (publicación de septiembre; presupuesto ~37.000€ vs. propuesta de 44.253€) y la comunicación a "Aurelio" sobre el cambio de agencia — gestionado como última tarea por Araceli/Nina antes del traspaso. **Sin confirmación posterior de cómo se cerró** — conviene preguntar a Araceli.
-- Ver Reuniones/Raw y Procesadas de 2026 (mayo-julio) para el detalle completo.
-
-### Contenidos
-> [!tip] KB propio desde el 12/11/2026
-> Contenidos del blog Beyond y link building tienen su knowledge base en la subcarpeta `Contenidos Beyond/`: empieza por [[00 Ficha de cliente - Esade Beyond]]. Lo que sigue aquí es el resumen histórico.
-
-- Blogging y link building de alto volumen y cadencia semanal/mensual; propuesta 26-27 en curso
-
-### Analítica y SEO *(une los proyectos de Basecamp "Esade - Analítica" y "Esade SEO tècnic")*
-> [!tip] KB propio desde el 12/11/2026
-> El fee de SEO y analítica tiene su knowledge base en la subcarpeta `SEO y Analítica/`: empieza por [[00 Ficha de cliente - Esade SEO]]. Lo que sigue aquí es el resumen histórico.
-
-- Sitemap, indexación, core updates y uso de IA/LLMs en buscadores; contacto habitual Sergi Fernandez
-- **Plan de limpieza de enlaces tóxicos (disavow), aprobado 02/07/2026** con el equipo de Do Better (Olga, Fernando): ejecución progresiva jul-oct 2026, con posible mantenimiento recurrente cada 3 meses (pendiente de confirmar si se completó y si se decidió mantenerlo). Esade reduce distancia con IE/IS en autoridad de dominio; Universidad de Navarra (UNF) avanza vía citación académica en medios — relevante también para visibilidad en motores de IA.
-- EMBA: caída sostenida de tráfico y conversiones desde junio 2026; en septiembre Fer y Sergi activaron un plan de acción (verificación previa de campañas/tagging, mejoras GEO/IA en páginas de decisión, recuperación de posiciones 4-10 en URLs afectadas)
-- Se detectó un problema de atribución en GA4 desde abril 2026 (las conversiones del formulario FormAssembly se atribuyen a "tfaforms.net" en vez de al canal real) y actividad de un bot generando brochures falsos en el sitio (13-24 sept); Marta está corrigiendo vía GTM (ignore_referrer)
-- En la investigación de la atribución de tfaforms.net se han incorporado David Ferré y Marc Rius, del equipo técnico de Esade, junto a Sergi y Natzir
-- Sergi propuso (02/11/2026) incorporar datos de component_view para medir CTR por tipo de componente; Marta se ofreció a probar a implementar la etiqueta en GTM. Sergi hará un nuevo build de las estadísticas la semana del 02/11 y pidió que le trasladen cambios para incluir. Sergi avisó a Nina de que vaya controlando la dedicación de horas del equipo en esta cuenta, que está al límite ("a full").
-
-### Do Better (blog de Esade)
-> [!tip] KB propio desde el 12/11/2026
-> Do Better tiene su knowledge base en la subcarpeta `Do Better/`: empieza por [[00 Ficha de cliente - Esade Do Better]].
-
-- Do Better es el **blog de Esade** (dobetter.esade.edu), no una agencia. Le hacemos SEO, GEO, iteración de contenidos y analítica: 25 h/mes (Fer, Olga, Marta Baldó y Nina), 23.360,4 € el curso 26/27, ya facturado.
-- Contacto: Dulce Torres (sustituye a Sandra Hernández), con Judith Mangrane y Marta Barquier en la redacción.
-- Basecamp: [Esade Dobetter - Analítica & SEO](https://basecamp.com/1771388/projects/19338495).
-
-### General / transversal
-- Curso 26/27: las horas contratadas de SEO/Analítica se reducen a 50h/mes, con pedidos revisados cada 4 meses
-- Para los KPIs mensuales de visibilidad en IA, Esade (Astrid/Helena) pide que el dato se dé siempre a cierre de mes (no a mitad de mes)
-
-## Relacionado
-*(pendiente — completar)*
-
-## Pendientes
-![[Pendientes - Esade]]
+## Cómo está organizada la carpeta
+```
+Esade/
+├── Esade.md                 este índice
+├── Do Better/               KB del blog Do Better
+├── Contenidos Beyond/       KB del blog Beyond y el link building
+├── SEO y Analítica/         KB del fee de SEO técnico y analítica
+├── Histórico/               líneas cerradas (OPENS, BS&LS, Marca) y sus reuniones
+└── Claude/                  instrucciones generales, log y copias de seguridad
+```

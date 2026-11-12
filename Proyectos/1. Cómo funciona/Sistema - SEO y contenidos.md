@@ -11,7 +11,7 @@ actualizado: 2026-11-12
 - **Esade SEO y Analítica** (fee de 50 h/mes: SEO técnico con Fer, analítica con Marta): KB con la estructura nueva en `Esade/SEO y Analítica/` (1. Conocer la cuenta, 2. Acuerdos, 3. Reuniones, 4. Seguimiento con Tareas, Horas y Facturación y fee). Instrucciones: [[Instrucciones - Esade SEO]].
 - **Esade Contenidos Beyond** (blog Beyond y link building con Olga; KPIs con Fer): KB en `Esade/Contenidos Beyond/` con la misma estructura (4. Seguimiento con Tareas, Horas y Facturación y fee + compra de medios). Instrucciones: [[Instrucciones - Esade Beyond]].
 - **Esade Do Better** (blog Do Better, 25 h/mes: SEO y GEO con Fer, contenidos con Olga, analítica con Marta): KB en `Esade/Do Better/` con la misma estructura. Instrucciones: [[Instrucciones - Esade Do Better]].
-- **Resto de líneas de Esade** (OPENS…): estructura antigua en `Esade/` (`Esade.md`, `Pendientes - Esade.md`, `Reuniones/`). Instrucciones: [[Instrucciones - Esade]].
+- **Índice de Esade**: [[Esade]] (los 3 proyectos). Instrucciones generales: [[Instrucciones - Esade]] (dice a qué KB va cada cosa). Líneas cerradas (OPENS, BS&LS, Marca): [[Líneas cerradas - Esade]].
 
 ## Tareas programadas
 | Tarea | Cuándo | Qué hace | Ordenador |

@@ -89,7 +89,7 @@ Pendientes antiguos que quizá ya están cerrados. El panel no los lee.
 - lacerca.com (publicado el 29/10) y der-bank-blog/eldiarioalerta: to-dos abiertos en Basecamp que puede cerrar Astrid. — [Basecamp](https://basecamp.com/1771388/projects/15430351/todos/521102898)
 - Banners de EMBA en los 28 artículos de Beyond y enlazado interno de los 15 artículos top: Astrid los pasó a Vansters en abril. ¿Implementados? — [Basecamp: Acción SEO - EMBA](https://basecamp.com/1771388/projects/15430351/todos/516194081) · [Basecamp: Revisión Interlinking](https://basecamp.com/1771388/projects/15430351/todos/516338334)
 - Keyword research de "Becas ISA" y "Modelo Canvas" (cola antigua). — [Basecamp](https://basecamp.com/1771388/projects/15430351/todos/516228456)
-- Feedback a Sergi sobre la propuesta visual del blog: Fer lo dio el 13-14/10 (en [[Pendientes - Esade]] sigue abierto). — [📧 "Status"](https://mail.google.com/mail/?authuser=nina@runroom.com#all/thread-a:r-1821595268813824137)
+- Feedback a Sergi sobre la propuesta visual del blog: Fer lo dio el 13-14/10 (en la antigua Pendientes - Esade seguía abierto). — [📧 "Status"](https://mail.google.com/mail/?authuser=nina@runroom.com#all/thread-a:r-1821595268813824137)
 - "Blogging - propuesta nuevos temas" (Grados, Derecho): ya se ha entregado Derecho de la energía. — [Basecamp](https://basecamp.com/1771388/projects/15430351/todos/520154751)
 
 ## ✅ Done

@@ -36,3 +36,10 @@ Kanbanize (lunes 8:47): informe mensual de Barraquer la semana antes de la "Stat
 - Confirmado: el nuevo reparto de horas (Ari 13 h, Nina 1,5 h) empieza en septiembre de 2026.
 - La columna "Reconocido" de Check cierre (y su "bolsa para Next year") no se usa: quitadas las menciones de Datos panel, Acuerdos, Propuestas e Instrucciones.
 - Paneles probados (jsdom + captura): Tareas, Horas y Facturación y fee se dibujan sin errores.
+
+## [2026-11-12] automatización | Tareas programadas revisadas
+- "Actas de reunión - Performance (post-acta)": rutas de Hispano Suiza corregidas (`3. Reuniones/…`, registro en `Claude/Datos/`); en Hispano Suiza no cierra tareas, propone "¿cerrar?".
+- "Preparación de reuniones de cliente (día antes)": rutas corregidas; el informe mensual de Hispano Suiza también lleva números.
+- "Kanbanize - Cards recurrentes performance": Paprika 2027 de Hispano Suiza (HIS010011).
+- "Basecamp - Pendientes diarios": cambio propuesto a Nina (pendiente de su OK), sin aplicar.
+- Sin alertas de campaña ni script de Google Ads (decisión de Nina).

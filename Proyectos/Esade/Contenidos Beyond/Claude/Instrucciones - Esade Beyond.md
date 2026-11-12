@@ -4,7 +4,7 @@ Esto es lo que debo tener en cuenta (en chat o en las tareas programadas) antes 
 
 ## Alcance
 - **Entra**: contenidos del blog Beyond (keyword research y briefings de 2 artículos/mes, mejoras SEO y de conversión), link building (propuesta, compra y revisión de medios; estudio de la competencia; toxicidad y disavow), los KPIs mensuales para Astrid y la gestión de Nina (presupuesto, pedidos, facturación). Basecamp [ESADE SEO de Contenidos](https://basecamp.com/1771388/projects/15430351) y el correo de @esade.edu sobre estos temas (Astrid, Helen; Sergi y Natzir cuando hablan de Beyond).
-- **No entra**: el fee de SEO técnico y analítica (`Esade/SEO y Analítica/`), Do Better (blog doBetter), OPENS y paid (Ari, Adsmurai), Eulerian y Medición LLMs. Si aparecen, se mencionan solo como contexto y sus tareas no van aquí (van a su KB o a `Proyectos/Esade/Pendientes - Esade.md`).
+- **No entra**: el fee de SEO técnico y analítica (`Esade/SEO y Analítica/`), Do Better (blog doBetter), OPENS y paid (Ari, Adsmurai), Eulerian y Medición LLMs. Si aparecen, se mencionan solo como contexto y sus tareas no van aquí (van al KB de su proyecto; ver [[Esade]]).
 - **Zona gris**: los KPIs y análisis de Beyond los hace Fer, que también lleva el fee de SEO. Hasta que Nina diga a qué fee se imputan, las tareas de Beyond van aquí y sus horas no se suman sin confirmarlo.
 
 ## Tono y estilo con el cliente
