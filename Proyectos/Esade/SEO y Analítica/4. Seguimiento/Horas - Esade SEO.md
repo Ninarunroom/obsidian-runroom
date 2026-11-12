@@ -173,7 +173,7 @@ const notas = rows.filter((r) => reg[r.i] && reg[r.i].notas); if (notas.length) 
 Una línea por mes. A cierre de mes, la agencia vuelca sus horas en la [Bolsa de horas](https://docs.google.com/spreadsheets/d/1F2KfWNbXZaOp2sEN8ZtMgchEtRdHLS3hkFEeoXoKWTk) (pestaña ESADE, filas "Fee SEO&Analítica") y Nina las pasa, junto con las suyas de Paprika, al [Seguimiento del fee](https://docs.google.com/spreadsheets/d/1o_2qc46-s4txCu9g0rA1S_Q1jHP5T-0G9DjAy21_vG0) (pestaña Curso 26/27). Claude actualiza aquí la línea del mes.
 `- [mes:: AAAA-MM] [agencia:: h] [kam:: h] [total:: h (solo si no hay desglose)] [actualizado:: AAAA-MM-DD] [notas:: …]`
 
-- [mes:: 2026-09] [total:: 29] [actualizado:: 2026-11-12] [notas:: cifra del Seguimiento del fee, sin desglose por perfil. La Bolsa de horas de la agencia imputa 42,5 h a septiembre (Fer 36 + Marta 6,5), pero las 36 h de Fer incluyen la Estrategia 26/27, que el Seguimiento ya cargó en agosto (curso 25/26). Por confirmar con Nina]
+- [mes:: 2026-09] [total:: 29] [actualizado:: 2026-11-12] [notas:: 29 de 50 h, confirmado por Nina (Seguimiento del fee, sin desglose por perfil). La Bolsa de horas de la agencia imputa 42,5 h a septiembre porque incluye la Estrategia 26/27, que se cargó en agosto (curso 25/26)]
 - [mes:: 2026-10] [agencia:: 37.5] [actualizado:: 2026-11-12] [notas:: Bolsa de horas: Fer 29 + Marta 7 + Olga 1,5. Faltan las horas de Nina (Paprika) y volcarlo al Seguimiento]
 
-Remanente del curso 25/26 que pasa al 26/27: 16,92 h (Seguimiento del fee, cierre de agosto).
+Remanente del curso 25/26 que pasa al 26/27: **16,25 h** (Seguimiento del fee, pestaña Curso 25/26, celda G146; la pestaña 26/27 suma 50 + G146).

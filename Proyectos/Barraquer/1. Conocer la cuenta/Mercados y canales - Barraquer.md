@@ -27,6 +27,7 @@ actualizado: 2026-11-05
 - Presupuesto separado (2026: ≈ 21.900 € con fee). Search Estética rinde bien y suele estar limitada por presupuesto.
 - Landings por tratamiento ya hechas; faltan algunas específicas y en catalán.
 - **Pendiente**: Meta de consideración y PMax genérica en Catalunya (sin creatividades). Saldo bajo (10/2026).
+- **12/11/2026**: pacing un 35 % por debajo del año pasado, con costes un 16 % más bajos; 2k pendientes (PMax), que Ari pasa el 12/11 a Search genérica Catalunya ([hilo](https://basecamp.com/1771388/projects/17192035/todos/521039257)). Las creatividades de Estética entran en la revisión creativa de cara al próximo curso.
 
 ### Madrid (desde julio de 2026)
 - Servicio en el Hospital Memorial Publio Cordón (Pozuelo de Alarcón). **100 % privado, sin mutuas.** Primera visita: 350 €.
@@ -36,6 +37,7 @@ actualizado: 2026-11-05
 - **Landing**: barraquer.com/oftalmologia-madrid (mini-web en el dominio de Barraquer). Formulario de HubSpot con campo "Sede"; workflow al Contact Center de Madrid; segmento "Barraquer Madrid".
 - **Capacidad limitada**: oftalmólogos por la tarde, 3 días por semana. Si la demanda supera la capacidad, hay que bajar inversión.
 - **Resultados**: coste por contacto de 50 € (09/2026) frente a 23 € de media en clínica. Ritmo optimizado en septiembre.
+- **Status 12/11/2026**: según Gemini, quirófano operativo desde el 6 de diciembre y 4 médicos en plantilla (más capacidad que en julio). El CPL de Madrid sube en octubre por competencia (keywords más caras, pérdida de impresiones por presupuesto). Cristian pasará vídeos cortos de los doctores para consideración. Parte del remanente irá a reforzar Madrid; propuesta de radio/audio en diciembre ([[2026-11-12 - Status RR - remanente, Madrid y contenidos]]).
 - **Pendiente / aplazado**: campañas de competencia; radio (Wiimas); evaluación de continuidad (estaba prevista para finales de septiembre y no consta que se haya hecho).
 - **Planteamiento inicial (12/06)**: marca compartida "Barraquer by Hospital Publio Cordón", objetivo de 40 pacientes por semana, zonas Pozuelo, Aravaca y barrio de Salamanca; Excellence Program 500 € y revisión 350 €; sin refractiva láser, trasplantes ni tumores. El call center de Barraquer recoge datos y deriva. En esa reunión se hablaba de 26.500 € de reserva. Ver [[2026-06-12 - Status RR - lanzamiento Madrid y reestructura Search]].
 - **Medición de la landing (28/07)**: conversión = envío del formulario de HubSpot; el clic en "pedir cita" es solo evento. Urgencias solo en Barcelona. Ver [[2026-07-28 - Landing Madrid - eventos GTM]].
@@ -55,11 +57,12 @@ Mauritania, Qatar, Egipto, Kuwait y Angola (y Portugal y Brasil como idea).
 - **Presupuesto 2026**: 33k € para internacional (propuesta v2, 05/2026), más 10k para Mauritania. Lanzados el 08/05/2026: awareness en YouTube y Meta + Search Marca en Mauritania, Qatar, Egipto y Kuwait.
 - **Rendimiento**: Search bajo en Qatar, Egipto, Mauritania y Kuwait. En octubre de 2026 se abrieron términos de marca (ortografías alternativas) y algunos países ya convierten.
 - **Reserva por país (02/09)**: Marruecos 2.006 €, Argelia 2.006 €, Qatar 4.771,86 €, Egipto 2.144,72 €, Kuwait 4.771,85 € (Cataluña a 0: se usó para Madrid).
-- **Reserva**: 15.700 € reservados para pushes en Marruecos, Argelia, Qatar, Egipto y Kuwait, sin tocar. Se valoran soportes alternativos (exterior, TV a la carta).
+- **Reserva**: 15.700 € reservados para pushes en Marruecos, Argelia, Qatar, Egipto y Kuwait. **12/11/2026**: se sacan 5.500 € de Qatar y Kuwait para el push de patologías (3.500 €) y para Madrid (2.000 €); la reserva queda en **10,2k** (Marruecos 2k, Argelia 2k, Qatar 2,05k, Egipto 2,1k, Kuwait 2,05k). Total pendiente de activar: 25,2k ([hilo](https://basecamp.com/1771388/projects/17192035/todos/521039257)). Se valoran soportes alternativos (exterior, TV a la carta).
 - **Angola**: 6.490 € a la espera de creatividades en portugués. Acordado (12/06): anuncios y copys en portugués, la web no se traduce (se redirige a la versión en inglés). En Angola opera un broker que hace campañas con la marca: como mínimo, protección de marca.
 - **Egipto**: segmentación por ciudad (Alejandría, El Cairo, Guiza); los barrios los tiene que confirmar el cliente. Cristian quiere bajar a barrios de alto poder adquisitivo (como en México); Islam, de su equipo, es egipcio y ayuda con la configuración ([[2026-04-30 - Informe y nuevo presupuesto - paises nuevos e Instituto]], [[2026-06-12 - Status RR - lanzamiento Madrid y reestructura Search]]).
 - **Qatar**: hay landings propias desde 2023. Colaboración mensual con un hospital de Qatar (no aparece en la web).
 - **Andorra**: campaña en 2025.
+- **Status 12/11/2026**: la apertura de términos de marca no ha funcionado mucho; ≈ 3.000 € en awareness, 82 usuarios vieron el vídeo y luego buscaron la marca. Argelia funciona muy bien; Marruecos: visitas presentadas −7,6 %, pero facturación alta. Datos del canal digital de Cristian (transcripción confusa): Mauritania ≈ 31 leads frente a 27, Angola ≈ 30 frente a 24. Ari plantea awareness genérico por patología ([[2026-11-12 - Status RR - remanente, Madrid y contenidos]]).
 - **Abierto**: pausar o no las campañas de reserva en países nuevos.
 
 ## Mercado - Dubái

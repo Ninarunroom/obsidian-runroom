@@ -18,7 +18,7 @@ actualizado: 2026-11-05
 - **Mohamed Akram Hanini**: Barraquer Eye Hospital UAE (Dubái), HubSpot propio. makram@barraquer.ae. Prefiere emails breves. Ver [[Mercados y canales - Barraquer#Mercado - Dubái|Mercado - Dubái]].
 - **Jordi**: datos; sube las exportaciones de HubSpot a Power BI y actualiza el ROI.
 - **Islam**: persona del equipo de Barraquer originaria de Egipto; ayuda con la segmentación de Egipto.
-- **Lorena** (equipo de Cristian, contenidos) y **Alex** (audiovisuales): aparecen en la KB web.
+- **Lorena** (equipo de Cristian: calendario de contenidos, copies, comunidad, reseñas de Google) y **Alex** (audiovisuales): aparecen en la KB web. **Lorena deja Barraquer** (status 12/11/2026); nadie de su equipo puede asumir sus tareas y Ari lo comenta con César por si hay perfiles externos.
 
 ## Runroom
 | Persona | Rol en la cuenta | Desde / hasta |

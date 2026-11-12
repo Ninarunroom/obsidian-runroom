@@ -65,3 +65,6 @@ Soy Nina, KAM en Runroom. Quiero montar para **[CLIENTE]** el mismo sistema que 
 **6. Cierre.** Comprueba que no hay enlaces rotos, añade una entrada al Log y dime en pocas líneas qué has montado, qué falta (con quién) y las preguntas abiertas.
 
 Escríbeme en castellano, con frases cortas y paso a paso.
+
+## Tablero de tareas (formato estándar)
+El Pendientes de cada cliente tiene cuatro secciones, que el panel de Tareas dibuja como un tablero tipo Kanbanize: **🟦 Pendiente Runroom** (nuestro, en marcha) · **🟧 Pendiente cliente** · **📥 Backlog** (nuestro, sin empezar) · **✅ Done**. Cada tarea es un título y, debajo, todo su contexto, que se despliega. Referencia: Spradling (`Claude/Datos/Pendientes - Spradling.md` y `4. Seguimiento/Tareas - Spradling.md`).

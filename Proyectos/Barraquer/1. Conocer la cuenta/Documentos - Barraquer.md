@@ -30,6 +30,8 @@ actualizado: 2026-11-05
 | Documento | Para qué | Enlace |
 |---|---|---|
 | **Looker Studio Paid Media** | Informe dinámico, filtrable por fechas | [Looker](https://lookerstudio.google.com/reporting/37e97cb9-5ad2-4936-b315-ab7d1924b377) |
+| Informe octubre 2026 + RAW data | Informe de la reunión del 12/11 | [Informe](https://drive.google.com/file/d/1HNd-2i6zxCohChaVS-xHXiE9Wig7SdlG/view) · [RAW data](https://drive.google.com/file/d/1FgZs93yO5pGSdmkJnlh41i6NVDdb0yZO/view) |
+| Análisis inversión captación España 2025 vs 2026 | Clínica España (Cataluña + nacional + Madrid), captación vs awareness por mes; nov-dic 2026 son previsión | [Sheet](https://docs.google.com/spreadsheets/d/1tmLMy_j9jKTb3aXfbS3B8K7RayZNCWuyG7KmOt1J5rQ/edit) |
 | Informes mensuales (PDF) | Uno por mes, adjunto al to-do "2026 - Informe <Mes>" de la lista *Informes 2026* | [Lista en Basecamp](https://basecamp.com/1771388/projects/17192035/todolists/72105340) |
 | Base de leads de HubSpot (export mensual) | Leads de paid que se usan en el informe | Enlazada en cada informe (por ejemplo, [enero 2026](https://docs.google.com/spreadsheets/d/1N8r7yd5wKZc0m_myd9qNvgqiDxVCNmdWEyNiQ-YUpnE/edit)) |
 | ROI del cliente | Excel que envía Cristian (ventas / ROI por año) | Último: [ROI enero-octubre 2025](https://basecamp.com/1771388/projects/17192035/messages/111677769). 2026: pendiente |

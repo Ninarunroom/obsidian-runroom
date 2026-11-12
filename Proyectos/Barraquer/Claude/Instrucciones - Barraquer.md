@@ -5,6 +5,9 @@ Esto es lo que debo tener en cuenta (en chat o en la tarea programada diaria) an
 ## Tono y estilo con el cliente
 - El contacto principal, Cristian García Bufí, puede ser exigente en temas de precio y condiciones comerciales, y valora mucho la proactividad y la visión transversal (ha habido quejas por falta de ella en el servicio web). Pide soluciones, no preguntas, y cifras orientativas.
 - Prefiere comunicación directa y resolutiva, por Basecamp (WhatsApp solo para avisar si urge). Escribe en castellano o catalán. En Dubái, Mohamed Akram Hanini prefiere emails breves a llamadas para dudas puntuales.
+- **Nina habla con Cristian en catalán**: todo lo que vaya al cliente (mensajes de Basecamp con el acta y los next steps, correos) se escribe **en catalán**. Las actas y las notas internas del KB siguen en castellano.
+- **Formato del mensaje de Basecamp tras una reunión** (modelo de Nina, 12/11/2026): corto y en catalán. "Hola Cristian," · "T'adjunto l'informe … i les notes de la reunió: <enlace a las notas de Gemini>" · **Resum** con 4-6 viñetas en negrita por tema (qué se ha decidido y qué hacemos nosotros o él, sin fechas) · "Gràcies," y "Nina". **Sin tabla de next steps ni fechas propuestas**: las fechas van solo en Pendientes y Kanbanize.
+- **En Basecamp publica siempre Nina.** Claude deja el mensaje escrito en `3. Reuniones/Para Basecamp/` y nunca lo publica.
 
 ## Cosas que nunca debo hacer o decir
 - No comprometerse ante el cliente sobre cambios de precio, modelo de fee o condiciones del servicio web o de mantenimiento sin validarlo antes internamente (negociación sensible abierta desde finales de 2025).

@@ -72,6 +72,9 @@ Las notas de Gemini de cada reunión se guardan solas en el Drive de Nina ("Meet
   - lo **nuestro vencido o que vence en ≤2 días laborables**;
   - los **mensajes de Natalia o Dèlia sin contestar después de 48 h laborables** (en los dos Basecamp);
   - el **remanente o los cambios de presupuesto pedidos** que aún no estén reflejados en el Sheet.
+- **Columnas (formato Kanbanize)**, en este orden de secciones: `## 🟦 Runroom` (Pendiente Runroom: nuestro, en marcha) · `## 🟧 Cliente (esperando a Spradling)` (Pendiente cliente) · `## 📥 Backlog` (nuestro, sin empezar) · `## ✅ Done` (cerradas). El panel de Tareas las dibuja como un tablero: título y, en desplegable, el contexto.
+- Cada tarea: una línea `- [ ] **[Tipo]** Spradling — título` y debajo, con sangría, todo el contexto (Entrega/Esperando desde, Info, Fuente, Kanbanize…).
+- Al cerrar una tarea (`[x]` o `[-]`), se mueve a `## ✅ Done` con una línea "- **Cerrada DD/MM:** motivo".
 - **🟦 Runroom**: campos Entrega, Responsable, Info, Fuente.
 - **🟧 Cliente**: campos Esperando desde, Info, Fuente.
 - **Qué entra** (nada de paja): solo tareas concretas, con dueño y una fuente que se pueda abrir. No entran "confirmar si…" genéricos, próximos pasos "de grupo" sin fecha ni responsable, cards automáticas que nadie ha pedido, ni cosas que dependen de otro equipo del cliente y no nos tocan (p. ej. el GTM, que es de Colombia).

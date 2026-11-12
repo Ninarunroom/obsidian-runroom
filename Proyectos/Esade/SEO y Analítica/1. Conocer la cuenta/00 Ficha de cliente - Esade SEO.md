@@ -48,10 +48,10 @@ Estrategia del curso: [[2026-09-18 - Estrategia SEO 26-27]] (bloques A visibilid
 
 ## Horas y fee (curso 26/27)
 - **50 h/mes** (~45 de la agencia SEO + ~5 de Nina). Las horas se acumulan o se adelantan según necesidad, idealmente con un **±20 %** de variación mensual como máximo. Pedidos revisados cada 4 meses.
-- **75,6 €/h** (a partir de enero, por confirmar) → unos 3.780 €/mes.
+- **75,6 €/h** → 3.780 €/mes. **Se factura por cuatrimestres** (15.120 € cada uno); la del 1.er cuatrimestre (sep–dic) ya está emitida. Desde enero el precio está por confirmar (posible subida por IPC). Las horas se revisan cada mes para ver si hace falta subir o bajar.
 - Paprika: **ESA010246**.
 - Cierre de mes: la agencia vuelca sus horas en la Bolsa de horas; Nina las pasa, junto con las suyas de Paprika, al Seguimiento del fee (pestaña Curso 26/27) y controla el remanente. Panel: [[Horas - Esade SEO]].
-- A cierre de septiembre había un remanente de **37,92 h**. Sergi avisa de que van "a full" (02/11) y está pendiente de las horas.
+- Del curso 25/26 pasaron **16,25 h**. En septiembre se hicieron 29 de 50, así que a cierre de septiembre el remanente era de **37,25 h**. Sergi avisa de que van "a full" (02/11) y está pendiente de las horas.
 
 ## Reglas clave
 Resumen de [[Acuerdos - Esade SEO]].

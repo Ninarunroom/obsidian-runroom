@@ -88,3 +88,27 @@ Presupuestos (semanal) y Facturación (mensual) las crea la tarea "Kanbanize - C
 
 ## [2026-11-12] automatización | Cards de informe y preparación de reuniones
 Kanbanize (lunes 8:47): informe mensual de Barraquer la semana antes de la "Status barraquer / RR" (Ready, Fixed-date, fecha = día de la reunión); trimestral de Spradling el lunes de la semana del 15 de mar/jun/sep/dic (Backlog, sin fecha, recordatorio para fijar fecha con el cliente); mensual de Hispano Suiza al inicio de mes (Ready, sin fecha). Nueva tarea "Preparación de reuniones de cliente (día antes)" (L-V 16:13): nota en Reuniones/Preparación/ + notificación.
+
+## [2026-11-12] actas | Status RR 12/11 (remanente, Madrid y contenidos)
+Acta [[2026-11-12 - Status RR - remanente, Madrid y contenidos]] y transcripción en Raw. Notas de Gemini movidas a 00. Actas reunión. Ingest en Cronología, Propuestas y decisiones, Mercados y canales (Madrid, internacional, Estética), Personas (salida de Lorena) y Documentos (informe de octubre y análisis 2025 vs 2026). Pendientes: 5 tareas nuevas de Runroom y 1 del cliente; cerrada `[x]` "Responder a la propuesta de push de patologías" (aprobado por Cristian en el status); actualizaciones en saldo (Clínica sin saldo), reserva de países nuevos, ROI y creatividades. Mensaje para Basecamp en catalán en 3. Reuniones/Para Basecamp/.
+
+## [2026-11-12] ajustes | Idioma con el cliente
+Nina habla con Cristian en catalán: los mensajes al cliente (Basecamp, correos) van en catalán; las actas y el KB, en castellano. Añadido en Tono y estilo.
+
+## [2026-11-12] ajustes | Mensaje de Basecamp y remanente
+Nina reescribe el mensaje del status del 12/11 con su formato (corto, enlace a las notas, Resum sin tabla ni fechas): guardado como modelo en Instrucciones. El remanente va a reforzar Madrid (no España y Madrid): corregido en acta, Pendientes, Propuestas y Cronología.
+
+## [2026-11-12] ajustes | Creatividades
+Nina aclara que con las creatividades se acordó darles una vuelta de cara al próximo curso (no una revisión de Cristian de la propuesta de Estética). Corregido en acta, Pendientes, Mercados y canales y Propuestas; nueva tarea de Ari; viñeta añadida al mensaje de Basecamp.
+
+## [2026-11-12] ajustes | Mensaje final y Estrategia 27/28
+Mensaje de Basecamp con la versión final de Nina. Contenidos y creatividades se juntan en una sola tarea "Estrategia 27/28"; la de contenidos se cierra `[-]` por integrada.
+
+## [2026-11-12] kanbanize | 3 cards del status del 12/11
+61761 Activar push patologías y repartir el remanente (Madrid), 19/11 · 61762 Propuesta radio / audio programático Madrid, 26/11 · 61763 Estrategia 27/28, sin fecha. Backlog → Barraquer, hijas de 51536, Paprika BAR020061, sin responsable. Enlaces en Pendientes. Regla nueva en Instrucciones: Basecamp lo publica siempre Nina.
+
+## [2026-11-12] ingest | Hilo de patologías (Basecamp)
+Ari aplica el 12/11 el push de patologías (+3,5k), +2k a Madrid y pasa los 2,15k bloqueados de Estética a Search; pendiente de activar 25,2k (reserva 10,2k). Cerrada `[x]` la tarea "Activar el push de patologías…". Tareas nuevas: propuesta de campañas genéricas en mercados nuevos (Ari) y agendar reunión de presupuesto 2027. Actualizados Mercados y canales y Propuestas.
+
+## [2026-11-12] kanbanize | Card de mercados nuevos
+Creada 61768 «Barraquer - Propuesta campañas genéricas en mercados nuevos» (Propuestas, 20/11, Backlog → Barraquer, hija de 51536, Paprika BAR020061). La 61761 la descarta Nina (lo recoge otra card). La reunión de presupuesto 2027 queda solo en el KB, sin card. El mensaje de Basecamp del 12/11 no se envía.

@@ -18,6 +18,7 @@ Status del día y tareas pendientes, separadas por **quién tiene la pelota**. S
     - **Entrega:** sin fecha definida
     - **Responsable:** Ari / Nina (debate interno)
     - **Info:** Quedó "pendiente de más debate interno" el 08/10. Está ligado a la propuesta de push de Ari del 16/10 (15,7k en reserva).
+    - **Actualización 12/11:** la apertura de términos de marca no ha funcionado mucho. Ari plantea abrir awareness genérico por patología en estos mercados (sin propuesta formal). El remanente general se dedica a Madrid ([[2026-11-12 - Status RR - remanente, Madrid y contenidos]]).
     - Fuente: [Status RR 08/10](https://docs.google.com/document/d/1hYqOpvq5nueiVLzWRTM-B0U3HeTQUrOiF4H6aK46-Io/edit) · acta: [[2026-10-08 - Status RR - optimizacion octubre]] — detectado 08/10/2026
 - [ ] **[Incidencia]** Barraquer — Aclarar el origen del acceso no autorizado a Google Ads (asociado a Dubái) y decidir si se revoca el acceso externo
     - **Entrega:** sin fecha definida
@@ -40,22 +41,72 @@ Status del día y tareas pendientes, separadas por **quién tiene la pelota**. S
     - **Info:** Es normativa europea. Hay que marcar también las que no usan IA.
     - Fuente: [Uso de imágenes con IA en Google Ads](https://basecamp.com/1771388/projects/17192035/todos/518925595) — detectado 05/11/2026
 
+- [x] **[Tarea]** Barraquer — Activar el push de patologías y pasar a Cristian los números redondos del remanente (reparto para reforzar Madrid)
+    - **Kanbanize:** https://runroom.kanbanize.com/ctrl_board/21/cards/61761/details/ (descartada por Nina: el trabajo se recoge en otra card)
+    - **Entrega:** 19/11/2026 (propuesta)
+    - **Responsable:** Ari
+    - **Info:** Cristian aprobó el push ("tira") el 12/11. Quedan ≈ 32,8k; Cristian calcula ≈ 27k libres. Se usarán para reforzar Madrid (Nina, 12/11), sin gastar por gastar.
+    - Fuente: [Status RR 12/11](https://docs.google.com/document/d/1KwOa2-ND1Jp3jMdOULItwlId1BO8vZPsvtlEL-pKoRM/edit) · acta: [[2026-11-12 - Status RR - remanente, Madrid y contenidos]] — detectado 12/11/2026
+    - **Actualización 12/11:** hecho por Ari ([hilo](https://basecamp.com/1771388/projects/17192035/todos/521039257), 12/11 15:22 y 16:01). Patologías: +3.500 € (7 campañas × 500 €: Meta Catalunya blefaroplastia, cataratas y presbicia; Search marca España blefaroplastia; genérica Catalunya cataratas, presbicia y refractiva), sacados de la reserva de Qatar y Kuwait. Madrid: +2.000 € a captación (Search marca y genérica Madrid, 1.000 € cada una), también de Qatar y Kuwait. Estética: los 2.154,80 € bloqueados de Meta y PMax pasan a Search genérica Catalunya (tratamientos y general). Pendiente de activar: de 32,8k a **25,2k** (reserva 10,2k: Marruecos 2k, Argelia 2k, Qatar 2,05k, Egipto 2,1k, Kuwait 2,05k; otras partidas 15k: DV360 España 4,7k, patologías Magreb 3,8k, Angola 6,5k). También avisa de que hay que añadir fondos a la cuenta.
+- [ ] **[Propuesta]** Barraquer — Propuesta de radio / audio programático para Madrid (one shot, 2.ª-3.ª semana de diciembre)
+    - **Kanbanize:** https://runroom.kanbanize.com/ctrl_board/21/cards/61762/details/
+    - **Entrega:** 26/11/2026 (propuesta)
+    - **Responsable:** Nina y Ari
+    - **Info:** Con el remanente. Incluir presupuesto, inversión mínima y la creatividad necesaria (falca). Antecedentes: Wiimas, mínimo 3.000 €/mes (21/07); catálogo de medios tradicionales del 85 aniversario (12/02); [Barraquer x DV360: New Formats](https://docs.google.com/presentation/d/1MGpd33Ajr4dvMOVVotcZCC2q_5EStZJnTPyOoXZMd2c/edit) (audio, CTV, DOOH).
+    - Fuente: [Status RR 12/11](https://docs.google.com/document/d/1KwOa2-ND1Jp3jMdOULItwlId1BO8vZPsvtlEL-pKoRM/edit) · acta: [[2026-11-12 - Status RR - remanente, Madrid y contenidos]] — detectado 12/11/2026
+- [-] **[Propuesta]** Barraquer — Propuesta de contenidos y creatividades: 2-3 posts promocionados al mes (≈ 500 €/mes), calendario de patologías y vídeos cortos
+    - **Entrega:** sin fecha definida (propuesta: 27/11/2026)
+    - **Responsable:** Ari
+    - **Info:** Cristian no puede llevar la estrategia de contenidos tras la salida de Lorena. Ari recupera lo ya hablado sobre creatividades.
+    - **Actualización 12/11:** integrada en la tarea "Estrategia 27/28" (Nina).
+    - Fuente: [Status RR 12/11](https://docs.google.com/document/d/1KwOa2-ND1Jp3jMdOULItwlId1BO8vZPsvtlEL-pKoRM/edit) · acta: [[2026-11-12 - Status RR - remanente, Madrid y contenidos]] — detectado 12/11/2026
+- [ ] **[Propuesta]** Barraquer — Estrategia 27/28: replantear las creatividades (recuperar la propuesta de adaptaciones que se quedó parada; menos estáticas, piezas audiovisuales cortas; Estética incluida) y propuesta de contenidos (2-3 posts promocionados al mes, calendario de patologías)
+    - **Kanbanize:** https://runroom.kanbanize.com/ctrl_board/21/cards/61763/details/
+    - **Entrega:** sin fecha definida
+    - **Responsable:** Ari
+    - **Info:** La propuesta creativa se había quedado parada. Ari recupera lo hablado y hace propuesta.
+    - Fuente: [Status RR 12/11](https://docs.google.com/document/d/1KwOa2-ND1Jp3jMdOULItwlId1BO8vZPsvtlEL-pKoRM/edit) · acta: [[2026-11-12 - Status RR - remanente, Madrid y contenidos]] — detectado 12/11/2026
+- [ ] **[Tarea]** Barraquer — Comentar con César si conocemos perfiles o agencias externas para cubrir el rol de Lorena (redes, calendario de contenidos, reseñas de Google)
+    - **Entrega:** sin fecha definida
+    - **Responsable:** Ari
+    - Fuente: [Status RR 12/11](https://docs.google.com/document/d/1KwOa2-ND1Jp3jMdOULItwlId1BO8vZPsvtlEL-pKoRM/edit) · acta: [[2026-11-12 - Status RR - remanente, Madrid y contenidos]] — detectado 12/11/2026
+- [ ] **[Tarea]** Barraquer — Reenviar a Cristian las notas de Gemini y la presentación de cada reunión (no le llegan)
+    - **Entrega:** 13/11/2026
+    - **Responsable:** Nina
+    - **Info:** A partir de ahora, después de cada reunión.
+    - Fuente: [Status RR 12/11](https://docs.google.com/document/d/1KwOa2-ND1Jp3jMdOULItwlId1BO8vZPsvtlEL-pKoRM/edit) · acta: [[2026-11-12 - Status RR - remanente, Madrid y contenidos]] — detectado 12/11/2026
+
+- [ ] **[Propuesta]** Barraquer — Propuesta de lanzamiento de campañas genéricas en mercados nuevos
+    - **Kanbanize:** https://runroom.kanbanize.com/ctrl_board/21/cards/61768/details/
+    - **Entrega:** semana del 16/11/2026 (Ari: "la setmana vinent")
+    - **Responsable:** Ari
+    - **Info:** Awareness/captación genérica por patología en los países nuevos (la marca aún no tiene penetración). Con la reserva que queda (10,2k).
+    - Fuente: [Refuerzo patologías & push final año 2026](https://basecamp.com/1771388/projects/17192035/todos/521039257) · acta: [[2026-11-12 - Status RR - remanente, Madrid y contenidos]] — detectado 12/11/2026
+- [ ] **[Tarea]** Barraquer — Agendar reunión con Cristian para el presupuesto 2027
+    - **Entrega:** sin fecha definida
+    - **Responsable:** Nina / Ari
+    - **Info:** Ari lo deja como pendiente en el hilo de patologías (12/11).
+    - Fuente: [Refuerzo patologías & push final año 2026](https://basecamp.com/1771388/projects/17192035/todos/521039257) — detectado 12/11/2026
+
 ## 🟧 Cliente (esperando a Cristian)
 
 - [ ] **[Petición cliente]** Barraquer — Recargar el saldo de Google Ads (cuenta general: Clínica + Estética)
     - **Esperando desde:** 26/10/2026
     - **Info:** Ari avisó el 26/10 de que se había consumido el saldo. Antes ya se había pedido el 30/09 y el 05/10 ("quedan 570 €"). Una sola recarga en la cuenta general cubre Clínica y Estética (confirmado por Cristian a Nina).
     - **Actualización 05/11:** hay 7.736,68 € disponibles (dato de Nina). Parece recargado: márcala si lo confirmas.
+    - **Actualización 12/11:** Ari avisa en el status de que **no queda saldo en Clínica**. Cristian tiene que recargar ([[2026-11-12 - Status RR - remanente, Madrid y contenidos]]).
     - Fuente: [Saldo Google Ads](https://basecamp.com/1771388/projects/17192035/todos/503485531) · [Status 30/9](https://basecamp.com/1771388/projects/17192035/todos/520642038) — detectado 30/09/2026
 - [ ] **[Petición cliente]** Barraquer — Feedback sobre la revisión de conversiones de Google Ads de septiembre (categorización y si se añade a sus informes)
     - **Esperando desde:** 21/09/2026
     - Fuente: [Transversal - Revisión conversiones Google Ads (sept 26)](https://basecamp.com/1771388/projects/17192035/todos/520415512) — detectado 21/09/2026
-- [ ] **[Petición cliente]** Barraquer — Responder a la propuesta de push en campañas de patologías (500 € por campaña hasta mediados de noviembre)
+- [x] **[Petición cliente]** Barraquer — Responder a la propuesta de push en campañas de patologías (500 € por campaña hasta mediados de noviembre)
     - **Esperando desde:** 16/10/2026
     - **Info:** Blefaroplastia, cataratas, presbicia y refractiva. Las de Google están limitadas por presupuesto; las de Meta tienen margen. Hay 30,6k sin activar.
+    - **Actualización 12/11:** aprobado por Cristian en el status ([[2026-11-12 - Status RR - remanente, Madrid y contenidos]]). Lo activa Ari.
     - Fuente: [Refuerzo patologías](https://basecamp.com/1771388/projects/17192035/todos/521039257) — detectado 05/11/2026
 - [ ] **[Petición cliente]** Barraquer — Enviar el archivo de ROI 2026 y revisar el Excel de inversión acumulada 2025-2026 revisado por Runroom (en su SharePoint)
     - **Esperando desde:** 29/10/2026
+    - **Actualización 12/11:** Ari recuerda en el status que el documento de inversión revisado (hasta octubre) está en su SharePoint y en Basecamp. Cristian: "vale". Sigue faltando el ROI 2026.
     - Fuente: [2026 - ROI](https://basecamp.com/1771388/projects/17192035/todos/521320422) — detectado 05/11/2026
 - [ ] **[Petición cliente]** Barraquer — Revisar las conversiones de llamadas telefónicas (secundarias desde el 08/10) y decidir si se usan para optimizar
     - **Esperando desde:** 17/10/2026
@@ -73,6 +124,7 @@ Status del día y tareas pendientes, separadas por **quién tiene la pelota**. S
     - Fuente: [Patologías para campañas](https://basecamp.com/1771388/projects/17192035/todos/504659977) — detectado 05/11/2026
 - [ ] **[Petición cliente]** Barraquer — Creatividades pendientes para activar presupuesto: portugués para Angola (6.490 €), masters de display DV360 España (4.720 €), Meta y PMax genéricas de Estética Catalunya
     - **Esperando desde:** 12/03/2026
+    - **Actualización 12/11:** se acuerda dar una vuelta a las creatividades de cara al próximo curso (Estética incluida); ver la tarea de Runroom. En Estética quedan 2k pendientes (PMax) y el pacing va un 35 % por debajo del año pasado.
     - Fuente: [Status 30/9](https://basecamp.com/1771388/projects/17192035/todos/520642038) · [2026 - Informe Febrero](https://basecamp.com/1771388/projects/17192035/todos/515876804) — detectado 05/11/2026
 - [ ] **[Petición cliente]** Barraquer — Nuevas landings de tratamientos de Estética y versiones en catalán
     - **Esperando desde:** 12/03/2026
@@ -82,6 +134,11 @@ Status del día y tareas pendientes, separadas por **quién tiene la pelota**. S
     - **Info:** Sin respuesta en Basecamp. En junio se dejó TikTok a cero hasta septiembre.
     - **Actualización 05/11:** TikTok descartado para 2026 (confirmado por Nina). Ya no hace falta recargar.
     - Fuente: [Saldo TikTok](https://basecamp.com/1771388/projects/17192035/todos/516000108) — detectado 05/11/2026
+
+- [ ] **[Petición cliente]** Barraquer — Pasar los vídeos cortos (≈ 30 s) de los doctores de Madrid para campañas de consideración
+    - **Esperando desde:** 12/11/2026
+    - **Info:** Tendrá más vídeos en noviembre.
+    - Fuente: [Status RR 12/11](https://docs.google.com/document/d/1KwOa2-ND1Jp3jMdOULItwlId1BO8vZPsvtlEL-pKoRM/edit) · acta: [[2026-11-12 - Status RR - remanente, Madrid y contenidos]] — detectado 12/11/2026
 
 ## Hechos y por confirmar (no borrar, sirven de histórico)
 - [x] Confirmar con Cristian si las campañas de Instituto siguen activas o se paran (la fecha fin de promo era el 20/09 y Nina preguntó si seguían "hasta nuevo aviso", sin respuesta). — [Campañas Instituto](https://basecamp.com/1771388/projects/17192035/messages/112502045) — detectado 18/09/2026

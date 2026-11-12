@@ -99,7 +99,7 @@ const linkDe = (t) => { const a = txtAll(t); const m = a.match(/\((https:\/\/bas
 const linksDe = (t) => { const c = (t.children ?? []).find((c) => /^Fuente:/.test(String(c.text).trim())); const src = c ? String(c.text) : String(t.text); return [...src.matchAll(/\[([^\]]+)\]\((https?:\/\/[^)\s]+)\)/g)].map((m) => ({ label: m[1], url: m[2] })); };
 const icono = (u) => u.includes('mail.google') ? '📧' : u.includes('basecamp.com') ? '🏕️' : u.includes('docs.google.com/spreadsheets') ? '📊' : u.includes('drive.google') || u.includes('docs.google') ? '📄' : '🔗';
 const etiqueta = (l) => { const x = l.label.replace(/^📧\s*/, '').replace(/^Basecamp:\s*/, ''); return `${icono(l.url)} ${x.length > 60 ? x.slice(0, 58) + '…' : x}`; };
-const limpia = (s) => String(s).replace(/\*\*\[[^\]]*\]\*\*\s*Esade\s*—\s*/, '').replace(/\[(pelota|motivo|nuevo|basecamp|fuente)::[^\]]*\]/g, '').replace(/\s*—\s*\[.*$/, '').trim();
+const limpia = (s) => String(s).replace(/\*\*\[[^\]]*\]\*\*\s*Esade\s*—\s*/, '').replace(/\[(pelota|motivo|nuevo|basecamp|fuente|plan|inicio|fin|kanbanize)::[^\]]*\]/g, '').replace(/\s*—\s*\[.*$/, '').trim();
 
 // Status del día (sección "## Status" de Pendientes)
 if (pen) {
@@ -135,50 +135,73 @@ const kst = el('style', null, `.rr-panel .kb { display: grid; grid-template-colu
 .rr-panel .klinks { display: flex; flex-direction: column; gap: 2px; font-size: var(--font-ui-smaller); }
 .rr-panel .klinks a { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 .rr-panel .khecho { margin-top: 12px; }
+.rr-panel .klane { border-left: 4px solid var(--lc); padding-left: 10px; margin-top: 14px; }
+.rr-panel .klanehead { display: flex; justify-content: space-between; align-items: baseline; font-weight: 700; color: var(--lc); margin-bottom: 8px; }
+.rr-panel .kbl { font-weight: 600; }
+.rr-panel details.kmore > summary { cursor: pointer; font-size: var(--font-ui-smaller); color: var(--text-accent, hsl(210,70%,52%)); }
+.rr-panel details.kmore ul { margin: 6px 0 2px; padding-left: 16px; font-size: var(--font-ui-smaller); line-height: 1.45; }
+.rr-panel details.kmore li { margin-bottom: 4px; }
+.rr-panel .kplan { font-size: var(--font-ui-smaller); color: var(--text-muted); font-weight: 600; }
 .rr-panel .khecho .kgrid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 8px; }`, root);
+const campoDe = (t, k) => { const c = (t.children ?? []).find((c) => new RegExp('^\\*\\*' + k + ':\\*\\*').test(String(c.text).trim())); return c ? String(c.text).replace(new RegExp('^\\s*\\*\\*' + k + ':\\*\\*\\s*'), '').trim() : null; };
+const LINEAS = ['SEO técnico', 'Analítica', 'Gestión'];
+const lineaDe = (t, resp) => { const l = campoDe(t, 'Línea'); if (l) return LINEAS.find((x) => x.toLowerCase() === l.toLowerCase()) ?? l; return /Marta/.test(resp ?? '') ? 'Analítica' : /Nina/.test(resp ?? '') ? 'Gestión' : 'SEO técnico'; };
+const kanbanDe = (t) => { const v = campoDe(t, 'Kanbanize'); if (!v) return null; const m = v.match(/\[([^\]]+)\]\((https?:\/\/[^)\s]+)\)/) ?? v.match(/(https?:\/\/\S+)/); return m ? { label: m[2] ? m[1] : 'Kanbanize', url: m[2] ?? m[1] } : null; };
+const detalleDe = (t) => (t.children ?? []).map((c) => String(c.text).trim()).filter((x) => !/^(\*\*(Línea|Responsable|Kanbanize):\*\*|Fuente:)/.test(x));
+const mdHtml = (x) => x.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/\*\*(.+?)\*\*/g, '<b>$1</b>').replace(/\[([^\]]+)\]\((https?:\/\/[^)\s]+)\)/g, '<a class="external-link" href="$2" target="_blank" rel="noopener">$1</a>').replace(/\[\[([^\]|]+)(?:\|([^\]]+))?\]\]/g, (m, a, b) => `<a class="internal-link" data-href="${a}" href="${a}">${b ?? a}</a>`);
 const respDe = (t) => { const c = (t.children ?? []).find((c) => /^\*\*Responsable:\*\*/.test(String(c.text).trim())); return c ? String(c.text).replace(/^\s*\*\*Responsable:\*\*\s*/, '').replace(/\s*\(.*\)\s*$/, '').trim() : null; };
 const urlsTareas = new Set(ts.flatMap((t) => txtAll(t).match(/https?:\/\/[^)\s\]]+/g) ?? []));
 const K = { cliente: [], curso: [], backlog: [], hecho: [] };
 for (const t of ts) {
   const sec = t.section?.subpath ?? ''; const quien = sec.includes('Cliente') ? 'cliente' : sec.includes('Runroom') ? 'runroom' : null; if (!quien) continue;
-  const f = fechaDe(t); const it = { origen: 'Tarea', txt: limpia(t.text), dias: f ? Math.round(hoy.diff(f, 'days').days) : null, links: linksDe(t), motivo: null, resp: respDe(t) };
+  const f = fechaDe(t); const it = { origen: 'Tarea', txt: limpia(t.text), dias: f ? Math.round(hoy.diff(f, 'days').days) : null, links: linksDe(t), motivo: null, resp: respDe(t), kb: kanbanDe(t), det: detalleDe(t) }; it.linea = lineaDe(t, it.resp);
   (quien === 'cliente' ? K.cliente : t.status === '/' ? K.curso : K.backlog).push(it);
 }
 const hechasPen = pen ? pen.file.tasks.where((t) => !t.parent && t.completed && /Runroom|Cliente/.test(t.section?.subpath ?? '')).array() : [];
-for (const t of hechasPen) K.hecho.push({ origen: 'Tarea', txt: limpia(t.text), dias: null, links: linksDe(t), motivo: null, resp: respDe(t) });
+for (const t of hechasPen) { const r = respDe(t); K.hecho.push({ origen: 'Tarea', txt: limpia(t.text), dias: null, links: linksDe(t), motivo: null, resp: r, kb: kanbanDe(t), linea: lineaDe(t, r), det: detalleDe(t) }); }
 for (const t of estTasks) {
   const k = tipo(t); if (k === 'descartado') continue;
   if (t.basecamp && urlsTareas.has(String(t.basecamp).trim()) && k !== 'hecho') continue;
   const pel = String(t.pelota ?? '').toLowerCase();
-  const it = { origen: k === 'duda' ? 'Sin confirmar' : 'Estrategia', txt: limpia(t.text), dias: null, links: [t.basecamp ? { label: 'Basecamp', url: String(t.basecamp) } : null, t.fuente ? { label: /drive\.google/.test(String(t.fuente)) ? (/17wPCCI/.test(String(t.fuente)) ? 'Backlog EMBA F0-F4' : 'Estrategia SEO 26/27') : 'Plan de acción EMBA', url: String(t.fuente) } : null].filter(Boolean), motivo: t.motivo ? String(t.motivo) : null, resp: null, sec: t.section?.subpath ?? '' };
+  const it = { origen: k === 'duda' ? 'Sin confirmar' : 'Estrategia', txt: limpia(t.text), dias: null, links: [t.basecamp ? { label: 'Basecamp', url: String(t.basecamp) } : null, t.fuente ? { label: /drive\.google/.test(String(t.fuente)) ? (/17wPCCI/.test(String(t.fuente)) ? 'Backlog EMBA F0-F4' : 'Estrategia SEO 26/27') : 'Plan de acción EMBA', url: String(t.fuente) } : null].filter(Boolean), motivo: t.motivo ? String(t.motivo) : null, resp: null, sec: t.section?.subpath ?? '', kb: t.kanbanize ? { label: 'Kanbanize', url: String(t.kanbanize) } : null, plan: t.plan ? String(t.plan) : null, ini: t.inicio ? fecha(String(t.inicio).slice(0, 7) + '-01') : null, fin: t.fin ? fecha(String(t.fin).slice(0, 7) + '-01')?.endOf('month') : null, est: k, linea: /^C\s·/.test(t.section?.subpath ?? '') ? 'Analítica' : 'SEO técnico' };
   if (k === 'hecho') K.hecho.push(it); else if (k === 'cliente' || (k === 'parcial' && pel === 'cliente')) K.cliente.push(it); else if (k === 'parcial') K.curso.push(it); else K.backlog.push(it);
 }
 const tarjeta = (i, cont, kc) => {
   const c = el('div', 'kcard' + (i.dias != null && i.dias > 30 ? ' old' : ''), null, cont); c.style.setProperty('--kc', kc);
   const tt = el('div', null, null, c); el('span', `tag ${i.origen === 'Tarea' ? 'bc' : 'est'}`, i.origen, tt); tt.append(' ' + i.txt);
+  if (i.det && i.det.length) { const dd = el('details', 'kmore', null, c); el('summary', null, 'Ver contexto', dd); const ul = el('ul', null, null, dd); for (const x of i.det) { const li = el('li', null, null, ul); li.innerHTML = mdHtml(x); } }
   if (i.motivo) el('div', 'muted sub', i.motivo, c);
+  if (i.plan) { const p = el('div', 'kplan', `📅 ${i.plan}`, c); const hecho = i.est === 'hecho'; if (!hecho && i.fin && hoy > i.fin) { p.style.color = ROJO; p.textContent += ' · fuera de plazo'; } else if (!hecho && i.est !== 'parcial' && i.ini && hoy >= i.ini) { p.style.color = NARANJA; p.textContent += ' · debería estar en marcha'; } }
   const meta = el('div', 'kmeta', null, c);
   if (i.resp) el('span', null, '👤 ' + i.resp, meta);
   if (i.dias != null) { const d = el('span', null, `⏱ ${i.dias} d`, meta); if (i.dias > 7) d.style.color = i.dias > 30 ? ROJO : NARANJA; }
   if (i.sec && i.origen !== 'Tarea') el('span', null, i.sec, meta);
+  if (i.kb) { const a = el('a', 'external-link kbl', `🗂️ ${i.kb.label}`, el('div', 'klinks', null, c)); a.href = i.kb.url; a.target = '_blank'; a.rel = 'noopener'; a.title = 'Card en Kanbanize (contexto completo)'; }
   if (i.links && i.links.length) { const lk = el('div', 'klinks', null, c); for (const l of i.links) { const a = el('a', 'external-link', etiqueta(l), lk); a.href = l.url; a.target = '_blank'; a.rel = 'noopener'; a.title = l.label; } } else el('div', 'kmeta', '⚠️ sin enlace de referencia', c);
 };
 const nViejas = K.cliente.filter((i) => (i.dias ?? 0) > 7).length;
 const card = el('div', 'card', null, root);
 cabecera(card, null, 'Estrategia + Basecamp, correo y actas', 'Tablero de tareas', `${K.cliente.length} esperando al cliente · ${K.curso.length} en curso · ${K.backlog.length} en backlog · ${K.hecho.length} hechas`, `${nViejas} del cliente con más de 7 días`, nViejas ? NARANJA : VERDE);
-const kb = el('div', 'kb', null, card);
 const COLS = [['backlog', '⬜ Backlog (sin empezar)', 'hsl(210, 12%, 58%)'], ['cliente', '🟧 Esperando al cliente', NARANJA], ['curso', '🟦 En curso (nosotros)', AZUL]];
-for (const [k, titulo, kc] of COLS) {
-  const col = el('div', 'kcol', null, kb); col.style.setProperty('--kc', kc);
-  const h = el('div', 'khead', null, col); el('span', null, titulo, h); el('span', 'muted', String(K[k].length), h);
-  const tareas = K[k].filter((i) => i.origen === 'Tarea').sort((a, b) => (b.dias ?? -1) - (a.dias ?? -1));
-  const est2 = K[k].filter((i) => i.origen !== 'Tarea');
-  for (const i of tareas) tarjeta(i, col, kc);
-  if (est2.length) {
-    if (k === 'cliente' || k === 'curso') { for (const i of est2) tarjeta(i, col, kc); }
-    else { const d = el('details', 'kdet', null, col); el('summary', null, `Estrategia 26/27 · ${est2.length}`, d); for (const i of est2) tarjeta(i, d, kc); }
+const LCOL = { 'SEO técnico': 'hsl(265, 45%, 55%)', 'Analítica': 'hsl(180, 55%, 38%)', 'Gestión': 'hsl(32, 20%, 50%)' };
+const LQUIEN = { 'SEO técnico': 'Fer', 'Analítica': 'Marta', 'Gestión': 'Nina' };
+const lineas = [...LINEAS, ...new Set([...K.backlog, ...K.cliente, ...K.curso].map((i) => i.linea).filter((l) => !LINEAS.includes(l)))];
+for (const lin of lineas) {
+  const enLin = (k) => K[k].filter((i) => i.linea === lin);
+  const tot = COLS.reduce((a, [k]) => a + enLin(k).length, 0); if (!tot) continue;
+  const lane = el('div', 'klane', null, card); lane.style.setProperty('--lc', LCOL[lin] ?? 'var(--text-muted)');
+  const lh = el('div', 'klanehead', null, lane); el('span', null, `${lin}${LQUIEN[lin] ? ' · ' + LQUIEN[lin] : ''}`, lh); el('span', 'muted', `${tot} pendientes`, lh);
+  const kb = el('div', 'kb', null, lane);
+  for (const [k, titulo, kc] of COLS) {
+    const lista = enLin(k);
+    const col = el('div', 'kcol', null, kb); col.style.setProperty('--kc', kc);
+    const h = el('div', 'khead', null, col); el('span', null, titulo, h); el('span', 'muted', String(lista.length), h);
+    const tareas = lista.filter((i) => i.origen === 'Tarea').sort((a, b) => (b.dias ?? -1) - (a.dias ?? -1));
+    const est2 = lista.filter((i) => i.origen !== 'Tarea').sort((a, b) => (a.ini ? a.ini.toMillis() : 9e15) - (b.ini ? b.ini.toMillis() : 9e15));
+    for (const i of tareas) tarjeta(i, col, kc);
+    if (est2.length) { if (k === 'backlog') { const d = el('details', 'kdet', null, col); el('summary', null, `Estrategia 26/27 · ${est2.length}`, d); for (const i of est2) tarjeta(i, d, kc); } else for (const i of est2) tarjeta(i, col, kc); }
+    if (!lista.length) el('div', 'muted', 'Nada por aquí', col);
   }
-  if (!K[k].length) el('div', 'muted', 'Nada por aquí', col);
 }
 { const dh = el('details', 'kdet khecho', null, card); el('summary', null, `✅ Hecho · ${K.hecho.length}`, dh); const gh = el('div', 'kgrid', null, dh); for (const i of K.hecho) tarjeta(i, gh, VERDE); }
 el('div', 'muted', 'En el Pendientes, las tareas nuestras van con [ ] si están en backlog y con [/] si están en curso. En la estrategia, [/] es en curso y [ ] es backlog. Lo del cliente va siempre a su columna.', card);

@@ -10,10 +10,14 @@ Todo lo que hemos propuesto o se ha decidido, **con su estado y el porqué**. Es
 ## Abiertas
 | Fecha | Propuesta | Estado | Notas |
 |---|---|---|---|
-| 16/10/2026 | Push de 500 € por campaña en patologías (blefaroplastia, cataratas, presbicia, refractiva) hasta mediados de noviembre, con parte de los 30,6k sin activar | 🟡 | Google limitada por presupuesto; Meta con margen. [Basecamp](https://basecamp.com/1771388/projects/17192035/todos/521039257) |
+| 12/11/2026 | Usar el remanente (≈ 32,8k; ≈ 27k libres) para reforzar Madrid | 🟢 | Aprobado en el status del 12/11 (destino confirmado por Nina); Cristian no quiere gastar por gastar. Primer paso el 12/11: +2.000 € a Search marca y genérica de Madrid; pendiente de activar 25,2k ([hilo](https://basecamp.com/1771388/projects/17192035/todos/521039257)) |
+| 12/11/2026 | Contenidos: 2-3 posts promocionados al mes (≈ 500 €/mes), calendario de patologías y vídeos cortos | 🟡 | Ari prepara la propuesta. Cristian no puede llevarlo tras la salida de Lorena |
+| 12/11/2026 | Replantear las creatividades de cara al próximo curso (menos estáticas, adaptaciones, piezas audiovisuales cortas; Estética incluida) | 🟡 | La propuesta creativa se había quedado parada. Ari hace propuesta |
+| 12/11/2026 | Awareness genérico por patología en países nuevos | 🟡 | Idea de Ari: la marca aún no tiene penetración. Sin propuesta formal |
+| 16/10/2026 | Push de 500 € por campaña en patologías (blefaroplastia, cataratas, presbicia, refractiva) hasta mediados de noviembre, con parte de los 30,6k sin activar | 🟢 | Aprobado por Cristian el 12/11 ([[2026-11-12 - Status RR - remanente, Madrid y contenidos]]) y aplicado ese día: +3.500 € en 7 campañas, desde la reserva de Qatar y Kuwait ([hilo](https://basecamp.com/1771388/projects/17192035/todos/521039257)). Google limitada por presupuesto; Meta con margen. [Basecamp](https://basecamp.com/1771388/projects/17192035/todos/521039257) |
 | 08/10/2026 | Propuesta de CPL y presupuestos por campaña | 🟡 | Siguiente paso de Cristian en el acta del 08/10 |
 | 08/10/2026 | Pausa de las campañas de reserva en países nuevos | ⏸️ | "Requiere más debate interno" |
-| 21/07/2026 | Radio / audio programático para Madrid (Wiimas, mínimo 3.000 €/mes), septiembre-octubre | 🟡 | Cristian iba a "revisarlo con calma". No consta respuesta |
+| 21/07/2026 | Radio / audio programático para Madrid (Wiimas, mínimo 3.000 €/mes), septiembre-octubre | 🟡 | Cristian iba a "revisarlo con calma". 12/11: Cristian lo recupera como one shot con el remanente; Nina y Ari harán propuesta para la 2.ª-3.ª semana de diciembre |
 | 07/07/2026 | Simplificar el formato del informe mensual | 🟢 | Aplicado desde el informe de junio de 2026 (con detalle en Looker Studio) |
 | 03/2026 | Catálogo de medios DV360 para el 85 aniversario | 🟡 | Se preguntó a Cristian el presupuesto; sin respuesta. [Basecamp](https://basecamp.com/1771388/projects/17192035/todos/515761321) |
 | 02/2026 | Tracking de llamadas | 🔴 → alternativa | Cristian no quiere números de teléfono distintos. Alternativa: CTA "Te llamamos" en el header (evolutivo web, publicado en septiembre de 2026) |

@@ -1,6 +1,6 @@
 # Facturación y fee — Esade SEO y Analítica
 
-Fee recurrente de SEO y analítica: 50 h/mes a 75,6 €/h (a partir de enero, por confirmar). Pedidos de compra de Esade revisados cada 4 meses.
+Fee recurrente de SEO y analítica: 50 h/mes a 75,6 €/h. **Se factura por cuatrimestres** (4 meses × 50 h = 200 h = 15.120 €). Las horas se revisan cada mes para ver si hace falta subir o bajar. Desde enero el precio/hora está por confirmar (posible subida por IPC).
 
 ```dataviewjs
 const _f = dv.current().file.folder; const base = _f.slice(0, _f.indexOf('SEO y Analítica') + 'SEO y Analítica'.length);
@@ -106,26 +106,24 @@ const fila = (tb, vals, cls) => { const tr = el('tr', cls, null, tb); return val
 const hoy = dv.date('today');
 const precio = Number(D.precio_hora) || 0, hv = (Array.from(D.horas_plan ?? []).map((x) => Array.from(x)).sort().pop() ?? [0, 0, 0]).slice(1).reduce((a, b) => a + Number(b), 0);
 const k = el('div', 'kpis', null, root); k.style.marginBottom = '16px';
-kpi(k, 'Cuota teórica', eur(hv * precio) + '/mes', `${hv} h × ${String(precio).replace('.', ',')} €/h`);
+kpi(k, 'Factura por cuatrimestre', eur(4 * hv * precio), `${4 * hv} h × ${String(precio).replace('.', ',')} €/h · ${eur(hv * precio)}/mes`);
 kpi(k, 'Precio/hora', `${String(precio).replace('.', ',')} €/h`, D.precio_hora_nota ? String(D.precio_hora_nota) : null);
 if (D.remanente_horas != null) kpi(k, 'Valor del remanente', eur(Number(D.remanente_horas) * precio), `${hh(Number(D.remanente_horas))} h a cierre de ${D.remanente_mes ?? '—'}`, NARANJA);
 const fs = dv.current().file.tasks.where((t) => t.mes != null).array();
 const card = el('div', 'card', null, root);
 const hechas = fs.filter((t) => t.completed), imp = (t) => Number(t.importe) || 0;
-cabecera(card, null, 'Pedidos y facturas del curso', `${hechas.length} de ${fs.length} facturas emitidas`, `Facturado: ${eur(hechas.reduce((a, t) => a + imp(t), 0))}`, D.facturacion_cuadra === true ? 'Cuadra' : D.facturacion_cuadra === false ? 'No cuadra' : 'Sin revisar', D.facturacion_cuadra === true ? VERDE : NARANJA);
+cabecera(card, null, 'Facturas del curso (cuatrimestrales)', `${hechas.length} de ${fs.length} facturas emitidas`, `Facturado: ${eur(hechas.reduce((a, t) => a + imp(t), 0))}`, D.facturacion_cuadra === true ? 'Cuadra' : D.facturacion_cuadra === false ? 'No cuadra' : 'Al día', D.facturacion_cuadra === false ? NARANJA : VERDE);
 if (D.facturacion_nota) el('div', 'note', String(D.facturacion_nota), card);
-const tb = tabla(card, ['Mes', 'OC / pedido', 'Importe', 'Estado']);
-for (const t of fs) { const d = fecha(t.mes); fila(tb, [d ? `${MC[d.month - 1]} ${String(d.year).slice(2)}` : String(t.mes), t.oc ? String(t.oc) : '—', t.importe != null ? eur(imp(t)) : '—', t.completed ? 'Emitida' : 'Pendiente']); }
-el('div', 'muted', 'Marca la casilla de la lista de abajo cuando la factura esté emitida.', card);
+const tb = tabla(card, ['Periodo', 'OC / pedido', 'Importe', 'Estado']);
+for (const t of fs) { const d = fecha(t.mes), h2 = fecha(t.hasta); fila(tb, [d ? `${MC[d.month - 1]}${h2 ? '–' + MC[h2.month - 1] : ''} ${String((h2 ?? d).year).slice(2)}` : String(t.mes), t.oc ? String(t.oc) : '—', t.importe != null ? eur(imp(t)) : '—', t.completed ? 'Emitida' : 'Pendiente']); }
+el('div', 'muted', 'Marca la casilla de la lista de abajo cuando la factura esté emitida. Las horas se controlan mes a mes en el panel de Horas.', card);
 
 ```
 
 ## Facturas 26/27
-Una línea por factura. Claude añade la línea cuando sepa el pedido (OC) y el importe; **Nina marca la casilla** cuando la factura está emitida.
-`- [ ] Factura de <mes> [mes:: AAAA-MM] [oc:: …] [importe:: €]`
+Una línea por cuatrimestre. **Nina marca la casilla** cuando la factura está emitida.
+`- [ ] Factura <n.º> cuatrimestre (<meses>) [mes:: AAAA-MM de inicio] [hasta:: AAAA-MM de fin] [importe:: €] [oc:: …]`
 
-- [ ] Factura de septiembre [mes:: 2026-09] [oc:: OC011814]
-- [ ] Factura de octubre [mes:: 2026-10] [oc:: OC012770]
-
-> [!warning] Por confirmar con Nina
-> Cómo se factura este fee (mensual fijo por 50 h o por horas consumidas) y qué pedido de Esade lo cubre. En la Bolsa de horas, septiembre va con OC011814 y octubre con OC012770 (Fer y Olga) pero también con OC012692 (Marta), que es la OC de Do Better. En la reunión del 30/10, "esade marketing" quedó en enviar a Nina un pedido pendiente.
+- [x] Factura 1.er cuatrimestre (sep–dic 2026) [mes:: 2026-09] [hasta:: 2026-12] [importe:: 15120]
+- [ ] Factura 2.º cuatrimestre (ene–abr 2027) [mes:: 2027-01] [hasta:: 2027-04] [notas:: precio/hora por confirmar (IPC)]
+- [ ] Factura 3.er cuatrimestre (may–ago 2027) [mes:: 2027-05] [hasta:: 2027-08]

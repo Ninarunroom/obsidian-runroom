@@ -12,7 +12,11 @@ Formato: **regla** · por qué · origen · estado.
 ## Fee y horas
 ### 50 h/mes, acumulables o adelantables con un máximo ideal de ±20 % al mes
 - **Por qué**: da flexibilidad para los picos (EMBA, auditorías) sin descontrolar la bolsa. Pedidos revisados cada 4 meses.
-- **Origen**: Seguimiento del fee, pestaña Curso 26/27 · [[Esade]] (contexto general) · **Estado**: vigente. El precio/hora (75,6 €) está por confirmar a partir de enero.
+- **Origen**: Seguimiento del fee, pestaña Curso 26/27 · [[Esade]] (contexto general) · **Estado**: vigente. El precio/hora (75,6 €) está por confirmar a partir de enero (posible subida por IPC).
+
+### Facturación cuatrimestral; control de horas mensual
+- **Qué**: se emite una factura cada 4 meses (sep–dic, ene–abr, may–ago) por 200 h (15.120 € a 75,6 €/h). Las horas se revisan cada mes para decidir si hace falta subir o bajar.
+- **Origen**: indicación de Nina (12/11/2026) · **Estado**: vigente. 1.er cuatrimestre facturado.
 
 ### El alcance es solo SEO técnico y analítica
 - **Por qué**: Do Better, Beyond y link building, Eulerian y Medición LLMs tienen sus propias OC. Mezclarlos falsea el remanente.

@@ -67,3 +67,6 @@ Kanbanize (lunes 8:47): informe mensual de Barraquer la semana antes de la "Stat
 
 ## [2026-11-12] kanbanize | Cards de tareas pendientes
 Creadas 61757 (error "falta la etiqueta", Implementación analítica), 61758 (CPA de Italia, Optimización de campañas) y 61759 (colección sostenible iSense, Lanzamiento de campaña), en Backlog → Spradling, hijas de 52124, Paprika SPR010023, sin responsable ni fecha. Reporting Google Ads + CRM: sin card, va en el informe Q4. PMax por categoría: pendiente de que Nina lo hable con Ari. Gestión (Dèlia/IA, doc web antigua): sin card.
+
+## [2026-11-12] ajustes | Tablero de tareas tipo Kanbanize
+Pendientes con 4 columnas (Pendiente Runroom, Pendiente cliente, Backlog, Done); el panel de Tareas las muestra como tablero con título y contexto desplegable. Al Backlog: colección sostenible, reporting (va en el informe Q4) y CPA de Italia.

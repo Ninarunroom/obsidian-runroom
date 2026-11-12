@@ -105,6 +105,63 @@ if (pen) {
   if (m) { const card = el('div', 'card', null, root); el('div', 'eyebrow', 'Status de hoy', card); const ul = el('ul', 'list', null, card); for (const l of m[1].split('\n').filter((l) => l.trim().startsWith('- '))) { const li = el('li', null, null, ul); li.innerHTML = l.trim().slice(2).replace(/\*\*(.+?)\*\*/g, '<b>$1</b>'); } }
 }
 
+// Tablero de tareas (mismo formato que Kanbanize)
+el('style', null, `
+.rr-panel .kboard { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 12px; margin-bottom: 16px; }
+.rr-panel .kcol { background: var(--background-secondary); border: 1px solid var(--background-modifier-border); border-radius: 10px; padding: 10px; display: flex; flex-direction: column; gap: 8px; min-width: 0; }
+.rr-panel .kcol h4 { margin: 0 0 2px; font-size: var(--font-ui-small); display: flex; justify-content: space-between; }
+.rr-panel details.kcard { background: var(--background-primary); border: 1px solid var(--background-modifier-border); border-left: 4px solid var(--kc, var(--background-modifier-border)); border-radius: 8px; padding: 8px 10px; font-size: var(--font-ui-small); }
+.rr-panel details.kcard summary { cursor: pointer; line-height: 1.35; list-style-position: outside; }
+.rr-panel details.kcard ul { margin: 8px 0 0; padding-left: 1.1em; }
+.rr-panel details.kcard li { margin: 2px 0; }
+.rr-panel .ktype { display: inline-block; font-size: 10px; padding: 0 6px; border-radius: 999px; border: 1px solid var(--background-modifier-border); color: var(--text-muted); margin-right: 4px; }
+.rr-panel .kdays { float: right; color: var(--text-muted); font-size: 10px; margin-left: 6px; }
+.rr-panel .kdone summary { color: var(--text-muted); text-decoration: line-through; }
+`, root);
+if (pen) {
+  const txt = await dv.io.load(pen.file.path);
+  const secc = {}; let act = null;
+  for (const l of txt.split('\n')) {
+    const h = l.match(/^## (.*)/); if (h) { act = h[1]; secc[act] = []; continue; }
+    if (!act) continue;
+    const m = l.match(/^- \[(.)\] (.*)/);
+    if (m) { secc[act].push({ st: m[1], head: m[2], body: [] }); continue; }
+    if (/^\s{2,}- /.test(l) && secc[act].length) secc[act][secc[act].length - 1].body.push(l.trim().slice(2));
+  }
+  const esc = (s) => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+  const md = (s) => esc(s)
+    .replace(/\[\[([^\]|]+)\|([^\]]+)\]\]/g, '<a class="internal-link" data-href="$1" href="$1">$2</a>')
+    .replace(/\[\[([^\]]+)\]\]/g, '<a class="internal-link" data-href="$1" href="$1">$1</a>')
+    .replace(/\[([^\]]+)\]\((https?:[^)\s]+)\)/g, '<a class="external-link" href="$2" target="_blank" rel="noopener">$1</a>')
+    .replace(/\*\*(.+?)\*\*/g, '<b>$1</b>').replace(/`([^`]+)`/g, '<code>$1</code>');
+  const dias = (c) => { const m = c.body.join(' ').match(/(?:Esperando desde|detectado)[:*\s]*?(\d{2})\/(\d{2})\/(\d{4})/i); return m ? Math.round(dv.date('today').diff(dv.date(`${m[3]}-${m[2]}-${m[1]}`), 'days').days) : null; };
+  const cols = [
+    { k: 'Runroom', t: '🟦 Pendiente Runroom', c: AZUL },
+    { k: 'Cliente', t: '🟧 Pendiente cliente', c: NARANJA },
+    { k: 'Backlog', t: '📥 Backlog', c: 'var(--text-faint)' },
+    { k: 'Done', t: '✅ Done', c: VERDE },
+  ];
+  const todas = Object.entries(secc).flatMap(([s, cs]) => cs.map((c) => ({ ...c, s })));
+  const enCol = (k) => k === 'Done'
+    ? todas.filter((c) => c.s.includes('Done') || c.st === 'x' || c.st === 'X' || c.st === '-')
+    : todas.filter((c) => c.s.includes(k) && !c.s.includes('Done') && c.st !== 'x' && c.st !== 'X' && c.st !== '-');
+  const kb = el('div', 'kboard', null, root);
+  for (const col of cols) {
+    let lista = enCol(col.k); if (col.k === 'Done') lista = lista.slice(-15).reverse();
+    const box = el('div', 'kcol', null, kb);
+    const h = el('h4', null, null, box); el('span', null, col.t, h); el('span', 'muted', String(enCol(col.k).length), h);
+    if (!lista.length) el('div', 'muted', 'Nada por aquí', box);
+    for (const c of lista) {
+      const d = el('details', 'kcard' + (col.k === 'Done' ? ' kdone' : ''), null, box); d.style.setProperty('--kc', col.c);
+      const tipo = (c.head.match(/^\*\*\[([^\]]+)\]\*\*/) || [])[1];
+      const titulo = c.head.replace(/^\*\*\[[^\]]*\]\*\*\s*/, '').replace(/^Spradling\s*—\s*/, '');
+      const n = col.k === 'Done' ? null : dias(c);
+      d.createEl('summary').innerHTML = (n != null ? `<span class="kdays">${n} d</span>` : '') + (tipo ? `<span class="ktype">${esc(tipo)}</span>` : '') + md(titulo);
+      const ul = d.createEl('ul'); for (const b of c.body) ul.createEl('li').innerHTML = md(b);
+    }
+  }
+}
+
 // Avance de la estrategia
 const g = el('div', 'card global', null, root);
 const izq = el('div', null, null, g);
@@ -118,29 +175,6 @@ for (const s of [...new Set(estTasks.map((t) => t.section?.subpath ?? ''))]) {
 }
 const leg = el('div', 'legend muted', null, waf);
 for (const [k, txt] of [['hecho', 'hecho'], ['parcial', 'a medias'], ['cliente', 'cliente'], ['runroom', 'Runroom'], ['duda', 'no consta'], ['descartado', 'descartado']]) { const s = el('span', null, null, leg); el('span', `cell ${k}`, null, s); s.append(txt); }
-
-// Qué falta y quién lo tiene
-const items = [];
-for (const t of ts) { const sec = t.section?.subpath ?? ''; const quien = sec.includes('Cliente') ? 'cliente' : sec.includes('Runroom') ? 'runroom' : null; if (!quien) continue; const f = fechaDe(t); items.push({ quien, origen: 'Tarea', txt: limpia(t.text), dias: f ? Math.round(hoy.diff(f, 'days').days) : null, link: linkDe(t), motivo: null }); }
-const urlsTareas = new Set(ts.flatMap((t) => txtAll(t).match(/https?:\/\/[^)\s\]]+/g) ?? []));
-for (const t of estTasks.filter((t) => ['cliente', 'runroom', 'duda'].includes(tipo(t)))) { if (t.basecamp && urlsTareas.has(String(t.basecamp).trim())) continue; items.push({ quien: tipo(t), origen: 'Estrategia', txt: limpia(t.text), dias: null, link: t.basecamp ? String(t.basecamp) : null, motivo: [t.responsable ? 'Le toca a: ' + String(t.responsable) : null, t.motivo ? String(t.motivo) : null, t.fuente ? 'Fuente: ' + String(t.fuente).replace(/\[\[([^\]|]+)(\|[^\]]+)?\]\]/g, '$1').replace(/\[([^\]]+)\]\([^)]+\)/g, '$1') : null].filter(Boolean).join(' · ') || null }); }
-const card = el('div', 'card', null, root);
-const nCl = items.filter((i) => i.quien === 'cliente').length, nRr = items.filter((i) => i.quien === 'runroom').length, nDu = items.filter((i) => i.quien === 'duda').length;
-const viejas = items.filter((i) => i.quien === 'cliente' && (i.dias ?? 0) > 7).length;
-cabecera(card, anillo(items.length ? Math.round(100 * nCl / items.length) : 0, `${items.length}`, NARANJA), 'Estrategia + Basecamp y actas', 'Qué falta y quién lo tiene', `${nCl} esperando al cliente · ${nRr} nuestras · ${nDu} sin constancia`, `${viejas} del cliente con más de 7 días`, viejas ? NARANJA : VERDE);
-const cols = el('div', 'cols', null, card);
-const maxd = Math.max(1, ...items.map((i) => i.dias ?? 0));
-for (const [k, titulo] of [['cliente', '🟧 Esperando al cliente'], ['runroom', '🟦 Nuestro'], ['duda', '❔ No consta si se hizo']]) {
-  const lista = items.filter((i) => i.quien === k).sort((a, b) => (b.dias ?? -1) - (a.dias ?? -1)); if (!lista.length) continue;
-  const c = el('div', 'rows', null, cols); el('div', 'eyebrow', `${titulo} · ${lista.length}`, c);
-  for (const i of lista) {
-    const row = el('div', 'row', null, c); const iz = el('span', null, null, row); el('span', `tag ${i.origen === 'Estrategia' ? 'est' : 'bc'}`, i.origen, iz); iz.append(' ' + i.txt);
-    const der = el('span', 'muted', i.dias != null ? `${i.dias} d ` : '', row);
-    if (i.link) { const a = el('a', 'external-link', i.link.includes('basecamp.com') ? 'Basecamp' : 'Fuente', der); a.href = i.link; a.target = '_blank'; a.rel = 'noopener'; }
-    if (i.motivo) el('div', 'muted sub', i.motivo, row);
-    if (i.dias != null) { const tr = el('div', 'track', null, row); const f = el('div', 'fill', null, tr); f.style.width = `${100 * i.dias / maxd}%`; f.style.background = i.dias > 30 ? ROJO : i.dias > 7 ? NARANJA : VERDE; }
-  }
-}
 
 // Referencias: de dónde sale cada acción
 const ref = el('div', 'card', null, root);

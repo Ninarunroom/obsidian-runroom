@@ -27,6 +27,7 @@ Formato: `- [id:: ID de Drive] [fecha:: AAAA-MM-DD] [estado:: procesada|vacía|d
 - [id:: 1li6-b3o3leqITXQ6lfmzOpmJaUy9pYNIez0SLWTbOT4] [fecha:: 2026-07-28] [estado:: procesada] [acta:: [[2026-07-28 - Landing Madrid - eventos GTM]]] [notas:: documento de Ari: no se mueve]
 - [id:: 104uaG7OIdLT_QL2MLHPuCJfPtBzlTtPwzVSKIORp9Ts] [fecha:: 2026-08-19] [estado:: procesada] [acta:: [[2026-08-19 - Status agosto - discrepancia leads julio y TikTok]]] [notas:: ya estaba en 00. Actas reunión]
 - [id:: 1AfPkXpWSypOvMPSYTaQ_ibD8XNzIux6smm9ZS8jxJvs] [fecha:: 2026-09-02] [estado:: procesada] [acta:: [[2026-09-02 - Status - salida Maga y transicion de cuenta]]] [notas:: complemento; notas manuales "STATUS 2 SEPT"; ya estaba en 00. Actas reunión]
+- [id:: 1KwOa2-ND1Jp3jMdOULItwlId1BO8vZPsvtlEL-pKoRM] [fecha:: 2026-11-12] [estado:: procesada] [acta:: [[2026-11-12 - Status RR - remanente, Madrid y contenidos]]] [notas:: procesada a mano (skill despues-reunion-cliente); movida a 00. Actas reunión el 2026-11-12]
 
 Carpeta principal de actas: **00. Actas reunión** (unidad compartida, https://drive.google.com/drive/folders/1IuUso0j3HyA6tuvon6JVMkgyJeenk048). Nina deja aquí las actas de Barraquer: todo lo que hay en esta carpeta es de Barraquer, también los documentos que no son notas de Gemini (actas escritas a mano, p. ej. "STATUS 2 SEPT").
 Si un documento es de una reunión que ya tiene acta (misma fecha y tema), no crees otra: añade lo nuevo al acta existente, regístralo con estado procesada y el mismo wikilink, y en notas "complemento".
