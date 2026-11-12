@@ -1,3 +1,7 @@
+---
+cssclasses:
+  - rr-ancho
+---
 # Tareas — Spradling
 
 Todo lo pendiente en un solo sitio: la estrategia 2026 y las tareas de Basecamp y de las reuniones, separadas entre lo nuestro y lo del cliente.
@@ -107,7 +111,11 @@ if (pen) {
 
 // Tablero de tareas (mismo formato que Kanbanize)
 el('style', null, `
-.rr-panel .kboard { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 12px; margin-bottom: 16px; }
+.rr-ancho .markdown-preview-sizer, .rr-ancho .cm-sizer, .rr-ancho .cm-contentContainer, .rr-ancho .cm-content { max-width: 100% !important; }
+.rr-panel .kboard { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; margin-bottom: 12px; }
+@media (max-width: 700px) { .rr-panel .kboard { grid-template-columns: 1fr; } }
+.rr-panel details.kdonebox { margin-bottom: 16px; }
+.rr-panel details.kdonebox > summary { cursor: pointer; font-weight: 600; font-size: var(--font-ui-small); margin-bottom: 8px; }
 .rr-panel .kcol { background: var(--background-secondary); border: 1px solid var(--background-modifier-border); border-radius: 10px; padding: 10px; display: flex; flex-direction: column; gap: 8px; min-width: 0; }
 .rr-panel .kcol h4 { margin: 0 0 2px; font-size: var(--font-ui-small); display: flex; justify-content: space-between; }
 .rr-panel details.kcard { background: var(--background-primary); border: 1px solid var(--background-modifier-border); border-left: 4px solid var(--kc, var(--background-modifier-border)); border-radius: 8px; padding: 8px 10px; font-size: var(--font-ui-small); }
@@ -146,9 +154,11 @@ if (pen) {
     ? todas.filter((c) => c.s.includes('Done') || c.st === 'x' || c.st === 'X' || c.st === '-')
     : todas.filter((c) => c.s.includes(k) && !c.s.includes('Done') && c.st !== 'x' && c.st !== 'X' && c.st !== '-');
   const kb = el('div', 'kboard', null, root);
+  const doneBox = el('details', 'kdonebox', null, root);
   for (const col of cols) {
     let lista = enCol(col.k); if (col.k === 'Done') lista = lista.slice(-15).reverse();
-    const box = el('div', 'kcol', null, kb);
+    if (col.k === 'Done') { el('summary', null, `${col.t} · ${enCol(col.k).length}`, doneBox); }
+    const box = el('div', 'kcol', null, col.k === 'Done' ? doneBox : kb);
     const h = el('h4', null, null, box); el('span', null, col.t, h); el('span', 'muted', String(enCol(col.k).length), h);
     if (!lista.length) el('div', 'muted', 'Nada por aquí', box);
     for (const c of lista) {

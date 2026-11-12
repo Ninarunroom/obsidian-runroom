@@ -15,3 +15,5 @@ Preguntas abiertas para Nina en la Ficha y en Pendientes (cómo se factura, OC d
 ## [2026-11-12] cambio | Tablero agrupado por línea (SEO técnico · Analítica · Gestión); campo Línea en cada tarea; soporte de enlace a la card de Kanbanize; card de píxeles (auditoría de Adsmurai) reescrita y pasada a 🟧 Cliente; KPIs IA (capturas a 31/08) cerrada
 ## [2026-11-12] cambio | Calendario del roadmap (Estrategia 26/27) en cada tarea de la estrategia y aviso de retraso en el tablero; facturación cuatrimestral (1.er cuatrimestre emitido); remanente 25/26 corregido a 16,25 h (remanente a cierre de septiembre: 37,25 h)
 ## [2026-11-12] cambio | Tarjetas desplegables ("Ver contexto") en el tablero; decisión: el tablero de trabajo es Obsidian, no Kanbanize; remanente 25/26 = 16,25 h confirmado (Seguimiento del fee, G146)
+
+## [2026-11-12] status | Primer status semanal del equipo (Fer y Marta) en 4. Seguimiento/Status semanal/, con texto listo para Slack. Tarea programada "Esade SEO - Status semanal" cada lunes.
