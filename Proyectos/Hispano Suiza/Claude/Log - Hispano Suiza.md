@@ -43,3 +43,9 @@ Kanbanize (lunes 8:47): informe mensual de Barraquer la semana antes de la "Stat
 - "Kanbanize - Cards recurrentes performance": Paprika 2027 de Hispano Suiza (HIS010011).
 - "Basecamp - Pendientes diarios": cambio propuesto a Nina (pendiente de su OK), sin aplicar.
 - Sin alertas de campaña ni script de Google Ads (decisión de Nina).
+
+## [2026-11-13] pendientes | Descartada `[-]` "Hispano Suiza — ¿Alguna creatividad activa usa IA? (etiquetado obligatorio en Google Ads)" (lo confirma Nina).
+
+## [2026-11-13] pendientes | Cerrada `[x]` "Regularizar en la factura de noviembre la diferencia acumulada": factura de noviembre emitida (lo confirma Nina).
+
+## [2026-11-13] pendientes | Informe: no habrá informe de octubre aparte (septiembre y octubre se presentaron el 29/10); el de noviembre se presenta a principios de diciembre (Nina). Black Friday: tarea programada para el 16/11 que comenta en la card de presupuestos de la semana del 16/11 que hay que modular el presupuesto de la semana de Black Friday.

@@ -5,18 +5,11 @@ Tablero de tareas de Hispano Suiza, con el mismo formato que Kanbanize: **🟦 P
 ## Status (12/11/2026)
 - 🧾 **Factura de noviembre**: 5.811,65 € (previsión + 283,89 € de ajuste), aprobada por Pablo el 05/11. No consta que se haya emitido.
 - 🟧 **Esperando a Pipo**: los enlaces del vídeo nuevo del Sagrera (13 días, desde el 30/10).
-- 📅 **Informe de noviembre**: fecha sin cerrar (se acordó hacerlo a finales de noviembre).
+- 📅 **Informe de noviembre**: se presenta a principios de diciembre; fecha sin cerrar.
 - ❓ **¿cerrar?** "Ari: revisar el vídeo nuevo…" (Ari respondió a Pipo el 30/10) y "Regularizar en la factura de noviembre…" (queda resuelto cuando se emita la factura de 5.811,65 €).
 - 🔍 Dos temas antiguos por verificar: acceso a GA4 y etiquetado de IA.
 
 ## 🟦 Runroom
-
-- [ ] **[Facturación]** Hispano Suiza — Regularizar en la factura de noviembre la diferencia acumulada
-    - **Entrega:** factura de noviembre
-    - **Responsable:** Nina
-    - **Info:** El 05/10 se acordó no facturar en octubre y regularizar en noviembre (entonces, 241,82 € a favor de Hispano Suiza).
-    - **Actualización 05/11:** con el cierre real de octubre, la diferencia es de 283,89 € a nuestro favor (70.282,74 € gastados frente a 69.998,85 € facturados). Pablo aprueba facturar 5.811,65 € en noviembre (5.527,76 € de previsión + 283,89 €). [Basecamp](https://basecamp.com/1771388/projects/19038192/todos/521477618)
-    - Fuente: [2026 - Revisión presupuesto septiembre](https://basecamp.com/1771388/projects/19038192/todos/520390057) — detectado 06/10/2026
 
 - [ ] **[Tarea]** Hispano Suiza — Revisar el vídeo nuevo de Pipo (3 formatos) y decidir si sustituye o se intercala con el del 122 aniversario
     - **Entrega:** sin fecha definida
@@ -37,9 +30,10 @@ Tablero de tareas de Hispano Suiza, con el mismo formato que Kanbanize: **🟦 P
     - Fuente: [Informe mensual octubre](https://docs.google.com/document/d/1RRVLG1r7bkdfFktUlKv_jUZI9aKJnlfNOs_DaUkAcPs/edit) · acta: [[2026-10-29 - Informe mensual octubre]] — detectado 12/11/2026
 
 - [ ] **[Tarea]** Hispano Suiza — Cerrar con Ari y con el cliente la fecha del informe de noviembre
-    - **Entrega:** finales de noviembre
+    - **Entrega:** principios de diciembre
     - **Responsable:** Nina
     - **Info:** Se acordó hacerlo a finales de noviembre, ya con datos de noviembre.
+    - **Actualización 13/11:** no habrá informe de octubre aparte: en la reunión del 29/10 se presentaron septiembre y octubre. El siguiente es el de noviembre, que se presenta a principios de diciembre (lo confirma Nina). La card del informe la crea la tarea de cards recurrentes en la semana del primer día laborable de diciembre.
     - Fuente: [Informe mensual octubre](https://docs.google.com/document/d/1RRVLG1r7bkdfFktUlKv_jUZI9aKJnlfNOs_DaUkAcPs/edit) · acta: [[2026-10-29 - Informe mensual octubre]] — detectado 12/11/2026
 
 ## 🟧 Cliente (esperando a Hispano Suiza)
@@ -58,16 +52,25 @@ Temas antiguos que pueden estar ya cerrados. Nina dice si siguen.
     - **Info:** En el informe de julio se dijo que el acceso a Analytics estaba sin confirmar (posible cambio de administradores) y que se gestionaría vía MCC.
     - Fuente: [Informe mensual julio](https://docs.google.com/document/d/1JsSUsSwj592CBMy95KaQVq0lPQqq5eGx4k_mPrPfNYg/edit) · acta: [[2026-07-22 - Informe mensual julio]] — detectado 22/07/2026
 
-- [ ] **[Petición cliente]** Hispano Suiza — ¿Alguna creatividad activa usa IA? (etiquetado obligatorio en Google Ads)
-    - **Esperando desde:** 20/07/2026
-    - **Info:** Ari lo preguntó a Pablo; en el hilo no hay respuesta. Si no se ha usado IA, se etiqueta todo como "sin IA".
-    - Fuente: [TRANSVERSAL - Uso de imágenes con IA en Google Ads](https://basecamp.com/1771388/projects/19038192/todos/518925859) — detectado 12/11/2026
-
 ## 📥 Backlog
 
 Nuestro, todavía sin empezar.
 
 ## ✅ Done
+
+- [x] **[Facturación]** Hispano Suiza — Regularizar en la factura de noviembre la diferencia acumulada
+    - **Entrega:** factura de noviembre
+    - **Responsable:** Nina
+    - **Info:** El 05/10 se acordó no facturar en octubre y regularizar en noviembre (entonces, 241,82 € a favor de Hispano Suiza).
+    - **Actualización 05/11:** con el cierre real de octubre, la diferencia es de 283,89 € a nuestro favor (70.282,74 € gastados frente a 69.998,85 € facturados). Pablo aprueba facturar 5.811,65 € en noviembre (5.527,76 € de previsión + 283,89 €). [Basecamp](https://basecamp.com/1771388/projects/19038192/todos/521477618)
+    - Fuente: [2026 - Revisión presupuesto septiembre](https://basecamp.com/1771388/projects/19038192/todos/520390057) — detectado 06/10/2026
+    - **Cerrada 13/11:** factura de noviembre emitida (lo confirma Nina).
+
+- [-] **[Petición cliente]** Hispano Suiza — ¿Alguna creatividad activa usa IA? (etiquetado obligatorio en Google Ads)
+    - **Esperando desde:** 20/07/2026
+    - **Info:** Ari lo preguntó a Pablo; en el hilo no hay respuesta. Si no se ha usado IA, se etiqueta todo como "sin IA".
+    - Fuente: [TRANSVERSAL - Uso de imágenes con IA en Google Ads](https://basecamp.com/1771388/projects/19038192/todos/518925859) — detectado 12/11/2026
+    - **Cerrada 13/11:** descartada (lo confirma Nina).
 
 - [x] **[Presupuesto]** Hispano Suiza — Pablo y Pipo confirman la propuesta de presupuesto de septiembre (mantener la factura de 11.785,58 € y que absorba parte de octubre)
     - **Cerrada 29/09:** Pablo lo confirma.

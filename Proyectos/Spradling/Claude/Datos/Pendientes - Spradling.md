@@ -31,12 +31,6 @@ Tablero de tareas de Spradling, con el mismo formato que Kanbanize: **🟦 Pendi
     - **Info:** Para poder comparar los datos de la web antigua con los de la nueva (equivalencia de conversiones). No consta que se haya enviado.
     - Fuente: [Notas de Gemini 26/10](https://docs.google.com/document/d/1LWmIWTEJq2p6tLJsEQycigFqa-KgXEB4uCAY8M564DM/edit) · acta: [[2026-10-26 - Informe Q3 y conversiones nueva web]] — detectado 06/11/2026
 
-- [ ] **[Petición cliente]** Spradling — Contestar a Dèlia si las imágenes de Google Ads son las de PMax y etiquetar el uso de IA en las creatividades
-    - **Entrega:** sin fecha definida
-    - **Responsable:** Ari
-    - **Info:** Dèlia pregunta (21/07) si las imágenes de Ads son las de PMax: las ha revisado y no son de IA. Ella va a preguntar al equipo del vídeo si usa IA. En el hilo no hay respuesta nuestra.
-    - Fuente: [TRANSVERSAL - Uso de imágenes con IA en Google Ads](https://basecamp.com/1771388/projects/19500347/todos/518926311) — detectado 06/11/2026
-
 ## 🟧 Cliente (esperando a Spradling)
 
 - [ ] **[Presupuesto]** Spradling — OK de Natalia a la reinversión del remanente y decisión sobre las partidas bloqueadas (awareness y lanzamientos)
@@ -82,3 +76,10 @@ Nuestro, todavía sin empezar.
 ## ✅ Done
 
 Tareas cerradas (`[x]` hecha, `[-]` ya no aplica), con el motivo en una línea "Cerrada DD/MM".
+
+- [-] **[Petición cliente]** Spradling — Contestar a Dèlia si las imágenes de Google Ads son las de PMax y etiquetar el uso de IA en las creatividades
+    - **Entrega:** sin fecha definida
+    - **Responsable:** Ari
+    - **Info:** Dèlia pregunta (21/07) si las imágenes de Ads son las de PMax: las ha revisado y no son de IA. Ella va a preguntar al equipo del vídeo si usa IA. En el hilo no hay respuesta nuestra.
+    - Fuente: [TRANSVERSAL - Uso de imágenes con IA en Google Ads](https://basecamp.com/1771388/projects/19500347/todos/518926311) — detectado 06/11/2026
+    - **Cerrada 13/11:** descartada (lo confirma Nina).

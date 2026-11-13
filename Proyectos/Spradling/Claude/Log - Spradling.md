@@ -70,3 +70,5 @@ Creadas 61757 (error "falta la etiqueta", Implementación analítica), 61758 (CP
 
 ## [2026-11-12] ajustes | Tablero de tareas tipo Kanbanize
 Pendientes con 4 columnas (Pendiente Runroom, Pendiente cliente, Backlog, Done); el panel de Tareas las muestra como tablero con título y contexto desplegable. Al Backlog: colección sostenible, reporting (va en el informe Q4) y CPA de Italia.
+
+## [2026-11-13] pendientes | Descartada `[-]` "Spradling — Contestar a Dèlia si las imágenes de Google Ads son las de PMax y etiquetar el uso de IA en las creatividades" (lo confirma Nina).

@@ -15,12 +15,6 @@ Status del día y tareas pendientes, separadas por **quién tiene la pelota**. S
     - **Info:** Ari envió la revisión el 18/09 y una segunda versión (2025 + 2026, hasta octubre) el 03/11 en el SharePoint del cliente. Queda la validación de Cristian (ver sección Cliente).
     - Fuente: [Status RR 10/09](https://docs.google.com/document/d/1dyr7KFhIneC5r0mO-PMql53OOIFCPmGeUf6Vp3gbrRY/edit) · acta: [[2026-09-10 - Status RR - traspaso de cuenta y discrepancias]] · [Revisión presupuesto ene-ago](https://basecamp.com/1771388/projects/17192035/todos/520391069) — detectado 10/09/2026
 
-- [ ] **[Incidencia]** Barraquer — Aclarar el origen del acceso no autorizado a Google Ads (asociado a Dubái) y decidir si se revoca el acceso externo
-    - **Entrega:** sin fecha definida
-    - **Responsable:** Ari
-    - **Info:** El 16/07 alguien cambió el CPA objetivo desde mcc@runroom.com. Se mantiene la política de denegar accesos. No consta que se haya cerrado.
-    - Fuente: [Status 21/07](https://docs.google.com/document/d/12u0-x4G_9fTvEbUYnRCqsFGuOZ2F4PotbVAAO3prO2Y/edit) · acta: [[2026-07-21 - Status - incidente seguridad y ajustes Madrid]] — detectado 21/07/2026
-
 - [ ] **[Tarea]** Barraquer — Medición de la landing de Madrid: definir eventos de conversión y revisar UTMs
     - **Entrega:** sin fecha definida
     - **Responsable:** Nina
@@ -32,12 +26,6 @@ Status del día y tareas pendientes, separadas por **quién tiene la pelota**. S
     - **Responsable:** Ari (crear conversiones) con Nina; Nina (histórico); Marta (etiquetas en GTM)
     - **Info:** El clic del CTA estuvo dos semanas sin medirse porque el `event` del dataLayer iba vacío. Se acordó revisar cómo funciona las primeras semanas antes de usarlo para optimizar.
     - Fuente: BarraquerKB, reunión 30/09/2026 "Tracking de conversiones Te llamamos" · [Status 30/9](https://basecamp.com/1771388/projects/17192035/todos/520642038) — detectado 05/11/2026
-
-- [ ] **[Tarea]** Barraquer — Etiquetar el uso de IA en todas las creatividades de Google Ads (activas y nuevas) cuando la opción esté disponible en la cuenta
-    - **Entrega:** sin fecha definida
-    - **Responsable:** Ari
-    - **Info:** Es normativa europea. Hay que marcar también las que no usan IA.
-    - Fuente: [Uso de imágenes con IA en Google Ads](https://basecamp.com/1771388/projects/17192035/todos/518925595) — detectado 05/11/2026
 
 - [ ] **[Propuesta]** Barraquer — Propuesta de radio / audio programático para Madrid (one shot, 2.ª-3.ª semana de diciembre)
     - **Kanbanize:** https://runroom.kanbanize.com/ctrl_board/21/cards/61762/details/
@@ -99,11 +87,6 @@ Status del día y tareas pendientes, separadas por **quién tiene la pelota**. S
     - **Esperando desde:** 29/09/2025
     - Fuente: [Patologías para campañas](https://basecamp.com/1771388/projects/17192035/todos/504659977) — detectado 05/11/2026
 
-- [ ] **[Petición cliente]** Barraquer — Creatividades pendientes para activar presupuesto: portugués para Angola (6.490 €), masters de display DV360 España (4.720 €), Meta y PMax genéricas de Estética Catalunya
-    - **Esperando desde:** 12/03/2026
-    - **Actualización 12/11:** se acuerda dar una vuelta a las creatividades de cara al próximo curso (Estética incluida); ver la tarea de Runroom. En Estética quedan 2k pendientes (PMax) y el pacing va un 35 % por debajo del año pasado.
-    - Fuente: [Status 30/9](https://basecamp.com/1771388/projects/17192035/todos/520642038) · [2026 - Informe Febrero](https://basecamp.com/1771388/projects/17192035/todos/515876804) — detectado 05/11/2026
-
 - [ ] **[Petición cliente]** Barraquer — Nuevas landings de tratamientos de Estética y versiones en catalán
     - **Esperando desde:** 12/03/2026
     - Fuente: [2026 - Informe Abril](https://basecamp.com/1771388/projects/17192035/todos/517431691) — detectado 05/11/2026
@@ -126,6 +109,13 @@ Nuestro, todavía sin empezar.
 ## ✅ Done
 
 Tareas cerradas (`[x]` hecha, `[-]` ya no aplica), con el motivo en una línea "Cerrada DD/MM".
+
+- [-] **[Incidencia]** Barraquer — Aclarar el origen del acceso no autorizado a Google Ads (asociado a Dubái) y decidir si se revoca el acceso externo
+    - **Entrega:** sin fecha definida
+    - **Responsable:** Ari
+    - **Info:** El 16/07 alguien cambió el CPA objetivo desde mcc@runroom.com. Se mantiene la política de denegar accesos. No consta que se haya cerrado.
+    - Fuente: [Status 21/07](https://docs.google.com/document/d/12u0-x4G_9fTvEbUYnRCqsFGuOZ2F4PotbVAAO3prO2Y/edit) · acta: [[2026-07-21 - Status - incidente seguridad y ajustes Madrid]] — detectado 21/07/2026
+    - **Cerrada 13/11:** descartada (lo confirma Nina).
 
 - [x] **[Tarea]** Barraquer — Reenviar a Cristian las notas de Gemini y la presentación de cada reunión (no le llegan)
     - **Entrega:** 13/11/2026
@@ -178,3 +168,16 @@ Tareas cerradas (`[x]` hecha, `[-]` ya no aplica), con el motivo en una línea "
     - **Info:** Sin respuesta en Basecamp. En junio se dejó TikTok a cero hasta septiembre.
     - **Actualización 05/11:** TikTok descartado para 2026 (confirmado por Nina). Ya no hace falta recargar.
     - Fuente: [Saldo TikTok](https://basecamp.com/1771388/projects/17192035/todos/516000108) — detectado 05/11/2026
+
+- [-] **[Tarea]** Barraquer — Etiquetar el uso de IA en todas las creatividades de Google Ads (activas y nuevas) cuando la opción esté disponible en la cuenta
+    - **Entrega:** sin fecha definida
+    - **Responsable:** Ari
+    - **Info:** Es normativa europea. Hay que marcar también las que no usan IA.
+    - Fuente: [Uso de imágenes con IA en Google Ads](https://basecamp.com/1771388/projects/17192035/todos/518925595) — detectado 05/11/2026
+    - **Cerrada 13/11:** descartada (lo confirma Nina).
+
+- [-] **[Petición cliente]** Barraquer — Creatividades pendientes para activar presupuesto: portugués para Angola (6.490 €), masters de display DV360 España (4.720 €), Meta y PMax genéricas de Estética Catalunya
+    - **Esperando desde:** 12/03/2026
+    - **Actualización 12/11:** se acuerda dar una vuelta a las creatividades de cara al próximo curso (Estética incluida); ver la tarea de Runroom. En Estética quedan 2k pendientes (PMax) y el pacing va un 35 % por debajo del año pasado.
+    - Fuente: [Status 30/9](https://basecamp.com/1771388/projects/17192035/todos/520642038) · [2026 - Informe Febrero](https://basecamp.com/1771388/projects/17192035/todos/515876804) — detectado 05/11/2026
+    - **Cerrada 13/11:** descartada (lo confirma Nina).

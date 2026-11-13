@@ -118,3 +118,9 @@ Cerradas `[x]`: "Decidir sobre la pausa de las campañas de reserva en países n
 
 ## [2026-11-13] pendientes | Cierres y fechas
 Cerradas `[x]`: "Reenviar a Cristian las notas…" (Nina envió informe y acta en el hilo del informe) y "Feedback sobre la revisión de conversiones de Google Ads" (ya está). Quitadas las fechas propuestas por Claude (radio Madrid 26/11, genéricas mercados nuevos semana del 16/11): solo se ponen fechas con deadline acordado.
+
+## [2026-11-13] pendientes | Descartada `[-]` "Etiquetar el uso de IA en las creatividades de Google Ads" (lo confirma Nina). La revisión de los presupuestos de noviembre de Estética y Clínica (acta 12/11) no se añade como tarea: va dentro de la card recurrente de presupuestos de Kanbanize.
+
+## [2026-11-13] pendientes | Descartada `[-]` "Creatividades pendientes para activar presupuesto (Angola, DV360 España, Meta y PMax de Estética)" (lo confirma Nina).
+
+## [2026-11-13] pendientes | Descartada `[-]` "Barraquer — Aclarar el origen del acceso no autorizado a Google Ads (asociado a Dubái) y decidir si se revoca el acceso externo" (lo confirma Nina).
