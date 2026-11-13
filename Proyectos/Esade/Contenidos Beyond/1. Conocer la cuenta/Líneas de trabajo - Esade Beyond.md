@@ -9,7 +9,13 @@ Una sección por línea. Lo que cambia (estado, decisiones, resultados) se actua
 
 ## Contenidos (blog Beyond)
 - **Qué hacemos**: keyword research y briefing SEO de **2 artículos/mes** (24 en el curso), revisión SEO y mejoras para la conversión. Redacta Eleven (proveedor de Esade); publica Esade.
-- **Cómo funciona**: Astrid abre un to-do "Blogging KWR - <tema>" en Basecamp y se lo asigna a Olga; Olga entrega el keyword research y el briefing (Sheet "Briefings Beyond"); Astrid lo cierra.
+- **Proceso** (acordado con Nina, 13/11/2026):
+  1. Astrid abre en Basecamp un to-do "Blogging KWR - <tema>" y se lo asigna a Olga.
+  2. Olga propone en el to-do la temática con la keyword principal y su volumen (p. ej. "mercado eléctrico español", 60 búsquedas).
+  3. Astrid da el OK a la temática.
+  4. Olga entrega en el [Sheet Briefings Beyond](https://docs.google.com/spreadsheets/d/10pRmB4FAOTsTiLZ1teLX6Ec_bzRI5H9f0aB_1A6huxw), una pestaña por artículo, **el keyword research y el briefing juntos**: tabla de keywords (principal y secundarias, dificultad, volumen España y global, posts mejor posicionados) y, en la columna "Indicaciones redacción", el briefing (title, description, slug, H1-H3 con la keyword de cada apartado, FAQs, enlaces internos con anchor y programa relacionado).
+  5. Astrid lo valida y cierra el to-do.
+  6. Eleven (proveedor de Esade) redacta y Esade publica. **Nuestro trabajo termina en el paso 4**; los pasos 3 y 5 son pendientes del cliente.
 - **Briefings entregados en el curso** ([Sheet Briefings Beyond](https://docs.google.com/spreadsheets/d/10pRmB4FAOTsTiLZ1teLX6Ec_bzRI5H9f0aB_1A6huxw), una pestaña por artículo): Inteligencia artificial en derecho · Formación corporativa a medida · Estrategias de marketing · EMBA, Executive Master o PMD (Madrid) · Upskilling y microcredenciales · Mercado eléctrico de España (firmado por Meritxell Sayol). Cada briefing lleva metadatos, H1-H3 con keywords, FAQs, enlaces internos y entrantes, y el programa al que se enlaza.
 - **Prioridad de Grados** (Astrid, 14/10, en el Sheet de link building): no enfocar al BBA (ya tiene demasiados leads). Prioridad 1: Grados y Dobles Grados con Derecho (Law, Global Governance, dobles); 2: BITLASI (Transformational Leadership and Social Impact); 3: Grado y Doble Grado con IA (Business and AI).
 - **Cola**: el 09/09 Astrid tenía 7 keyword research pendientes con Olga y 8 artículos en cola con Eleven, casi todos de ExecEd y MBA; pidió más temas de **Grados** (Derecho, Doble Grado Business y Derecho) y de MSc.

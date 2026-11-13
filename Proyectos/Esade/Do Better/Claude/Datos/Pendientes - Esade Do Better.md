@@ -2,13 +2,15 @@
 
 Status del día y tareas pendientes, separadas por **quién tiene la pelota**. Se actualiza cada mañana con la tarea diaria (Basecamp, correo y reuniones). Se añaden tareas nuevas en la sección que toca, pero nunca se borran ni se marcan como hechas automáticamente: márcalas tú con `[x]` cuando las completes. En 🟦 Runroom: `[ ]` = backlog (sin empezar) · `[/]` = en curso. Cada tarea lleva **Línea:** SEO y GEO, Contenidos, Analítica o Gestión. Lo que forma parte de la estrategia 26/27 (auditoría, iteración de artículos, informes, tendencias…) no se repite aquí: está en [[Estrategia 26-27 - seguimiento Esade Do Better]].
 
-## Status (12/11/2026)
-- 🕒 **Horas**: septiembre 20 h y octubre 10,75 h de la agencia (de unas 20 h/mes). Remanente provisional: **19,25 h** sin tus horas (con 5 h/mes tuyas quedaría en unas 9,25 h, dentro del ±20 %). **Faltan tus horas** de septiembre y octubre (Paprika ESA010245) para cerrar los dos meses.
-- 🔎 **Tendencias de búsqueda**: deberían ir cada semana y van cada 2–3 semanas (05/10, 22/10, 04/11). Llevamos **8 días** sin envío.
-- 📄 **Informe mensual**: octubre enviado el 03/11 y sin presentar. El de noviembre toca a primeros de diciembre.
-- 🟧 **Esperando al cliente más de 7 días**: Dulce, revisión del informe de octubre y de las respuestas a sus preguntas (9 d, desde el 03/11).
-- ✍️ **Iteración de contenidos**: las 6 optimizaciones de octubre tienen el OK de Esade (02/11) pero en el Sheet siguen sin "Optimización publicada". Las temáticas de noviembre están validadas; faltan los documentos.
-- 💬 **Contexto**: Dulce avisó el 30/10 de "cambios en la dirección del departamento" y de una 1:1 para aterrizar estrategia, resultados y próximos pasos. Conviene saber cómo fue.
+## Status (13/11/2026)
+- 📅 **Cierre sin volcar**: septiembre y octubre siguen sin tus horas (Paprika ESA010245). La agencia ya está: 20 h y 10,75 h.
+- 🕒 **Horas**: remanente provisional **19,25 h** sin tus horas (con 5 h/mes tuyas, unas 9,25 h). No se puede valorar el ±20 % hasta cerrar los dos meses.
+- 🟦 **Vencido**: Cierre de horas de septiembre y octubre (entrega 05/11, 8 días).
+- 🔎 **Tendencias de búsqueda**: **9 días** sin envío de Runroom en el hilo (último, Fer el 04/11).
+- 📄 **Informe mensual**: octubre enviado (03/11 por correo, 04/11 por Basecamp) y sin presentar. El de noviembre toca a primeros de diciembre.
+- ✍️ **Iteración de contenidos**: 8 URLs con "Esade OK" de meses anteriores sin publicar (septiembre: 2 de agentes de IA; octubre: las 6). Noviembre: 6 temáticas validadas, sin documentos.
+- 🟧 **Esperando al cliente más de 7 días**: Dulce, revisión del informe de octubre y de las respuestas a sus preguntas (10 d, desde el 03/11).
+- 💬 Sin mensajes de Dulce, Judith o Marta Barquier pendientes de respuesta (lo último de Dulce, 04/11 en Basecamp, es un "muchas gracias").
 
 ## 🟦 Runroom
 

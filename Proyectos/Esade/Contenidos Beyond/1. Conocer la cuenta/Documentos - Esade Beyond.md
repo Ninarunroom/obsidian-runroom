@@ -1,7 +1,7 @@
 ---
 tipo: documentos
 cliente: "[[00 Ficha de cliente - Esade Beyond]]"
-actualizado: 2026-11-12
+actualizado: 2026-11-13
 ---
 # Documentos — Esade Contenidos Beyond
 
@@ -12,9 +12,9 @@ actualizado: 2026-11-12
 - [Carpeta Beyond del curso 26/27](https://drive.google.com/drive/folders/1Fgb0dca6rJ8OHHzIKl2EyBK_HT31cnwJ) (la de trabajo), dentro de la [carpeta ESA010244 - Esade Contenidos 26-27](https://drive.google.com/drive/folders/1G407_ltPFRVCkYMboHMZUQPWdkqYL7Ld), que también tiene `Do Better/` (otro proyecto). Dentro de `Beyond/`:
   - [Presupuesto 26/27](https://docs.google.com/spreadsheets/d/1QD3-GrH86NubIWE_TiCnsSGnl-cPop78EnnIZzTYRz4): desglose mensual por partida (contenidos, link building, one-shots, medios). Es el que validó Helen el 22/10.
   - [Estrategia Link Building Esade 2026-27](https://docs.google.com/spreadsheets/d/1HIEkVbraRA5NiC_XNK7axsa1Gjqp3D-sr1MAilQioHM): **el Sheet de link building**. Una pestaña por mes con los medios (estado, precio, DR, anchor, URL), "Pendiente curso 25-26", **"Control presupuesto medios"** (facturado y consumido por mes), Mix medios, LLMs Pulse y KPIs.
-  - [Briefings Beyond OCT26](https://docs.google.com/spreadsheets/d/10pRmB4FAOTsTiLZ1teLX6Ec_bzRI5H9f0aB_1A6huxw): **el Sheet del blog**. Una pestaña por artículo con el keyword research y el briefing (metadatos, estructura H1-H3 con keywords, FAQs, enlaces y programa relacionado). Copia de hoy en `Claude/Fuentes/`.
+  - [Briefings Beyond OCT26](https://docs.google.com/spreadsheets/d/10pRmB4FAOTsTiLZ1teLX6Ec_bzRI5H9f0aB_1A6huxw): **el Sheet del blog**. Primera pestaña **"Calendario contenidos"** (creada el 13/11): mes, tema, título, keyword principal, enlace a la pestaña del briefing, estado, fecha de entrega y to-do de Basecamp de cada artículo del curso 26/27. Después, una pestaña por artículo con el keyword research y el briefing (metadatos, estructura H1-H3 con keywords, FAQs, enlaces y programa relacionado). Copia de hoy en `Claude/Fuentes/`.
 - [Estrategia Beyond 2026-27.pptx](https://drive.google.com/file/d/1XG4Q4Ua9j3DQK0isVdi9fZRsFGJDXHVR/view) (de Olga): resultados 25/26, propuesta, KPIs 26/27, calendario y presupuesto.
-- [Estrategia blogging Esade 2026-27.xlsx](https://drive.google.com/file/d/1xUxOEPyeeouRfnpPRB8DT0HUipJ9WuFw/view): temas y keyword research del blog.
+- [Estrategia blogging Esade 2026-27.xlsx](https://drive.google.com/file/d/1xUxOEPyeeouRfnpPRB8DT0HUipJ9WuFw/view) (Excel en Drive, solo lectura para Nina): **la fuente para saber qué artículo va en qué mes**. Pestañas: backlog de temas con keywords y volúmenes; **"Calendario Contenidos"** (por mes: título, enlace al to-do de Basecamp y estado: "Briefing entregado", "Planteamiento de kws hecho"…), desde septiembre 2024 hasta el curso 26/27; y briefings antiguos (desde SEP24). Copia del calendario 26/27 en `Claude/Fuentes/Calendario contenidos 26-27 (export 2026-11-13).md`.
 - [Estrategia Link Building Esade 2025-26](https://docs.google.com/spreadsheets/d/1hTT3xvasN33B5x9UNIGfYX-DQ3RrvuJXe2IPTHy2LsQ): curso anterior, con los KPIs mensuales de 25/26.
 
 ## Horas y facturación

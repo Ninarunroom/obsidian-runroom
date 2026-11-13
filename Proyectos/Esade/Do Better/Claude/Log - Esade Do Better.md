@@ -2,6 +2,8 @@
 
 Registro cronológico de lo que entra en este KB (ingestas, revisiones, cambios de estructura). Lo más nuevo, arriba.
 
+## [2026-11-13] seguimiento | Sin tareas nuevas (Basecamp sin actividad desde el 04/11; correo solo de SEO técnico). Iteración sin cambios (sep 4 publicadas + 2 Esade OK; oct 6 Esade OK; nov 6 temáticas validadas sin documento). Horas: nada que volcar. Status y alertas_hoy actualizados (5 alertas).
+
 ## [2026-11-13] setup | Tarea "Esade Do Better - Seguimiento diario" (L-V 10:31) y alertas aprobadas por Nina
 - La iteración de contenidos se actualiza sola cada día a partir del Sheet de briefings.
 
