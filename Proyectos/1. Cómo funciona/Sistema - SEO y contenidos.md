@@ -17,6 +17,7 @@ actualizado: 2026-11-12
 | Tarea | Cuándo | Qué hace | Ordenador |
 |---|---|---|---|
 | **Esade SEO - Actas de reunión** | L-V 17:34 | Notas de Gemini de SEO técnico y analítica → acta, KB y Pendientes (las de Do Better, contenidos, OPENS o paid se descartan) | Sí |
+| **Esade Do Better - Seguimiento diario** | L-V 10:31 | Basecamp 19338495, correo de Do Better y Sheet de briefings → tareas, recurrentes, estado de la iteración, horas, Status y alertas | Sí |
 | **Esade Do Better - Actas de reunión** | L-V 17:47 | Notas de Gemini de Do Better → acta, KB y Pendientes (las de otras líneas se descartan) | Sí |
 | **Esade Beyond - Actas de reunión** | L-V 17:41 | Notas de Gemini de contenidos/Beyond y link building → acta, KB y Pendientes (las de SEO técnico, Do Better, OPENS o paid se descartan) | Sí |
 | **Basecamp - Pendientes diarios** | L-V 10:12 | Lee ESADE OPENS, ESADE SEO de Contenidos y Esade SEO tècnic | Sí ⚠️ (ver [[Sistema de gestión]]) |

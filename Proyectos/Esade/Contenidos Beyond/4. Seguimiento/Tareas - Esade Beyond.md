@@ -1,6 +1,6 @@
 # Tareas — Esade Contenidos Beyond
 
-Todo lo pendiente en un solo sitio: la estrategia de Beyond 26/27 (contenidos y link building) y las tareas de Basecamp, correo y reuniones, separadas entre lo nuestro (Olga, Fer y Nina) y lo del cliente.
+Todo lo pendiente en un solo sitio: la estrategia de Beyond 26/27 (contenidos y link building) y las tareas de cada mes (📊 Informe y KPIs, 🔗 Link building, ✍️ Contenidos) con sus pasos, separadas entre lo nuestro (Olga, Fer y Nina) y lo del cliente.
 
 ```dataviewjs
 const _f = dv.current().file.folder; const base = _f.slice(0, _f.indexOf('Contenidos Beyond') + 'Contenidos Beyond'.length);
@@ -144,32 +144,36 @@ const kst = el('style', null, `.rr-panel .kb { display: grid; grid-template-colu
 .rr-panel .kplan { font-size: var(--font-ui-smaller); color: var(--text-muted); font-weight: 600; }
 .rr-panel .khecho .kgrid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 8px; }`, root);
 const campoDe = (t, k) => { const c = (t.children ?? []).find((c) => new RegExp('^\\*\\*' + k + ':\\*\\*').test(String(c.text).trim())); return c ? String(c.text).replace(new RegExp('^\\s*\\*\\*' + k + ':\\*\\*\\s*'), '').trim() : null; };
-const LINEAS = ['Contenidos', 'Link building', 'Gestión'];
+const LINEAS = ['Informe y KPIs', 'Link building', 'Contenidos', 'Gestión'];
 const lineaDe = (t, resp) => { const l = campoDe(t, 'Línea'); if (l) return LINEAS.find((x) => x.toLowerCase() === l.toLowerCase()) ?? l; return /Nina/.test(resp ?? '') ? 'Gestión' : 'Contenidos'; };
 const kanbanDe = (t) => { const v = campoDe(t, 'Kanbanize'); if (!v) return null; const m = v.match(/\[([^\]]+)\]\((https?:\/\/[^)\s]+)\)/) ?? v.match(/(https?:\/\/\S+)/); return m ? { label: m[2] ? m[1] : 'Kanbanize', url: m[2] ?? m[1] } : null; };
-const detalleDe = (t) => (t.children ?? []).map((c) => String(c.text).trim()).filter((x) => !/^(\*\*(Línea|Responsable|Kanbanize):\*\*|Fuente:)/.test(x));
+const detalleDe = (t) => (t.children ?? []).map((c) => String(c.text).trim()).filter((x) => !/^(\*\*(Línea|Responsable|Kanbanize|Mes|Ahora):\*\*|Fuente:)/.test(x));
 const mdHtml = (x) => x.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/\*\*(.+?)\*\*/g, '<b>$1</b>').replace(/\[([^\]]+)\]\((https?:\/\/[^)\s]+)\)/g, '<a class="external-link" href="$2" target="_blank" rel="noopener">$1</a>').replace(/\[\[([^\]|]+)(?:\|([^\]]+))?\]\]/g, (m, a, b) => `<a class="internal-link" data-href="${a}" href="${a}">${b ?? a}</a>`);
 const respDe = (t) => { const c = (t.children ?? []).find((c) => /^\*\*Responsable:\*\*/.test(String(c.text).trim())); return c ? String(c.text).replace(/^\s*\*\*Responsable:\*\*\s*/, '').replace(/\s*\(.*\)\s*$/, '').trim() : null; };
 const urlsTareas = new Set(ts.flatMap((t) => txtAll(t).match(/https?:\/\/[^)\s\]]+/g) ?? []));
 const K = { cliente: [], curso: [], backlog: [], hecho: [] };
 for (const t of ts) {
   const sec = t.section?.subpath ?? ''; const quien = sec.includes('Cliente') ? 'cliente' : sec.includes('Runroom') ? 'runroom' : null; if (!quien) continue;
-  const f = fechaDe(t); const it = { origen: 'Tarea', txt: limpia(t.text), dias: f ? Math.round(hoy.diff(f, 'days').days) : null, links: linksDe(t), motivo: null, resp: respDe(t), kb: kanbanDe(t), det: detalleDe(t) }; it.linea = lineaDe(t, it.resp);
+  const f = fechaDe(t); const it = { origen: 'Tarea', txt: limpia(t.text), dias: f ? Math.round(hoy.diff(f, 'days').days) : null, links: linksDe(t), motivo: null, resp: respDe(t), kb: kanbanDe(t), det: detalleDe(t), mes: campoDe(t, 'Mes'), ahora: campoDe(t, 'Ahora') }; it.linea = lineaDe(t, it.resp);
   (quien === 'cliente' ? K.cliente : t.status === '/' ? K.curso : K.backlog).push(it);
 }
 const hechasPen = pen ? pen.file.tasks.where((t) => !t.parent && t.completed && /Runroom|Cliente/.test(t.section?.subpath ?? '')).array() : [];
-for (const t of hechasPen) { const r = respDe(t); K.hecho.push({ origen: 'Tarea', txt: limpia(t.text), dias: null, links: linksDe(t), motivo: null, resp: r, kb: kanbanDe(t), linea: lineaDe(t, r), det: detalleDe(t) }); }
+for (const t of hechasPen) { const r = respDe(t); K.hecho.push({ origen: 'Tarea', txt: limpia(t.text), dias: null, links: linksDe(t), motivo: null, resp: r, kb: kanbanDe(t), linea: lineaDe(t, r), det: detalleDe(t), mes: campoDe(t, 'Mes'), ahora: campoDe(t, 'Ahora') }); }
 for (const t of estTasks) {
   const k = tipo(t); if (k === 'descartado') continue;
+  if (t.mensual != null && k !== 'hecho') continue; // lo recurrente se sigue en las tareas del mes del Pendientes
   if (t.basecamp && urlsTareas.has(String(t.basecamp).trim()) && k !== 'hecho') continue;
   const pel = String(t.pelota ?? '').toLowerCase();
-  const it = { origen: k === 'duda' ? 'Sin confirmar' : 'Estrategia', txt: limpia(t.text), dias: null, links: [t.basecamp ? { label: 'Basecamp', url: String(t.basecamp) } : null, t.fuente ? { label: /drive\.google/.test(String(t.fuente)) ? (/1XG4Q4Ua9j3D/.test(String(t.fuente)) ? 'Estrategia Beyond 26/27' : 'Documento de Drive') : (/spreadsheets/.test(String(t.fuente)) ? 'Sheet' : 'Fuente'), url: String(t.fuente) } : null].filter(Boolean), motivo: t.motivo ? String(t.motivo) : null, resp: null, sec: t.section?.subpath ?? '', kb: t.kanbanize ? { label: 'Kanbanize', url: String(t.kanbanize) } : null, plan: t.plan ? String(t.plan) : null, ini: t.inicio ? fecha(String(t.inicio).slice(0, 7) + '-01') : null, fin: t.fin ? fecha(String(t.fin).slice(0, 7) + '-01')?.endOf('month') : null, est: k, linea: /link/i.test(t.section?.subpath ?? '') ? 'Link building' : /gesti/i.test(t.section?.subpath ?? '') ? 'Gestión' : 'Contenidos' };
+  const it = { origen: k === 'duda' ? 'Sin confirmar' : 'Estrategia', txt: limpia(t.text), dias: null, links: [t.basecamp ? { label: 'Basecamp', url: String(t.basecamp) } : null, t.fuente ? { label: /drive\.google/.test(String(t.fuente)) ? (/1XG4Q4Ua9j3D/.test(String(t.fuente)) ? 'Estrategia Beyond 26/27' : 'Documento de Drive') : (/spreadsheets/.test(String(t.fuente)) ? 'Sheet' : 'Fuente'), url: String(t.fuente) } : null].filter(Boolean), motivo: t.motivo ? String(t.motivo) : null, resp: null, sec: t.section?.subpath ?? '', kb: t.kanbanize ? { label: 'Kanbanize', url: String(t.kanbanize) } : null, plan: t.plan ? String(t.plan) : null, ini: t.inicio ? fecha(String(t.inicio).slice(0, 7) + '-01') : null, fin: t.fin ? fecha(String(t.fin).slice(0, 7) + '-01')?.endOf('month') : null, est: k, linea: /kpi/i.test(t.section?.subpath ?? '') ? 'Informe y KPIs' : /link/i.test(t.section?.subpath ?? '') ? 'Link building' : /gesti/i.test(t.section?.subpath ?? '') ? 'Gestión' : 'Contenidos' };
   if (k === 'hecho') K.hecho.push(it); else if (k === 'cliente' || (k === 'parcial' && pel === 'cliente')) K.cliente.push(it); else if (k === 'parcial') K.curso.push(it); else K.backlog.push(it);
 }
 const tarjeta = (i, cont, kc) => {
   const c = el('div', 'kcard' + (i.dias != null && i.dias > 30 ? ' old' : ''), null, cont); c.style.setProperty('--kc', kc);
-  const tt = el('div', null, null, c); el('span', `tag ${i.origen === 'Tarea' ? 'bc' : 'est'}`, i.origen, tt); tt.append(' ' + i.txt);
-  if (i.det && i.det.length) { const dd = el('details', 'kmore', null, c); el('summary', null, 'Ver contexto', dd); const ul = el('ul', null, null, dd); for (const x of i.det) { const li = el('li', null, null, ul); li.innerHTML = mdHtml(x); } }
+  const tt = el('div', null, null, c); el('span', `tag ${i.origen === 'Tarea' ? 'bc' : 'est'}`, i.mes ? '🗓️ Mes' : i.origen, tt); tt.append(' ' + i.txt);
+  const pasos = (i.det ?? []).filter((x) => /^(✅|🔄|⏳|⬜|✖️)/.test(x));
+  if (pasos.length) { const n = (e) => pasos.filter((x) => x.startsWith(e)).length; const hechos = n('✅') + n('✖️'); const pr = el('div', 'kmeta', null, c); const b = el('span', null, `🧩 ${hechos}/${pasos.length} pasos`, pr); b.style.fontWeight = '600'; b.style.color = hechos === pasos.length ? VERDE : 'var(--text-normal)'; if (n('🔄')) el('span', null, `🔄 ${n('🔄')} en curso`, pr); if (n('⏳')) { const w = el('span', null, `⏳ ${n('⏳')} esperando`, pr); w.style.color = NARANJA; } }
+  if (i.ahora) { const a = el('div', 'muted sub', null, c); a.innerHTML = '<b>Ahora:</b> ' + mdHtml(i.ahora); }
+  if (i.det && i.det.length) { const dd = el('details', 'kmore', null, c); el('summary', null, pasos.length ? 'Ver pasos' : 'Ver contexto', dd); const ul = el('ul', null, null, dd); for (const x of i.det) { const li = el('li', null, null, ul); li.innerHTML = mdHtml(x); } }
   if (i.motivo) el('div', 'muted sub', i.motivo, c);
   if (i.plan) { const p = el('div', 'kplan', `📅 ${i.plan}`, c); const hecho = i.est === 'hecho'; if (!hecho && i.fin && hoy > i.fin) { p.style.color = ROJO; p.textContent += ' · fuera de plazo'; } else if (!hecho && i.est !== 'parcial' && i.ini && hoy >= i.ini) { p.style.color = NARANJA; p.textContent += ' · debería estar en marcha'; } }
   const meta = el('div', 'kmeta', null, c);
@@ -183,8 +187,8 @@ const nViejas = K.cliente.filter((i) => (i.dias ?? 0) > 7).length;
 const card = el('div', 'card', null, root);
 cabecera(card, null, 'Estrategia + Basecamp, correo y actas', 'Tablero de tareas', `${K.cliente.length} esperando al cliente · ${K.curso.length} en curso · ${K.backlog.length} en backlog · ${K.hecho.length} hechas`, `${nViejas} del cliente con más de 7 días`, nViejas ? NARANJA : VERDE);
 const COLS = [['backlog', '⬜ Backlog (sin empezar)', 'hsl(210, 12%, 58%)'], ['cliente', '🟧 Esperando al cliente', NARANJA], ['curso', '🟦 En curso (nosotros)', AZUL]];
-const LCOL = { 'Contenidos': 'hsl(265, 45%, 55%)', 'Link building': 'hsl(180, 55%, 38%)', 'Gestión': 'hsl(32, 20%, 50%)' };
-const LQUIEN = { 'Contenidos': 'Olga', 'Link building': 'Olga', 'Gestión': 'Nina' };
+const LCOL = { 'Informe y KPIs': 'hsl(330, 50%, 50%)', 'Contenidos': 'hsl(265, 45%, 55%)', 'Link building': 'hsl(180, 55%, 38%)', 'Gestión': 'hsl(32, 20%, 50%)' };
+const LQUIEN = { 'Informe y KPIs': 'Fer', 'Contenidos': 'Olga', 'Link building': 'Olga', 'Gestión': 'Nina' };
 const lineas = [...LINEAS, ...new Set([...K.backlog, ...K.cliente, ...K.curso].map((i) => i.linea).filter((l) => !LINEAS.includes(l)))];
 for (const lin of lineas) {
   const enLin = (k) => K[k].filter((i) => i.linea === lin);

@@ -13,3 +13,5 @@ Subcarpeta `Esade/Contenidos Beyond/` con la estructura numerada (1-4 + Claude/)
 Preguntas abiertas para Nina en la Ficha (horas de KAM, código Paprika, horas de Fer, pedido sep–dic, toxicidad).
 
 ## [2026-11-12] automatizaciones | Tarea programada "Esade Beyond - Actas de reunión" (L-V 17:41, vinculada al ordenador y a la carpeta Esade; Drive solo lectura; aviso push). Pendiente de que Nina apruebe el cambio de la tarea "Basecamp - Pendientes diarios" para que el proyecto 15430351 escriba aquí y no en Esade.md / Pendientes - Esade.md
+
+## [2026-11-13] cambio | Tareas de Beyond por mes y por línea (indicado por Nina): 📊 Informe y KPIs, 🔗 Link building y ✍️ Contenidos, una tarea por mes con sus pasos (✅ 🔄 ⏳ ⬜ ✖️). Creadas: Link building sep, oct y nov; Contenidos nov y dic; Informe y KPIs de noviembre. Las tareas sueltas por medio o por artículo se han fundido en su mes. Panel de Tareas: línea nueva "Informe y KPIs", contador de pasos y línea "Ahora". Estrategia: lo recurrente lleva [mensual:: sí] y no se repite en el tablero. Instrucciones: sección "Tareas del mes" (pasos de cada línea y creación automática a primeros de mes)

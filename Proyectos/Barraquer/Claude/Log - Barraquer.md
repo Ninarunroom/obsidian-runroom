@@ -115,3 +115,6 @@ Creada 61768 «Barraquer - Propuesta campañas genéricas en mercados nuevos» (
 
 ## [2026-11-12] pendientes | Cierres tras el status
 Cerradas `[x]`: "Decidir sobre la pausa de las campañas de reserva en países nuevos" (aprobado y aplicado por Ari el 12/11) y "Revisar y aprobar la propuesta de CPL / presupuestos por campaña" (se pasó con el refuerzo de patologías y Cristian lo aprobó). Reformulada la de vídeos de Madrid como "Compartir las creatividades de Madrid". Confirmado por Nina.
+
+## [2026-11-13] pendientes | Cierres y fechas
+Cerradas `[x]`: "Reenviar a Cristian las notas…" (Nina envió informe y acta en el hilo del informe) y "Feedback sobre la revisión de conversiones de Google Ads" (ya está). Quitadas las fechas propuestas por Claude (radio Madrid 26/11, genéricas mercados nuevos semana del 16/11): solo se ponen fechas con deadline acordado.

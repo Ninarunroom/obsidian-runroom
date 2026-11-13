@@ -68,6 +68,23 @@ Las notas de Gemini se guardan solas en el Drive de Nina. La tarea las busca cad
 4. **Contradicciones**: no sobrescribir. Marca "⚠️ en revisión" con las dos versiones, su fuente y su fecha, y avisa a Nina.
 5. Registra la entrada en `Claude/Log - Esade Beyond.md`.
 
+### Tareas del mes (lo recurrente)
+El trabajo de Beyond se repite cada mes en tres líneas. **Cada línea tiene una tarea por mes** en el Pendientes, con sus pasos debajo. No se crean tareas sueltas por medio ni por artículo: van como pasos dentro de la tarea de su mes.
+
+| Línea | Título de la tarea | Pasos (en este orden) | Quién |
+|---|---|---|---|
+| 📊 **Informe y KPIs** | `**[Informe y KPIs]** Esade — Informe y KPIs de <mes> <año>` (se entrega a primeros del mes siguiente, ~día 5) | Datos a cierre de mes (Sistrix, Search Console, Ahrefs, GA4) · ratio de clics de Beyond a esade.edu · Excel de KPIs actualizado y aviso a Astrid en el to-do "Status semanal" · dudas de Astrid resueltas | Fer |
+| 🔗 **Link building** | `**[Link building]** Esade — Link building <mes> <año>` | Propuesta de medios, temáticas, URL y anchors en el Sheet · validación de los medios por Astrid y Comunicación · validación de temáticas, URL y anchors · **un paso por medio** (precio, país): brief → texto subido a Basecamp → revisión de Astrid (con el profesor o el equipo) → cambios → publicado con enlace · comprometido del mes (Control presupuesto medios) | Olga (valida Astrid) |
+| ✍️ **Contenidos** | `**[Contenidos]** Esade — Contenidos <mes> <año>` (2 artículos al mes) | Por artículo, con un subtítulo `**Artículo N · <tema>**`: petición o prioridad de Astrid en Basecamp → keyword research y propuesta de temática → OK de Astrid → briefing en el Sheet "Briefings Beyond" → Astrid lo valida → redacción (Eleven) y publicación en Beyond (Esade) | Olga (valida Astrid) |
+
+- **Formato**: debajo del título, los campos `**Línea:**`, `**Mes:**`, `**Entrega:**`, `**Responsable:**` (en 🟧 Cliente, `**Esperando desde:**`), `**Ahora:**` (una frase: qué falta y de quién), los pasos y la `Fuente:` con los enlaces a Basecamp y al Sheet.
+- **Estado de cada paso**, al principio de la línea: ✅ hecho (con fecha) · 🔄 en curso · ⏳ esperando al cliente · ⬜ pendiente · ✖️ descartado (con el motivo). El panel de Tareas cuenta los pasos (🧩 3/7).
+- **Claude puede cambiar el estado de un paso** cuando haya evidencia (Basecamp, correo, Sheet, acta), poniendo la fecha y actualizando la línea `**Ahora:**`. **La casilla de la tarea del mes la marca Nina** cuando todos los pasos estén en ✅ o ✖️.
+- **Sección**: la tarea del mes va en 🟦 Runroom o en 🟧 Cliente según quién tenga ahora la pelota (si hay pasos de los dos, donde esté lo que bloquea). Al moverla de sección, se mueve el bloque entero.
+- **A qué mes va cada cosa**: link building, el mes del presupuesto de medios al que se imputa el medio (lo dice el Sheet; si un medio se pasa de mes, se mueve a la tarea de ese mes con una nota). Contenidos, el mes en que se planifica el artículo (lo dicen Olga o Astrid en Basecamp; si se adelanta o se retrasa, se mueve con una nota). KPIs, el mes de los datos.
+- **Al empezar cada mes** (primer día laborable), la tarea diaria crea en 🟦 Runroom las tres tareas del mes nuevo si no existen, con sus pasos en ⬜: Informe y KPIs del mes anterior (Entrega: día 5), Link building del mes y Contenidos del mes. En agosto no hay link building ni contenidos.
+- En la Estrategia, lo recurrente lleva `[mensual:: sí]` y no se repite en el tablero.
+
 ### Pendientes: status y quién tiene la pelota
 - Arriba va la sección **"## Status (DD/MM/AAAA)"**, que reescribe la tarea diaria. Es un resumen, no una alerta:
   - 💶 **Presupuesto y medios**: pedido pendiente, facturación del mes, medios comprometidos frente al ritmo del curso.
@@ -77,7 +94,7 @@ Las notas de Gemini se guardan solas en el Drive de Nina. La tarea las busca cad
   - 💬 **mensajes de Astrid, Helen o Sergi sin respuesta de RR después de 48 h laborables**.
 - **🟦 Runroom**: campos Línea, Entrega, Responsable (Olga, Fer o Nina), Info, Fuente. `[ ]` backlog y `[/]` en curso. Claude puede pasar de `[ ]` a `[/]` con evidencia, pero nunca a `[x]`.
 - **🟧 Cliente**: campos Esperando desde, Info, Fuente. Aquí van Astrid, Helen, Sergi, Comunicación, Eleven, Vansters y los medios que dependen de Esade.
-- **Línea**: `- **Línea:** Contenidos | Link building | Gestión` (el panel agrupa el tablero por línea).
+- **Línea**: `- **Línea:** Informe y KPIs | Link building | Contenidos | Gestión` (el panel agrupa el tablero por línea).
 - **Enlace de referencia obligatorio** en la línea `Fuente:` de cada tarea: `[Basecamp: <título>](url)`, `[📧 "<asunto>" (<remitente>, DD/MM)](enlace de Gmail)`, `[Sheet: …](url)` o `[Acta …](url)`.
 - **🔍 Por verificar**: pendientes antiguos que quizá ya están cerrados. El panel no los lee.
 - **Nunca marques `[x]` ni borres**: eso lo hace Nina. Si una tarea tiene novedades, añade debajo "- **Actualización DD/MM:** …".
@@ -93,7 +110,7 @@ Tres notas con un bloque `dataviewjs` cada una (plugin Dataview). **Nunca se edi
 
 | Panel | De dónde lee | Qué mantiene Claude |
 |---|---|---|
-| **Tareas - Esade Beyond** | `Claude/Datos/Pendientes - Esade Beyond.md` y `Claude/Datos/Estrategia 26-27 - seguimiento Esade Beyond.md` | Las tareas. Estrategia: `[x]` `[/]` `[ ]` `[?]` `[-]`, `[pelota:: cliente\|runroom]`, `[motivo:: …]`, `[basecamp:: …]`, `[fuente:: …]`, `[plan:: …] [inicio:: AAAA-MM] [fin:: AAAA-MM]`, `[nuevo:: sí]`. Las secciones de la estrategia con "Link" en el nombre van a la línea Link building |
+| **Tareas - Esade Beyond** | `Claude/Datos/Pendientes - Esade Beyond.md` y `Claude/Datos/Estrategia 26-27 - seguimiento Esade Beyond.md` | Las tareas. Estrategia: `[x]` `[/]` `[ ]` `[?]` `[-]`, `[pelota:: cliente\|runroom]`, `[motivo:: …]`, `[basecamp:: …]`, `[fuente:: …]`, `[plan:: …] [inicio:: AAAA-MM] [fin:: AAAA-MM]`, `[nuevo:: sí]`. Las secciones de la estrategia con "KPIs" van a Informe y KPIs y las que tienen "Link", a Link building |
 | **Horas - Esade Beyond** | Lista "Registro mensual" de la propia nota (`[mes:: AAAA-MM] [agencia:: h] [kam:: h] [total:: h] [actualizado:: …] [notas:: …]`) y `horas_plan`, `remanente_inicial`, `curso_inicio`, `paprika_codigos`, `variacion_max_pct` de Datos panel | A cierre de mes (desde el día 5): la línea del mes con las horas de la Bolsa de horas (pestaña ESADE, filas "SEO blogging (beyond)"). Actualiza `remanente_horas` y `remanente_mes` |
 | **Facturación y fee - Esade Beyond** | Lista "Pedidos y facturas 26/27" (`- [ ] … [mes::] [hasta::] [importe::] [oc::]`), lista "Compra de medios por mes" (`[medios:: AAAA-MM] [plan::] [facturado::] [consumido::] [notas::]`) y `presupuesto_curso`, `precio_hora`, `medios_*`, `facturacion_*` de Datos panel | OC e importes cuando se conozcan; cada mes, el comprometido de medios desde el Sheet. Nina marca la casilla de las facturas |
 

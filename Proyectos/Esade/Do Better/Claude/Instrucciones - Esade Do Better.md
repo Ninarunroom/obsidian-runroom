@@ -95,6 +95,13 @@ Tres notas con un bloque `dataviewjs` cada una (plugin Dataview). **Nunca se edi
 
 **Propiedades de `Claude/Datos panel - Esade Do Better.md`**: `actualizado`, `alertas_hoy`, `curso_inicio`, `paprika_codigos` (en agosto, si falta el del curso siguiente, recuérdaselo a Nina), `horas_plan` (25 h/mes: 20 agencia + 5 Nina, reparto deducido), `remanente_inicial` (0), `remanente_horas`, `remanente_mes`, `precio_hora`, `precio_hora_nota`, `variacion_max_pct`, `umbral_cliente_dias`, `facturacion_*`, `coste_agencia_oc`, `coste_agencia_importe`, `coste_agencia_precio_hora`. Edítalas con un script read-modify-write.
 
+
+## Tareas programadas de este proyecto
+- **Esade Do Better - Seguimiento diario** (L-V 10:31): lee Basecamp 19338495, el correo de Dulce, Judith y Marta Barquier y el [Sheet de briefings](https://docs.google.com/spreadsheets/d/1YQQKCslhiQzXwLks5bx_G6o3Jf7wTlfuYQ6JLbhZqC8). Añade tareas, crea las recurrentes (tendencias los lunes, informe y optimizaciones del mes el primer día laborable, cierre de horas el día 5), vuelca las horas de la agencia, reescribe el Status y calcula las alertas.
+- **Iteración de contenidos**: cada día compara el estado de cada URL del Sheet con lo último anotado. Si algo cambia, añade una "Actualización" a la tarea "Optimizaciones de <mes>" y reescribe la línea **Estado** de [[Líneas de trabajo - Esade Do Better]]. Si no cambia nada, no escribe.
+- **Esade Do Better - Actas de reunión** (L-V 17:47): notas de Gemini de Do Better → acta, KB y Pendientes.
+- La tarea general "Basecamp - Pendientes diarios" no lee el proyecto de Do Better. Si le llega un correo de Do Better, lo manda aquí siguiendo las Instrucciones de Esade.
+
 ## Tareas recurrentes (las crea la tarea diaria en 🟦 Runroom si no existen)
 - **Tendencias de búsqueda**: una por semana (Fer). Si en el hilo de Tendencias no hay mensaje de Runroom en 7 días, sale en el Status.
 - **Informe mensual**: el primer día laborable de cada mes, "Informe de <mes anterior>: enviar y ofrecer presentarlo" (Fer y Nina).
@@ -102,8 +109,7 @@ Tres notas con un bloque `dataviewjs` cada una (plugin Dataview). **Nunca se edi
 - **Cierre de horas**: el día 5 de cada mes (Nina).
 
 ## Alertas
-> [!warning] Propuesta pendiente del OK de Nina (12/11/2026)
-> Funcionan en el Status del Pendientes y en `alertas_hoy` de Datos panel. Si una tarea programada avisa, lo hace con una notificación push, sin email.
+Aprobadas por Nina el 12/11/2026. Van en el Status del Pendientes y en `alertas_hoy` de Datos panel. Si una tarea programada avisa, lo hace con una notificación push, sin email.
 
 | Tipo | Regla |
 |---|---|

@@ -41,7 +41,7 @@ Status del día y tareas pendientes, separadas por **quién tiene la pelota**. S
 
 - [ ] **[Propuesta]** Barraquer — Propuesta de radio / audio programático para Madrid (one shot, 2.ª-3.ª semana de diciembre)
     - **Kanbanize:** https://runroom.kanbanize.com/ctrl_board/21/cards/61762/details/
-    - **Entrega:** 26/11/2026 (propuesta)
+    - **Entrega:** sin fecha definida
     - **Responsable:** Nina y Ari
     - **Info:** Con el remanente. Incluir presupuesto, inversión mínima y la creatividad necesaria (falca). Antecedentes: Wiimas, mínimo 3.000 €/mes (21/07); catálogo de medios tradicionales del 85 aniversario (12/02); [Barraquer x DV360: New Formats](https://docs.google.com/presentation/d/1MGpd33Ajr4dvMOVVotcZCC2q_5EStZJnTPyOoXZMd2c/edit) (audio, CTV, DOOH).
     - Fuente: [Status RR 12/11](https://docs.google.com/document/d/1KwOa2-ND1Jp3jMdOULItwlId1BO8vZPsvtlEL-pKoRM/edit) · acta: [[2026-11-12 - Status RR - remanente, Madrid y contenidos]] — detectado 12/11/2026
@@ -58,15 +58,9 @@ Status del día y tareas pendientes, separadas por **quién tiene la pelota**. S
     - **Responsable:** Ari
     - Fuente: [Status RR 12/11](https://docs.google.com/document/d/1KwOa2-ND1Jp3jMdOULItwlId1BO8vZPsvtlEL-pKoRM/edit) · acta: [[2026-11-12 - Status RR - remanente, Madrid y contenidos]] — detectado 12/11/2026
 
-- [ ] **[Tarea]** Barraquer — Reenviar a Cristian las notas de Gemini y la presentación de cada reunión (no le llegan)
-    - **Entrega:** 13/11/2026
-    - **Responsable:** Nina
-    - **Info:** A partir de ahora, después de cada reunión.
-    - Fuente: [Status RR 12/11](https://docs.google.com/document/d/1KwOa2-ND1Jp3jMdOULItwlId1BO8vZPsvtlEL-pKoRM/edit) · acta: [[2026-11-12 - Status RR - remanente, Madrid y contenidos]] — detectado 12/11/2026
-
 - [ ] **[Propuesta]** Barraquer — Propuesta de lanzamiento de campañas genéricas en mercados nuevos
     - **Kanbanize:** https://runroom.kanbanize.com/ctrl_board/21/cards/61768/details/
-    - **Entrega:** semana del 16/11/2026 (Ari: "la setmana vinent")
+    - **Entrega:** sin fecha definida (Ari dice que se trabaja "la setmana vinent")
     - **Responsable:** Ari
     - **Info:** Awareness/captación genérica por patología en los países nuevos (la marca aún no tiene penetración). Con la reserva que queda (10,2k).
     - Fuente: [Refuerzo patologías & push final año 2026](https://basecamp.com/1771388/projects/17192035/todos/521039257) · acta: [[2026-11-12 - Status RR - remanente, Madrid y contenidos]] — detectado 12/11/2026
@@ -85,10 +79,6 @@ Status del día y tareas pendientes, separadas por **quién tiene la pelota**. S
     - **Actualización 05/11:** hay 7.736,68 € disponibles (dato de Nina). Parece recargado: márcala si lo confirmas.
     - **Actualización 12/11:** Ari avisa en el status de que **no queda saldo en Clínica**. Cristian tiene que recargar ([[2026-11-12 - Status RR - remanente, Madrid y contenidos]]).
     - Fuente: [Saldo Google Ads](https://basecamp.com/1771388/projects/17192035/todos/503485531) · [Status 30/9](https://basecamp.com/1771388/projects/17192035/todos/520642038) — detectado 30/09/2026
-
-- [ ] **[Petición cliente]** Barraquer — Feedback sobre la revisión de conversiones de Google Ads de septiembre (categorización y si se añade a sus informes)
-    - **Esperando desde:** 21/09/2026
-    - Fuente: [Transversal - Revisión conversiones Google Ads (sept 26)](https://basecamp.com/1771388/projects/17192035/todos/520415512) — detectado 21/09/2026
 
 - [ ] **[Petición cliente]** Barraquer — Enviar el archivo de ROI 2026 y revisar el Excel de inversión acumulada 2025-2026 revisado por Runroom (en su SharePoint)
     - **Esperando desde:** 29/10/2026
@@ -136,6 +126,18 @@ Nuestro, todavía sin empezar.
 ## ✅ Done
 
 Tareas cerradas (`[x]` hecha, `[-]` ya no aplica), con el motivo en una línea "Cerrada DD/MM".
+
+- [x] **[Tarea]** Barraquer — Reenviar a Cristian las notas de Gemini y la presentación de cada reunión (no le llegan)
+    - **Entrega:** 13/11/2026
+    - **Responsable:** Nina
+    - **Info:** A partir de ahora, después de cada reunión.
+    - Fuente: [Status RR 12/11](https://docs.google.com/document/d/1KwOa2-ND1Jp3jMdOULItwlId1BO8vZPsvtlEL-pKoRM/edit) · acta: [[2026-11-12 - Status RR - remanente, Madrid y contenidos]] — detectado 12/11/2026
+    - **Cerrada 13/11:** Nina le envió el informe y el acta del status del 12/11 en el hilo del informe.
+
+- [x] **[Petición cliente]** Barraquer — Feedback sobre la revisión de conversiones de Google Ads de septiembre (categorización y si se añade a sus informes)
+    - **Esperando desde:** 21/09/2026
+    - Fuente: [Transversal - Revisión conversiones Google Ads (sept 26)](https://basecamp.com/1771388/projects/17192035/todos/520415512) — detectado 21/09/2026
+    - **Cerrada 13/11:** ya está (lo confirma Nina).
 
 - [x] **[Tarea]** Barraquer — Decidir sobre la pausa de las campañas de reserva en países nuevos
     - **Entrega:** sin fecha definida
