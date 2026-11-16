@@ -14,6 +14,7 @@ Status del día y tareas pendientes, separadas por **quién tiene la pelota**. S
     - **Entrega:** cuanto antes (lo ha preguntado tres veces)
     - **Responsable:** Nina
     - **Info:** El 02/11 Sergi pidió que Nina vigile la dedicación porque van "a full". Sobre la protección anti-spam de FormAssembly (ALTCHA), el 29/10 avisó "alerta amb el volum d'hores" y el 10/11 volvió a preguntar si se había mirado. El análisis lo tienen Jordi, Jorge y Joshua, y estaba parado hasta que volviera Joshua.
+    - **Actualización 16/11:** Nina contestó a Sergi el 12/11 (se despriorizó por falta de disponibilidad de backend y ya se ha pedido disponibilidad al equipo). [📧 "New forms now come with built-in spam protection" (Nina, 12/11)](https://mail.google.com/mail/?authuser=nina@runroom.com#all/thread-f:1879761366507593429)
     - Fuente: [📧 "New forms now come with built-in spam protection" (Sergi, 10/11)](https://mail.google.com/mail/?authuser=nina@runroom.com#all/thread-f:1879761366507593429) · [📧 "Informe setembre amb alguna actualitzacions" (Sergi, 02/11)](https://mail.google.com/mail/?authuser=nina@runroom.com#all/thread-f:1880109674396533661) — detectado 12/11/2026
 - [/] **[Facturación]** Esade — Cierre de horas de octubre: volcar al Seguimiento las horas de la agencia y las de Paprika
     - **Línea:** Gestión
@@ -26,24 +27,28 @@ Status del día y tareas pendientes, separadas por **quién tiene la pelota**. S
     - **Entrega:** sin fecha definida
     - **Responsable:** Marta
     - **Info:** Sergi aprobó el 10/11 la propuesta de Marta: marcar en el sGTM (Stape) `traffic_type=bot` las combinaciones detectadas sin enviarlas a Google Ads ni a Meta, filtro de datos en GA4 (primero en prueba), quitar `user_active_120` de los eventos clave, segmento para informes pasados y revisión mensual de las combinaciones. Natzir (11/11): la web va por CloudFront (AWS), no por Cloudflare; Sistemas ya puso un captcha a los rangos del pico; para las resoluciones raras basta "China + resolución", porque la versión de Chrome caduca enseguida; propone un honeypot con AWS WAF para Sistemas.
+    - **Actualización 16/11:** sin avance desde la aprobación de Sergi del 10/11 (ni en Basecamp ni en el correo). Sergi: "Entenc que la part de Cloudflare l'ha de fer sistemes". Va a ⏰ en el status semanal.
     - Fuente: [Basecamp: Xina](https://basecamp.com/1771388/projects/16901662/messages/113457396) · [📧 "Pico de bots en GA4 el 4 de noviembre" (Natzir, 11/11)](https://mail.google.com/mail/?authuser=nina@runroom.com#all/thread-f:1881029419490066014) — detectado 22/10/2026
 - [ ] **[Petición cliente]** Esade — Ajustes de consentimiento de cookies en GTM (incidencias del Compliance Assistant de OneTrust)
     - **Línea:** Analítica
     - **Entrega:** sin fecha definida
     - **Responsable:** Marta (Jordi en copia)
     - **Info:** Son cinco puntos: (1) CrazyEgg solo con consentimiento de Rendimiento, sin cargar el script antes; (2) API de YouTube sin consentimiento de Publicidad (los iframes los bloquea Esade desde Drupal; hay un Jira abierto); (3) Flowbox condicionado a Funcionales; (4) qué tags generan `_gcl_*`, `sbjs_*` y `crm_tracking`, y que solo se disparen con su consentimiento; (5) `functionality_storage` tiene que empezar denegado, y hay que confirmar el mapeo entre los grupos de OneTrust y Consent Mode y que el sGTM (load.ss.esade.edu) lo respeta.
+    - **Actualización 16/11:** sigue sin respuesta de RR (desde el 11/11).
     - Fuente: [📧 "www.esade.edu · Ajustos de consentiment de galetes a GTM" (Sergi, 11/11)](https://mail.google.com/mail/?authuser=nina@runroom.com#all/thread-f:1881572888713368359) — detectado 12/11/2026
 - [ ] **[Petición cliente]** Esade — Pico de sesiones del 10/11 en GA4: confirmar si es la modelización de Consent Mode
     - **Línea:** Analítica
     - **Entrega:** sin fecha definida
     - **Responsable:** Marta
     - **Info:** Sesiones +59 % y usuarios +73 % de un día para otro, mientras los eventos clave no cambian. Natzir cree que es la modelización (sesiones estimadas) y recomienda la identidad "Observado" para los KPI y para comparar con el histórico; la API y los dashboards también quedan afectados. Falta que Marta confirme si el 9 o el 10/11 cambió algo en GTM, en el sGTM o en OneTrust.
+    - **Actualización 16/11:** sigue sin respuesta de Marta; solo ha contestado Natzir (11/11).
     - Fuente: [📧 "Esade: pic de sessions el 10/11 – és la modelització de Consent Mode?" (Sergi, 11/11)](https://mail.google.com/mail/?authuser=nina@runroom.com#all/thread-f:1881574014061694620) — detectado 12/11/2026
 - [/] **[Tarea]** Esade — EMBA: backlog de recuperación de posiciones 4-10 (F0 y F1)
     - **Línea:** SEO técnico
     - **Entrega:** sin fecha definida
     - **Responsable:** Fer
     - **Info:** F0-01 entregado el 26/10 (ficha de queries perdidas). Fer está con F0-02 (análisis de SERP). Para F1-01, 02, 05, 06, 07 y 08, Sergi pidió antes un inventario de "ya existe / hay que actualizar / hay que crear". El paso 3 del plan ("¿Cuánto cuesta un Executive MBA en España?") pasa a Beyond o link building (Olga). Seguimiento en [[Estrategia 26-27 - seguimiento Esade SEO]].
+    - **Actualización 16/11:** sin novedades en Basecamp desde el 26/10. El Excel sigue con las 20 tareas en "Pendiente" (también la F0-01); última edición: Nina, 13/11.
     - Fuente: [Basecamp: EMBA](https://basecamp.com/1771388/projects/19742261/messages/113264682) · [Backlog EMBA F0-F4 (Drive)](https://drive.google.com/file/d/17wPCCI_OlSEpzuTz6EX7LARGX6vP9JEN/view) — detectado 30/09/2026
 - [/] **[Tarea]** Esade — Plan de acción EMBA (30/10): las tareas de RR
     - **Línea:** SEO técnico
@@ -57,12 +62,14 @@ Status del día y tareas pendientes, separadas por **quién tiene la pelota**. S
     - **Responsable:** Fer
     - **Info:** /mba/en pierde un 37 % de clics (28/6-26/10, interanual). Cuatro URLs concentran el 83 % de lo perdido; la ficha /programmes/full-time-mba pasa de la posición 12,4 a la 25,8 (−52 % de clics) e India pierde un 42 %. Sergi: "Activem tots els next steps" (29/10).
     - **Actualización 12/11:** plan de acción en [Sheet: Esade FTMBA - Plan de acción](https://docs.google.com/spreadsheets/d/1FUpa6tUAidxNhfkUkrLl_HfkGDgzhDhZtzsSU4VL8xM/edit) (carpeta FTMBA del Drive del curso 26/27, compartida con Fer). Fer tiene que completarlo con el resto de acciones de su informe y fechas.
+    - **Actualización 16/11:** Fer editó el Sheet del plan el 13/11, pero las 7 acciones siguen sin fecha prevista y en "Pendiente" / "Por validar con Fer".
     - Fuente: [Basecamp: Full Time MBA](https://basecamp.com/1771388/projects/19742261/messages/113563313) · [Sheet: FTMBA - Plan de acción](https://docs.google.com/spreadsheets/d/1FUpa6tUAidxNhfkUkrLl_HfkGDgzhDhZtzsSU4VL8xM/edit) — detectado 29/10/2026
 - [/] **[Tarea]** Esade — Schema: devolver a Sergi los matices a su propuesta (redes sociales en schema)
     - **Línea:** SEO técnico
     - **Entrega:** sin fecha definida
     - **Responsable:** Fer
     - **Info:** Fer pasó el documento de Sergi por su agente de IA, lo cruzó con la respuesta de Natzir y ve cosas con sentido y otras que no haría o no harían falta.
+    - **Actualización 16/11:** Fer respondió el 13/11 con prioridades: P1 NewsArticle (email de una persona externa expuesto, RGPD, y publisher) y Course provider con @id + name; P2 completar Organization (sameAs, dirección, logo, Law School como subOrganization); P2 Wikidata y fichas de Google Business con nombre de edificio. Ahora decide Sergi (ver 🟧 Cliente). [📧 "Coses Schema" (Fer, 13/11)](https://mail.google.com/mail/?authuser=nina@runroom.com#all/thread-f:1878390725484215667)
     - Fuente: [📧 "Coses Schema (tot i que la IA potser no en fa cas)" (Sergi, 07/10)](https://mail.google.com/mail/?authuser=nina@runroom.com#all/thread-f:1878390725484215667) — detectado 22/10/2026
 - [x] **[Tarea]** Esade — KPIs de visibilidad en IA: capturas de Sistrix a 31/08 para Helen (cierre del curso 25/26)
     - **Línea:** SEO técnico
@@ -70,11 +77,12 @@ Status del día y tareas pendientes, separadas por **quién tiene la pelota**. S
     - **Responsable:** Fer
     - **Info:** Helen pidió capturas (no solo datos) a 31/08 para presentar los resultados del curso 25/26. Fer las mandó el 05/11 (Esade, IE, IESE, Bocconi y London BS) y Helen respondió "con esto es suficiente". Hilo cerrado. El KPI mensual de IA sigue como tarea recurrente en la estrategia.
     - Fuente: [Basecamp: KPIs a les IAs](https://basecamp.com/1771388/projects/19742261/messages/112018257) — detectado 05/11/2026
-- [ ] **[Tarea]** Esade — Grados: revisar la caída de impresiones de "student loans" (de 100.000 a 0)
+- [/] **[Tarea]** Esade — Grados: revisar la caída de impresiones de "student loans" (de 100.000 a 0)
     - **Línea:** SEO técnico
     - **Entrega:** sin fecha definida
     - **Responsable:** Fer
     - **Info:** Lo señala Sergi el 03/11 al compartir el dashboard de octubre. En octubre Fer lo atribuyó a la estacionalidad (−31 clics), pero que caigan a 0 las impresiones apunta a algo técnico (indexación).
+    - **Actualización 16/11:** el 13/11 Fer preguntó si era la URL /bachelor/en/degrees/tuition-fees/student-loans o la consulta; Sergi contestó el mismo día: "La consulta student loans". Pelota en Fer. [📧 "Dashboard Setembre" (Fer/Sergi, 13/11)](https://mail.google.com/mail/?authuser=nina@runroom.com#all/thread-f:1878407521139447114)
     - Fuente: [📧 "Dashboard Setembre" (Sergi, 03/11)](https://mail.google.com/mail/?authuser=nina@runroom.com#all/thread-f:1878407521139447114) — detectado 12/11/2026
 
 
@@ -84,6 +92,7 @@ Status del día y tareas pendientes, separadas por **quién tiene la pelota**. S
     - **Esperando desde:** 10/11/2026
     - **Línea:** Analítica
     - **Info:** Adsmurai (la agencia de paid de Esade) revisó los píxeles y Helen se lo pasó a Marta el 21/10 (Meta, TikTok, LinkedIn y Google Ads). El punto en el que más insistían: "las conversiones de Google Ads del envío del formulario de contacto no salen de GTM, están metidas directamente en el código de la página". Marta respondió el 10/11 que no hay ningún código en la web que envíe conversiones: el dataLayer solo recoge el ID y la etiqueta de conversión, y el envío se hace desde el GTM server. El 11/11 Nina dio a Adsmurai acceso al GTM server para que apliquen ellos sus cambios. Si Helen no vuelve a preguntar, se puede cerrar. Los demás puntos (eventos duplicados de TikTok y LinkedIn, conversiones de LinkedIn en el server que no envían datos, user_info para el EMQ) los aplicará Adsmurai.
+    - **Actualización 16/11:** Helen respondió a Nina el 11/11 en buen tono ("vamos de bólido… abiertos a lo que sea más…"). ¿Cerrar? [📧 "Dudas píxels GTM Esade" (Helen, 11/11)](https://mail.google.com/mail/?authuser=nina@runroom.com#all/thread-f:1880287239191335334)
     - Fuente: [📧 "Dudas píxels GTM Esade" (Helen 21/10 → Marta 10/11 → Nina 11/11)](https://mail.google.com/mail/?authuser=nina@runroom.com#all/thread-f:1880287239191335334) — detectado 22/10/2026
 - [ ] **[Petición cliente]** Esade — Pasar el listado de URLs de CrazyEgg para limitar la etiqueta de GTM
     - **Línea:** Analítica
@@ -126,6 +135,11 @@ Status del día y tareas pendientes, separadas por **quién tiene la pelota**. S
     - **Esperando desde:** 10/11/2026
     - **Info:** Fer las entregó el 09/11 y Sergi las ha pasado a Comunicación y Marca, que están rehaciendo esas webs.
     - Fuente: [Basecamp: Relacions corporatives + Endagement](https://basecamp.com/1771388/projects/19742261/messages/113570057) — detectado 10/11/2026
+- [ ] **[Petición cliente]** Esade — Schema: decidir qué se aplica de las prioridades propuestas por Fer
+    - **Esperando desde:** 13/11/2026
+    - **Línea:** SEO técnico
+    - **Info:** Fer propuso el 13/11: P1 NewsArticle (quitar el email de una persona externa, tema RGPD, y publisher = Esade) y Course provider con @id + name, sin quitar el Organization global; P2 completar el Organization (sameAs, dirección, logo, Law School como subOrganization); P2 Wikidata y revisión de las fichas de Google Business con nombre de edificio. Natzir había opinado el 08/10 que cambiar el Organization tiene impacto casi nulo en Google; Fer matiza que lo consumen Bing, Perplexity y los LLM.
+    - Fuente: [📧 "Coses Schema (tot I que la IA potser no en fa cas)" (Fer, 13/11)](https://mail.google.com/mail/?authuser=nina@runroom.com#all/thread-f:1878390725484215667) — detectado 16/11/2026
 
 ## 🔍 Por verificar (pendientes antiguos que pueden estar cerrados)
 No los lee el panel. Confírmalos y márcalos o bórralos tú.

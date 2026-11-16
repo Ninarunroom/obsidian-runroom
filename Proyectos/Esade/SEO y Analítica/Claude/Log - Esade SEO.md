@@ -21,3 +21,5 @@ Preguntas abiertas para Nina en la Ficha y en Pendientes (cómo se factura, OC d
 ## [2026-11-12] drive | Carpeta FTMBA creada en el Drive del curso 26/27 con el Sheet "Esade FTMBA - Plan de acción" (7 acciones del hilo de Basecamp), compartida con Fer como editor (petición de Nina).
 
 ## [2026-11-12] cambio | Regla nueva en Instrucciones: comprobar que los adjuntos de Basecamp y correo están en la carpeta de Drive del curso 26/27; solo aviso en el status semanal, sin tocar Drive (opción 1, decisión de Nina).
+
+## [2026-11-16] status | Status semanal en 4. Seguimiento/Status semanal/2026-11-16 (⏰ Fer 4, Marta 3). 2 adjuntos de Fer (09/11, fichas KWR de Becas y RRCC) no están en la carpeta de Drive del curso. Pendientes: 9 actualizaciones, student loans pasa a en curso, 1 tarea nueva en 🟧 Cliente (decisión de schema, Sergi). Basecamp sin actividad desde el 10/11.
