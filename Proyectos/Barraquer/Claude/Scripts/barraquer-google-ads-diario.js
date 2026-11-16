@@ -1,32 +1,43 @@
 /**
  * Barraquer · Datos diarios de Google Ads → Google Sheets
- * Runroom · v1 (05/11/2026)
+ * Runroom · v3 (16/11/2026): histórico móvil de 2 años (año en curso + año anterior)
  *
  * Qué hace: cada noche lee de Google Ads el rendimiento por campaña y día, y por
  * campaña, región/provincia y día, y lo escribe en un Google Sheet. De ahí lo lee
  * la tarea diaria de Claude para calcular alertas (CTR, CPC, CPL, CR, VTR, picos
- * de gasto, campañas paradas) y para optimizar por zonas.
+ * de gasto, campañas paradas), el panel de alertas y la comparación con el año pasado.
  *
  * SOLO LEE datos. No cambia nada en las cuentas de Google Ads.
  *
- * Instalación (5 min):
- *  1. Crea un Google Sheet vacío, p. ej. "Barraquer - Google Ads diario", y compártelo con nina@runroom.com.
- *  2. En la MCC: Herramientas → Acciones masivas → Scripts → + → Nuevo script. Pega este código.
- *  3. La URL del Sheet ya está puesta. Si quieres fijar las cuentas, rellena ACCOUNT_IDS.
- *  4. "Autorizar" y después "Vista previa" para probarlo. Revisa el Sheet.
- *  5. Guarda y programa la frecuencia: Diaria, a las 5:00.
+ * Instalación para otro cliente (5 min):
+ *  1. Crea un Google Sheet vacío "<Cliente> - Google Ads diario" en tu Drive.
+ *  2. Cambia en CONFIG: SPREADSHEET_URL (la del Sheet nuevo), ACCOUNT_NAME_CONTAINS
+ *     (texto del nombre de la cuenta del cliente en la MCC, o rellena ACCOUNT_IDS)
+ *     DESDE y HASTA se dejan vacíos: el script carga solo desde el 1 de enero del año anterior
+ *     hasta ayer, así siempre hay año en curso + año pasado para comparar.
+ *  3. En la MCC: Herramientas → Acciones masivas → Scripts → + → Nuevo script. Pega el código.
+ *  4. "Autorizar" y después "Vista previa" para probarlo. Revisa que el Sheet tiene las pestañas
+ *     Diario_Campañas, Diario_Zonas, Campañas e Info.
+ *  5. Guarda y programa la frecuencia: Diaria, de madrugada (antes de las 9:00).
  * También funciona pegado dentro de una sola cuenta (sin MCC).
+ *
+ * Archivar un año (cada enero, una sola vez): crea un Sheet "<Cliente> - Google Ads histórico AAAA",
+ * haz una copia de este script con SPREADSHEET_URL = ese Sheet, DESDE = 'AAAA-01-01',
+ * HASTA = 'AAAA-12-31' y GEO = false, ejecútalo una vez (sin programarlo) y bórralo.
+ * Hazlo en enero, antes de que ese año salga del Sheet diario (el 1 de enero del año siguiente).
  */
 
 var CONFIG = {
-  SPREADSHEET_URL: 'https://docs.google.com/spreadsheets/d/1KGLV2nSbJ5-pVJaZWfvhq35Fe53iqMvVf3GLUjCtQ80/edit',
+  SPREADSHEET_URL: 'https://docs.google.com/spreadsheets/d/19wug698fQSCQhfPtA7WGbkopsl3Hl0wJZQfQkOYIs1o/edit?gid=0#gid=0',
   // Cuentas a leer. Vacío = todas las cuentas de la MCC cuyo nombre contenga ACCOUNT_NAME_CONTAINS.
-  // Ejemplo: ['123-456-7890', '234-567-8901']
   ACCOUNT_IDS: [],
   ACCOUNT_NAME_CONTAINS: 'barraquer',
-  // Días hacia atrás hasta ayer. Se reescriben cada noche porque las conversiones llegan con retraso.
-  DAYS: 60,
-  // Pestaña por zona (región y provincia de la ubicación física del usuario).
+  // Histórico de campañas (se reescribe cada día). Vacío = desde el 1 de enero del año anterior.
+  DESDE: '',
+  // Fin del histórico. Vacío = ayer. Solo se rellena para archivar un año cerrado.
+  HASTA: '',
+  // Zonas: ventana móvil de N días hasta ayer.
+  GEO_DAYS: 90,
   GEO: true
 };
 
@@ -43,16 +54,18 @@ function main() {
   var geoNames = {};
   var cuentas = cuentas_();
   var rango = null;
+  var rangoGeo = null;
 
   for (var i = 0; i < cuentas.length; i++) {
     var acc = cuentas[i];
     if (acc) AdsManagerApp.select(acc);
     var nombre = AdsApp.currentAccount().getName();
     try {
-      rango = rango || rango_();
+      rango = rango || rango_(CONFIG.DESDE || desdeAuto_(), null, CONFIG.HASTA);
+      rangoGeo = rangoGeo || rango_(null, CONFIG.GEO_DAYS);
       leerDia_(rango, dia, log);
       leerCampanas_(camp);
-      if (CONFIG.GEO) leerGeo_(rango, geo, geoNames, log);
+      if (CONFIG.GEO) leerGeo_(rangoGeo, geo, geoNames, log);
       log.push('OK ' + nombre);
     } catch (e) {
       log.push('ERROR ' + nombre + ': ' + e.message);
@@ -64,10 +77,13 @@ function main() {
   escribir_(ss, 'Diario_Campañas', H_DIA, dia);
   if (CONFIG.GEO) escribir_(ss, 'Diario_Zonas', H_GEO, geo);
   escribir_(ss, 'Campañas', H_CAMP, camp);
+
   escribir_(ss, 'Info', ['Clave', 'Valor'], [
     ['Última ejecución', Utilities.formatDate(new Date(), 'Europe/Madrid', 'yyyy-MM-dd HH:mm')],
-    ['Desde', rango ? rango.desde : ''],
-    ['Hasta', rango ? rango.hasta : ''],
+    ['Campañas desde', rango ? rango.desde : ''],
+    ['Campañas hasta', rango ? rango.hasta : ''],
+    ['Zonas desde', rangoGeo && CONFIG.GEO ? rangoGeo.desde : ''],
+    ['Zonas hasta', rangoGeo && CONFIG.GEO ? rangoGeo.hasta : ''],
     ['Cuentas', cuentas.length],
     ['Filas campaña-día', dia.length],
     ['Filas zona-día', geo.length],
@@ -88,16 +104,23 @@ function cuentas_() {
   return out;
 }
 
-function rango_() {
+// desdeFijo: 'yyyy-MM-dd' (histórico fijo) · dias: ventana móvil si no hay desdeFijo · hastaFijo: vacío = ayer
+function rango_(desdeFijo, dias, hastaFijo) {
   var tz = AdsApp.currentAccount().getTimeZone();
   var ayer = new Date(Date.now() - 24 * 3600 * 1000);
-  var desde = new Date(Date.now() - CONFIG.DAYS * 24 * 3600 * 1000);
-  return { desde: Utilities.formatDate(desde, tz, 'yyyy-MM-dd'), hasta: Utilities.formatDate(ayer, tz, 'yyyy-MM-dd') };
+  var desde = desdeFijo || Utilities.formatDate(new Date(Date.now() - dias * 24 * 3600 * 1000), tz, 'yyyy-MM-dd');
+  return { desde: desde, hasta: hastaFijo || Utilities.formatDate(ayer, tz, 'yyyy-MM-dd') };
+}
+
+// 1 de enero del año anterior al de ayer (en la zona horaria de la cuenta)
+function desdeAuto_() {
+  var tz = AdsApp.currentAccount().getTimeZone();
+  var anio = Number(Utilities.formatDate(new Date(Date.now() - 24 * 3600 * 1000), tz, 'yyyy'));
+  return (anio - 1) + '-01-01';
 }
 
 // ── Campaña × día ──────────────────────────────────────────────────────────
 function leerDia_(r, out, log) {
-  // El nombre del campo de views cambió entre versiones de la API: probamos los dos.
   var variantes = ['metrics.video_trueview_views', 'metrics.video_views', null];
   for (var v = 0; v < variantes.length; v++) {
     var campoViews = variantes[v];

@@ -41,7 +41,7 @@ Sheet: [Barraquer - Google Ads diario](https://docs.google.com/spreadsheets/d/1K
 
 ## Estado 16/11/2026
 - **Fase 1 · Google Ads funcionando**: el script de Google Ads se ejecuta cada mañana (hoy, 16/11 a las 9:01) y rellena el Sheet [Barraquer - Google Ads diario](https://docs.google.com/spreadsheets/d/19wug698fQSCQhfPtA7WGbkopsl3Hl0wJZQfQkOYIs1o/edit), que es el que lee la tarea diaria. El enlace de arriba (1KGLV2…) no coincide con este: revisar si es una copia antigua.
-- **Salida**: en vez de email, un único informe que Claude reescribe cada mañana: [[Claude/Alertas/Alertas Google Ads - Barraquer]] (las notas diarias anteriores al 16/11 se quedan como histórico). Solo hay notificación si algo falla (Sheet sin actualizar, error del script…).
+- **Salida**: el panel [[Alertas Google Ads - Barraquer]] de 4. Seguimiento, que se actualiza cada mañana (Claude regenera `Claude/Alertas/datos-alertas-google-ads.json`). Ya no hay notas de alertas en texto (eliminadas el 16/11). Solo hay notificación si algo falla (Sheet sin actualizar, error del script…).
 - **Reglas (desde 16/11)**, separadas en dos bloques:
   - 🔴 **Ayer** (solo lo grave): campaña activa sin impresiones o con gasto < 20 % de su media de 7 días · gasto > 2× la media (mín. 20 €) · 0 conversiones con gasto ≥ 3× su CPL de 4 semanas.
   - 📉 **Tendencias** (últimos 7 días frente a las 4 semanas anteriores): racha de días sin conversiones más larga que la peor de los últimos 60 días de esa campaña (y gasto ≥ 2× CPL) · campaña sin ninguna conversión en 60 días con ≥ 100 € · CPL +30 % · CR −30 % · CTR −30 %. CPL y CR solo si el gasto daba para ≥ 3 conversiones.

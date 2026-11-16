@@ -39,8 +39,8 @@ Barraquer/
 ├── 3. Reuniones/
 │   ├── Raw/                transcripciones, NUNCA se modifican ("AAAA-MM-DD - Tema (transcripción).md"); Nina también deja aquí las suyas
 │   └── Procesadas/         actas resumidas ("AAAA-MM-DD - Tema.md"), con enlace a su transcripción
-├── 4. Seguimiento/        4 paneles dataviewjs: Tareas, Horas, Saldos, Facturación y fee (+ propuesta de alertas de campaña)
-└── Claude/                 de Claude: Datos/ (Pendientes - Barraquer, Estrategia 2026 - seguimiento, Actas procesadas), Instrucciones, Log, Datos panel, Fuentes/Documentos (PDFs y exportaciones), copias de seguridad
+├── 4. Seguimiento/        5 paneles dataviewjs: Tareas, Horas, Saldos, Facturación y fee, Alertas Google Ads (+ propuesta de alertas de campaña)
+└── Claude/                 de Claude: Datos/ (Pendientes - Barraquer, Estrategia 2026 - seguimiento, Actas procesadas), Instrucciones, Log, Datos panel, Alertas/ (solo el JSON del panel de alertas), Scripts/, Fuentes/Documentos (PDFs y exportaciones), copias de seguridad
 ```
 
 ## Operaciones
@@ -97,6 +97,7 @@ Cuatro notas con un bloque `dataviewjs` cada una (plugin Dataview). **Nunca se e
 
 ## Alertas (por email, solo si hay alguna)
 Las alertas son **de campañas y de negocio**, no de status. Cada mañana la tarea diaria las calcula y, si hay al menos una, manda un email a nina@runroom.com con el asunto `Barraquer · Alertas DD/MM`. No se guardan en ninguna nota.
+> **Desde el 16/11, las de Google Ads no van por email ni en notas de texto**: solo al panel `4. Seguimiento/Alertas Google Ads - Barraquer.md`, que lee `Claude/Alertas/datos-alertas-google-ads.json` (lo regenera cada mañana la tarea «Alertas Barraquer → Obsidian» con `Claude/Scripts/datos_panel_alertas.py`). No crees notas de alertas en texto.
 
 Fuente de datos: Sheet **"2026 - Presupuesto Barraquer"** (`1DwpGEDViOsgIxjQePCv2vf9ohf0TV5EfiTykFiQpu4U`):
 - Pestañas de gasto que se actualizan solas: `GoogleAds_Spend`, `MetaAds_Spend`, `DV360_Spend` y `LinkedInAds_Spend` (MTD, ayer, semana pasada y mes pasado, por campaña).

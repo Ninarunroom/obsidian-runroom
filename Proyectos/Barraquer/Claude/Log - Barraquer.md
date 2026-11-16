@@ -141,3 +141,6 @@ Cerradas `[x]`: discrepancias de inversión ene-ago, medición de la landing de 
 
 ## [2026-11-16] saldos | Google Ads −197,70 € y pago de 15.000 € pendiente
 Captura de Nina: fondos −197,70 €, pago manual de 15.000 € del 16/11 pendiente. Gasto real 9-15/11: 5.374,44 € (768 €/día, hoja diaria, solo Clínicas). Con los 7.736,68 € del 05/11, el cálculo daba saldo agotado hacia el 14-15/11, en línea con la captura. Corregido el ID de la hoja «Barraquer - Google Ads diario» en Instrucciones (era 1KGLV…, es 19wug698…).
+
+## [2026-11-16] alertas | Limpieza: solo queda el panel
+El panel de alertas pasa a `4. Seguimiento/Alertas Google Ads - Barraquer.md`. Eliminadas las notas de texto (informe único y diarias del 12/11 y 15/11). La tarea diaria «Alertas Barraquer → Obsidian» ya no escribe texto: regenera `Claude/Alertas/datos-alertas-google-ads.json` con `Claude/Scripts/datos_panel_alertas.py`.
