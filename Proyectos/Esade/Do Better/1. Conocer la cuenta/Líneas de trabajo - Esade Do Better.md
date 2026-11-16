@@ -19,7 +19,7 @@ Es el grueso de las horas. **No se escriben artículos nuevos**: se reoptimizan 
   4. Esade revisa el documento → **"Esade OK"**.
   5. Olga publica en el CMS → **"Optimización publicada"**.
 - **Quién valida en Esade**: Marta Barquier (antes Manel Domingo y Sandra).
-- **Estado (12/11)**: septiembre, 4 publicadas y 2 en "Esade OK" (agentes de IA). Octubre, 6 en "Esade OK" (OK del 02/11), sin publicar. Noviembre, temáticas validadas (reindustrialización, branding emocional y transición energética).
+- **Estado (16/11)**: septiembre, las 6 publicadas. Octubre, 2 publicadas (habilidades IA) y 4 en "Esade OK" sin publicar (dumping climático y ventaja cognitiva). Noviembre, 6 temáticas validadas (reindustrialización, branding emocional y transición energética), sin documentos de optimización.
 - **Calendario a 3 meses**: hasta noviembre hay artículos firmados por el equipo de Do Better para optimizar. A partir de diciembre hay que redefinir la estrategia (acta del 04/09).
 
 ## Tendencias de búsqueda (Fer)

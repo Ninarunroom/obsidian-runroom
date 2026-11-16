@@ -2,15 +2,15 @@
 
 Status del día y tareas pendientes, separadas por **quién tiene la pelota**. Se actualiza cada mañana con la tarea diaria (Basecamp, correo y reuniones). Se añaden tareas nuevas en la sección que toca, pero nunca se borran ni se marcan como hechas automáticamente: márcalas tú con `[x]` cuando las completes. En 🟦 Runroom: `[ ]` = backlog (sin empezar) · `[/]` = en curso. Cada tarea lleva **Línea:** SEO y GEO, Contenidos, Analítica o Gestión. Lo que forma parte de la estrategia 26/27 (auditoría, iteración de artículos, informes, tendencias…) no se repite aquí: está en [[Estrategia 26-27 - seguimiento Esade Do Better]].
 
-## Status (13/11/2026)
+## Status (16/11/2026)
 - 📅 **Cierre sin volcar**: septiembre y octubre siguen sin tus horas (Paprika ESA010245). La agencia ya está: 20 h y 10,75 h.
 - 🕒 **Horas**: remanente provisional **19,25 h** sin tus horas (con 5 h/mes tuyas, unas 9,25 h). No se puede valorar el ±20 % hasta cerrar los dos meses.
-- 🟦 **Vencido**: Cierre de horas de septiembre y octubre (entrega 05/11, 8 días).
-- 🔎 **Tendencias de búsqueda**: **9 días** sin envío de Runroom en el hilo (último, Fer el 04/11).
-- 📄 **Informe mensual**: octubre enviado (03/11 por correo, 04/11 por Basecamp) y sin presentar. El de noviembre toca a primeros de diciembre.
-- ✍️ **Iteración de contenidos**: 8 URLs con "Esade OK" de meses anteriores sin publicar (septiembre: 2 de agentes de IA; octubre: las 6). Noviembre: 6 temáticas validadas, sin documentos.
-- 🟧 **Esperando al cliente más de 7 días**: Dulce, revisión del informe de octubre y de las respuestas a sus preguntas (10 d, desde el 03/11).
-- 💬 Sin mensajes de Dulce, Judith o Marta Barquier pendientes de respuesta (lo último de Dulce, 04/11 en Basecamp, es un "muchas gracias").
+- 🟦 **Vencido**: Cierre de horas de septiembre y octubre (entrega 05/11, 11 días).
+- ✍️ **Iteración de contenidos**: 4 URLs de octubre con "Esade OK" sin publicar (dumping climático y ventaja cognitiva, ES y EN). Septiembre ya está entero publicado y de octubre ya están las 2 de habilidades IA. Noviembre: 6 temáticas validadas, sin documentos.
+- 🟧 **Esperando al cliente más de 7 días**: Dulce, revisión del informe de octubre y de las respuestas a sus preguntas (13 d, desde el 03/11).
+- 🔎 Tendencias al día: Fer envió las de la segunda semana de noviembre el 13/11. Nueva tarea para esta semana (entrega 20/11).
+- 📄 Informe mensual: octubre enviado (03/11) y sin presentar. El de noviembre toca a primeros de diciembre.
+- 💬 Sin mensajes de Dulce, Judith o Marta Barquier pendientes de respuesta.
 
 ## 🟦 Runroom
 
@@ -26,6 +26,13 @@ Status del día y tareas pendientes, separadas por **quién tiene la pelota**. S
     - **Responsable:** Fer
     - **Info:** Según la estrategia, Runroom propone cada semana en Basecamp temas de actualidad con potencial de búsqueda y un enfoque, y el equipo de Do Better decide si los escribe. Los envíos reales han sido el 23/07, 27/07, 05/10, 22/10 y 04/11, es decir, cada 2–3 semanas y con un hueco en agosto y septiembre. Marta Barquier comenta (22/10) que no ha tenido mucha suerte con las anteriores: quizá conviene revisar el tipo de temas.
     - Fuente: [Basecamp: Tendencias búsqueda - Do Better 25/26](https://basecamp.com/1771388/projects/19338495/messages/111699998) — detectado 12/11/2026
+    - **Actualización 16/11:** Fer envió las tendencias de la segunda semana de noviembre el 13/11 (Nvidia y burbuja de la IA; inflación y combustible en EE. UU.). Desde el 16/11 cada semana tiene su propia tarea.
+- [ ] **[Recurrente]** Esade — Tendencias de búsqueda semana del 16/11
+    - **Línea:** SEO y GEO
+    - **Entrega:** 20/11/2026
+    - **Responsable:** Fer
+    - **Info:** Envío semanal en el hilo de Tendencias de Basecamp: temas de actualidad con potencial de búsqueda y un enfoque para que el equipo de Do Better decida si los escribe. Último envío: 13/11.
+    - Fuente: [Basecamp: Tendencias búsqueda - Do Better 25/26](https://basecamp.com/1771388/projects/19338495/messages/111699998) — detectado 16/11/2026
 - [ ] **[Recurrente]** Esade — Informe mensual de noviembre: enviar a primeros de diciembre y ofrecer presentarlo
     - **Línea:** SEO y GEO
     - **Entrega:** primeros días laborables de diciembre
@@ -44,6 +51,7 @@ Status del día y tareas pendientes, separadas por **quién tiene la pelota**. S
     - **Responsable:** Olga
     - **Info:** Octubre (6 URLs: habilidades IA, dumping climático y ventaja cognitiva, en ES y EN) tiene el OK de Esade (Marta Barquier, 02/11) pero no consta como publicado. En septiembre, las dos de agentes de IA también siguen en "Esade OK". Noviembre (reindustrialización, branding emocional y transición energética, en ES y EN): temáticas validadas; faltan los documentos de optimización.
     - Fuente: [Sheet: Briefings optimizaciones 26-27](https://docs.google.com/spreadsheets/d/1YQQKCslhiQzXwLks5bx_G6o3Jf7wTlfuYQ6JLbhZqC8) · [Basecamp: Iteración contenidos](https://basecamp.com/1771388/projects/19338495/messages/111720589) — detectado 12/11/2026
+    - **Actualización 16/11:** Septiembre: 6 de 6 publicadas (ya están las 2 de agentes de IA). Octubre: 2 de 6 publicadas (habilidades IA, ES y EN) · 4 con Esade OK sin publicar (dumping climático y ventaja cognitiva). Noviembre: 0 de 6 publicadas · 6 con temática validada · sin documento.
 - [ ] **[Petición cliente]** Esade — Responder a Dulce si hay sesiones en GA4 que vengan de ChatGPT, Perplexity o Gemini
     - **Línea:** Analítica
     - **Entrega:** sin fecha definida

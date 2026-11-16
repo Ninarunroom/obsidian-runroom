@@ -2,11 +2,11 @@
 
 Tablero de tareas de Spradling, con el mismo formato que Kanbanize: **🟦 Pendiente Runroom** (nuestro, en marcha) · **🟧 Pendiente cliente** · **📥 Backlog** (nuestro, sin empezar) · **✅ Done**. Cada tarea es un título y, debajo, todo su contexto (se pliega con la flecha). Se actualiza cada mañana con la tarea diaria (Basecamp, correo y reuniones). Solo entran tareas concretas, con dueño y fuente. No hace falta marcar nada: cuando Nina diga que algo está hecho o sobra, o Basecamp/correo lo dejen claro, Claude la cierra (`[x]` hecha, `[-]` ya no aplica) y deja el motivo en el Log.
 
-## Status (12/11/2026)
-- 💶 **Remanente**: Ari mandó el 10/11 el *Review budget* con dos opciones (reinvertir los ~6k de la reserva web, o eso más las partidas bloqueadas de awareness y lanzamientos). Falta el OK de Natalia.
+## Status (16/11/2026)
+- 💶 **Remanente**: Ari mandó el 10/11 el *Review budget* con dos opciones (reinvertir los ~6k de la reserva web, o eso más las partidas bloqueadas de awareness y lanzamientos). Falta el OK de Natalia (6 d).
 - 🎬 **Awareness y lanzamientos**: los lanzamientos se aplazan a febrero de 2027; el vídeo de awareness "se ha complicado" y lo decide Natalia (Dèlia, 10/11).
-- 🚢 **Ferias**: sitelinks lanzados el 10/11 (Interihotel en España; METSTRADE en Alemania, Polonia y Francia).
-- 🟧 **Esperando al cliente más de 7 días**: marcas para Search de marca (265 d) · creatividades multiformato para PMax (244 d).
+- 🚢 **Ferias**: sitelinks lanzados el 10/11 (Interihotel en España; METSTRADE en Alemania, Polonia y Francia). Natalia pidió el 13/11 ampliarlo a todos los países — nueva tarea abajo.
+- 🟧 **Esperando al cliente más de 7 días**: marcas para Search de marca (269 d) · creatividades multiformato para PMax (248 d).
 
 ## 🟦 Runroom
 
@@ -30,6 +30,12 @@ Tablero de tareas de Spradling, con el mismo formato que Kanbanize: **🟦 Pendi
     - **Responsable:** Ari
     - **Info:** Para poder comparar los datos de la web antigua con los de la nueva (equivalencia de conversiones). No consta que se haya enviado.
     - Fuente: [Notas de Gemini 26/10](https://docs.google.com/document/d/1LWmIWTEJq2p6tLJsEQycigFqa-KgXEB4uCAY8M564DM/edit) · acta: [[2026-10-26 - Informe Q3 y conversiones nueva web]] — detectado 06/11/2026
+
+- [ ] **[Tarea]** Spradling — Ampliar el sitelink de la feria (METSTRADE / Interihotel) a todos los países
+    - **Entrega:** sin fecha definida
+    - **Responsable:** Ari
+    - **Info:** El 10/11 se lanzó el sitelink de Interihotel en España y el de METSTRADE en Alemania, Polonia y Francia (a falta de segmentación específica para Países Bajos). Natalia contestó el 13/11: "Tendrían que ser todos los países" — hay que extenderlo también a UK, Italia y el resto de mercados activos.
+    - Fuente: [2026 - Presupuestos](https://basecamp.com/1771388/projects/19500347/todos/514165271) — detectado 13/11/2026
 
 ## 🟧 Cliente (esperando a Spradling)
 

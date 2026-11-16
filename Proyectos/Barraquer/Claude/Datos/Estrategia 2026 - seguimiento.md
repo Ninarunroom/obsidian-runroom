@@ -2,7 +2,7 @@
 tipo: seguimiento-estrategia
 cliente: "[[00 Ficha de cliente - Barraquer]]"
 fuente: "2026 - Propuesta Barraquer (Drive, 01. Propuesta) · aprobada el 11/02/2026"
-actualizado: 2026-11-05
+actualizado: 2026-11-16
 ---
 # Estrategia 2026: seguimiento
 
@@ -16,7 +16,7 @@ Cada acción de la estrategia 2026 es una tarea. El [[Tareas - Barraquer]] la le
 - [x] Meta awareness (video views), España + Catalunya
 - [-] TikTok Catalunya en marzo y septiembre [motivo:: descartado (confirmado por Nina el 05/11): sin saldo desde 03/2026, pausado en junio y con 0 € en el presupuesto de todos los meses]
 - [x] DV360 vídeo Catalunya
-- [ ] DV360 display de consideración (4.720 €) [pelota:: cliente] [motivo:: faltan creatividades de display] [basecamp:: https://basecamp.com/1771388/projects/17192035/todos/520642038]
+- [-] DV360 display de consideración (4.720 €) [motivo:: descartado (Nina, 13/11): faltan creatividades de display; se replantean en la estrategia 27/28] [basecamp:: https://basecamp.com/1771388/projects/17192035/todos/520642038]
 - [x] Marruecos y Argelia: awareness YouTube + Meta
 
 ## Clínica · Captación
@@ -35,13 +35,13 @@ Cada acción de la estrategia 2026 es una tarea. El [[Tareas - Barraquer]] la le
 - [x] Potenciar el nuevo tratamiento de ojo seco
 
 ## Mercados y presupuesto
-- [/] Reserva táctica del 13 % [motivo:: usada en Urgencias, Demand Gen y Madrid; quedan 15,7k sin tocar] [basecamp:: https://basecamp.com/1771388/projects/17192035/todos/521039257]
+- [/] Reserva táctica del 13 % [motivo:: usada en Urgencias, Demand Gen, Madrid y (12/11) push de patologías y captación Madrid; quedan 10,2k, que van a la propuesta de genéricas en mercados nuevos] [basecamp:: https://basecamp.com/1771388/projects/17192035/todos/521039257]
 - [x] Nuevos países: Mauritania, Qatar, Egipto, Kuwait (08/05)
-- [ ] Angola (6.490 €) [pelota:: cliente] [motivo:: faltan creatividades en portugués] [basecamp:: https://basecamp.com/1771388/projects/17192035/todos/520642038]
+- [-] Angola (6.490 €) [motivo:: descartado (Nina, 13/11): faltan creatividades en portugués] [basecamp:: https://basecamp.com/1771388/projects/17192035/todos/520642038]
 - [x] Madrid, lanzado en agosto con la reserva [nuevo:: sí]
 - [x] Demand Gen de consideración [nuevo:: sí]
 - [x] Instituto 2026 (Search + LinkedIn, del 30/04 al 30/09)
-- [ ] Decidir la pausa de las campañas de reserva en países nuevos [pelota:: runroom] [motivo:: debate interno pendiente desde el 08/10] [basecamp:: https://docs.google.com/document/d/1hYqOpvq5nueiVLzWRTM-B0U3HeTQUrOiF4H6aK46-Io/edit]
+- [x] Decidir la pausa de las campañas de reserva en países nuevos [motivo:: cerrado el 12/11: sale reserva de Qatar y Kuwait para patologías y Madrid; los 10,2k restantes van a la propuesta de genéricas en mercados nuevos] [basecamp:: https://docs.google.com/document/d/1hYqOpvq5nueiVLzWRTM-B0U3HeTQUrOiF4H6aK46-Io/edit]
 
 ## Reporting, tracking y activos
 - [x] Informe mensual en Looker + reunión mensual
@@ -54,6 +54,6 @@ Cada acción de la estrategia 2026 es una tarea. El [[Tareas - Barraquer]] la le
 ## Estética
 - [x] Search Estética (marca, genérica, tratamientos, catalán)
 - [?] Search IA Max Estética [motivo:: no consta]
-- [ ] Meta de consideración en meses fuertes [pelota:: cliente] [motivo:: faltan creatividades] [basecamp:: https://basecamp.com/1771388/projects/17192035/todos/520642038]
-- [ ] PMax genérica Estética en meses fuertes [pelota:: cliente] [motivo:: faltan creatividades] [basecamp:: https://basecamp.com/1771388/projects/17192035/todos/520642038]
+- [-] Meta de consideración en meses fuertes [motivo:: descartado (Nina, 13/11): faltan creatividades; Estética entra en la estrategia 27/28] [basecamp:: https://basecamp.com/1771388/projects/17192035/todos/520642038]
+- [-] PMax genérica Estética en meses fuertes [motivo:: descartado (Nina, 13/11): faltan creatividades; el presupuesto bloqueado pasó a Search genérica Catalunya el 12/11] [basecamp:: https://basecamp.com/1771388/projects/17192035/todos/520642038]
 - [ ] Anuncios a landings por tratamiento [pelota:: cliente] [motivo:: faltan landings específicas] [basecamp:: https://basecamp.com/1771388/projects/17192035/todos/517431691]

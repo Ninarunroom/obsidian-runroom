@@ -72,3 +72,6 @@ Creadas 61757 (error "falta la etiqueta", Implementación analítica), 61758 (CP
 Pendientes con 4 columnas (Pendiente Runroom, Pendiente cliente, Backlog, Done); el panel de Tareas las muestra como tablero con título y contexto desplegable. Al Backlog: colección sostenible, reporting (va en el informe Q4) y CPA de Italia.
 
 ## [2026-11-13] pendientes | Descartada `[-]` "Spradling — Contestar a Dèlia si las imágenes de Google Ads son las de PMax y etiquetar el uso de IA en las creatividades" (lo confirma Nina).
+
+## [2026-11-16] pendientes | Nueva tarea en Runroom: ampliar sitelink de feria a todos los países
+Natalia contestó el 13/11 ("Tendrían que ser todos los países") a la propuesta de Ari/Dèlia de lanzar el sitelink de METSTRADE/Interihotel solo en Alemania, Polonia y Francia — hay que extenderlo también a UK, Italia y el resto de mercados activos. Añadida a 🟦 Runroom (candidata a Kanbanize, pendiente de confirmar con Nina — seguimos en modo prueba hasta el 18/11). Status actualizado a 16/11.

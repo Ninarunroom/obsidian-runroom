@@ -41,7 +41,11 @@ Sheet: [Barraquer - Google Ads diario](https://docs.google.com/spreadsheets/d/1K
 
 ## Estado 16/11/2026
 - **Fase 1 · Google Ads funcionando**: el script de Google Ads se ejecuta cada mañana (hoy, 16/11 a las 9:01) y rellena el Sheet [Barraquer - Google Ads diario](https://docs.google.com/spreadsheets/d/19wug698fQSCQhfPtA7WGbkopsl3Hl0wJZQfQkOYIs1o/edit), que es el que lee la tarea diaria. El enlace de arriba (1KGLV2…) no coincide con este: revisar si es una copia antigua.
-- **Salida**: en vez de email, Claude genera cada día una nota en [[Claude/Alertas]] («Alertas Google Ads AAAA-MM-DD») con los datos de ayer frente a la media de los 7 días anteriores. Solo hay notificación si algo falla (Sheet sin actualizar, error del script…).
-- **Reglas activas (por campaña, ayer frente a la media de 7 días)**: campaña activa sin impresiones 🔴 · 0 conversiones con gasto ≥ 130 % del CPL medio 🔴 · pico de gasto > 150 % · caída de gasto < 50 % · CTR −25 % · CPC +30 % · CPL +30 % · CR −25 % · VTR −30 %.
+- **Salida**: en vez de email, un único informe que Claude reescribe cada mañana: [[Claude/Alertas/Alertas Google Ads - Barraquer]] (las notas diarias anteriores al 16/11 se quedan como histórico). Solo hay notificación si algo falla (Sheet sin actualizar, error del script…).
+- **Reglas (desde 16/11)**, separadas en dos bloques:
+  - 🔴 **Ayer** (solo lo grave): campaña activa sin impresiones o con gasto < 20 % de su media de 7 días · gasto > 2× la media (mín. 20 €) · 0 conversiones con gasto ≥ 3× su CPL de 4 semanas.
+  - 📉 **Tendencias** (últimos 7 días frente a las 4 semanas anteriores): racha de días sin conversiones más larga que la peor de los últimos 60 días de esa campaña (y gasto ≥ 2× CPL) · campaña sin ninguna conversión en 60 días con ≥ 100 € · CPL +30 % · CR −30 % · CTR −30 %. CPL y CR solo si el gasto daba para ≥ 3 conversiones.
+  - Vídeo y Demand Gen no tienen reglas de conversión.
+- **Frecuencia**: no se puede vigilar todavía; el script de Google Ads no exporta frecuencia ni usuarios únicos (solo existe en vídeo y Demand Gen). Habría que añadirlo al script.
 - **De la propuesta, aún sin aplicar**: CPL frente al objetivo (≈ 21-23 €), pacing mensual frente a `Detalle_Mensual` y resumen de zonas de los lunes.
 - **Siguiente**: fase 2 (Meta) y fase 3 (DV360).

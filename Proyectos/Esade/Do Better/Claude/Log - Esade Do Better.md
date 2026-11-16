@@ -14,3 +14,5 @@ Registro cronológico de lo que entra en este KB (ingestas, revisiones, cambios 
 - Decisiones de Nina (12/11): el fee de 23.360,4 € está facturado entero; la OC012692 es el coste de la agencia SEO; sus horas van dentro de las 25 h/mes; no se lleva el Sheet "Do Better - Seguimiento horas"; todo lo de Do Better de `Esade/Pendientes - Esade.md` sale de ahí porque se crea desde cero aquí.
 - Deducido (a confirmar): 20 h/mes de la agencia (12.720 € / 53 €/h / 12) + 5 h/mes de Nina.
 - Preguntas abiertas: OK a las alertas propuestas; validar el [[Roadmap 26-27 - Esade Do Better]] con Fer y Olga; horas de Nina de septiembre y octubre.
+
+## [2026-11-16] seguimiento | Recurrente nueva: Tendencias de búsqueda semana del 16/11 (Fer, entrega 20/11); actualización en la tarea general de tendencias (envío de Fer del 13/11). Iteración: septiembre 6/6 publicadas, octubre 2 publicadas + 4 Esade OK, noviembre 6 temáticas validadas sin documento (actualización en la tarea, Estado de Líneas de trabajo y motivo de la estrategia). Correo: solo SEO técnico (fuera de alcance). Horas: nada nuevo que volcar. Status y alertas_hoy actualizados (4 alertas).

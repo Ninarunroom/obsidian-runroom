@@ -124,3 +124,14 @@ Cerradas `[x]`: "Reenviar a Cristian las notas…" (Nina envió informe y acta e
 ## [2026-11-13] pendientes | Descartada `[-]` "Creatividades pendientes para activar presupuesto (Angola, DV360 España, Meta y PMax de Estética)" (lo confirma Nina).
 
 ## [2026-11-13] pendientes | Descartada `[-]` "Barraquer — Aclarar el origen del acceso no autorizado a Google Ads (asociado a Dubái) y decidir si se revoca el acceso externo" (lo confirma Nina).
+
+## [2026-11-16] pendientes | Nueva tarea en Cliente: discrepancia de leads lead gen (13/11)
+Cristian dijo a Nina que había recibido 120 leads de lead gen el 13/11; Ari revisó HubSpot y Meta y solo ve cifras normales (4-7 conversiones ese día, 77 en lo que va de noviembre) y le pregunta a Cristian dónde ve los 120. Sin respuesta — añadida a 🟧 Cliente. Status actualizado a 16/11 (recalculados los días de espera; nada nuevo vencido en 🟦, que ahora depende de las cards recurrentes de Kanbanize para presupuesto/facturación).
+
+## [2026-11-16] pendientes | Revisión de lo pendiente de Runroom y próximos pasos del informe
+- Nueva en 🟦 Runroom: "Revisión de estrategia y propuesta en firme para reforzar awareness en Madrid" (de momento solo push a captación).
+- Fusionadas "Estrategia 27/28" y "Agendar reunión de presupuesto 2027": son la misma tarea (plantear la estrategia y agendar la reunión). Movida a 📥 Backlog, como en Kanbanize (Nina).
+- Cerrada `[x]` "Actualizar el Excel de presupuestos con septiembre" (Ari lo subió el 03/11; confirma Nina).
+- Añadidas en 🟧 Cliente desde la tabla de próximos pasos del informe de octubre: feedback del informe (22/06), geotarget de Egipto (12/06) y análisis de datos internos/SEO de Qatar, Egipto, Mauritania y Kuwait (22/06).
+- Estrategia 2026: "Decidir la pausa de reserva" → `[x]`; reserva táctica actualizada (10,2k); DV360 display, Angola, Meta consideración y PMax Estética → `[-]` (coherente con el descarte del 13/11).
+- Propuestas y decisiones: contenidos integrados en la estrategia 27/28; awareness genérico en países nuevos ya con propuesta en curso.

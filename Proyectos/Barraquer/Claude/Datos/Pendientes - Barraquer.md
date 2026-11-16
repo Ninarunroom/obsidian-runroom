@@ -2,10 +2,10 @@
 
 Status del día y tareas pendientes, separadas por **quién tiene la pelota**. Se actualiza cada mañana con la tarea diaria (Basecamp, correo y reuniones). Se añaden tareas nuevas en la sección que toca, pero nunca se borran ni se marcan como hechas automáticamente: márcalas tú con `[x]` cuando las completes.
 
-## Status (05/11/2026)
-- 💶 **Saldo**: Google Ads (Clínica + Estética): 7.736,68 € disponibles el 05/11 → unos 10 días al ritmo de octubre (~770 €/día), 7 días al ritmo planificado para noviembre (~1.070 €/día).
-- 🟧 **Esperando al cliente más de 7 días**: revisión de conversiones de Google Ads (45 d) · llamadas como conversión (19 d) · ROI 2026 (7 d) · creatividades y landings (desde 03/2026, ~11k € bloqueados) · patologías Magreb (desde 09/2025) · info Instituto (desde 08/10, posiblemente obsoleta).
-- 🟦 **Nuestro, vencido o a punto**: facturación de noviembre (entrega 02/11) · presupuesto de la semana del 02/11.
+## Status (16/11/2026)
+- 💶 **Saldo**: Google Ads Clínica sin saldo desde el 12/11 (avisado por Ari); pendiente de que Cristian recargue, sin confirmación todavía.
+- 🟧 **Esperando al cliente más de 7 días**: recarga de saldo de Clínica (21 d) · ROI 2026 (18 d) · llamadas como conversión (30 d) · info Instituto (39 d, posiblemente obsoleta) · patologías Magreb y landings de Estética en catalán (muy antiguas, desde 2025 y 03/2026). Nuevo (sin pasar aún de 7 d): discrepancia de leads lead gen del 13/11, sin respuesta de Cristian.
+- 🟦 **Nuestro, vencido o a punto**: nada nuevo hoy; las recurrentes de presupuesto/facturación se gestionan aparte en Kanbanize.
 
 ## 🟦 Runroom
 
@@ -34,12 +34,11 @@ Status del día y tareas pendientes, separadas por **quién tiene la pelota**. S
     - **Info:** Con el remanente. Incluir presupuesto, inversión mínima y la creatividad necesaria (falca). Antecedentes: Wiimas, mínimo 3.000 €/mes (21/07); catálogo de medios tradicionales del 85 aniversario (12/02); [Barraquer x DV360: New Formats](https://docs.google.com/presentation/d/1MGpd33Ajr4dvMOVVotcZCC2q_5EStZJnTPyOoXZMd2c/edit) (audio, CTV, DOOH).
     - Fuente: [Status RR 12/11](https://docs.google.com/document/d/1KwOa2-ND1Jp3jMdOULItwlId1BO8vZPsvtlEL-pKoRM/edit) · acta: [[2026-11-12 - Status RR - remanente, Madrid y contenidos]] — detectado 12/11/2026
 
-- [ ] **[Propuesta]** Barraquer — Estrategia 27/28: replantear las creatividades (recuperar la propuesta de adaptaciones que se quedó parada; menos estáticas, piezas audiovisuales cortas; Estética incluida) y propuesta de contenidos (2-3 posts promocionados al mes, calendario de patologías)
-    - **Kanbanize:** https://runroom.kanbanize.com/ctrl_board/21/cards/61763/details/
+- [ ] **[Propuesta]** Barraquer — Revisión de estrategia y propuesta en firme para reforzar awareness en Madrid con el remanente
     - **Entrega:** sin fecha definida
-    - **Responsable:** Ari
-    - **Info:** La propuesta creativa se había quedado parada. Ari recupera lo hablado y hace propuesta.
-    - Fuente: [Status RR 12/11](https://docs.google.com/document/d/1KwOa2-ND1Jp3jMdOULItwlId1BO8vZPsvtlEL-pKoRM/edit) · acta: [[2026-11-12 - Status RR - remanente, Madrid y contenidos]] — detectado 12/11/2026
+    - **Responsable:** Ari / Nina
+    - **Info:** De momento solo se ha hecho un push a captación (+2.000 € a Search marca y genérica Madrid, de la reserva de Qatar y Kuwait) para ir subiendo poco a poco. Falta la tarea de revisión de estrategia y la propuesta en firme de awareness, con el remanente pendiente de activar (≈ 25,2k, de los que 10,2k de reserva van a genéricas en mercados nuevos). Depende de los vídeos de doctores de Madrid (Cliente) y se cruza con la propuesta de radio / audio programático.
+    - Fuente: [Refuerzo patologías & push final año 2026](https://basecamp.com/1771388/projects/17192035/todos/521039257) · acta: [[2026-11-12 - Status RR - remanente, Madrid y contenidos]] — detectado 16/11/2026
 
 - [ ] **[Tarea]** Barraquer — Comentar con César si conocemos perfiles o agencias externas para cubrir el rol de Lorena (redes, calendario de contenidos, reseñas de Google)
     - **Entrega:** sin fecha definida
@@ -52,12 +51,6 @@ Status del día y tareas pendientes, separadas por **quién tiene la pelota**. S
     - **Responsable:** Ari
     - **Info:** Awareness/captación genérica por patología en los países nuevos (la marca aún no tiene penetración). Con la reserva que queda (10,2k).
     - Fuente: [Refuerzo patologías & push final año 2026](https://basecamp.com/1771388/projects/17192035/todos/521039257) · acta: [[2026-11-12 - Status RR - remanente, Madrid y contenidos]] — detectado 12/11/2026
-
-- [ ] **[Tarea]** Barraquer — Agendar reunión con Cristian para el presupuesto 2027
-    - **Entrega:** sin fecha definida
-    - **Responsable:** Nina / Ari
-    - **Info:** Ari lo deja como pendiente en el hilo de patologías (12/11).
-    - Fuente: [Refuerzo patologías & push final año 2026](https://basecamp.com/1771388/projects/17192035/todos/521039257) — detectado 12/11/2026
 
 ## 🟧 Cliente (esperando a Cristian)
 
@@ -96,19 +89,49 @@ Status del día y tareas pendientes, separadas por **quién tiene la pelota**. S
     - **Info:** Acordado en el status del 12/11. Ari se lo recuerda en el hilo de patologías: "ens has de passar els vídeos per revisar" (para la propuesta de notoriedad en Madrid).
     - Fuente: [Status RR 12/11](https://docs.google.com/document/d/1KwOa2-ND1Jp3jMdOULItwlId1BO8vZPsvtlEL-pKoRM/edit) · acta: [[2026-11-12 - Status RR - remanente, Madrid y contenidos]] — detectado 12/11/2026
 
+- [ ] **[Petición cliente]** Barraquer — Aclarar la discrepancia de los 120 leads de lead gen que dice haber recibido Cristian el 13/11
+    - **Esperando desde:** 13/11/2026
+    - **Info:** Cristian le comentó a Nina que había recibido 120 leads de lead gen ese día. Ari revisó HubSpot (7 conversiones totales, 4 de lead gen) y Meta (4 conversiones lead gen) — un día normal — y también el acumulado de noviembre (77 leads de Lead Gen Meta del 1 al 13, en línea con meses anteriores). Ari le pregunta a Cristian dónde ve los 120 (¿cuenta también WhatsApp o llamadas? ¿otro periodo?). Sin respuesta todavía.
+    - Fuente: [Transversal - Leads lead gen hoy 13.11.26](https://basecamp.com/1771388/projects/17192035/todos/521659937) — detectado 13/11/2026
+
+- [ ] **[Petición cliente]** Barraquer — Revisar el informe y trasladar feedback para futuros ajustes
+    - **Esperando desde:** 22/06/2026
+    - **Info:** Acordado en el status del 22/06; sigue en la tabla de próximos pasos del informe.
+    - Fuente: próximos pasos del [Informe octubre 2026](https://drive.google.com/file/d/1HNd-2i6zxCohChaVS-xHXiE9Wig7SdlG/view) — detectado 16/11/2026
+
+- [ ] **[Petición cliente]** Barraquer — Dar feedback sobre el geotarget de las campañas de Egipto
+    - **Esperando desde:** 12/06/2026
+    - **Info:** En el status del 12/06 se habló de pasar los barrios de Egipto a Islam y Runroom exportó las zonas disponibles. Geotarget por mercado en la pestaña "Geotarget" del [Plan 2026](https://docs.google.com/spreadsheets/d/10VjNIHqUKttdm6CI_z0Dw8fH4r9v2fHDFzxN4Q-FUcE/edit).
+    - Fuente: próximos pasos del [Informe octubre 2026](https://drive.google.com/file/d/1HNd-2i6zxCohChaVS-xHXiE9Wig7SdlG/view) · acta: [[2026-06-12 - Status RR - lanzamiento Madrid y reestructura Search]] — detectado 16/11/2026
+
+- [ ] **[Petición cliente]** Barraquer — Analizar datos internos y de SEO (tráfico web y pacientes) para valorar el rendimiento de Qatar, Egipto, Mauritania y Kuwait
+    - **Esperando desde:** 22/06/2026
+    - **Info:** En el status del 12/11 Cristian dio algún dato suelto (Mauritania ≈ 31 leads frente a 27, Angola ≈ 30 frente a 24), pero no el análisis completo. Útil para la propuesta de genéricas en mercados nuevos.
+    - Fuente: próximos pasos del [Informe octubre 2026](https://drive.google.com/file/d/1HNd-2i6zxCohChaVS-xHXiE9Wig7SdlG/view) · acta: [[2026-11-12 - Status RR - remanente, Madrid y contenidos]] — detectado 16/11/2026
+
 ## Hechos y por confirmar (no borrar, sirven de histórico)
 
 - [x] Confirmar con Cristian si las campañas de Instituto siguen activas o se paran (la fecha fin de promo era el 20/09 y Nina preguntó si seguían "hasta nuevo aviso", sin respuesta). — [Campañas Instituto](https://basecamp.com/1771388/projects/17192035/messages/112502045) — detectado 18/09/2026
-
-- [ ] Actualizar el Excel de presupuestos revisados por ROI con los datos de septiembre. *(Parece hecho: Ari lo subió con septiembre y octubre al SharePoint el 03/11. Márcalo tú si lo confirmas.)* — [Status 30/9](https://basecamp.com/1771388/projects/17192035/todos/520642038) — detectado 30/09/2026
 
 ## 📥 Backlog
 
 Nuestro, todavía sin empezar.
 
+- [ ] **[Propuesta]** Barraquer — Estrategia 27/28 y reunión de presupuesto 2027 con Cristian: plantear la estrategia (creatividades: recuperar la propuesta de adaptaciones que se quedó parada, menos estáticas, piezas audiovisuales cortas, Estética incluida; contenidos: 2-3 posts promocionados al mes, calendario de patologías) y agendar la reunión
+    - **Kanbanize:** https://runroom.kanbanize.com/ctrl_board/21/cards/61763/details/
+    - **Entrega:** sin fecha definida
+    - **Responsable:** Ari / Nina
+    - **Info:** La propuesta creativa se había quedado parada. Ari recupera lo hablado y hace propuesta. Incluye agendar la reunión con Cristian para el presupuesto 2027 (Ari lo dejó pendiente en el hilo de patologías el 12/11): es la misma tarea (Nina, 16/11). En el backlog de Kanbanize.
+    - Fuente: [Status RR 12/11](https://docs.google.com/document/d/1KwOa2-ND1Jp3jMdOULItwlId1BO8vZPsvtlEL-pKoRM/edit) · acta: [[2026-11-12 - Status RR - remanente, Madrid y contenidos]] · [Refuerzo patologías & push final año 2026](https://basecamp.com/1771388/projects/17192035/todos/521039257) — detectado 12/11/2026
+
 ## ✅ Done
 
 Tareas cerradas (`[x]` hecha, `[-]` ya no aplica), con el motivo en una línea "Cerrada DD/MM".
+
+- [x] **[Tarea]** Barraquer — Actualizar el Excel de presupuestos revisados por ROI con los datos de septiembre
+    - **Responsable:** Ari
+    - Fuente: [Status 30/9](https://basecamp.com/1771388/projects/17192035/todos/520642038) — detectado 30/09/2026
+    - **Cerrada 16/11:** Ari lo subió con septiembre y octubre al SharePoint del cliente el 03/11 (lo confirma Nina).
 
 - [-] **[Incidencia]** Barraquer — Aclarar el origen del acceso no autorizado a Google Ads (asociado a Dubái) y decidir si se revoca el acceso externo
     - **Entrega:** sin fecha definida
