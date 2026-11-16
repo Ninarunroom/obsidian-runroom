@@ -75,3 +75,18 @@ Pendientes con 4 columnas (Pendiente Runroom, Pendiente cliente, Backlog, Done);
 
 ## [2026-11-16] pendientes | Nueva tarea en Runroom: ampliar sitelink de feria a todos los países
 Natalia contestó el 13/11 ("Tendrían que ser todos los países") a la propuesta de Ari/Dèlia de lanzar el sitelink de METSTRADE/Interihotel solo en Alemania, Polonia y Francia — hay que extenderlo también a UK, Italia y el resto de mercados activos. Añadida a 🟦 Runroom (candidata a Kanbanize, pendiente de confirmar con Nina — seguimos en modo prueba hasta el 18/11). Status actualizado a 16/11.
+
+
+## [2026-11-16] pendientes | Descartadas `[-]` dos peticiones al cliente (lo dice Nina)
+- "Qué otras marcas principales incluir en Search de marca (p. ej. Kizuna)": el cliente no va a contestar ahora. [Basecamp](https://basecamp.com/1771388/projects/19500347/todos/515353861)
+- "Creatividades multiformato para PMax": no las van a hacer ahora. [Basecamp](https://basecamp.com/1771388/projects/19500347/todos/515910631)
+Movidas a ✅ Done; actualizados Status, Propuestas y decisiones, Mercados y canales y Estrategia 2026.
+
+
+## [2026-11-16] pendientes | Cerrada `[x]` "Ampliar el sitelink de la feria (METSTRADE / Interihotel) a todos los países"
+Ari se lo ha confirmado a Nina. [Basecamp](https://basecamp.com/1771388/projects/19500347/todos/514165271#comment_981655390). Actualizados Status y Propuestas y decisiones.
+
+
+## [2026-11-16] pendientes | Cerrada `[x]` "Investigar el CPA de Italia" (lo dice Nina) · actualización de la colección sostenible iSense
+- CPA de Italia: hecha. Card de Kanbanize 61758 sin mover.
+- Colección sostenible (iSense): se hará con los presupuestos de esta semana; Nina tiene que darle más contexto a Ari.

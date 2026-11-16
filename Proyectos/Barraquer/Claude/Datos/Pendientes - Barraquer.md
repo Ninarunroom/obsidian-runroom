@@ -3,23 +3,11 @@
 Status del día y tareas pendientes, separadas por **quién tiene la pelota**. Se actualiza cada mañana con la tarea diaria (Basecamp, correo y reuniones). Se añaden tareas nuevas en la sección que toca, pero nunca se borran ni se marcan como hechas automáticamente: márcalas tú con `[x]` cuando las completes.
 
 ## Status (16/11/2026)
-- 💶 **Saldo**: Google Ads Clínica sin saldo desde el 12/11 (avisado por Ari); pendiente de que Cristian recargue, sin confirmación todavía.
-- 🟧 **Esperando al cliente más de 7 días**: recarga de saldo de Clínica (21 d) · ROI 2026 (18 d) · llamadas como conversión (30 d) · info Instituto (39 d, posiblemente obsoleta) · patologías Magreb y landings de Estética en catalán (muy antiguas, desde 2025 y 03/2026). Nuevo (sin pasar aún de 7 d): discrepancia de leads lead gen del 13/11, sin respuesta de Cristian.
+- 💶 **Saldo**: Google Ads en −197,70 € (16/11). Pago manual de 15.000 € hecho el 16/11, pendiente de aplicarse. Al ritmo actual (≈ 770 €/día) da para ≈ 19 días.
+- 🟧 **Esperando al cliente más de 7 días**: recarga de saldo de Clínica (21 d) · ROI 2026 (18 d) · patologías Magreb y landings de Estética en catalán (muy antiguas, desde 2025 y 03/2026; validez por confirmar) · pendientes de junio del informe (feedback del informe, geotarget de Egipto, análisis de países nuevos).
 - 🟦 **Nuestro, vencido o a punto**: nada nuevo hoy; las recurrentes de presupuesto/facturación se gestionan aparte en Kanbanize.
 
 ## 🟦 Runroom
-
-- [ ] **[Tarea]** Barraquer — Cuadrar discrepancias de inversión enero-agosto 2026 (HubSpot vs presupuestos vs datos fiscales)
-    - **Entrega:** sin fecha definida
-    - **Responsable:** Ari
-    - **Info:** Ari envió la revisión el 18/09 y una segunda versión (2025 + 2026, hasta octubre) el 03/11 en el SharePoint del cliente. Queda la validación de Cristian (ver sección Cliente).
-    - Fuente: [Status RR 10/09](https://docs.google.com/document/d/1dyr7KFhIneC5r0mO-PMql53OOIFCPmGeUf6Vp3gbrRY/edit) · acta: [[2026-09-10 - Status RR - traspaso de cuenta y discrepancias]] · [Revisión presupuesto ene-ago](https://basecamp.com/1771388/projects/17192035/todos/520391069) — detectado 10/09/2026
-
-- [ ] **[Tarea]** Barraquer — Medición de la landing de Madrid: definir eventos de conversión y revisar UTMs
-    - **Entrega:** sin fecha definida
-    - **Responsable:** Nina
-    - **Info:** Pendiente según la KB del equipo web (evolutivo "Landing Barraquer Madrid").
-    - Fuente: BarraquerKB (rama vault) — detectado 05/11/2026
 
 - [ ] **[Tarea]** Barraquer — Conversiones del widget "Te llamamos": crearlas en Google Ads y recuperar el histórico de las primeras semanas
     - **Entrega:** sin fecha definida
@@ -59,6 +47,7 @@ Status del día y tareas pendientes, separadas por **quién tiene la pelota**. S
     - **Info:** Ari avisó el 26/10 de que se había consumido el saldo. Antes ya se había pedido el 30/09 y el 05/10 ("quedan 570 €"). Una sola recarga en la cuenta general cubre Clínica y Estética (confirmado por Cristian a Nina).
     - **Actualización 05/11:** hay 7.736,68 € disponibles (dato de Nina). Parece recargado: márcala si lo confirmas.
     - **Actualización 12/11:** Ari avisa en el status de que **no queda saldo en Clínica**. Cristian tiene que recargar ([[2026-11-12 - Status RR - remanente, Madrid y contenidos]]).
+    - **Actualización 16/11:** fondos disponibles −197,70 €. Hay un **pago manual de 15.000 €** del 16/11 pendiente de aplicarse (transferencia). Márcala cuando se aplique.
     - Fuente: [Saldo Google Ads](https://basecamp.com/1771388/projects/17192035/todos/503485531) · [Status 30/9](https://basecamp.com/1771388/projects/17192035/todos/520642038) — detectado 30/09/2026
 
 - [ ] **[Petición cliente]** Barraquer — Enviar el archivo de ROI 2026 y revisar el Excel de inversión acumulada 2025-2026 revisado por Runroom (en su SharePoint)
@@ -66,33 +55,19 @@ Status del día y tareas pendientes, separadas por **quién tiene la pelota**. S
     - **Actualización 12/11:** Ari recuerda en el status que el documento de inversión revisado (hasta octubre) está en su SharePoint y en Basecamp. Cristian: "vale". Sigue faltando el ROI 2026.
     - Fuente: [2026 - ROI](https://basecamp.com/1771388/projects/17192035/todos/521320422) — detectado 05/11/2026
 
-- [ ] **[Petición cliente]** Barraquer — Revisar las conversiones de llamadas telefónicas (secundarias desde el 08/10) y decidir si se usan para optimizar
-    - **Esperando desde:** 17/10/2026
-    - **Info:** En el acta del 08/10 el siguiente paso es de Cristian. Nosotros deberíamos llevar los datos a la próxima reunión.
-    - Fuente: [Status RR 08/10](https://docs.google.com/document/d/1hYqOpvq5nueiVLzWRTM-B0U3HeTQUrOiF4H6aK46-Io/edit) · acta: [[2026-10-08 - Status RR - optimizacion octubre]] — detectado 08/10/2026
-
-- [ ] **[Petición cliente]** Barraquer — Compartir la información pendiente sobre el "Instituto"
-    - **Esperando desde:** 08/10/2026
-    - **Info:** En el acta del 08/10 queda como siguiente paso de Cristian, sin detallar qué información. Las campañas de Instituto 2026 terminaron el 30/09 (Ari, Status 30/9). Posiblemente obsoleta: confirmar con Nina.
-    - Fuente: [Status RR 08/10](https://docs.google.com/document/d/1hYqOpvq5nueiVLzWRTM-B0U3HeTQUrOiF4H6aK46-Io/edit) · acta: [[2026-10-08 - Status RR - optimizacion octubre]] — detectado 08/10/2026
-
 - [ ] **[Petición cliente]** Barraquer — Definir las patologías a testear en Search de Marruecos y Argelia (3.788 € reservados)
     - **Esperando desde:** 29/09/2025
     - Fuente: [Patologías para campañas](https://basecamp.com/1771388/projects/17192035/todos/504659977) — detectado 05/11/2026
 
 - [ ] **[Petición cliente]** Barraquer — Nuevas landings de tratamientos de Estética y versiones en catalán
     - **Esperando desde:** 12/03/2026
+    - **Info:** Las hace Cristian (confirmado por Nina, 16/11). Sigue vigente como pendiente de cliente.
     - Fuente: [2026 - Informe Abril](https://basecamp.com/1771388/projects/17192035/todos/517431691) — detectado 05/11/2026
 
 - [ ] **[Petición cliente]** Barraquer — Compartir las creatividades de Madrid: vídeos cortos (≈ 30 s) de los doctores para la propuesta de notoriedad/consideración
     - **Esperando desde:** 12/11/2026
     - **Info:** Acordado en el status del 12/11. Ari se lo recuerda en el hilo de patologías: "ens has de passar els vídeos per revisar" (para la propuesta de notoriedad en Madrid).
     - Fuente: [Status RR 12/11](https://docs.google.com/document/d/1KwOa2-ND1Jp3jMdOULItwlId1BO8vZPsvtlEL-pKoRM/edit) · acta: [[2026-11-12 - Status RR - remanente, Madrid y contenidos]] — detectado 12/11/2026
-
-- [ ] **[Petición cliente]** Barraquer — Aclarar la discrepancia de los 120 leads de lead gen que dice haber recibido Cristian el 13/11
-    - **Esperando desde:** 13/11/2026
-    - **Info:** Cristian le comentó a Nina que había recibido 120 leads de lead gen ese día. Ari revisó HubSpot (7 conversiones totales, 4 de lead gen) y Meta (4 conversiones lead gen) — un día normal — y también el acumulado de noviembre (77 leads de Lead Gen Meta del 1 al 13, en línea con meses anteriores). Ari le pregunta a Cristian dónde ve los 120 (¿cuenta también WhatsApp o llamadas? ¿otro periodo?). Sin respuesta todavía.
-    - Fuente: [Transversal - Leads lead gen hoy 13.11.26](https://basecamp.com/1771388/projects/17192035/todos/521659937) — detectado 13/11/2026
 
 - [ ] **[Petición cliente]** Barraquer — Revisar el informe y trasladar feedback para futuros ajustes
     - **Esperando desde:** 22/06/2026
@@ -127,6 +102,38 @@ Nuestro, todavía sin empezar.
 ## ✅ Done
 
 Tareas cerradas (`[x]` hecha, `[-]` ya no aplica), con el motivo en una línea "Cerrada DD/MM".
+
+- [x] **[Tarea]** Barraquer — Cuadrar discrepancias de inversión enero-agosto 2026 (HubSpot vs presupuestos vs datos fiscales)
+    - **Entrega:** sin fecha definida
+    - **Responsable:** Ari
+    - **Info:** Ari envió la revisión el 18/09 y una segunda versión (2025 + 2026, hasta octubre) el 03/11 en el SharePoint del cliente. Queda la validación de Cristian (ver sección Cliente).
+    - Fuente: [Status RR 10/09](https://docs.google.com/document/d/1dyr7KFhIneC5r0mO-PMql53OOIFCPmGeUf6Vp3gbrRY/edit) · acta: [[2026-09-10 - Status RR - traspaso de cuenta y discrepancias]] · [Revisión presupuesto ene-ago](https://basecamp.com/1771388/projects/17192035/todos/520391069) — detectado 10/09/2026
+    - **Cerrada 16/11:** hecho (lo confirma Nina).
+
+- [x] **[Tarea]** Barraquer — Medición de la landing de Madrid: definir eventos de conversión y revisar UTMs
+    - **Entrega:** sin fecha definida
+    - **Responsable:** Nina
+    - **Info:** Pendiente según la KB del equipo web (evolutivo "Landing Barraquer Madrid").
+    - Fuente: BarraquerKB (rama vault) — detectado 05/11/2026
+    - **Cerrada 16/11:** hecho (lo confirma Nina). Venía de la KB del equipo web, no de Basecamp ni de reuniones de performance.
+
+- [x] **[Petición cliente]** Barraquer — Revisar las conversiones de llamadas telefónicas (secundarias desde el 08/10) y decidir si se usan para optimizar
+    - **Esperando desde:** 17/10/2026
+    - **Info:** En el acta del 08/10 el siguiente paso es de Cristian. Nosotros deberíamos llevar los datos a la próxima reunión.
+    - Fuente: [Status RR 08/10](https://docs.google.com/document/d/1hYqOpvq5nueiVLzWRTM-B0U3HeTQUrOiF4H6aK46-Io/edit) · acta: [[2026-10-08 - Status RR - optimizacion octubre]] — detectado 08/10/2026
+    - **Cerrada 16/11:** hecho (lo confirma Nina).
+
+- [x] **[Petición cliente]** Barraquer — Compartir la información pendiente sobre el "Instituto"
+    - **Esperando desde:** 08/10/2026
+    - **Info:** En el acta del 08/10 queda como siguiente paso de Cristian, sin detallar qué información. Las campañas de Instituto 2026 terminaron el 30/09 (Ari, Status 30/9). Posiblemente obsoleta: confirmar con Nina.
+    - Fuente: [Status RR 08/10](https://docs.google.com/document/d/1hYqOpvq5nueiVLzWRTM-B0U3HeTQUrOiF4H6aK46-Io/edit) · acta: [[2026-10-08 - Status RR - optimizacion octubre]] — detectado 08/10/2026
+    - **Cerrada 16/11:** hecho (lo confirma Nina).
+
+- [x] **[Petición cliente]** Barraquer — Aclarar la discrepancia de los 120 leads de lead gen que dice haber recibido Cristian el 13/11
+    - **Esperando desde:** 13/11/2026
+    - **Info:** Cristian le comentó a Nina que había recibido 120 leads de lead gen ese día. Ari revisó HubSpot (7 conversiones totales, 4 de lead gen) y Meta (4 conversiones lead gen) — un día normal — y también el acumulado de noviembre (77 leads de Lead Gen Meta del 1 al 13, en línea con meses anteriores). Ari le pregunta a Cristian dónde ve los 120 (¿cuenta también WhatsApp o llamadas? ¿otro periodo?). Sin respuesta todavía.
+    - Fuente: [Transversal - Leads lead gen hoy 13.11.26](https://basecamp.com/1771388/projects/17192035/todos/521659937) — detectado 13/11/2026
+    - **Cerrada 16/11:** hecho (lo confirma Nina).
 
 - [x] **[Tarea]** Barraquer — Actualizar el Excel de presupuestos revisados por ROI con los datos de septiembre
     - **Responsable:** Ari

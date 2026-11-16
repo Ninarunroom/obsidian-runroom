@@ -135,3 +135,9 @@ Cristian dijo a Nina que había recibido 120 leads de lead gen el 13/11; Ari rev
 - Añadidas en 🟧 Cliente desde la tabla de próximos pasos del informe de octubre: feedback del informe (22/06), geotarget de Egipto (12/06) y análisis de datos internos/SEO de Qatar, Egipto, Mauritania y Kuwait (22/06).
 - Estrategia 2026: "Decidir la pausa de reserva" → `[x]`; reserva táctica actualizada (10,2k); DV360 display, Angola, Meta consideración y PMax Estética → `[-]` (coherente con el descarte del 13/11).
 - Propuestas y decisiones: contenidos integrados en la estrategia 27/28; awareness genérico en países nuevos ya con propuesta en curso.
+
+## [2026-11-16] pendientes | Cierres confirmados por Nina
+Cerradas `[x]`: discrepancias de inversión ene-ago, medición de la landing de Madrid (venía de la KB web), conversiones de llamadas, información del Instituto y discrepancia de los 120 leads de lead gen.
+
+## [2026-11-16] saldos | Google Ads −197,70 € y pago de 15.000 € pendiente
+Captura de Nina: fondos −197,70 €, pago manual de 15.000 € del 16/11 pendiente. Gasto real 9-15/11: 5.374,44 € (768 €/día, hoja diaria, solo Clínicas). Con los 7.736,68 € del 05/11, el cálculo daba saldo agotado hacia el 14-15/11, en línea con la captura. Corregido el ID de la hoja «Barraquer - Google Ads diario» en Instrucciones (era 1KGLV…, es 19wug698…).

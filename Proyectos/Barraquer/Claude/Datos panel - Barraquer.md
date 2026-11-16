@@ -24,11 +24,11 @@ horas_plan: [["2026-01", 2, 15, 37, 0], ["2026-09", 35, 19, 0, 0]]
 alertas_hoy: []
 umbral_alerta_pct: 20
 umbral_alerta_dias: 5
-google_ads_saldo_estimado: 7736.68
+google_ads_saldo_estimado: -197.70
 google_ads_ultima_recarga: 7736.68
-google_ads_gasto_diario: 767
-google_ads_fecha_datos: 2026-11-05
-google_ads_nota: "7.736,68 € disponibles el 05/11 (dato de Nina). Base de cálculo hasta la próxima recarga."
+google_ads_gasto_diario: 768
+google_ads_fecha_datos: 2026-11-16
+google_ads_nota: "16/11: fondos disponibles −197,70 € (captura de Nina). Pago manual de 15.000 € del 16/11 pendiente de aplicarse (transferencia, tarda unos días). Gasto medio 9-15/11: 768 €/día (solo cuenta Clínicas). Con 15.000 € aplicados, dura ≈ 19 días."
 cuota_fee_mensual: 4594
 ---
 # Datos de los paneles — Barraquer

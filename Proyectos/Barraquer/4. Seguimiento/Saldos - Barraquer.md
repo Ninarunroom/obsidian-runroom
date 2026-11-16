@@ -149,4 +149,5 @@ Cuando Cristian recargue, añade una línea o díselo a Claude. Si solo sabes el
 
 - [fecha:: 2026-09-08] [cuenta:: google-ads] [importe:: ?] [saldo_previo:: 4500] [notas:: Cristian "listo!", sin importe]
 - [fecha:: 2026-11-05] [cuenta:: google-ads] [importe:: ?] [saldo_previo:: ] [saldo_disponible:: 7736.68] [notas:: saldo disponible informado por Nina; punto de partida del cálculo]
+- [fecha:: 2026-11-16] [cuenta:: google-ads] [importe:: 15000] [saldo_previo:: -197.70] [saldo_disponible:: ] [notas:: pago manual (transferencia) pendiente de aplicarse; captura de Nina]
 - [fecha:: 2026-10-09] [cuenta:: google-ads] [importe:: ?] [saldo_previo:: 12672] [notas:: saldo informado por Ari: Clínica 12.338 € + Estética 334 €]
