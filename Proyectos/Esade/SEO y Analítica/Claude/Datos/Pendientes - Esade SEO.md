@@ -5,6 +5,7 @@ Status del día y tareas pendientes, separadas por **quién tiene la pelota**. S
 ## Status (12/11/2026)
 - 🕒 **Horas**: Sergi ha preguntado tres veces por la dedicación (02/11 "anem a full", 29/10 y 10/11 sobre el formulario de FormAssembly), y la última pregunta sigue **sin respuesta (2 días)**. Remanente de **37,25 h** a cierre de septiembre (16,25 del curso pasado + 50 − 29; el 75 % de un mes, por encima del ±20 %). **Octubre sin volcar** al Seguimiento.
 - 🟧 **Esperando al cliente más de 7 días**: URLs de CrazyEgg (42 d) · Unibuddy y su Hotjar (42 d) · respuesta de OneTrust sobre el 'unknown' (36 d) · prompts de Sistrix / LLM Pulse (41 d) · pedido de compra pendiente (13 d).
+- 💬 **Respuesta de Fer al status (16/11)**: schema hecho (13/11) · student loans revisado (no es indexación; pelota en Sergi) · inventario EMBA y F0-02 la semana del 23/11 · Excel EMBA y fechas del plan FTMBA el lunes 23/11 · informe de Esade en IA y mapa de competidores ampliado el 27/11 o el 30/11.
 - 🟦 **Nuevo de ayer (11/11)**: ajustes de consentimiento en GTM (5 puntos de Sergi) y pico de sesiones del 10/11 (modelización de Consent Mode). Los dos son de Marta.
 
 ## 🟦 Runroom
@@ -45,10 +46,11 @@ Status del día y tareas pendientes, separadas por **quién tiene la pelota**. S
     - Fuente: [📧 "Esade: pic de sessions el 10/11 – és la modelització de Consent Mode?" (Sergi, 11/11)](https://mail.google.com/mail/?authuser=nina@runroom.com#all/thread-f:1881574014061694620) — detectado 12/11/2026
 - [/] **[Tarea]** Esade — EMBA: backlog de recuperación de posiciones 4-10 (F0 y F1)
     - **Línea:** SEO técnico
-    - **Entrega:** sin fecha definida
+    - **Entrega:** inventario y F0-02, semana del 23/11 · Excel al día, lunes 23/11 (según Fer, 16/11)
     - **Responsable:** Fer
     - **Info:** F0-01 entregado el 26/10 (ficha de queries perdidas). Fer está con F0-02 (análisis de SERP). Para F1-01, 02, 05, 06, 07 y 08, Sergi pidió antes un inventario de "ya existe / hay que actualizar / hay que crear". El paso 3 del plan ("¿Cuánto cuesta un Executive MBA en España?") pasa a Beyond o link building (Olga). Seguimiento en [[Estrategia 26-27 - seguimiento Esade SEO]].
     - **Actualización 16/11:** sin novedades en Basecamp desde el 26/10. El Excel sigue con las 20 tareas en "Pendiente" (también la F0-01); última edición: Nina, 13/11.
+    - **Actualización 16/11 (respuesta de Fer en Slack):** el inventario "ya existe / hay que actualizar / hay que crear" (1.1) y el análisis de SERP F0-02 (1.2) los tendrá **la próxima semana** (23-27/11). El Excel del EMBA (1.3) lo revisa y lo deja actualizado **el lunes**; Nina le pidió además revisarlo cada semana.
     - Fuente: [Basecamp: EMBA](https://basecamp.com/1771388/projects/19742261/messages/113264682) · [Backlog EMBA F0-F4 (Drive)](https://drive.google.com/file/d/17wPCCI_OlSEpzuTz6EX7LARGX6vP9JEN/view) — detectado 30/09/2026
 - [/] **[Tarea]** Esade — Plan de acción EMBA (30/10): las tareas de RR
     - **Línea:** SEO técnico
@@ -58,11 +60,12 @@ Status del día y tareas pendientes, separadas por **quién tiene la pelota**. S
     - Fuente: [Sheet: Plan de acción EMBA](https://docs.google.com/spreadsheets/d/1p4C1jAwhScctAqE-pda1-lxsci2dfwnIcYKpeskvRaw) · acta: [[2026-10-30 - Plan de accion EMBA]] — detectado 30/10/2026
 - [/] **[Tarea]** Esade — Full Time MBA: analizar a fondo la ficha del programa y el mercado indio
     - **Línea:** SEO técnico
-    - **Entrega:** sin fecha definida
+    - **Entrega:** fechas de cada acción, lunes 23/11 (según Fer, 16/11)
     - **Responsable:** Fer
     - **Info:** /mba/en pierde un 37 % de clics (28/6-26/10, interanual). Cuatro URLs concentran el 83 % de lo perdido; la ficha /programmes/full-time-mba pasa de la posición 12,4 a la 25,8 (−52 % de clics) e India pierde un 42 %. Sergi: "Activem tots els next steps" (29/10).
     - **Actualización 12/11:** plan de acción en [Sheet: Esade FTMBA - Plan de acción](https://docs.google.com/spreadsheets/d/1FUpa6tUAidxNhfkUkrLl_HfkGDgzhDhZtzsSU4VL8xM/edit) (carpeta FTMBA del Drive del curso 26/27, compartida con Fer). Fer tiene que completarlo con el resto de acciones de su informe y fechas.
     - **Actualización 16/11:** Fer editó el Sheet del plan el 13/11, pero las 7 acciones siguen sin fecha prevista y en "Pendiente" / "Por validar con Fer".
+    - **Actualización 16/11 (respuesta de Fer en Slack):** el lunes revisa el plan y pone fecha a todas las acciones del FTMBA.
     - Fuente: [Basecamp: Full Time MBA](https://basecamp.com/1771388/projects/19742261/messages/113563313) · [Sheet: FTMBA - Plan de acción](https://docs.google.com/spreadsheets/d/1FUpa6tUAidxNhfkUkrLl_HfkGDgzhDhZtzsSU4VL8xM/edit) — detectado 29/10/2026
 - [/] **[Tarea]** Esade — Schema: devolver a Sergi los matices a su propuesta (redes sociales en schema)
     - **Línea:** SEO técnico
@@ -70,6 +73,7 @@ Status del día y tareas pendientes, separadas por **quién tiene la pelota**. S
     - **Responsable:** Fer
     - **Info:** Fer pasó el documento de Sergi por su agente de IA, lo cruzó con la respuesta de Natzir y ve cosas con sentido y otras que no haría o no harían falta.
     - **Actualización 16/11:** Fer respondió el 13/11 con prioridades: P1 NewsArticle (email de una persona externa expuesto, RGPD, y publisher) y Course provider con @id + name; P2 completar Organization (sameAs, dirección, logo, Law School como subOrganization); P2 Wikidata y fichas de Google Business con nombre de edificio. Ahora decide Sergi (ver 🟧 Cliente). [📧 "Coses Schema" (Fer, 13/11)](https://mail.google.com/mail/?authuser=nina@runroom.com#all/thread-f:1878390725484215667)
+    - **Actualización 16/11 (respuesta de Fer en Slack):** confirma que ya ha mandado los matices técnicos al correo de Natzir. Por parte de RR está hecho; ¿cerrar?
     - Fuente: [📧 "Coses Schema (tot i que la IA potser no en fa cas)" (Sergi, 07/10)](https://mail.google.com/mail/?authuser=nina@runroom.com#all/thread-f:1878390725484215667) — detectado 22/10/2026
 - [x] **[Tarea]** Esade — KPIs de visibilidad en IA: capturas de Sistrix a 31/08 para Helen (cierre del curso 25/26)
     - **Línea:** SEO técnico
@@ -83,6 +87,7 @@ Status del día y tareas pendientes, separadas por **quién tiene la pelota**. S
     - **Responsable:** Fer
     - **Info:** Lo señala Sergi el 03/11 al compartir el dashboard de octubre. En octubre Fer lo atribuyó a la estacionalidad (−31 clics), pero que caigan a 0 las impresiones apunta a algo técnico (indexación).
     - **Actualización 16/11:** el 13/11 Fer preguntó si era la URL /bachelor/en/degrees/tuition-fees/student-loans o la consulta; Sergi contestó el mismo día: "La consulta student loans". Pelota en Fer. [📧 "Dashboard Setembre" (Fer/Sergi, 13/11)](https://mail.google.com/mail/?authuser=nina@runroom.com#all/thread-f:1878407521139447114)
+    - **Actualización 16/11 (respuesta de Fer en Slack):** revisado. **No es un problema de indexación**: la landing y las consultas siguen recibiendo impresiones, aunque a un ritmo más bajo que en su pico de hace unos meses; la landing funciona y es visible. Fer ha contestado a Sergi preguntándole si quiere que lo revisen y con qué prioridad. Pelota en Sergi (ver 🟧 Cliente). Por parte de RR está hecho; ¿cerrar?
     - Fuente: [📧 "Dashboard Setembre" (Sergi, 03/11)](https://mail.google.com/mail/?authuser=nina@runroom.com#all/thread-f:1878407521139447114) — detectado 12/11/2026
 
 
@@ -140,6 +145,12 @@ Status del día y tareas pendientes, separadas por **quién tiene la pelota**. S
     - **Línea:** SEO técnico
     - **Info:** Fer propuso el 13/11: P1 NewsArticle (quitar el email de una persona externa, tema RGPD, y publisher = Esade) y Course provider con @id + name, sin quitar el Organization global; P2 completar el Organization (sameAs, dirección, logo, Law School como subOrganization); P2 Wikidata y revisión de las fichas de Google Business con nombre de edificio. Natzir había opinado el 08/10 que cambiar el Organization tiene impacto casi nulo en Google; Fer matiza que lo consumen Bing, Perplexity y los LLM.
     - Fuente: [📧 "Coses Schema (tot I que la IA potser no en fa cas)" (Fer, 13/11)](https://mail.google.com/mail/?authuser=nina@runroom.com#all/thread-f:1878390725484215667) — detectado 16/11/2026
+
+- [ ] **[Petición cliente]** Esade — Grados, "student loans": decidir si se revisa a fondo y con qué prioridad
+    - **Esperando desde:** 16/11/2026
+    - **Línea:** SEO técnico
+    - **Info:** Fer revisó la caída de la consulta "student loans" (de 100.000 impresiones a 0, según Sergi): no es indexación, porque la landing (/bachelor/en/degrees/tuition-fees/student-loans) y las consultas siguen recibiendo impresiones, aunque menos que en su pico. Ha preguntado a Sergi si quiere que lo revisen y con qué prioridad. Fecha exacta del correo de Fer por confirmar (lo cuenta en Slack el 16/11).
+    - Fuente: [📧 "Dashboard Setembre" (Fer, 16/11)](https://mail.google.com/mail/?authuser=nina@runroom.com#all/thread-f:1878407521139447114) — detectado 16/11/2026
 
 ## 🔍 Por verificar (pendientes antiguos que pueden estar cerrados)
 No los lee el panel. Confírmalos y márcalos o bórralos tú.

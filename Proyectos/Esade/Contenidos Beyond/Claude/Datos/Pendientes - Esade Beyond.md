@@ -17,12 +17,13 @@ La tarea del mes va en la sección de **quién tiene ahora la pelota** (🟦 Run
     - **Mes:** septiembre 2026
     - **Entrega:** publicaciones durante octubre (der-bank-blog.de, retrasado)
     - **Responsable:** Olga
-    - **Ahora:** solo falta que der-bank-blog.de publique (texto validado el 14/10).
+    - **Ahora:** solo falta que der-bank-blog.de publique (texto validado el 14/10). Va por plataforma y está "en espera de respuesta".
     - ✅ Propuesta de medios, temáticas, URL y anchors en el Sheet (14/09; Astrid pidió una opción más de Grados, añadida el 15/09)
     - ✅ Validación de los medios por Astrid y Comunicación (01/10)
     - ✅ Texto de cada medio subido a Basecamp, revisado por Astrid (con el profesor o el equipo) y corregido
     - ✅ Publicados: regiondigital.com (170 €), lavozdeasturias.es (490 €), lacerca.com (484 €, 29/10), vipiu.it (417 €), targatocn.it (188 €) y eldiarioalerta.com (350 €)
     - ⏳ der-bank-blog.de (410 €): texto validado por Astrid el 14/10; pendiente de que el medio publique
+    - **Actualización 16/11:** Olga: va por plataforma; ha reenviado el contenido varias veces al medio con las anotaciones que pedían. Ahora está "en espera de respuesta" y espera que sea la definitiva. Sin fecha de publicación. (fuente: Status compartido de Nina con Fer y Olga (16/11))
     - ✅ Comprometido del mes: 2.509 € (Sheet, Control presupuesto medios)
     - Fuente: [Basecamp: Link Building -propuesta sept](https://basecamp.com/1771388/projects/15430351/todos/520154335) · [Basecamp: der-bank-blog.de](https://basecamp.com/1771388/projects/15430351/todos/520981543) · [Sheet: Link Building 26-27, pestaña Septiembre 26](https://docs.google.com/spreadsheets/d/1HIEkVbraRA5NiC_XNK7axsa1Gjqp3D-sr1MAilQioHM) — detectado 09/09/2026
 - [/] **[Link building]** Esade — Link building octubre 2026
@@ -36,6 +37,7 @@ La tarea del mes va en la sección de **quién tiene ahora la pelota** (🟦 Run
     - ✅ Validación de temáticas, URL de destino y anchors (11/11)
     - ⏳ digitalfernsehen.de (1.334 €, Alemania): texto subido el 12/11, en revisión de Astrid
     - ⬜ ibtimes.co.uk (2.000 €, UK): pendiente de que el medio envíe el texto
+    - **Actualización 16/11:** Olga: ibtimes.co.uk está en proceso por parte del medio (va por plataforma). Sin fecha. (fuente: Status compartido de Nina con Fer y Olga (16/11))
     - ⬜ Publicación y enlace de los dos medios en Basecamp y en el Sheet
     - ✅ Comprometido del mes: 3.334 € (Sheet, Control presupuesto medios)
     - Fuente: [Basecamp: Link Building - propuesta octubre](https://basecamp.com/1771388/projects/15430351/todos/521225393) · [Basecamp: digitalfernsehen.de](https://basecamp.com/1771388/projects/15430351/todos/521640212) · [Sheet: Link Building 26-27, pestaña Octubre 26](https://docs.google.com/spreadsheets/d/1HIEkVbraRA5NiC_XNK7axsa1Gjqp3D-sr1MAilQioHM) — detectado 26/10/2026
@@ -44,11 +46,12 @@ La tarea del mes va en la sección de **quién tiene ahora la pelota** (🟦 Run
     - **Mes:** noviembre 2026
     - **Entrega:** diciembre (los textos aún no están)
     - **Responsable:** Olga (Astrid valida)
-    - **Ahora:** Olga tiene que hacer el brief a los medios y conseguir los textos.
+    - **Ahora:** Olga tiene que hacer el brief a los medios y conseguir los textos. Previsión: semana del 23/11, si los medios avanzan esta semana.
     - ✅ Propuesta de medios (junto con la de octubre, 26/10)
     - ✅ Validación de los medios (05/11) y de temáticas, URL y anchors (11/11)
     - 🔄 azonline.de (846 €, Alemania, anchor "Bachelor-Studium in transformativer Führung…"): brief y texto
     - 🔄 diariopalentino.es (1.200 €, España, anchor "executive MBA barcelona"): brief y texto
+    - **Actualización 16/11:** Olga: los textos de azonline.de y diariopalentino.es, la semana que viene (23-27/11) si esta semana pueden avanzar los medios. (fuente: Status compartido de Nina con Fer y Olga (16/11))
     - ⬜ Revisión de los textos por Astrid
     - ⬜ Publicación y enlace en Basecamp y en el Sheet
     - 🔄 Presupuesto del mes: 2.861,47 € en el Sheet; aprobados 2.046 € (quedan unos 815 € sin asignar)
@@ -58,7 +61,7 @@ La tarea del mes va en la sección de **quién tiene ahora la pelota** (🟦 Run
     - **Mes:** noviembre 2026
     - **Entrega:** noviembre (2 briefings)
     - **Responsable:** Olga (Astrid valida)
-    - **Ahora:** Olga prepara el briefing de "cambiar de trabajo a los 40".
+    - **Ahora:** Olga prepara el briefing de "cambiar de trabajo a los 40"; lo entrega esta semana (antes del 20/11).
     - **Artículo 1 · Derecho de la energía → "Mercado eléctrico de España: claves regulatorias"**
     - ✅ Petición de Astrid (21/10; prioritaria el 22/10)
     - ✅ Keyword research y propuesta de temática: "mercado eléctrico español", 60 búsquedas (11/11) · ✅ OK de Astrid (11/11)
@@ -68,6 +71,7 @@ La tarea del mes va en la sección de **quién tiene ahora la pelota** (🟦 Run
     - ✅ Petición de Astrid (26/10)
     - ✅ Keyword research: los términos de empleabilidad del EMBA casi no tienen búsquedas; propuesta "cambiar de trabajo a los 40 / 50" (10/11) · ✅ OK de Astrid, enfocado a 35-40 años (11/11)
     - 🔄 Briefing en el Sheet, enlazando a la sección careers/employability del EMBA
+    - **Actualización 16/11:** Olga: keyword research y briefing, esta semana. (fuente: Status compartido de Nina con Fer y Olga (16/11))
     - ⬜ Astrid valida el briefing
     - ⬜ Redacción (Eleven) y publicación en Beyond (Esade)
     - Fuente: [Basecamp: Blogging KW R - Derecho de la energia](https://basecamp.com/1771388/projects/15430351/todos/521133723) · [Basecamp: Blogging KWR - EMBA employability](https://basecamp.com/1771388/projects/15430351/todos/521225180) · [Sheet: Briefings Beyond](https://docs.google.com/spreadsheets/d/10pRmB4FAOTsTiLZ1teLX6Ec_bzRI5H9f0aB_1A6huxw) — detectado 21/10/2026
@@ -81,11 +85,12 @@ La tarea del mes va en la sección de **quién tiene ahora la pelota** (🟦 Run
     - ⬜ Excel de KPIs actualizado y aviso a Astrid en Basecamp (Status semanal)
     - ⬜ Resolver las dudas de Astrid
     - Fuente: [Basecamp: Status semanal](https://basecamp.com/1771388/projects/15430351/todos/477821218) — detectado 13/11/2026
-- [ ] **[Informe y KPIs]** Esade — Dashboard "vivo" de KPIs para Astrid
+- [/] **[Informe y KPIs]** Esade — Dashboard "vivo" de KPIs para Astrid
     - **Línea:** Informe y KPIs
-    - **Entrega:** sin fecha definida
+    - **Entrega:** sin fecha definida (depende de Sergi)
     - **Responsable:** Fer (con Marta)
     - **Info:** Astrid lo pidió el 07/10 para seguir los KPIs de forma más viva. Fer (13/10): tiene que hablarlo con Marta y unificar todos los puntos de reporting. Ojo: decidir a qué fee se imputa.
+    - **Actualización 16/11:** Fer: Marta y él han revisado un dashboard que ha hecho Sergi (le sugirieron mejoras y algún cambio; "muy buen dashboard"). Tiene una sección que aísla la analítica de Beyond con todos sus KPIs. Fer propone compartirlo con Astrid. Nina: de acuerdo, pero antes preguntar a Sergi si ya se lo ha compartido a Astrid o si ve bien que lo compartamos. **Siguiente paso:** preguntar a Sergi (falta decidir quién: Nina o Fer). Como el dashboard es de Sergi, quizá ya no hay que construir nada en Beyond: solo compartirlo. (fuente: Status compartido de Nina con Fer y Olga (16/11))
     - Fuente: [Basecamp: Status semanal](https://basecamp.com/1771388/projects/15430351/todos/477821218) — detectado 07/10/2026
 - [ ] **[Gestión]** Esade — Confirmar que ha llegado el pedido de sep–dic (16.933,73 €) y facturar
     - **Línea:** Gestión

@@ -14,8 +14,8 @@ Cada entregable de la estrategia 26/27 y del plan EMBA es una tarea. El [[Tareas
 
 ## A1 · Visibilidad en IA
 - [/] Set de prompts de seguimiento por BU, mercado e idioma, orientado a decisión [pelota:: cliente] [motivo:: Sergi tiene que decidir qué monitorizar (límite de prompts en LLM Pulse; Natzir tiene los suyos)] [fuente:: https://drive.google.com/file/d/1j-An1mGzy7ovzZyK4LJBpnQYWWhuRwP7/view] [plan:: oct–nov 2026 (Estudio de visibilidad, 1.ª entrega)] [inicio:: 2026-10] [fin:: 2026-11]
-- [ ] Mapa competitivo ampliado (IE, IESE, EADA, ESCP, Bocconi, HEC, LBS; FT, QS, THE, Poets&Quants; Reddit, YouTube) [pelota:: runroom] [motivo:: se acordó definirlo con el equipo antes de los estudios (18/09)] [fuente:: https://drive.google.com/file/d/1j-An1mGzy7ovzZyK4LJBpnQYWWhuRwP7/view] [plan:: oct–nov 2026 (Estudio de visibilidad, 1.ª entrega)] [inicio:: 2026-10] [fin:: 2026-11]
-- [ ] Informe de marca en LLMs (dos entregas durante el curso) [pelota:: runroom] [fuente:: https://drive.google.com/file/d/1j-An1mGzy7ovzZyK4LJBpnQYWWhuRwP7/view] [plan:: 1.ª entrega oct–nov 2026 · 2.ª entrega abr–may 2027] [inicio:: 2026-10] [fin:: 2026-11]
+- [ ] Mapa competitivo ampliado (IE, IESE, EADA, ESCP, Bocconi, HEC, LBS; FT, QS, THE, Poets&Quants; Reddit, YouTube) [pelota:: runroom] [motivo:: se acordó definirlo con el equipo antes de los estudios (18/09); Fer: lo entrega el viernes 27/11 o el lunes 30/11 (16/11)] [fuente:: https://drive.google.com/file/d/1j-An1mGzy7ovzZyK4LJBpnQYWWhuRwP7/view] [plan:: oct–nov 2026 (Estudio de visibilidad, 1.ª entrega)] [inicio:: 2026-10] [fin:: 2026-11]
+- [ ] Informe de marca en LLMs (dos entregas durante el curso) [pelota:: runroom] [motivo:: Fer: 1.ª entrega el viernes 27/11 o el lunes 30/11 (16/11)] [fuente:: https://drive.google.com/file/d/1j-An1mGzy7ovzZyK4LJBpnQYWWhuRwP7/view] [plan:: 1.ª entrega oct–nov 2026 · 2.ª entrega abr–may 2027] [inicio:: 2026-10] [fin:: 2026-11]
 - [x] KPIs mensuales de visibilidad en IA, a cierre de mes [basecamp:: https://basecamp.com/1771388/projects/19742261/messages/112018257] [plan:: mensual, sep 2026–ago 2027] [inicio:: 2026-09] [fin:: 2027-08]
 
 ## A2 · Contenidos GEO
@@ -27,7 +27,7 @@ Cada entregable de la estrategia 26/27 y del plan EMBA es una tarea. El [[Tareas
 ## A3 · Auditoría técnica
 - [ ] Rastreo completo por carpeta de BU y backlog priorizado por coste y beneficio [pelota:: runroom] [motivo:: coordinar con Natzir para no duplicar la auditoría] [fuente:: https://drive.google.com/file/d/1j-An1mGzy7ovzZyK4LJBpnQYWWhuRwP7/view] [plan:: dic 2026–ene 2027 (Auditoría técnica)] [inicio:: 2026-12] [fin:: 2027-01]
 - [ ] Auditoría de renderizado del contenido crítico (precios, formatos, fechas en acordeones o JS) [pelota:: runroom] [fuente:: https://drive.google.com/file/d/1j-An1mGzy7ovzZyK4LJBpnQYWWhuRwP7/view] [plan:: dic 2026–ene 2027 (Auditoría técnica)] [inicio:: 2026-12] [fin:: 2027-01]
-- [/] Datos estructurados (EducationalOccupationalProgram/Course, Organization, FAQPage, Person) [pelota:: runroom] [motivo:: Fer revisa la propuesta de Sergi (redes en schema) con la opinión de Natzir] [fuente:: https://drive.google.com/file/d/1j-An1mGzy7ovzZyK4LJBpnQYWWhuRwP7/view] [plan:: dic 2026–ene 2027 (Auditoría técnica)] [inicio:: 2026-12] [fin:: 2027-01]
+- [/] Datos estructurados (EducationalOccupationalProgram/Course, Organization, FAQPage, Person) [pelota:: cliente] [motivo:: Fer mandó sus matices y prioridades (P1/P2) el 13/11; decide Sergi] [fuente:: https://drive.google.com/file/d/1j-An1mGzy7ovzZyK4LJBpnQYWWhuRwP7/view] [plan:: dic 2026–ene 2027 (Auditoría técnica)] [inicio:: 2026-12] [fin:: 2027-01]
 - [ ] Revisión de hreflang, canónicas y duplicidades ES/EN/CA [pelota:: runroom] [fuente:: https://drive.google.com/file/d/1j-An1mGzy7ovzZyK4LJBpnQYWWhuRwP7/view] [plan:: dic 2026–ene 2027 (Auditoría técnica)] [inicio:: 2026-12] [fin:: 2027-01]
 
 ## B1 · Landings de decisión
@@ -43,14 +43,14 @@ Cada entregable de la estrategia 26/27 y del plan EMBA es una tarea. El [[Tareas
 ## C · Analítica y medición
 - [x] Canal IA en GA4 con reglas de agrupación y UTMs revisadas [fuente:: https://drive.google.com/file/d/1j-An1mGzy7ovzZyK4LJBpnQYWWhuRwP7/view] [plan:: sep 2026–ago 2027 (Analítica + medición)] [inicio:: 2026-09] [fin:: 2027-08]
 - [x] Informe de IA generativa de Search Console disponible [fuente:: https://drive.google.com/file/d/1j-An1mGzy7ovzZyK4LJBpnQYWWhuRwP7/view] [plan:: sep 2026–ago 2027 (Analítica + medición)] [inicio:: 2026-09] [fin:: 2027-08]
-- [/] Cruce de Search Console (orgánico e IA), GA4 y citación en LLMs en el dashboard [pelota:: runroom] [motivo:: Sergi ha montado su propio dashboard (itemsweb); Fer y Marta lo revisan] [fuente:: https://drive.google.com/file/d/1j-An1mGzy7ovzZyK4LJBpnQYWWhuRwP7/view] [plan:: sep 2026–ago 2027 (Analítica + medición)] [inicio:: 2026-09] [fin:: 2027-08]
+- [/] Cruce de Search Console (orgánico e IA), GA4 y citación en LLMs en el dashboard [pelota:: runroom] [motivo:: Sergi ha montado su propio dashboard (itemsweb); Fer y Marta lo han revisado y le han sugerido mejoras y algún cambio (16/11).] [fuente:: https://drive.google.com/file/d/1j-An1mGzy7ovzZyK4LJBpnQYWWhuRwP7/view] [plan:: sep 2026–ago 2027 (Analítica + medición)] [inicio:: 2026-09] [fin:: 2027-08]
 - [x] Medición de component_view (con component_type) [nuevo:: sí] [fuente:: https://mail.google.com/mail/?authuser=nina@runroom.com#all/thread-f:1880109674396533661] [plan:: fuera del roadmap (nuevo)]
 - [/] Limpieza del tráfico bot de China en GA4 y sGTM [nuevo:: sí] [pelota:: runroom] [basecamp:: https://basecamp.com/1771388/projects/16901662/messages/113457396] [plan:: fuera del roadmap (nuevo)]
 - [/] Cumplimiento del consentimiento de cookies (OneTrust, GTM, Consent Mode) [nuevo:: sí] [pelota:: runroom] [basecamp:: https://basecamp.com/1771388/projects/16901662/messages/108051224] [plan:: fuera del roadmap (nuevo)]
 
 ## EMBA · Diagnóstico (F0)
 - [x] F0-01 Mapa de queries perdidas por URL (ficha del 26/10) [fuente:: https://drive.google.com/file/d/17wPCCI_OlSEpzuTz6EX7LARGX6vP9JEN/view] [plan:: sin fecha en el backlog EMBA]
-- [/] F0-02 Análisis de SERP de las queries perdidas [pelota:: runroom] [fuente:: https://drive.google.com/file/d/17wPCCI_OlSEpzuTz6EX7LARGX6vP9JEN/view] [plan:: sin fecha en el backlog EMBA]
+- [/] F0-02 Análisis de SERP de las queries perdidas [pelota:: runroom] [motivo:: Fer: la semana del 23/11 (16/11)] [fuente:: https://drive.google.com/file/d/17wPCCI_OlSEpzuTz6EX7LARGX6vP9JEN/view] [plan:: sin fecha en el backlog EMBA]
 - [ ] F0-03 Chequeo técnico del hub /formatos (−92 % de impresiones), crítica [pelota:: runroom] [fuente:: https://drive.google.com/file/d/17wPCCI_OlSEpzuTz6EX7LARGX6vP9JEN/view] [plan:: sin fecha en el backlog EMBA]
 - [ ] F0-04 Chequeo técnico del resto de URLs [pelota:: runroom] [fuente:: https://drive.google.com/file/d/17wPCCI_OlSEpzuTz6EX7LARGX6vP9JEN/view] [plan:: sin fecha en el backlog EMBA]
 - [ ] F0-05 Detección de canibalización [pelota:: runroom] [fuente:: https://drive.google.com/file/d/17wPCCI_OlSEpzuTz6EX7LARGX6vP9JEN/view] [plan:: sin fecha en el backlog EMBA]

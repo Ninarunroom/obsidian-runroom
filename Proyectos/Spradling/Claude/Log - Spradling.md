@@ -90,3 +90,12 @@ Ari se lo ha confirmado a Nina. [Basecamp](https://basecamp.com/1771388/projects
 ## [2026-11-16] pendientes | Cerrada `[x]` "Investigar el CPA de Italia" (lo dice Nina) · actualización de la colección sostenible iSense
 - CPA de Italia: hecha. Card de Kanbanize 61758 sin mover.
 - Colección sostenible (iSense): se hará con los presupuestos de esta semana; Nina tiene que darle más contexto a Ari.
+
+
+## [2026-11-16] pendientes | Colección sostenible iSense: de 📥 Backlog a 🟦 Runroom (se hace esta semana, lo dice Nina)
+
+
+## [2026-11-16] kanbanize | Revisión de cards frente a Pendientes
+- Creada [61854](https://runroom.kanbanize.com/ctrl_board/21/cards/61854/details/) "Spradling - enviar al cliente el documento con la estructura de la web antigua" (Backlog → Spradling, Implementación analítica, parent 52124, SPR010023, sin responsable ni fecha), con OK de Nina.
+- 61758 (CPA de Italia) y 61759 (colección iSense) aparecen descartadas en Kanbanize el 16/11; por indicación de Nina no se tocan: solo se anota en Pendientes. La tarea iSense sigue viva en 🟦 Runroom.
+- Sin card a propósito: reporting Ads + CRM (va en el informe Q4) y PMax por categoría (Nina lo habla antes con Ari). El resto de tareas abiertas tienen card.

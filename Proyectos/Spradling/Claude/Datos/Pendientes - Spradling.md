@@ -29,6 +29,15 @@ Tablero de tareas de Spradling, con el mismo formato que Kanbanize: **🟦 Pendi
     - **Responsable:** Ari
     - **Info:** Para poder comparar los datos de la web antigua con los de la nueva (equivalencia de conversiones). No consta que se haya enviado.
     - Fuente: [Notas de Gemini 26/10](https://docs.google.com/document/d/1LWmIWTEJq2p6tLJsEQycigFqa-KgXEB4uCAY8M564DM/edit) · acta: [[2026-10-26 - Informe Q3 y conversiones nueva web]] — detectado 06/11/2026
+    - **Kanbanize:** [61854](https://runroom.kanbanize.com/ctrl_board/21/cards/61854/details/) (Backlog → Spradling, creada 16/11)
+
+- [ ] **[Petición cliente]** Spradling — Colección sostenible de Silvertex y Valencia (iSense): keywords y campañas
+    - **Entrega:** esta semana (con los presupuestos, semana del 16/11)
+    - **Responsable:** Ari
+    - **Info:** El 18/02 Natalia pidió añadir "iSense" a las keywords de Silvertex y Valencia (versiones sostenibles), sin campañas nuevas. El 26/10 Spradling vuelve a sacarlo: quiere activar campañas de la colección sostenible, con las landings dentro de la web nueva. No consta que se haya hecho nada.
+    - Fuente: [Notas de Gemini 18/02](https://docs.google.com/document/d/1ODdZYRTnlSmmhaLcjLu8gujWZo_SZDOv3Urv6Vxf8Qc/edit) · acta: [[2026-02-18 - Cierre 2025 y ajustes 2026]] · [Notas de Gemini 26/10](https://docs.google.com/document/d/1LWmIWTEJq2p6tLJsEQycigFqa-KgXEB4uCAY8M564DM/edit) · acta: [[2026-10-26 - Informe Q3 y conversiones nueva web]] — detectado 12/11/2026
+    - **Kanbanize:** [61759](https://runroom.kanbanize.com/ctrl_board/21/cards/61759/details/) — descartada en Kanbanize el 16/11 (se queda así)
+    - **Actualización 16/11:** se hará con los presupuestos de esta semana. Antes, Nina tiene que darle más contexto a Ari.
 
 ## 🟧 Cliente (esperando a Spradling)
 
@@ -40,14 +49,6 @@ Tablero de tareas de Spradling, con el mismo formato que Kanbanize: **🟦 Pendi
 ## 📥 Backlog
 
 Nuestro, todavía sin empezar.
-
-- [ ] **[Petición cliente]** Spradling — Colección sostenible de Silvertex y Valencia (iSense): keywords y campañas
-    - **Entrega:** sin fecha definida
-    - **Responsable:** Ari
-    - **Info:** El 18/02 Natalia pidió añadir "iSense" a las keywords de Silvertex y Valencia (versiones sostenibles), sin campañas nuevas. El 26/10 Spradling vuelve a sacarlo: quiere activar campañas de la colección sostenible, con las landings dentro de la web nueva. No consta que se haya hecho nada.
-    - Fuente: [Notas de Gemini 18/02](https://docs.google.com/document/d/1ODdZYRTnlSmmhaLcjLu8gujWZo_SZDOv3Urv6Vxf8Qc/edit) · acta: [[2026-02-18 - Cierre 2025 y ajustes 2026]] · [Notas de Gemini 26/10](https://docs.google.com/document/d/1LWmIWTEJq2p6tLJsEQycigFqa-KgXEB4uCAY8M564DM/edit) · acta: [[2026-10-26 - Informe Q3 y conversiones nueva web]] — detectado 12/11/2026
-    - **Kanbanize:** [61759](https://runroom.kanbanize.com/ctrl_board/21/cards/61759/details/)
-    - **Actualización 16/11:** se hará con los presupuestos de esta semana. Antes, Nina tiene que darle más contexto a Ari.
 
 - [ ] **[Tarea]** Spradling — Rehacer el sistema de reporting con las conversiones de Google Ads y el CRM
     - **Entrega:** Q4 de 2026 (después del módulo del CRM del 16/11)
@@ -65,7 +66,7 @@ Tareas cerradas (`[x]` hecha, `[-]` ya no aplica), con el motivo en una línea "
     - **Responsable:** Ari
     - **Info:** Spradling sugiere comprobar si hay descargas de catálogos que no se cuentan como conversión.
     - Fuente: [Notas de Gemini 26/10](https://docs.google.com/document/d/1LWmIWTEJq2p6tLJsEQycigFqa-KgXEB4uCAY8M564DM/edit) · acta: [[2026-10-26 - Informe Q3 y conversiones nueva web]] — detectado 06/11/2026
-    - **Kanbanize:** [61758](https://runroom.kanbanize.com/ctrl_board/21/cards/61758/details/)
+    - **Kanbanize:** [61758](https://runroom.kanbanize.com/ctrl_board/21/cards/61758/details/) — descartada en Kanbanize el 16/11
     - **Cerrada 16/11:** hecha (lo dice Nina).
 
 - [x] **[Tarea]** Spradling — Ampliar el sitelink de la feria (METSTRADE / Interihotel) a todos los países
