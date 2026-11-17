@@ -14,8 +14,8 @@ Cada entregable de la estrategia 26/27 y del plan EMBA es una tarea. El [[Tareas
 
 ## A1 · Visibilidad en IA
 - [/] Set de prompts de seguimiento por BU, mercado e idioma, orientado a decisión [pelota:: cliente] [motivo:: Sergi tiene que decidir qué monitorizar (límite de prompts en LLM Pulse; Natzir tiene los suyos)] [fuente:: https://drive.google.com/file/d/1j-An1mGzy7ovzZyK4LJBpnQYWWhuRwP7/view] [plan:: oct–nov 2026 (Estudio de visibilidad, 1.ª entrega)] [inicio:: 2026-10] [fin:: 2026-11]
-- [ ] Mapa competitivo ampliado (IE, IESE, EADA, ESCP, Bocconi, HEC, LBS; FT, QS, THE, Poets&Quants; Reddit, YouTube) [pelota:: runroom] [motivo:: se acordó definirlo con el equipo antes de los estudios (18/09); Fer: lo entrega el viernes 27/11 o el lunes 30/11 (16/11)] [fuente:: https://drive.google.com/file/d/1j-An1mGzy7ovzZyK4LJBpnQYWWhuRwP7/view] [plan:: oct–nov 2026 (Estudio de visibilidad, 1.ª entrega)] [inicio:: 2026-10] [fin:: 2026-11]
-- [ ] Informe de marca en LLMs (dos entregas durante el curso) [pelota:: runroom] [motivo:: Fer: 1.ª entrega el viernes 27/11 o el lunes 30/11 (16/11)] [fuente:: https://drive.google.com/file/d/1j-An1mGzy7ovzZyK4LJBpnQYWWhuRwP7/view] [plan:: 1.ª entrega oct–nov 2026 · 2.ª entrega abr–may 2027] [inicio:: 2026-10] [fin:: 2026-11]
+- [ ] Mapa competitivo ampliado (IE, IESE, EADA, ESCP, Bocconi, HEC, LBS; FT, QS, THE, Poets&Quants; Reddit, YouTube) [pelota:: runroom] [motivo:: se acordó definirlo con el equipo antes de los estudios (18/09); Fer: lo entrega el viernes 27/11 o el lunes 30/11 (13/11)] [fuente:: https://drive.google.com/file/d/1j-An1mGzy7ovzZyK4LJBpnQYWWhuRwP7/view] [plan:: oct–nov 2026 (Estudio de visibilidad, 1.ª entrega)] [inicio:: 2026-10] [fin:: 2026-11]
+- [ ] Informe de marca en LLMs (dos entregas durante el curso) [pelota:: runroom] [motivo:: Fer: 1.ª entrega el viernes 27/11 o el lunes 30/11 (13/11)] [fuente:: https://drive.google.com/file/d/1j-An1mGzy7ovzZyK4LJBpnQYWWhuRwP7/view] [plan:: 1.ª entrega oct–nov 2026 · 2.ª entrega abr–may 2027] [inicio:: 2026-10] [fin:: 2026-11]
 - [x] KPIs mensuales de visibilidad en IA, a cierre de mes [basecamp:: https://basecamp.com/1771388/projects/19742261/messages/112018257] [plan:: mensual, sep 2026–ago 2027] [inicio:: 2026-09] [fin:: 2027-08]
 
 ## A2 · Contenidos GEO
@@ -50,9 +50,9 @@ Cada entregable de la estrategia 26/27 y del plan EMBA es una tarea. El [[Tareas
 
 ## EMBA · Diagnóstico (F0)
 - [x] F0-01 Mapa de queries perdidas por URL (ficha del 26/10) [fuente:: https://drive.google.com/file/d/17wPCCI_OlSEpzuTz6EX7LARGX6vP9JEN/view] [plan:: sin fecha en el backlog EMBA]
-- [/] F0-02 Análisis de SERP de las queries perdidas [pelota:: runroom] [motivo:: Fer: la semana del 23/11 (16/11)] [fuente:: https://drive.google.com/file/d/17wPCCI_OlSEpzuTz6EX7LARGX6vP9JEN/view] [plan:: sin fecha en el backlog EMBA]
-- [ ] F0-03 Chequeo técnico del hub /formatos (−92 % de impresiones), crítica [pelota:: runroom] [fuente:: https://drive.google.com/file/d/17wPCCI_OlSEpzuTz6EX7LARGX6vP9JEN/view] [plan:: sin fecha en el backlog EMBA]
-- [ ] F0-04 Chequeo técnico del resto de URLs [pelota:: runroom] [fuente:: https://drive.google.com/file/d/17wPCCI_OlSEpzuTz6EX7LARGX6vP9JEN/view] [plan:: sin fecha en el backlog EMBA]
+- [x] F0-02 Análisis de SERP de las queries perdidas [motivo:: "Hecha" en el Excel EMBA (17/11)] [fuente:: https://drive.google.com/file/d/17wPCCI_OlSEpzuTz6EX7LARGX6vP9JEN/view] [plan:: sin fecha en el backlog EMBA]
+- [?] F0-03 Chequeo técnico del hub /formatos (−92 % de impresiones), crítica [pelota:: runroom] [motivo:: el Excel EMBA lo marca "Hecha" (17/11); no consta entrega ni causa comunicada] [fuente:: https://drive.google.com/file/d/17wPCCI_OlSEpzuTz6EX7LARGX6vP9JEN/view] [plan:: sin fecha en el backlog EMBA]
+- [/] F0-04 Chequeo técnico del resto de URLs [pelota:: runroom] [motivo:: "En curso" en el Excel EMBA (17/11)] [fuente:: https://drive.google.com/file/d/17wPCCI_OlSEpzuTz6EX7LARGX6vP9JEN/view] [plan:: sin fecha en el backlog EMBA]
 - [ ] F0-05 Detección de canibalización [pelota:: runroom] [fuente:: https://drive.google.com/file/d/17wPCCI_OlSEpzuTz6EX7LARGX6vP9JEN/view] [plan:: sin fecha en el backlog EMBA]
 - [?] F0-06 Consistencia del precio [motivo:: Fer no ve inconsistencias en la web (02/10); la IA podría tomarlo de PDFs, landings de paid o fuentes externas] [fuente:: https://drive.google.com/file/d/17wPCCI_OlSEpzuTz6EX7LARGX6vP9JEN/view] [plan:: sin fecha en el backlog EMBA]
 - [ ] F0-07 Baseline de medición [pelota:: runroom] [fuente:: https://drive.google.com/file/d/17wPCCI_OlSEpzuTz6EX7LARGX6vP9JEN/view] [plan:: sin fecha en el backlog EMBA]
@@ -79,7 +79,7 @@ Cada entregable de la estrategia 26/27 y del plan EMBA es una tarea. El [[Tareas
 - [ ] F4-03 Revisión trimestral e iteración [pelota:: runroom] [fuente:: https://drive.google.com/file/d/17wPCCI_OlSEpzuTz6EX7LARGX6vP9JEN/view] [plan:: sin fecha en el backlog EMBA]
 
 ## EMBA · Plan de acción conjunto (30/10)
-- [/] Recuperar las consultas caídas de 4-10 [pelota:: runroom] [fuente:: https://docs.google.com/spreadsheets/d/1p4C1jAwhScctAqE-pda1-lxsci2dfwnIcYKpeskvRaw] [plan:: sin fecha (plan de acción EMBA, WIP)]
+- [/] Recuperar las consultas caídas de 4-10 [pelota:: runroom] [motivo:: según el Sheet, depende de la unificación de subpáginas del EMBA] [fuente:: https://docs.google.com/spreadsheets/d/1p4C1jAwhScctAqE-pda1-lxsci2dfwnIcYKpeskvRaw] [plan:: sin fecha (plan de acción EMBA, WIP)]
 - [ ] Unificar las subpáginas del EMBA en la ficha y redirigir (canonicals de prueba antes) [pelota:: cliente] [motivo:: Natzir, RR y Web; Sergi prueba canonicals en 2-3 programas] [fuente:: https://docs.google.com/spreadsheets/d/1p4C1jAwhScctAqE-pda1-lxsci2dfwnIcYKpeskvRaw] [plan:: por definir (plan de acción EMBA)]
 - [ ] Precio de la edición de Madrid de febrero de 2027 en la ficha, la página de precio y las metas de las 27 URLs [pelota:: cliente] [motivo:: Natzir / Web, 20/11] [fuente:: https://docs.google.com/spreadsheets/d/1p4C1jAwhScctAqE-pda1-lxsci2dfwnIcYKpeskvRaw] [plan:: 20/11/2026 (plan de acción EMBA)] [inicio:: 2026-11] [fin:: 2026-11]
-- [ ] Acciones SEO fuera de la web para el EMBA [pelota:: runroom] [motivo:: Fer con Olga; prensa (Marc González) después del 20/11] [fuente:: https://docs.google.com/spreadsheets/d/1p4C1jAwhScctAqE-pda1-lxsci2dfwnIcYKpeskvRaw] [plan:: por definir (plan de acción EMBA)]
+- [x] Acciones SEO fuera de la web para el EMBA (revisar con Olga) [motivo:: "Done" en el plan de acción conjunto (17/11)] [motivo:: Fer con Olga; prensa (Marc González) después del 20/11] [fuente:: https://docs.google.com/spreadsheets/d/1p4C1jAwhScctAqE-pda1-lxsci2dfwnIcYKpeskvRaw] [plan:: por definir (plan de acción EMBA)]

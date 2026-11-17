@@ -37,3 +37,7 @@ Preguntas abiertas para Nina en la Ficha y en Pendientes (cómo se factura, OC d
 ## [2026-11-17] slack | ALTCHA: Nina pidió a Joshua (13:27) la recomendación ALTCHA vs honeypot y el email de prueba para Marc; pelota en Joshua.
 
 ## [2026-11-17] ingest | Feedback de Joshua sobre ALTCHA: recomienda activarlo en todos los formularios, uno a uno y comprobando; decide Esade.
+
+## [2026-11-17] ingest | Excel EMBA actualizado por Fer: F0-01, F0-02 y F0-03 "Hecha", F0-04 "En curso"; revisión con Olga "Done"; recuperar consultas 4-10 depende de la unificación de subpáginas. ⚠️ F0-02 en revisión (Fer dijo semana del 23/11).
+
+## [2026-11-17] cambio | La respuesta de Fer en Slack era del viernes 13/11 (no del 16/11): "la próxima semana" = 16-20/11. Inventario EMBA esta semana; F0-02 hecha (Excel). Fechas corregidas en Pendientes, Estrategia y status semanal.

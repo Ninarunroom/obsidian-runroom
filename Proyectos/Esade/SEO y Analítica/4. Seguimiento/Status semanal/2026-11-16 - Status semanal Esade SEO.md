@@ -73,16 +73,16 @@ Solo con los datos de [[Horas - Esade SEO]]:
 - Octubre: la agencia ha volcado **37,5 h** (Fer 29, Marta 7, Olga 1,5). **Faltan las horas de Nina (Paprika)** y pasar octubre al Seguimiento del fee: cierre vencido desde el 05/11.
 - ⚠️ El status del 12/11 decía "remanente tras octubre: 29 h (dato de Nina)", pero ese dato no está en la nota de Horas. Si es correcto, apúntalo en el Registro mensual.
 
-## Respuesta de Fer (16/11, Slack)
+## Respuesta de Fer (viernes 13/11, Slack)
 
 **✅ Hecho**
 - **Schema**: matices técnicos enviados al correo de Natzir. Decide Sergi.
 - **Grados, "student loans"**: no es indexación; la landing y las consultas siguen recibiendo impresiones (menos que en su pico). Ha preguntado a Sergi si quiere revisarlo y con qué prioridad → pelota en Sergi.
 
 **📅 Fechas comprometidas**
-- EMBA, inventario "ya existe / actualizar / crear" (1.1) y análisis de SERP F0-02 (1.2): **semana del 23/11**.
-- Excel del EMBA al día (1.3): **lunes 23/11**.
-- Plan FTMBA con fecha en cada acción (3): **lunes 23/11**.
+- EMBA, inventario "ya existe / actualizar / crear" (1.1) y análisis de SERP F0-02 (1.2): **semana del 16/11** (la F0-02 ya figura como hecha en el Excel, 17/11).
+- Excel del EMBA al día (1.3): **lunes 16/11** (hecho).
+- Plan FTMBA con fecha en cada acción (3): **lunes 16/11** (hecho; todo terminado el 18/11).
 - Informe de Esade en IA (1.ª entrega) y mapa de competidores ampliado (5): **viernes 27/11 o lunes 30/11**.
 
 ---
