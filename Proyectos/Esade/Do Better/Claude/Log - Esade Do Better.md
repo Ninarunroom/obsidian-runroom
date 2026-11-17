@@ -20,3 +20,5 @@ Registro cronológico de lo que entra en este KB (ingestas, revisiones, cambios 
 ## [2026-11-17] slack | Sesiones desde IA: Marta le pasa los datos a Fer y propone darle acceso a GA4 (lo decide Nina).
 
 ## [2026-11-17] ingest | sin tareas ni contexto nuevos en Basecamp/correo; Status reescrito (recálculo de días de espera)
+
+## [2026-11-17] seguimiento | Sin tareas nuevas (Basecamp sin actividad desde el 13/11; correo sin hilos de Do Better). Iteración: octubre pasa a 6/6 publicadas (actualización en la tarea de noviembre, Estado de Líneas de trabajo y motivo de la estrategia); noviembre 6 temáticas validadas sin documento. Horas: nada nuevo que volcar. Status y alertas_hoy actualizados (3 alertas; sale la de iteración).

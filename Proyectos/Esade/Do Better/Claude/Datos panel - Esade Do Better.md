@@ -2,7 +2,7 @@
 tipo: datos-panel
 cliente: "[[00 Ficha de cliente - Esade Do Better]]"
 actualizado: 2026-11-17
-alertas_hoy: ["📅 Septiembre y octubre sin las horas de Nina (Paprika ESA010245)", "🟦 Cierre de horas vencido desde el 05/11 (12 días)", "✍️ 4 URLs de octubre con Esade OK sin publicar", "🟧 Dulce: 14 días con el informe de octubre"]
+alertas_hoy: ["📅 Septiembre y octubre sin las horas de Nina (Paprika ESA010245)", "🟦 Cierre de horas vencido desde el 05/11 (12 días)", "🟧 Dulce: 14 días con el informe de octubre"]
 curso_inicio: 2026-09
 paprika_codigos: {"26/27": "ESA010245"}
 horas_plan: [["2026-09", 20, 5]]

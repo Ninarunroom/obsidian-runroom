@@ -6,9 +6,9 @@ Status del día y tareas pendientes, separadas por **quién tiene la pelota**. S
 - 📅 **Cierre sin volcar**: septiembre y octubre siguen sin tus horas (Paprika ESA010245). La agencia ya está: 20 h y 10,75 h.
 - 🕒 **Horas**: remanente provisional **19,25 h** sin tus horas (con 5 h/mes tuyas, unas 9,25 h). No se puede valorar el ±20 % hasta cerrar los dos meses.
 - 🟦 **Vencido**: Cierre de horas de septiembre y octubre (entrega 05/11, 12 días).
-- ✍️ **Iteración de contenidos**: 4 URLs de octubre con "Esade OK" sin publicar (dumping climático y ventaja cognitiva, ES y EN). Septiembre ya está entero publicado y de octubre ya están las 2 de habilidades IA. Noviembre: 6 temáticas validadas, sin documentos.
 - 🟧 **Esperando al cliente más de 7 días**: Dulce, revisión del informe de octubre y de las respuestas a sus preguntas (14 d, desde el 03/11).
-- 🔎 Tendencias al día: tarea de la semana del 16/11 creada el lunes (entrega 20/11). Último envío de Fer: 13/11.
+- ✍️ Iteración al día: septiembre y octubre, 6 de 6 publicadas (octubre se completó hoy en el Sheet). Noviembre: 6 temáticas validadas, faltan los documentos de optimización.
+- 🔎 Tendencias al día: tarea de la semana del 16/11 (entrega 20/11). Último envío de Fer: 13/11.
 - 📄 Informe mensual: octubre enviado (03/11) y sin presentar. El de noviembre toca a primeros de diciembre.
 - 💬 Sin mensajes de Dulce, Judith o Marta Barquier pendientes de respuesta.
 
@@ -52,6 +52,7 @@ Status del día y tareas pendientes, separadas por **quién tiene la pelota**. S
     - **Info:** Octubre (6 URLs: habilidades IA, dumping climático y ventaja cognitiva, en ES y EN) tiene el OK de Esade (Marta Barquier, 02/11) pero no consta como publicado. En septiembre, las dos de agentes de IA también siguen en "Esade OK". Noviembre (reindustrialización, branding emocional y transición energética, en ES y EN): temáticas validadas; faltan los documentos de optimización.
     - Fuente: [Sheet: Briefings optimizaciones 26-27](https://docs.google.com/spreadsheets/d/1YQQKCslhiQzXwLks5bx_G6o3Jf7wTlfuYQ6JLbhZqC8) · [Basecamp: Iteración contenidos](https://basecamp.com/1771388/projects/19338495/messages/111720589) — detectado 12/11/2026
     - **Actualización 16/11:** Septiembre: 6 de 6 publicadas (ya están las 2 de agentes de IA). Octubre: 2 de 6 publicadas (habilidades IA, ES y EN) · 4 con Esade OK sin publicar (dumping climático y ventaja cognitiva). Noviembre: 0 de 6 publicadas · 6 con temática validada · sin documento.
+    - **Actualización 17/11:** Octubre: 6 de 6 publicadas (ya están también dumping climático y ventaja cognitiva, ES y EN; la pestaña Status del Sheet marca octubre como "Publicado"). Noviembre: 0 de 6 publicadas · 0 con Esade OK sin publicar · 6 con temática validada · sin documento.
 - [ ] **[Petición cliente]** Esade — Responder a Dulce si hay sesiones en GA4 que vengan de ChatGPT, Perplexity o Gemini
     - **Línea:** Analítica
     - **Entrega:** sin fecha definida
