@@ -35,3 +35,5 @@ Preguntas abiertas para Nina en la Ficha y en Pendientes (cómo se factura, OC d
 ## [2026-11-17] cambio | Entregas corregidas: plan FTMBA 18/11; Excel EMBA en curso desde el 16/11 ("el lunes" de Fer era el 16/11, no el 23/11).
 
 ## [2026-11-17] slack | ALTCHA: Nina pidió a Joshua (13:27) la recomendación ALTCHA vs honeypot y el email de prueba para Marc; pelota en Joshua.
+
+## [2026-11-17] ingest | Feedback de Joshua sobre ALTCHA: recomienda activarlo en todos los formularios, uno a uno y comprobando; decide Esade.
