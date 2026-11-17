@@ -11,3 +11,5 @@ Registro cronológico de lo que se ha hecho en esta carpeta (ingests de fuentes 
 Añadidas: (1) a Cliente — Guillermo debe confirmar los 3 puntos de la diapositiva 8 de la propuesta de Nurturing de Grados (28 emails) que Idoia envió el 12/11; dijo que respondería lunes o martes. (2) a Runroom — Idoia debe responder a la pregunta de Guillermo sobre la clasificación académica/marketing de matricula.masters@bau.cat y eliminar sus tareas obsoletas (MUIED y resto de Másters). (3) a Cliente — Guillermo debe solicitar y enviar los PDFs de la convocatoria ordinaria cuando toque.
 
 ## [2026-11-17] ingest | 2 tareas nuevas de Basecamp (2 nuevos Másters, deadline 20/11) y 1 actualización (feedback de Guillermo sobre Nurturing de Grados)
+
+## [2026-11-17] slack | Tarea nueva en Runroom: comunicar a BAU el consentimiento de tracking de email para FR/IT (beta HubSpot) y que lo valoren con su legal.

@@ -15,6 +15,11 @@ Tablero de tareas, con el mismo formato que Kanbanize: **📥 Backlog** (nuestro
     - **Info:** Idoia ya creó el 16/11 las propiedades de HubSpot (`rr_master_in_fashion_strategies_and_critical_thinking`, `rr_master_in_product_for_habitat_design_and_strategy`). Falta que Guillermo pase los folletos y aceptaciones, y confirme los portales (emagister seguro, Keystone probable).
     - Fuente: [Activación nuevos Másters](https://basecamp.com/1771388/projects/17190777/messages/113657012) — detectado 17/11/2026
 
+- [ ] Comunicar a BAU el requisito legal de consentimiento del tracking de aperturas y clics de email para contactos de Francia e Italia (unos 1.220 de ~35K en la BBDD) y que lo valoren con su departamento legal. HubSpot ha lanzado una beta para gestionarlo; según Idoia implicaría un checkbox adicional en los forms solo para esos 2 países, enviar cada email según el consentimiento y quizá una comunicación a la BBDD y cambios en el subscription center. Idoia: no hay horas este año para este proyecto y la parte legal no la controla. Nina propuso ir a BAU (decir que no hay horas y que lo hablen con su legal o se valore aparte); Idoia (12:53) está de acuerdo. Pelota en Nina.
+    - **Entrega:** sin fecha
+    - **Responsable:** Nina
+    - Fuente: [DM Idoia 17/11](https://runroom.slack.com/archives/D0A0K3C1GP9/p1794916425437859) — detectado 17/11/2026
+
 ## 🟧 Cliente
 
 - [ ] Guillermo debe repetir el test del nuevo Nurturing del Máster en Diseño de Espacios Escénicos: el primer intento falló porque su contacto está en una lista de exclusión por tener la Etapa de Ciclo de Vida "Preinscripción Iniciada". — [Reunión Nurturing & WF Hubspot](https://basecamp.com/1771388/projects/17190777/messages/112722625) — detectado 30/09/2026
