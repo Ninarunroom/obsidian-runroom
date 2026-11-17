@@ -2,13 +2,13 @@
 
 Status del día y tareas pendientes, separadas por **quién tiene la pelota**. Se actualiza cada mañana con la tarea diaria (Basecamp, correo y reuniones). Se añaden tareas nuevas en la sección que toca, pero nunca se borran ni se marcan como hechas automáticamente: márcalas tú con `[x]` cuando las completes. En 🟦 Runroom: `[ ]` = backlog (sin empezar) · `[/]` = en curso. Cada tarea lleva **Línea:** SEO y GEO, Contenidos, Analítica o Gestión. Lo que forma parte de la estrategia 26/27 (auditoría, iteración de artículos, informes, tendencias…) no se repite aquí: está en [[Estrategia 26-27 - seguimiento Esade Do Better]].
 
-## Status (16/11/2026)
+## Status (17/11/2026)
 - 📅 **Cierre sin volcar**: septiembre y octubre siguen sin tus horas (Paprika ESA010245). La agencia ya está: 20 h y 10,75 h.
 - 🕒 **Horas**: remanente provisional **19,25 h** sin tus horas (con 5 h/mes tuyas, unas 9,25 h). No se puede valorar el ±20 % hasta cerrar los dos meses.
-- 🟦 **Vencido**: Cierre de horas de septiembre y octubre (entrega 05/11, 11 días).
+- 🟦 **Vencido**: Cierre de horas de septiembre y octubre (entrega 05/11, 12 días).
 - ✍️ **Iteración de contenidos**: 4 URLs de octubre con "Esade OK" sin publicar (dumping climático y ventaja cognitiva, ES y EN). Septiembre ya está entero publicado y de octubre ya están las 2 de habilidades IA. Noviembre: 6 temáticas validadas, sin documentos.
-- 🟧 **Esperando al cliente más de 7 días**: Dulce, revisión del informe de octubre y de las respuestas a sus preguntas (13 d, desde el 03/11).
-- 🔎 Tendencias al día: Fer envió las de la segunda semana de noviembre el 13/11. Nueva tarea para esta semana (entrega 20/11).
+- 🟧 **Esperando al cliente más de 7 días**: Dulce, revisión del informe de octubre y de las respuestas a sus preguntas (14 d, desde el 03/11).
+- 🔎 Tendencias al día: tarea de la semana del 16/11 creada el lunes (entrega 20/11). Último envío de Fer: 13/11.
 - 📄 Informe mensual: octubre enviado (03/11) y sin presentar. El de noviembre toca a primeros de diciembre.
 - 💬 Sin mensajes de Dulce, Judith o Marta Barquier pendientes de respuesta.
 
@@ -57,6 +57,7 @@ Status del día y tareas pendientes, separadas por **quién tiene la pelota**. S
     - **Entrega:** sin fecha definida
     - **Responsable:** Marta (o acceso a GA4 para Fer)
     - **Info:** Es una de las preguntas de Dulce del 30/10 para su 1:1. Fer contestó el 03/11 que no tiene acceso a la propiedad de GA4 de Do Better: "o me dais acceso, o le tenemos que pedir este dato a Marta Baldó". Nadie lo ha pedido todavía.
+    - **Actualización 16/11 (Slack):** Marta le pasa los datos a Fer y propone darle acceso a GA4 ella misma para que no dependa de ella. Pendiente de que Nina lo apruebe (cambio de accesos). · [fuente](https://runroom.slack.com/archives/C02L0JEUY/p1794827490132129?thread_ts=1794560917.643259&cid=C02L0JEUY)
     - Fuente: [📧 "Urgente | Datos SEO Do Better" (Dulce, 30/10; Fer, 03/11)](https://mail.google.com/mail/?authuser=nina@runroom.com#all/thread-f:1880477420612196788) — detectado 12/11/2026
 - [ ] **[Tarea]** Esade — Proponer a Dulce una reunión para comentar el informe de octubre y saber cómo fue su 1:1
     - **Línea:** Gestión

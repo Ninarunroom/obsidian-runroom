@@ -18,3 +18,5 @@ Preguntas abiertas para Nina en la Ficha (horas de KAM, código Paprika, horas d
 
 ## [2026-11-16] ingest | Respuestas de Fer y Olga al status compartido de Nina
 Actualizaciones en Pendientes: der-bank-blog.de (sep) e ibtimes.co.uk (oct) van por plataforma y siguen en manos del medio, sin fecha; textos de azonline.de y diariopalentino.es (nov) previstos la semana del 23/11; briefing de "cambiar de trabajo a los 40" esta semana. Dashboard vivo: existe un dashboard de Sergi con sección de Beyond; Fer propone compartirlo con Astrid y Nina quiere preguntar antes a Sergi (tarea pasada a [/]). Sin novedades de los pendientes de Astrid.
+
+## [2026-11-17] ingest | digitalfernsehen.de aprobado por Astrid (link building octubre); Status reescrito (der-bank-blog.de 34 días sin publicar, cierre de horas vencido, 3 pendientes >7 días)

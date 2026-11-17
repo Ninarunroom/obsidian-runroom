@@ -25,3 +25,11 @@ Preguntas abiertas para Nina en la Ficha y en Pendientes (cómo se factura, OC d
 ## [2026-11-16] status | Status semanal en 4. Seguimiento/Status semanal/2026-11-16 (⏰ Fer 4, Marta 3). 2 adjuntos de Fer (09/11, fichas KWR de Becas y RRCC) no están en la carpeta de Drive del curso. Pendientes: 9 actualizaciones, student loans pasa a en curso, 1 tarea nueva en 🟧 Cliente (decisión de schema, Sergi). Basecamp sin actividad desde el 10/11.
 
 ## [2026-11-16] ingest | Respuesta de Fer al status en Slack: schema y student loans hechos (student loans pasa a 🟧 Cliente: decide Sergi); fechas: inventario EMBA y F0-02 semana del 23/11, Excel EMBA y plan FTMBA lunes 23/11, informe IA y mapa competitivo 27/11 o 30/11.
+
+## [2026-11-17] ingest | 2 actualizaciones de Basecamp (análisis Full Time MBA enviado a Sergi; implementación del tráfico bot de China, pregunta de Sergi sobre Adsmurai pendiente de respuesta) y Status reescrito
+
+## [2026-11-17] slack | ALTCHA/FormAssembly: Joshua confirma en dev que funciona sin tocar código; pendiente que Nina responda a Sergi (actualización en la tarea de horas/FormAssembly).
+
+## [2026-11-17] slack | Revisión 13:30 del 16/11 (recuperada): respuesta de Marta al status (consentimiento por Basecamp, pico de sesiones sin cambios suyos, China en marcha y Stape activado por Jordi), FTMBA con fechas (entrega 18/11) y acciones EMBA 1.3 que no son de RR, para Sergi o Helen.
+
+## [2026-11-17] cambio | Entregas corregidas: plan FTMBA 18/11; Excel EMBA en curso desde el 16/11 ("el lunes" de Fer era el 16/11, no el 23/11).

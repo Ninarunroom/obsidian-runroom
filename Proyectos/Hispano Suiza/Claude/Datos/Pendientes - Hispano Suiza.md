@@ -2,12 +2,11 @@
 
 Tablero de tareas de Hispano Suiza, con el mismo formato que Kanbanize: **🟦 Pendiente Runroom** (nuestro, en marcha) · **🟧 Pendiente cliente** · **📥 Backlog** (nuestro, sin empezar) · **✅ Done**. Cada tarea es un título y, debajo, todo su contexto. Se actualiza cada mañana con la tarea diaria (Basecamp, correo y reuniones). Solo entran tareas concretas, con dueño y fuente. Las tareas no se marcan como hechas solas: cuando parece que algo está hecho, sale en el Status como "¿cerrar?" para que Nina lo diga.
 
-## Status (12/11/2026)
-- 🧾 **Factura de noviembre**: 5.811,65 € (previsión + 283,89 € de ajuste), aprobada por Pablo el 05/11. No consta que se haya emitido.
-- 🟧 **Esperando a Pipo**: los enlaces del vídeo nuevo del Sagrera (13 días, desde el 30/10).
+## Status (17/11/2026)
+- 🟧 **Esperando a Pipo**: los enlaces del vídeo nuevo del Sagrera (18 días, desde el 30/10).
 - 📅 **Informe de noviembre**: se presenta a principios de diciembre; fecha sin cerrar.
-- ❓ **¿cerrar?** "Ari: revisar el vídeo nuevo…" (Ari respondió a Pipo el 30/10) y "Regularizar en la factura de noviembre…" (queda resuelto cuando se emita la factura de 5.811,65 €).
-- 🔍 Dos temas antiguos por verificar: acceso a GA4 y etiquetado de IA.
+- ❓ **¿cerrar?** "Ari: revisar el vídeo nuevo…" (Ari respondió a Pipo el 30/10, sigue pendiente de que Pipo suba los vídeos).
+- 🔍 Un tema antiguo por verificar: acceso a GA4 (el etiquetado de IA ya se descartó el 13/11).
 
 ## 🟦 Runroom
 

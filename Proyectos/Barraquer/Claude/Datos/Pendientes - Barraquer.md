@@ -2,10 +2,12 @@
 
 Status del día y tareas pendientes, separadas por **quién tiene la pelota**. Se actualiza cada mañana con la tarea diaria (Basecamp, correo y reuniones). Se añaden tareas nuevas en la sección que toca, pero nunca se borran ni se marcan como hechas automáticamente: márcalas tú con `[x]` cuando las completes.
 
-## Status (16/11/2026)
-- 💶 **Saldo**: Google Ads en −197,70 € (16/11). Pago manual de 15.000 € hecho el 16/11, pendiente de aplicarse. Al ritmo actual (≈ 770 €/día) da para ≈ 19 días.
-- 🟧 **Esperando al cliente más de 7 días**: recarga de saldo de Clínica (21 d) · ROI 2026 (18 d) · patologías Magreb y landings de Estética en catalán (muy antiguas, desde 2025 y 03/2026; validez por confirmar) · pendientes de junio del informe (feedback del informe, geotarget de Egipto, análisis de países nuevos).
+## Status (17/11/2026)
+- 💶 **Saldo**: Google Ads en −197,70 € (sin cambios desde el 16/11). Pago manual de 15.000 € pendiente de aplicarse (transferencia, tarda unos días). Al ritmo actual (≈ 770 €/día) da para ≈ 19 días.
+- 💶 **Fee anual**: a 2,21 % (6.630,55 €) de cruzar el umbral de 300.000 € (el tramo baja de 18 % a 17 %). Aviso enviado por correo (borrador pendiente de revisar/enviar).
+- 🟧 **Esperando al cliente más de 7 días**: recarga de saldo de Clínica (22 d) · ROI 2026 (19 d) · patologías Magreb y landings de Estética en catalán (muy antiguas, desde 2025 y 03/2026; validez por confirmar) · pendientes de junio del informe (feedback del informe, geotarget de Egipto, análisis de países nuevos).
 - 🟦 **Nuestro, vencido o a punto**: nada nuevo hoy; las recurrentes de presupuesto/facturación se gestionan aparte en Kanbanize.
+- ⚠️ **Datos**: la pestaña de LinkedIn del plan de medios lleva más de 3 semanas sin actualizar.
 
 ## 🟦 Runroom
 

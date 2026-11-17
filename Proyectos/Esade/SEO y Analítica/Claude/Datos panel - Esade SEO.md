@@ -1,8 +1,8 @@
 ---
 tipo: datos-panel
 cliente: "[[00 Ficha de cliente - Esade SEO]]"
-actualizado: 2026-11-12
-alertas_hoy: []
+actualizado: 2026-11-17
+alertas_hoy: ["cierre sin volcar: octubre vencido desde 05/11 (12 días)", "pelota en el cliente >7 días: CrazyEgg, Unibuddy/Hotjar, OneTrust, Sistrix/LLM Pulse, pedido de compra, plan EMBA"]
 curso_inicio: 2026-09
 paprika_codigos: {"26/27": "ESA010246"}
 horas_plan: [["2026-09", 45, 5]]

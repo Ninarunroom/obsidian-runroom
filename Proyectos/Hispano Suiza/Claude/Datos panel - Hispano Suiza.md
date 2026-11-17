@@ -1,7 +1,7 @@
 ---
 tipo: datos-panel
 cliente: "[[00 Ficha de cliente - Hispano Suiza]]"
-actualizado: 2026-11-12
+actualizado: 2026-11-17
 facturacion_revision: 2026-11-12
 facturacion_cuadra: true
 facturacion_nota: "Total vigente (update sept. 2026): aprobado 81.369,29 € · consumido previsto 81.375,82 € · facturado previsto 81.375,83 € (cuadra; +6,5 € de tasa de Google). Se factura por previsión: a cierre de octubre, 70.282,74 € consumidos frente a 69.998,85 € facturados (−283,89 €), que se regulariza en la factura de noviembre (5.811,65 €, aprobada por Pablo el 05/11). El aprobado original de la propuesta era 110.300 €."

@@ -1,7 +1,7 @@
 ---
 tipo: datos-panel
 cliente: "[[00 Ficha de cliente - Barraquer]]"
-actualizado: 2026-11-05
+actualizado: 2026-11-17
 facturacion_revision: 2026-11-05
 facturacion_cuadra: false
 facturacion_nota: "Faltan 1.241 € de medios por asignar en nov-dic. El fee facturado supera en 231 € al consumido a final de año. Detalle_Mensual suma 1.464 € menos que Presupuesto_Anual. A cierre de octubre: +4.401 € facturado frente a consumido; noviembre tiene que invertir 56k con Google Ads sin saldo."
@@ -17,11 +17,11 @@ fee_consumido_mes: [2360.62, 3296.19, 3463.17, 3800.13, 4148.29, 4200.45, 3201.6
 fee_facturado_mes: [2628, 3972, 3972, 3972, 4594, 4594, 4594, 4594, 4594, 4594, 4594, 4594]
 tasa_mes: [295.78, 401.82, 421.31, 445.87, 422.76, 431.08, 349.57, 368.60, 480.44, 562.62, 1103.64, 355.83]
 medios_mes: [13114.56, 18312.17, 19239.82, 21111.82, 23046.05, 23335.82, 17786.88, 18355.33, 25770.51, 29409.20, 56121.26, 18094.48]
-inversion_anual_prevista: 292128
+inversion_anual_prevista: 293369.45
 fee_tramos: [[0, 120000, 25], [120000, 200000, 20], [200000, 300000, 18], [300000, 400000, 17], [400000, 500000, 16], [500000, 99999999, 15]]
 paprika_codigos: {"2026": "BAR020061", "2027": "BAR020066"}
 horas_plan: [["2026-01", 2, 15, 37, 0], ["2026-09", 35, 19, 0, 0]]
-alertas_hoy: []
+alertas_hoy: ["💶 Fee anual a 2,21% (6.630,55 €) del umbral de 300.000 € (tramo 18%→17%)", "💶 Saldo Google Ads: −197,70 €, pago de 15.000 € pendiente de aplicarse", "⚠️ Datos de LinkedIn sin actualizar hace más de 3 semanas"]
 umbral_alerta_pct: 20
 umbral_alerta_dias: 5
 google_ads_saldo_estimado: -197.70

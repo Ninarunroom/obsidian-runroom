@@ -2,10 +2,10 @@
 
 Tablero de tareas de Spradling, con el mismo formato que Kanbanize: **🟦 Pendiente Runroom** (nuestro, en marcha) · **🟧 Pendiente cliente** · **📥 Backlog** (nuestro, sin empezar) · **✅ Done**. Cada tarea es un título y, debajo, todo su contexto (se pliega con la flecha). Se actualiza cada mañana con la tarea diaria (Basecamp, correo y reuniones). Solo entran tareas concretas, con dueño y fuente. No hace falta marcar nada: cuando Nina diga que algo está hecho o sobra, o Basecamp/correo lo dejen claro, Claude la cierra (`[x]` hecha, `[-]` ya no aplica) y deja el motivo en el Log.
 
-## Status (16/11/2026)
-- 💶 **Remanente**: Ari mandó el 10/11 el *Review budget* con dos opciones (reinvertir los ~6k de la reserva web, o eso más las partidas bloqueadas de awareness y lanzamientos). Falta el OK de Natalia (6 d).
+## Status (17/11/2026)
+- 💶 **Remanente**: Ari mandó el 10/11 el *Review budget* con dos opciones (reinvertir los ~6k de la reserva web, o eso más las partidas bloqueadas de awareness y lanzamientos). Falta el OK de Natalia (7 d).
 - 🎬 **Awareness y lanzamientos**: los lanzamientos se aplazan a febrero de 2027; el vídeo de awareness "se ha complicado" y lo decide Natalia (Dèlia, 10/11).
-- 🚢 **Ferias**: sitelinks de METSTRADE/Interihotel activos en todos los países (Ari los amplió tras la petición de Natalia del 13/11).
+- ⚠️ **Datos**: la hoja de Google Ads diario no se actualiza desde el 12/11; las cifras de gasto de los últimos días son orientativas (no se puede calcular con fiabilidad el ritmo de gasto, un pico de inversión ni campañas paradas).
 
 ## 🟦 Runroom
 

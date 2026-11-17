@@ -1,7 +1,7 @@
 ---
 tipo: datos-panel
 cliente: "[[00 Ficha de cliente - Spradling]]"
-actualizado: 2026-11-06
+actualizado: 2026-11-17
 facturacion_revision: 2026-11-06
 facturacion_cuadra: true
 facturacion_nota: "Total: aprobado 148.974,20 € · consumido previsto 148.974,20 € · facturado previsto 148.974,32 € (cuadra). Por país, lo facturado previsto a diciembre cuadra con lo invertido (Alemania +0,10 €; Genérica −0,03 €). Se factura por previsión, así que lo facturado va por delante: de enero a octubre, 123.048 € facturados frente a 101.864 € invertidos (+21.185 €; de fee, +3.479 €). Es normal y se regulariza con la previsión de noviembre y diciembre, que en el Sheet ya está ajustada a la baja (25.926 € facturables frente a 47.111 € de inversión prevista). Ojo: Natalia ha pedido ejecutar el remanente de 6.820 € hasta mediados de diciembre, así que hay que rehacer esa previsión en el Sheet."
@@ -25,7 +25,7 @@ fee_tramos: []
 cuota_fee_mensual: 
 paprika_codigos: {"2025": "SPR010022", "2026": "SPR010023", "2027": "SPR010024"}
 horas_plan: [["2026-01", 1, 7.31, 17.43, 0], ["2026-09", 16, 9, 0, 0]]
-alertas_hoy: []
+alertas_hoy: ["💶 OK de Natalia al remanente (6.820,01 €) pendiente desde el 10/11 (7 días)", "⚠️ Hoja de Google Ads diario sin actualizar desde el 12/11 (datos de gasto reciente no fiables)"]
 aprobado_total: 148974.2
 consumido_previsto_total: 148974.2
 facturado_previsto_total: 148974.32

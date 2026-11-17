@@ -16,3 +16,7 @@ Registro cronológico de lo que entra en este KB (ingestas, revisiones, cambios 
 - Preguntas abiertas: OK a las alertas propuestas; validar el [[Roadmap 26-27 - Esade Do Better]] con Fer y Olga; horas de Nina de septiembre y octubre.
 
 ## [2026-11-16] seguimiento | Recurrente nueva: Tendencias de búsqueda semana del 16/11 (Fer, entrega 20/11); actualización en la tarea general de tendencias (envío de Fer del 13/11). Iteración: septiembre 6/6 publicadas, octubre 2 publicadas + 4 Esade OK, noviembre 6 temáticas validadas sin documento (actualización en la tarea, Estado de Líneas de trabajo y motivo de la estrategia). Correo: solo SEO técnico (fuera de alcance). Horas: nada nuevo que volcar. Status y alertas_hoy actualizados (4 alertas).
+
+## [2026-11-17] slack | Sesiones desde IA: Marta le pasa los datos a Fer y propone darle acceso a GA4 (lo decide Nina).
+
+## [2026-11-17] ingest | sin tareas ni contexto nuevos en Basecamp/correo; Status reescrito (recálculo de días de espera)

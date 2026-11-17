@@ -1,8 +1,8 @@
 ---
 tipo: datos-panel
 cliente: "[[00 Ficha de cliente - Esade Beyond]]"
-actualizado: 2026-11-12
-alertas_hoy: []
+actualizado: 2026-11-17
+alertas_hoy: ["medio parado: der-bank-blog.de lleva 34 días sin publicar", "cierre sin volcar: horas de octubre vencidas (05/11, 12 días)", "pelota en el cliente >7 días: colaboración en orgánico (Astrid), plantilla con caja de autor (Sergi), Middle East (Astrid)"]
 curso_inicio: 2026-09
 paprika_codigos: {"26/27": "ESA010244"}
 horas_plan: [["2026-09", 23, 0], ["2026-10", 30, 0], ["2026-11", 23, 0], ["2027-01", 38, 0], ["2027-02", 23, 0], ["2027-06", 38, 0], ["2027-07", 23, 0], ["2027-08", 0, 0]]

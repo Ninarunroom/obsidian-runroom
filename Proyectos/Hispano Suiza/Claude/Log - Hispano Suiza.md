@@ -49,3 +49,6 @@ Kanbanize (lunes 8:47): informe mensual de Barraquer la semana antes de la "Stat
 ## [2026-11-13] pendientes | Cerrada `[x]` "Regularizar en la factura de noviembre la diferencia acumulada": factura de noviembre emitida (lo confirma Nina).
 
 ## [2026-11-13] pendientes | Informe: no habrá informe de octubre aparte (septiembre y octubre se presentaron el 29/10); el de noviembre se presenta a principios de diciembre (Nina). Black Friday: tarea programada para el 16/11 que comenta en la card de presupuestos de la semana del 16/11 que hay que modular el presupuesto de la semana de Black Friday.
+
+## [2026-11-17] status | Status actualizado (solo recálculo de días de espera)
+Status pasado a 17/11: espera de los enlaces del vídeo del Sagrera a 18 días (desde el 30/10). Quitada la línea de la factura de noviembre (ya emitida, cerrada el 13/11) y el ¿cerrar? de su regularización. "Temas por verificar" queda solo con el acceso a GA4 (el etiquetado de IA se descartó el 13/11). Sin alertas de campaña (decisión de Nina, sin script de Google Ads para este cliente); sin cambios en los datos de facturación.

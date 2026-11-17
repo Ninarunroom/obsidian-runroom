@@ -2,11 +2,11 @@
 
 Status del día y tareas pendientes, separadas por **quién tiene la pelota**. Se actualiza cada mañana con la tarea diaria (Basecamp, correo y reuniones). Se añaden tareas nuevas en la sección que toca, pero nunca se borran ni se marcan como hechas automáticamente: márcalas tú con `[x]` cuando las completes. En 🟦 Runroom: `[ ]` = backlog (sin empezar) · `[/]` = en curso. Cada tarea lleva **Línea:** SEO técnico, Analítica o Gestión.
 
-## Status (12/11/2026)
-- 🕒 **Horas**: Sergi ha preguntado tres veces por la dedicación (02/11 "anem a full", 29/10 y 10/11 sobre el formulario de FormAssembly), y la última pregunta sigue **sin respuesta (2 días)**. Remanente de **37,25 h** a cierre de septiembre (16,25 del curso pasado + 50 − 29; el 75 % de un mes, por encima del ±20 %). **Octubre sin volcar** al Seguimiento.
-- 🟧 **Esperando al cliente más de 7 días**: URLs de CrazyEgg (42 d) · Unibuddy y su Hotjar (42 d) · respuesta de OneTrust sobre el 'unknown' (36 d) · prompts de Sistrix / LLM Pulse (41 d) · pedido de compra pendiente (13 d).
-- 💬 **Respuesta de Fer al status (16/11)**: schema hecho (13/11) · student loans revisado (no es indexación; pelota en Sergi) · inventario EMBA y F0-02 la semana del 23/11 · Excel EMBA y fechas del plan FTMBA el lunes 23/11 · informe de Esade en IA y mapa de competidores ampliado el 27/11 o el 30/11.
-- 🟦 **Nuevo de ayer (11/11)**: ajustes de consentimiento en GTM (5 puntos de Sergi) y pico de sesiones del 10/11 (modelización de Consent Mode). Los dos son de Marta.
+## Status (17/11/2026)
+- 🕒 **Horas**: octubre sigue sin volcar al Seguimiento (vencido desde 05/11, 12 días). Remanente registrado a cierre de septiembre: 37,25 h (75 % de un mes, por encima del ±20 %).
+- 🟧 **Esperando al cliente o a terceros más de 7 días**: CrazyEgg (47 d) · Unibuddy/Hotjar (47 d) · OneTrust 'unknown' (41 d) · Sistrix/LLM Pulse (46 d) · pedido de compra (18 d) · acciones de Esade/Web/Natzir del plan EMBA (18 d).
+- 🟦 **Avances de ayer (16/11)**: Fer mandó a Sergi el análisis definitivo del Full Time MBA; Marta implementó todo lo aprobado sobre el tráfico bot de China. Sergi preguntó cómo coordinar con Adsmurai (16/11 14:05): responder antes del 18/11 14:05 para no pasar de las 48 h.
+- 💬 Sin mensajes vencidos (>48 h) hoy.
 
 ## 🟦 Runroom
 
@@ -16,6 +16,7 @@ Status del día y tareas pendientes, separadas por **quién tiene la pelota**. S
     - **Responsable:** Nina
     - **Info:** El 02/11 Sergi pidió que Nina vigile la dedicación porque van "a full". Sobre la protección anti-spam de FormAssembly (ALTCHA), el 29/10 avisó "alerta amb el volum d'hores" y el 10/11 volvió a preguntar si se había mirado. El análisis lo tienen Jordi, Jorge y Joshua, y estaba parado hasta que volviera Joshua.
     - **Actualización 16/11:** Nina contestó a Sergi el 12/11 (se despriorizó por falta de disponibilidad de backend y ya se ha pedido disponibilidad al equipo). [📧 "New forms now come with built-in spam protection" (Nina, 12/11)](https://mail.google.com/mail/?authuser=nina@runroom.com#all/thread-f:1879761366507593429)
+    - **Actualización 16/11 (Slack):** Joshua ha probado ALTCHA en dev: el formulario llega a Salesforce con ALTCHA activado sin tocar código (con un + en el email no se ve en Salesforce). Según el plan de Jorge, la pelota la tiene Nina: responder a Sergi (con copia a Marc) con la recomendación. Joshua pregunta si hace falta una reunión con Jorge y Nina. · [fuente](https://runroom.slack.com/archives/C02Q0GZDKU0/p1794836027486809?thread_ts=1794826865.431219&cid=C02Q0GZDKU0)
     - Fuente: [📧 "New forms now come with built-in spam protection" (Sergi, 10/11)](https://mail.google.com/mail/?authuser=nina@runroom.com#all/thread-f:1879761366507593429) · [📧 "Informe setembre amb alguna actualitzacions" (Sergi, 02/11)](https://mail.google.com/mail/?authuser=nina@runroom.com#all/thread-f:1880109674396533661) — detectado 12/11/2026
 - [/] **[Facturación]** Esade — Cierre de horas de octubre: volcar al Seguimiento las horas de la agencia y las de Paprika
     - **Línea:** Gestión
@@ -29,6 +30,8 @@ Status del día y tareas pendientes, separadas por **quién tiene la pelota**. S
     - **Responsable:** Marta
     - **Info:** Sergi aprobó el 10/11 la propuesta de Marta: marcar en el sGTM (Stape) `traffic_type=bot` las combinaciones detectadas sin enviarlas a Google Ads ni a Meta, filtro de datos en GA4 (primero en prueba), quitar `user_active_120` de los eventos clave, segmento para informes pasados y revisión mensual de las combinaciones. Natzir (11/11): la web va por CloudFront (AWS), no por Cloudflare; Sistemas ya puso un captcha a los rangos del pico; para las resoluciones raras basta "China + resolución", porque la versión de Chrome caduca enseguida; propone un honeypot con AWS WAF para Sistemas.
     - **Actualización 16/11:** sin avance desde la aprobación de Sergi del 10/11 (ni en Basecamp ni en el correo). Sergi: "Entenc que la part de Cloudflare l'ha de fer sistemes". Va a ⏰ en el status semanal.
+    - **Actualización 17/11:** Marta implementó el 16/11 todo lo aprobado (Stape Geo Headers + Bot Detection; variables sGTM para las combinaciones país China + resoluciones 800x600/1600x1600/1280x1200/1800x1125/3840x2160; etiqueta GA4 `traffic_type=bot`; excepciones en todas las etiquetas publicitarias, incluidas las de Adsmurai; filtro de datos "Bot China" en GA4 en modo prueba; quitado `user_active_120`; probado en preview). Sergi preguntó el mismo día (14:05) "¿Cómo coordinamos con Adsmurai?" — sin responder todavía (ver 🟧 Cliente). [Basecamp: Xina](https://basecamp.com/1771388/projects/16901662/messages/113457396), 16/11.
+    - **Actualización 16/11 (Slack):** Marta contestó al status (12:11) que lo estaba moviendo, sin fecha porque no dependía solo de ella. La gestión de Stape es de RR: Jordi activó los power-ups Geo Headers y Bot Detection a las 12:40; Marta valida después las etiquetas. · [fuente](https://runroom.slack.com/archives/C02L0JEUY/p1794827490132129?thread_ts=1794560917.643259&cid=C02L0JEUY) · [Stape](https://runroom.slack.com/archives/C02L0JEUY/p1794829238802939?thread_ts=1794827539.315179&cid=C02L0JEUY)
     - Fuente: [Basecamp: Xina](https://basecamp.com/1771388/projects/16901662/messages/113457396) · [📧 "Pico de bots en GA4 el 4 de noviembre" (Natzir, 11/11)](https://mail.google.com/mail/?authuser=nina@runroom.com#all/thread-f:1881029419490066014) — detectado 22/10/2026
 - [ ] **[Petición cliente]** Esade — Ajustes de consentimiento de cookies en GTM (incidencias del Compliance Assistant de OneTrust)
     - **Línea:** Analítica
@@ -36,6 +39,7 @@ Status del día y tareas pendientes, separadas por **quién tiene la pelota**. S
     - **Responsable:** Marta (Jordi en copia)
     - **Info:** Son cinco puntos: (1) CrazyEgg solo con consentimiento de Rendimiento, sin cargar el script antes; (2) API de YouTube sin consentimiento de Publicidad (los iframes los bloquea Esade desde Drupal; hay un Jira abierto); (3) Flowbox condicionado a Funcionales; (4) qué tags generan `_gcl_*`, `sbjs_*` y `crm_tracking`, y que solo se disparen con su consentimiento; (5) `functionality_storage` tiene que empezar denegado, y hay que confirmar el mapeo entre los grupos de OneTrust y Consent Mode y que el sGTM (load.ss.esade.edu) lo respeta.
     - **Actualización 16/11:** sigue sin respuesta de RR (desde el 11/11).
+    - **Actualización 16/11 (Slack):** según Marta, hay cosas que no dependen de GTM: hará una lista de qué puede hacer y qué no y le contestará a Sergi por Basecamp. Sin fecha. Pelota en Marta. · [fuente](https://runroom.slack.com/archives/C02L0JEUY/p1794827490132129?thread_ts=1794560917.643259&cid=C02L0JEUY)
     - Fuente: [📧 "www.esade.edu · Ajustos de consentiment de galetes a GTM" (Sergi, 11/11)](https://mail.google.com/mail/?authuser=nina@runroom.com#all/thread-f:1881572888713368359) — detectado 12/11/2026
 - [ ] **[Petición cliente]** Esade — Pico de sesiones del 10/11 en GA4: confirmar si es la modelización de Consent Mode
     - **Línea:** Analítica
@@ -43,10 +47,11 @@ Status del día y tareas pendientes, separadas por **quién tiene la pelota**. S
     - **Responsable:** Marta
     - **Info:** Sesiones +59 % y usuarios +73 % de un día para otro, mientras los eventos clave no cambian. Natzir cree que es la modelización (sesiones estimadas) y recomienda la identidad "Observado" para los KPI y para comparar con el histórico; la API y los dashboards también quedan afectados. Falta que Marta confirme si el 9 o el 10/11 cambió algo en GTM, en el sGTM o en OneTrust.
     - **Actualización 16/11:** sigue sin respuesta de Marta; solo ha contestado Natzir (11/11).
+    - **Actualización 16/11 (Slack):** según Marta, por su parte no se tocó nada en GTM; revisa si OneTrust o Adsmurai hicieron cambios. Sin fecha. · [fuente](https://runroom.slack.com/archives/C02L0JEUY/p1794827490132129?thread_ts=1794560917.643259&cid=C02L0JEUY)
     - Fuente: [📧 "Esade: pic de sessions el 10/11 – és la modelització de Consent Mode?" (Sergi, 11/11)](https://mail.google.com/mail/?authuser=nina@runroom.com#all/thread-f:1881574014061694620) — detectado 12/11/2026
 - [/] **[Tarea]** Esade — EMBA: backlog de recuperación de posiciones 4-10 (F0 y F1)
     - **Línea:** SEO técnico
-    - **Entrega:** inventario y F0-02, semana del 23/11 · Excel al día, lunes 23/11 (según Fer, 16/11)
+    - **Entrega:** inventario y F0-02, semana del 23/11 · Excel al día, en curso desde el 16/11 (Fer, 12:15: "Voy con lo de EMBA")
     - **Responsable:** Fer
     - **Info:** F0-01 entregado el 26/10 (ficha de queries perdidas). Fer está con F0-02 (análisis de SERP). Para F1-01, 02, 05, 06, 07 y 08, Sergi pidió antes un inventario de "ya existe / hay que actualizar / hay que crear". El paso 3 del plan ("¿Cuánto cuesta un Executive MBA en España?") pasa a Beyond o link building (Olga). Seguimiento en [[Estrategia 26-27 - seguimiento Esade SEO]].
     - **Actualización 16/11:** sin novedades en Basecamp desde el 26/10. El Excel sigue con las 20 tareas en "Pendiente" (también la F0-01); última edición: Nina, 13/11.
@@ -60,12 +65,14 @@ Status del día y tareas pendientes, separadas por **quién tiene la pelota**. S
     - Fuente: [Sheet: Plan de acción EMBA](https://docs.google.com/spreadsheets/d/1p4C1jAwhScctAqE-pda1-lxsci2dfwnIcYKpeskvRaw) · acta: [[2026-10-30 - Plan de accion EMBA]] — detectado 30/10/2026
 - [/] **[Tarea]** Esade — Full Time MBA: analizar a fondo la ficha del programa y el mercado indio
     - **Línea:** SEO técnico
-    - **Entrega:** fechas de cada acción, lunes 23/11 (según Fer, 16/11)
+    - **Entrega:** 18/11/2026 (todas las acciones del plan, según Fer)
     - **Responsable:** Fer
     - **Info:** /mba/en pierde un 37 % de clics (28/6-26/10, interanual). Cuatro URLs concentran el 83 % de lo perdido; la ficha /programmes/full-time-mba pasa de la posición 12,4 a la 25,8 (−52 % de clics) e India pierde un 42 %. Sergi: "Activem tots els next steps" (29/10).
     - **Actualización 12/11:** plan de acción en [Sheet: Esade FTMBA - Plan de acción](https://docs.google.com/spreadsheets/d/1FUpa6tUAidxNhfkUkrLl_HfkGDgzhDhZtzsSU4VL8xM/edit) (carpeta FTMBA del Drive del curso 26/27, compartida con Fer). Fer tiene que completarlo con el resto de acciones de su informe y fechas.
     - **Actualización 16/11:** Fer editó el Sheet del plan el 13/11, pero las 7 acciones siguen sin fecha prevista y en "Pendiente" / "Por validar con Fer".
     - **Actualización 16/11 (respuesta de Fer en Slack):** el lunes revisa el plan y pone fecha a todas las acciones del FTMBA.
+    - **Actualización 17/11:** Fer mandó a Sergi el 16/11 el análisis definitivo (PDF "esade-mba-en-perdidas.pdf"): la caída del 37% de clics es por menor búsqueda de marca en Google (no peor ranking); la caída de impresiones genéricas está inflada por un cambio de medición de Google (sept-2025); la pérdida de posición de la ficha Full Time MBA es distorsión de medida, no pérdida real de ranking. Foco en India y EEUU. [Basecamp: Full Time MBA](https://basecamp.com/1771388/projects/19742261/messages/113563313), 16/11.
+    - **Actualización 16/11 (Slack):** Fer ha puesto fechas a las acciones que propuso en el Plan de Acción FTMBA; según Fer, el miércoles estará todo hecho. Nueva entrega: 18/11. · [fuente](https://runroom.slack.com/archives/CALGBQ94L/p1794827747378929?thread_ts=1794560683.677639&cid=CALGBQ94L)
     - Fuente: [Basecamp: Full Time MBA](https://basecamp.com/1771388/projects/19742261/messages/113563313) · [Sheet: FTMBA - Plan de acción](https://docs.google.com/spreadsheets/d/1FUpa6tUAidxNhfkUkrLl_HfkGDgzhDhZtzsSU4VL8xM/edit) — detectado 29/10/2026
 - [/] **[Tarea]** Esade — Schema: devolver a Sergi los matices a su propuesta (redes sociales en schema)
     - **Línea:** SEO técnico
@@ -134,6 +141,7 @@ Status del día y tareas pendientes, separadas por **quién tiene la pelota**. S
     - **Línea:** SEO técnico
     - **Esperando desde:** 30/10/2026
     - **Info:** Probar canonicals en 2-3 programas antes de redirigir (Sergi) · rediseñar el menú móvil (Sergi) · precio de la edición de Madrid de febrero de 2027 en la ficha, en la página de precio y en las metas de las 27 URLs (Natzir/Web, 20/11) · intersticial y chat que tapa el botón del folleto en móvil (Web, 13/11). Afectan al SEO de las URLs del EMBA.
+    - **Actualización 16/11 (Slack):** Fer preguntó quién lleva las acciones del 1.3 del Excel EMBA que no son de RR, Natzir o Sergi (p. ej. pausar P.Max Europa y traspasar budget). Nina: de eso se encargan Sergi o Helen con Adsmurai; RR solo lo suyo. · [fuente](https://runroom.slack.com/archives/CALGBQ94L/p1794829494883369?thread_ts=1794560683.677639&cid=CALGBQ94L)
     - Fuente: [Sheet: Plan de acción EMBA](https://docs.google.com/spreadsheets/d/1p4C1jAwhScctAqE-pda1-lxsci2dfwnIcYKpeskvRaw) · acta: [[2026-10-30 - Plan de accion EMBA]] — detectado 30/10/2026
 - [ ] **[Petición cliente]** Esade — Validar las fichas de keywords y metadatos de Relaciones Corporativas y del Programa de Becas
     - **Línea:** SEO técnico

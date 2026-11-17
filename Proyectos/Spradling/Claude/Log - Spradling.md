@@ -99,3 +99,6 @@ Ari se lo ha confirmado a Nina. [Basecamp](https://basecamp.com/1771388/projects
 - Creada [61854](https://runroom.kanbanize.com/ctrl_board/21/cards/61854/details/) "Spradling - enviar al cliente el documento con la estructura de la web antigua" (Backlog → Spradling, Implementación analítica, parent 52124, SPR010023, sin responsable ni fecha), con OK de Nina.
 - 61758 (CPA de Italia) y 61759 (colección iSense) aparecen descartadas en Kanbanize el 16/11; por indicación de Nina no se tocan: solo se anota en Pendientes. La tarea iSense sigue viva en 🟦 Runroom.
 - Sin card a propósito: reporting Ads + CRM (va en el informe Q4) y PMax por categoría (Nina lo habla antes con Ari). El resto de tareas abiertas tienen card.
+
+## [2026-11-17] status | Status actualizado, remanente a 7 días de espera y aviso de datos
+Status pasado a 17/11. OK de Natalia a la reinversión del remanente (6.820,01 €) sigue pendiente, ya en 7 días de espera. Quitada del Status la línea de ferias (sitelinks ya cerrados el 16/11). Aviso push enviado a Nina (no por correo, según Instrucciones - Spradling) señalando que la hoja "Spradling - Google Ads diario" no se actualiza desde el 12/11, por lo que no se ha podido calcular con fiabilidad el ritmo de gasto ni detectar picos o campañas paradas hoy.

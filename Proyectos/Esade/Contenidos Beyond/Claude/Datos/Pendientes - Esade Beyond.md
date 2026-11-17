@@ -4,11 +4,12 @@ Status del día y tareas del proyecto. **El trabajo recurrente va en una tarea p
 
 La tarea del mes va en la sección de **quién tiene ahora la pelota** (🟦 Runroom o 🟧 Cliente) y se mueve cuando cambia. En 🟦 Runroom: `[ ]` = sin empezar · `[/]` = en curso. Claude actualiza los pasos con su fecha y fuente; **la casilla del mes la marca Nina** cuando todos los pasos están en ✅.
 
-## Status (13/11/2026)
-- 🔗 **Link building**: octubre, digitalfernsehen.de en revisión de Astrid (desde ayer) e ibtimes.co.uk pendiente del medio. Noviembre: medios validados, faltan los textos. **der-bank-blog.de (septiembre) lleva 30 días sin publicar**.
-- ✍️ **Contenidos**: noviembre, Mercado eléctrico entregado (12/11) y "cambiar de trabajo a los 40" en curso. Diciembre: Middle East espera contexto de Astrid (7 d).
-- 📊 **KPIs**: los de noviembre, a primeros de diciembre. Sergi tiene pendiente valorar el análisis de la caída de impresiones (desde ayer).
-- 💶 **Gestión**: sin confirmar que haya llegado el pedido de sep–dic (16.933,73 €). Medios: 5.843 € comprometidos en sep–oct (23 % del total, con el 18 % del curso pasado).
+## Status (17/11/2026)
+- 🔗 **Link building**: octubre, digitalfernsehen.de aprobado por Astrid (16/11), pendiente de que el medio publique; ibtimes.co.uk sigue en proceso del medio. Noviembre: medios validados, los textos (azonline.de y diariopalentino.es) previstos la semana del 23/11. **der-bank-blog.de (septiembre) lleva 34 días sin publicar** (medio parado >21 días).
+- ✍️ **Contenidos**: noviembre, "Mercado eléctrico" con briefing cerrado (pendiente de redacción/publicación) y "cambiar de trabajo a los 40" con el briefing en curso. Diciembre: Middle East sigue esperando contexto de Astrid (11 d).
+- 📊 **KPIs**: informe de noviembre, entrega 05/12. Sergi tiene pendiente valorar el análisis de Fer sobre la caída de impresiones (5 d).
+- 💶 **Gestión**: sin confirmar que haya llegado el pedido de sep–dic (16.933,73 €). Medios comprometidos sep–oct: 5.843 € (23 % del total, frente al 18 % del curso pasado). **Cierre de horas de octubre vencido** (entrega 05/11, 12 días).
+- 🟧 **Más de 7 días esperando**: "colaboración en orgánico" con Astrid (8 d) · plantilla con caja de autor, decide Sergi (34 d) · Middle East, contexto de Astrid (11 d).
 
 ## 🟦 Runroom
 
@@ -35,9 +36,10 @@ La tarea del mes va en la sección de **quién tiene ahora la pelota** (🟦 Run
     - ✅ Propuesta de medios, temáticas, URL y anchors en el Sheet (26/10)
     - ✅ Validación de los medios por Astrid y Comunicación (02/11): capitalradio.es descartado; como son caros, 2 medios con el presupuesto de octubre y 2 con el de noviembre
     - ✅ Validación de temáticas, URL de destino y anchors (11/11)
-    - ⏳ digitalfernsehen.de (1.334 €, Alemania): texto subido el 12/11, en revisión de Astrid
+    - ✅ digitalfernsehen.de (1.334 €, Alemania): texto subido el 12/11, ajustado por Olga y aprobado por Astrid el 16/11 ("ok, adelante, gracias") — pasa a publicación por el medio
     - ⬜ ibtimes.co.uk (2.000 €, UK): pendiente de que el medio envíe el texto
     - **Actualización 16/11:** Olga: ibtimes.co.uk está en proceso por parte del medio (va por plataforma). Sin fecha. (fuente: Status compartido de Nina con Fer y Olga (16/11))
+    - **Actualización 17/11:** Astrid aprobó el texto de digitalfernsehen.de el 16/11 17:02 ("ok, adelante, gracias"); ahora depende del medio publicarlo. [Basecamp: digitalfernsehen.de](https://basecamp.com/1771388/projects/15430351/todos/521640212), 16/11.
     - ⬜ Publicación y enlace de los dos medios en Basecamp y en el Sheet
     - ✅ Comprometido del mes: 3.334 € (Sheet, Control presupuesto medios)
     - Fuente: [Basecamp: Link Building - propuesta octubre](https://basecamp.com/1771388/projects/15430351/todos/521225393) · [Basecamp: digitalfernsehen.de](https://basecamp.com/1771388/projects/15430351/todos/521640212) · [Sheet: Link Building 26-27, pestaña Octubre 26](https://docs.google.com/spreadsheets/d/1HIEkVbraRA5NiC_XNK7axsa1Gjqp3D-sr1MAilQioHM) — detectado 26/10/2026
