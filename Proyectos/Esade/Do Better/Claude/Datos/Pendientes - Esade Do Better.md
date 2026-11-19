@@ -2,13 +2,13 @@
 
 Status del día y tareas pendientes, separadas por **quién tiene la pelota**. Se actualiza cada mañana con la tarea diaria (Basecamp, correo y reuniones). Se añaden tareas nuevas en la sección que toca, pero nunca se borran ni se marcan como hechas automáticamente: márcalas tú con `[x]` cuando las completes. En 🟦 Runroom: `[ ]` = backlog (sin empezar) · `[/]` = en curso. Cada tarea lleva **Línea:** SEO y GEO, Contenidos, Analítica o Gestión. Lo que forma parte de la estrategia 26/27 (auditoría, iteración de artículos, informes, tendencias…) no se repite aquí: está en [[Estrategia 26-27 - seguimiento Esade Do Better]].
 
-## Status (17/11/2026)
+## Status (19/11/2026)
 - 📅 **Cierre sin volcar**: septiembre y octubre siguen sin tus horas (Paprika ESA010245). La agencia ya está: 20 h y 10,75 h.
 - 🕒 **Horas**: remanente provisional **19,25 h** sin tus horas (con 5 h/mes tuyas, unas 9,25 h). No se puede valorar el ±20 % hasta cerrar los dos meses.
-- 🟦 **Vencido**: Cierre de horas de septiembre y octubre (entrega 05/11, 12 días).
-- 🟧 **Esperando al cliente más de 7 días**: Dulce, revisión del informe de octubre y de las respuestas a sus preguntas (14 d, desde el 03/11).
-- ✍️ Iteración al día: septiembre y octubre, 6 de 6 publicadas (octubre se completó hoy en el Sheet). Noviembre: 6 temáticas validadas, faltan los documentos de optimización.
-- 🔎 Tendencias al día: tarea de la semana del 16/11 (entrega 20/11). Último envío de Fer: 13/11.
+- 🟦 **Vencido**: Cierre de horas de septiembre y octubre (entrega 05/11, 14 días).
+- 🟧 **Esperando al cliente más de 7 días**: Dulce, revisión del informe de octubre y de las respuestas a sus preguntas (16 d, desde el 03/11).
+- ✍️ Iteración al día: septiembre y octubre, 6 de 6 publicadas. Noviembre: 6 temáticas validadas, faltan los documentos de optimización.
+- 🔎 Tendencias al día: Fer envió las de la semana del 16/11 el 18/11 (puedes cerrar esa tarea).
 - 📄 Informe mensual: octubre enviado (03/11) y sin presentar. El de noviembre toca a primeros de diciembre.
 - 💬 Sin mensajes de Dulce, Judith o Marta Barquier pendientes de respuesta.
 
@@ -33,6 +33,7 @@ Status del día y tareas pendientes, separadas por **quién tiene la pelota**. S
     - **Responsable:** Fer
     - **Info:** Envío semanal en el hilo de Tendencias de Basecamp: temas de actualidad con potencial de búsqueda y un enfoque para que el equipo de Do Better decida si los escribe. Último envío: 13/11.
     - Fuente: [Basecamp: Tendencias búsqueda - Do Better 25/26](https://basecamp.com/1771388/projects/19338495/messages/111699998) — detectado 16/11/2026
+    - **Actualización 19/11:** según Basecamp, Fer envió las tendencias de la tercera semana de noviembre el 18/11 (burbuja de la IA y riesgo de recesión; caída de los negocios ligados a Trump). Lista para cerrar.
 - [ ] **[Recurrente]** Esade — Informe mensual de noviembre: enviar a primeros de diciembre y ofrecer presentarlo
     - **Línea:** SEO y GEO
     - **Entrega:** primeros días laborables de diciembre
