@@ -2,13 +2,13 @@
 
 Status del día y tareas pendientes, separadas por **quién tiene la pelota**. Se actualiza cada mañana con la tarea diaria (Basecamp, correo y reuniones). Se añaden tareas nuevas en la sección que toca, pero nunca se borran ni se marcan como hechas automáticamente: márcalas tú con `[x]` cuando las completes. En 🟦 Runroom: `[ ]` = backlog (sin empezar) · `[/]` = en curso. Cada tarea lleva **Línea:** SEO y GEO, Contenidos, Analítica o Gestión. Lo que forma parte de la estrategia 26/27 (auditoría, iteración de artículos, informes, tendencias…) no se repite aquí: está en [[Estrategia 26-27 - seguimiento Esade Do Better]].
 
-## Status (19/11/2026)
+## Status (20/11/2026)
 - 📅 **Cierre sin volcar**: septiembre y octubre siguen sin tus horas (Paprika ESA010245). La agencia ya está: 20 h y 10,75 h.
 - 🕒 **Horas**: remanente provisional **19,25 h** sin tus horas (con 5 h/mes tuyas, unas 9,25 h). No se puede valorar el ±20 % hasta cerrar los dos meses.
-- 🟦 **Vencido**: Cierre de horas de septiembre y octubre (entrega 05/11, 14 días).
-- 🟧 **Esperando al cliente más de 7 días**: Dulce, revisión del informe de octubre y de las respuestas a sus preguntas (16 d, desde el 03/11).
-- ✍️ Iteración al día: septiembre y octubre, 6 de 6 publicadas. Noviembre: 6 temáticas validadas, faltan los documentos de optimización.
-- 🔎 Tendencias al día: Fer envió las de la semana del 16/11 el 18/11 (puedes cerrar esa tarea).
+- 🟦 **Vencido**: Cierre de horas de septiembre y octubre (entrega 05/11, 15 días).
+- 🟧 **Esperando al cliente más de 7 días**: Dulce, revisión del informe de octubre y de las respuestas a sus preguntas (17 d, desde el 03/11).
+- ✍️ Iteración: septiembre y octubre, 6 de 6 publicadas. Noviembre: las 6 temáticas están validadas (a día 20 no salta la alerta), pero siguen sin documentos de optimización.
+- 🔎 Tendencias al día: último envío de Fer el 18/11. La tarea de la semana del 16/11 vence hoy y ya está enviada: puedes cerrarla.
 - 📄 Informe mensual: octubre enviado (03/11) y sin presentar. El de noviembre toca a primeros de diciembre.
 - 💬 Sin mensajes de Dulce, Judith o Marta Barquier pendientes de respuesta.
 
