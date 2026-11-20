@@ -68,6 +68,13 @@ Status del día y tareas pendientes, separadas por **quién tiene la pelota**. S
     - **Info:** Fer ofreció la reunión el 03/11 y Dulce contestó "lo miro en detalle y cualquier cosa os digo". Dulce habla de "cambios en la dirección del departamento" y tenía una 1:1 la semana del 02/11 para aterrizar estrategia, resultados y próximos pasos. El último informe presentado en reunión fue el de mayo-junio (17/07); los de julio, septiembre y octubre se han enviado solo por Basecamp o correo.
     - Fuente: [📧 "Urgente | Datos SEO Do Better" (Fer, 03/11)](https://mail.google.com/mail/?authuser=nina@runroom.com#all/thread-f:1880477420612196788) · [Basecamp: Informes mensuales](https://basecamp.com/1771388/projects/19338495/messages/112257712) — detectado 12/11/2026
 
+- [ ] **[Tarea]** Esade — Validar la propuesta de Olga y Fer: dedicar las horas de optimizaciones a análisis (Visual + Arquitectura, Estrategia Newsletter y Analítica GEO)
+    - **Línea:** Gestión
+    - **Entrega:** sin fecha definida
+    - **Responsable:** Nina
+    - **Info:** Como ahora solo pueden optimizar contenidos firmados por Equipo Do Better y la planificación llegaba hasta noviembre, Olga y Fer proponen usar en los próximos meses las horas de optimizaciones para análisis de Visual + Arquitectura, Estrategia Newsletter y Analítica GEO. Si Nina lo ve bien, se lo comentan a Dulce por Basecamp. Sin respuesta de Nina en Slack.
+    - Fuente: [Slack #esade_do_better, Olga 17/11](https://runroom.slack.com/archives/C0A2CK4V9NH/p1794928942163739) — detectado 20/11/2026
+
 ## 🟧 Cliente
 
 - [ ] **[Feedback]** Esade — Dulce: revisión del informe de octubre y de las respuestas a sus preguntas (SEO, audiencia, IA)

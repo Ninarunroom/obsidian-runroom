@@ -13,3 +13,5 @@ Añadidas: (1) a Cliente — Guillermo debe confirmar los 3 puntos de la diaposi
 ## [2026-11-17] ingest | 2 tareas nuevas de Basecamp (2 nuevos Másters, deadline 20/11) y 1 actualización (feedback de Guillermo sobre Nurturing de Grados)
 
 ## [2026-11-17] slack | Tarea nueva en Runroom: comunicar a BAU el consentimiento de tracking de email para FR/IT (beta HubSpot) y que lo valoren con su legal.
+
+## [2026-11-20] slack | Consentimiento FR/IT: decisión con María (lo decide BAU con su legal; tema llevado a operaciones el 18/11) e Idoia escribe a BAU esta semana.

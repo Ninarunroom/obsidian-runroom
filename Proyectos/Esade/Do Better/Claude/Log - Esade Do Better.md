@@ -26,3 +26,5 @@ Registro cronológico de lo que entra en este KB (ingestas, revisiones, cambios 
 ## [2026-11-19] seguimiento | Sin tareas nuevas. Basecamp: Fer envió las tendencias de la semana del 16/11 el 18/11 (actualización en su tarea, lista para cerrar). Correo sin hilos de Do Better. Iteración sin cambios (sep y oct 6/6 publicadas; nov 6 temáticas validadas sin documento). Horas: nada nuevo que volcar. Status y alertas_hoy actualizados (3 alertas).
 
 ## [2026-11-20] seguimiento | Sin tareas nuevas (Basecamp sin actividad desde el 18/11; correo sin hilos de Do Better). Sin recurrentes (viernes). Iteración sin cambios (sep y oct 6/6 publicadas; nov 6 temáticas validadas sin documento). Horas: nada nuevo que volcar. Status y alertas_hoy actualizados (3 alertas).
+
+## [2026-11-20] slack | Tarea nueva (Nina): validar la propuesta de Olga y Fer de pasar las horas de optimizaciones a análisis (Visual + Arquitectura, Newsletter, GEO).

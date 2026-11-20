@@ -147,3 +147,7 @@ El panel de alertas pasa a `4. Seguimiento/Alertas Google Ads - Barraquer.md`. E
 
 ## [2026-11-17] status | Status actualizado, umbral de fee y recordatorio de saldo
 Status pasado a 17/11 (recalculados los días de espera: recarga de saldo 22 d, ROI 2026 19 d). Fee anual al 2,21% (6.630,55 €) del umbral de 300.000 €: aviso preparado por correo como borrador (este entorno no puede enviar correos desde Gmail; pendiente de que Nina lo revise y envíe). Saldo de Google Ads sin cambios (−197,70 €, pago de 15.000 € aún pendiente de aplicarse). Datos de LinkedIn marcados como desactualizados (>3 semanas).
+
+## [2026-11-20] slack | Tarea nueva en Runroom: revisar sitelinks y extensiones (petición de Ari del 17/11), card 61999 en el backlog de Kanbanize.
+
+## [2026-11-20] slack | Tarea nueva en Runroom: reactivar la encuesta de feedback del Portal del Paciente con HubSpot (Jorge propone 2 opciones a Cristian; Joshua revisa y estima). Revisión 17:30 del 19/11.

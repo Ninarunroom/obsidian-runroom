@@ -42,6 +42,19 @@ Status del día y tareas pendientes, separadas por **quién tiene la pelota**. S
     - **Info:** Awareness/captación genérica por patología en los países nuevos (la marca aún no tiene penetración). Con la reserva que queda (10,2k).
     - Fuente: [Refuerzo patologías & push final año 2026](https://basecamp.com/1771388/projects/17192035/todos/521039257) · acta: [[2026-11-12 - Status RR - remanente, Madrid y contenidos]] — detectado 12/11/2026
 
+- [ ] **[Tarea]** Barraquer — Revisar enlaces de sitio y extensiones (sitelinks, textos destacados…)
+    - **Kanbanize:** https://runroom.kanbanize.com/ctrl_board/21/cards/61999/details/
+    - **Entrega:** sin fecha definida (Ari la pidió "para la semana que viene", semana del 23/11)
+    - **Responsable:** Ari
+    - **Info:** Ari ha visto varias cosas que no están bien en las extensiones de las campañas; hay que revisar textos destacados, sitelinks, etc.
+    - Fuente: [DM de Ari a Nina, 17/11](https://runroom.slack.com/archives/D02KR37BFKJ/p1794934536817789) — detectado 20/11/2026
+
+- [ ] **[Tarea]** Barraquer — Reactivar la encuesta de feedback del Portal del Paciente con HubSpot
+    - **Entrega:** sin fecha definida
+    - **Responsable:** Jorge (propuesta a Cristian) y Joshua (revisión técnica y estimación); Ari y Nina en copia
+    - **Info:** El 19/11 Jorge anuncia en #barraquer_general que se reactiva la encuesta. Ha aterrizado dos opciones para proponer a Cristian: A (recomendada) formulario de HubSpot dentro del portal; B encuesta web de HubSpot con Service Hub. En las dos, encuesta general (facilidad de uso del 1 al 5 + pregunta abierta), que saltaría justo después de descargar un documento o de guardar cambios en el perfil (a validar con Cristian). Pide a Joshua que revise las implicaciones técnicas y estime a grandes rasgos las horas de cada opción; con eso hará la propuesta a Cristian. Card en el tablero de Jorge: [52835](https://runroom.kanbanize.com/ctrl_board/9/cards/52835/details/). Jorge se ofrece a dar más detalles a Ari y Nina si los quieren.
+    - Fuente: [Slack #barraquer_general 19/11](https://runroom.slack.com/archives/C02Q0JKEXJ4/p1795103076076019?thread_ts=1795103076.076019&cid=C02Q0JKEXJ4) · [hilo con las opciones](https://runroom.slack.com/archives/C02Q0JKEXJ4/p1795103109465409?thread_ts=1795103076.076019&cid=C02Q0JKEXJ4) — detectado 20/11/2026
+
 ## 🟧 Cliente (esperando a Cristian)
 
 - [ ] **[Petición cliente]** Barraquer — Recargar el saldo de Google Ads (cuenta general: Clínica + Estética)

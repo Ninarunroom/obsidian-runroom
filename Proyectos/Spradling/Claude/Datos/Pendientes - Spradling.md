@@ -2,10 +2,11 @@
 
 Tablero de tareas de Spradling, con el mismo formato que Kanbanize: **🟦 Pendiente Runroom** (nuestro, en marcha) · **🟧 Pendiente cliente** · **📥 Backlog** (nuestro, sin empezar) · **✅ Done**. Cada tarea es un título y, debajo, todo su contexto (se pliega con la flecha). Se actualiza cada mañana con la tarea diaria (Basecamp, correo y reuniones). Solo entran tareas concretas, con dueño y fuente. No hace falta marcar nada: cuando Nina diga que algo está hecho o sobra, o Basecamp/correo lo dejen claro, Claude la cierra (`[x]` hecha, `[-]` ya no aplica) y deja el motivo en el Log.
 
-## Status (17/11/2026)
-- 💶 **Remanente**: Ari mandó el 10/11 el *Review budget* con dos opciones (reinvertir los ~6k de la reserva web, o eso más las partidas bloqueadas de awareness y lanzamientos). Falta el OK de Natalia (7 d).
-- 🎬 **Awareness y lanzamientos**: los lanzamientos se aplazan a febrero de 2027; el vídeo de awareness "se ha complicado" y lo decide Natalia (Dèlia, 10/11).
-- ⚠️ **Datos**: la hoja de Google Ads diario no se actualiza desde el 12/11; las cifras de gasto de los últimos días son orientativas (no se puede calcular con fiabilidad el ritmo de gasto, un pico de inversión ni campañas paradas).
+## Status (20/11/2026)
+- 💶 **Remanente**: sigue sin el OK de Natalia a la reinversión (Ari mandó el *Review budget* el 10/11 y volvió a insistir el 12/11). Natalia solo contestó el 13/11 sobre los países del sitelink de feria (ya cerrado el 16/11), no sobre el remanente ni las partidas bloqueadas → **esperando a Spradling desde el 10/11 (10 d)**.
+- 🎬 **Awareness y lanzamientos**: sin novedades; los lanzamientos de producto se aplazan a febrero de 2027 y el vídeo de awareness lo sigue decidiendo Natalia (Dèlia, 10/11).
+- ✅ **Sin actividad nueva**: no hay eventos nuevos en Basecamp (Spradling Europa ni Internacional, comprobado hasta el 20/11) ni correos nuevos del cliente desde la última revisión.
+- 🕒 **Datos**: la hoja "Spradling - Google Ads diario" sigue sin la pestaña `Info` (creada el 06/11, sin modificaciones desde entonces): no se calculan las alertas de CTR/CR/CPL. El Sheet de presupuestos sí se actualiza solo (última modificación 19/11), pero la lectura de `GoogleAds_Spend`/`MetaAds_Spend` solo devuelve una muestra parcial de filas, así que tampoco se calcula hoy el pacing con fiabilidad.
 
 ## 🟦 Runroom
 
@@ -31,13 +32,21 @@ Tablero de tareas de Spradling, con el mismo formato que Kanbanize: **🟦 Pendi
     - Fuente: [Notas de Gemini 26/10](https://docs.google.com/document/d/1LWmIWTEJq2p6tLJsEQycigFqa-KgXEB4uCAY8M564DM/edit) · acta: [[2026-10-26 - Informe Q3 y conversiones nueva web]] — detectado 06/11/2026
     - **Kanbanize:** [61854](https://runroom.kanbanize.com/ctrl_board/21/cards/61854/details/) (Backlog → Spradling, creada 16/11)
 
-- [ ] **[Petición cliente]** Spradling — Colección sostenible de Silvertex y Valencia (iSense): keywords y campañas
+- [/] **[Petición cliente]** Spradling — Colección sostenible de Silvertex y Valencia (iSense): keywords y campañas
     - **Entrega:** esta semana (con los presupuestos, semana del 16/11)
     - **Responsable:** Ari
     - **Info:** El 18/02 Natalia pidió añadir "iSense" a las keywords de Silvertex y Valencia (versiones sostenibles), sin campañas nuevas. El 26/10 Spradling vuelve a sacarlo: quiere activar campañas de la colección sostenible, con las landings dentro de la web nueva. No consta que se haya hecho nada.
     - Fuente: [Notas de Gemini 18/02](https://docs.google.com/document/d/1ODdZYRTnlSmmhaLcjLu8gujWZo_SZDOv3Urv6Vxf8Qc/edit) · acta: [[2026-02-18 - Cierre 2025 y ajustes 2026]] · [Notas de Gemini 26/10](https://docs.google.com/document/d/1LWmIWTEJq2p6tLJsEQycigFqa-KgXEB4uCAY8M564DM/edit) · acta: [[2026-10-26 - Informe Q3 y conversiones nueva web]] — detectado 12/11/2026
     - **Kanbanize:** [61759](https://runroom.kanbanize.com/ctrl_board/21/cards/61759/details/) — descartada en Kanbanize el 16/11 (se queda así)
     - **Actualización 16/11:** se hará con los presupuestos de esta semana. Antes, Nina tiene que darle más contexto a Ari.
+    - **Actualización 19/11 (Slack):** según Ari, ya ha añadido las keywords de E-sense (hecho el 19/11). Al revisarlo propone una tarea aparte para añadir más marcas (ver "Añadir más marcas en Google Ads"). · [fuente](https://runroom.slack.com/archives/D02KR37BFKJ/p1795074351964019)
+
+- [ ] **[Optimización]** Spradling — Añadir más marcas en Google Ads (adgroups específicos por marca o en un solo adgroup)
+    - **Kanbanize:** [61953](https://runroom.kanbanize.com/ctrl_board/21/cards/61953/details/) (backlog, creada el 19/11)
+    - **Entrega:** sin fecha definida (Ari la propone para la semana que viene, semana del 23/11)
+    - **Responsable:** Ari
+    - **Info:** Al añadir las keywords de E-sense, Ari vio que convendría añadir más marcas en Google Ads, con adgroups específicos o quizá en un solo adgroup (a decidir).
+    - Fuente: [DM de Ari a Nina, 19/11](https://runroom.slack.com/archives/D02KR37BFKJ/p1795074351964019) — detectado 20/11/2026
 
 ## 🟧 Cliente (esperando a Spradling)
 

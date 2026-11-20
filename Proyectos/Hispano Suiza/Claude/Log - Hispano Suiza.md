@@ -52,3 +52,6 @@ Kanbanize (lunes 8:47): informe mensual de Barraquer la semana antes de la "Stat
 
 ## [2026-11-17] status | Status actualizado (solo recálculo de días de espera)
 Status pasado a 17/11: espera de los enlaces del vídeo del Sagrera a 18 días (desde el 30/10). Quitada la línea de la factura de noviembre (ya emitida, cerrada el 13/11) y el ¿cerrar? de su regularización. "Temas por verificar" queda solo con el acceso a GA4 (el etiquetado de IA se descartó el 13/11). Sin alertas de campaña (decisión de Nina, sin script de Google Ads para este cliente); sin cambios en los datos de facturación.
+
+## [2026-11-20] status | Status actualizado (solo recálculo de días de espera)
+Status pasado a 20/11: espera de los enlaces del vídeo del Sagrera a 21 días (desde el 30/10). Sin novedades en Basecamp (nada posterior al 05/11, revisado hasta el 20/11) ni en Gmail (sin correos nuevos de hispanosuizacars.com). Sin tareas nuevas ni cards de Kanbanize.

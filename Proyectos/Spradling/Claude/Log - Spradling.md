@@ -102,3 +102,8 @@ Ari se lo ha confirmado a Nina. [Basecamp](https://basecamp.com/1771388/projects
 
 ## [2026-11-17] status | Status actualizado, remanente a 7 días de espera y aviso de datos
 Status pasado a 17/11. OK de Natalia a la reinversión del remanente (6.820,01 €) sigue pendiente, ya en 7 días de espera. Quitada del Status la línea de ferias (sitelinks ya cerrados el 16/11). Aviso push enviado a Nina (no por correo, según Instrucciones - Spradling) señalando que la hoja "Spradling - Google Ads diario" no se actualiza desde el 12/11, por lo que no se ha podido calcular con fiabilidad el ritmo de gasto ni detectar picos o campañas paradas hoy.
+
+## [2026-11-20] slack | iSense/E-sense: según Ari, keywords añadidas el 19/11 (tarea a [/], la cierra Nina). Tarea nueva: añadir más marcas en Google Ads (card 61953, ya existente).
+
+## [2026-11-20] status | Revisión diaria: sin novedades en Basecamp ni correo, Status actualizado
+Confirmado con `events` en los dos Basecamp (Europa 19500347, Internacional 20351671) que no hay actividad nueva desde el 17/11 (lo último es del 13/11 y del 27/10 respectivamente); tampoco hay correos nuevos de spradling.group/spradling.eu (ventana de 2 y 4 días, ambas vacías). No se crean tareas ni cards nuevas. Status pasado a 20/11: remanente de Natalia sigue sin OK (10 d de espera desde el 10/11); sin novedad en awareness/lanzamientos. Revisadas las dos hojas de alertas: "Spradling - Google Ads diario" sigue sin pestaña `Info` desde su creación (06/11) y la lectura de `GoogleAds_Spend`/`MetaAds_Spend` del Sheet de presupuestos (modificado el 19/11) solo devuelve muestra parcial de filas vía el conector de Drive, así que no se calculan hoy ni el pacing ni CTR/CR/CPL con fiabilidad. No se envía email de alertas.

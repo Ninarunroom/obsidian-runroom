@@ -15,6 +15,12 @@ Wiki de contexto de cuentas de Runroom: quién es quién en cada proyecto, cómo
 - [[00 Ficha de cliente - Hispano Suiza|Hispano Suiza]] — performance media de awareness (YouTube, Meta y Search) en EEUU, Europa y Asia
 - [[00 Ficha de cliente - Spradling|Spradling]] — paid media en 6 países europeos (Google Ads y Meta) y medición de la web nueva con Colombia
 
+### Detectados en Slack (creados automáticamente)
+- [[Bayer]]
+- [[SanLucar]]
+- [[Hospital Clínic]]
+- [[Nsign]]
+
 ## Cómo funciona
 Todo lo que explica cómo se trabaja está en la carpeta **1. Cómo funciona**:
 - [[Sistema de gestión]] — reglas comunes, tareas automáticas y skills, por tipo de cliente: [[Sistema - Performance|Performance]] · [[Sistema - SEO y contenidos|SEO y contenidos]] · [[Sistema - CRM|CRM]]

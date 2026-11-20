@@ -19,6 +19,7 @@ Tablero de tareas, con el mismo formato que Kanbanize: **📥 Backlog** (nuestro
     - **Entrega:** sin fecha
     - **Responsable:** Nina
     - Fuente: [DM Idoia 17/11](https://runroom.slack.com/archives/D0A0K3C1GP9/p1794916425437859) — detectado 17/11/2026
+    - **Actualización 17/11 (Slack):** María: es responsabilidad del cliente; hay que trasladar la normativa a BAU para que decida con su legal qué hacer con los contactos de FR/IT (pedir consentimiento explícito o no trackearlos; si basta con actualizar la política de privacidad; si se les deja desactivar el tracking y si hace falta página de preferencias) y después ver la parte técnica. María lo llevó a operaciones el 18/11 (afecta también a Barraquer, Nufri y Runroom). Nina se lo pasó a Idoia, que lo ve bien y escribe a BAU esta semana. Pelota en Idoia. · [fuente](https://runroom.slack.com/archives/D034J040742/p1794926826610599) · [Idoia](https://runroom.slack.com/archives/D0A0K3C1GP9/p1794939172203999)
 
 ## 🟧 Cliente
 

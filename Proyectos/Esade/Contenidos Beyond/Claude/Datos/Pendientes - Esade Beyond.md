@@ -40,6 +40,7 @@ La tarea del mes va en la sección de **quién tiene ahora la pelota** (🟦 Run
     - ⬜ ibtimes.co.uk (2.000 €, UK): pendiente de que el medio envíe el texto
     - **Actualización 16/11:** Olga: ibtimes.co.uk está en proceso por parte del medio (va por plataforma). Sin fecha. (fuente: Status compartido de Nina con Fer y Olga (16/11))
     - **Actualización 17/11:** Astrid aprobó el texto de digitalfernsehen.de el 16/11 17:02 ("ok, adelante, gracias"); ahora depende del medio publicarlo. [Basecamp: digitalfernsehen.de](https://basecamp.com/1771388/projects/15430351/todos/521640212), 16/11.
+    - **Actualización 20/11:** Olga indicó los cambios aprobados al medio el 17/11 ("Indicado al medio, gracias"); sigue a la espera de que digitalfernsehen.de publique. Fuente: [Basecamp: digitalfernsehen.de](https://basecamp.com/1771388/projects/15430351/todos/521640212), 17/11.
     - ⬜ Publicación y enlace de los dos medios en Basecamp y en el Sheet
     - ✅ Comprometido del mes: 3.334 € (Sheet, Control presupuesto medios)
     - Fuente: [Basecamp: Link Building - propuesta octubre](https://basecamp.com/1771388/projects/15430351/todos/521225393) · [Basecamp: digitalfernsehen.de](https://basecamp.com/1771388/projects/15430351/todos/521640212) · [Sheet: Link Building 26-27, pestaña Octubre 26](https://docs.google.com/spreadsheets/d/1HIEkVbraRA5NiC_XNK7axsa1Gjqp3D-sr1MAilQioHM) — detectado 26/10/2026
@@ -63,7 +64,7 @@ La tarea del mes va en la sección de **quién tiene ahora la pelota** (🟦 Run
     - **Mes:** noviembre 2026
     - **Entrega:** noviembre (2 briefings)
     - **Responsable:** Olga (Astrid valida)
-    - **Ahora:** Olga prepara el briefing de "cambiar de trabajo a los 40"; lo entrega esta semana (antes del 20/11).
+    - **Ahora:** Artículo 1 (mercado eléctrico) pendiente de redacción (Eleven) y publicación. Artículo 2 (cambiar de trabajo a los 40): Astrid validó el briefing el 20/11; pendiente de redacción (Eleven) y publicación.
     - **Artículo 1 · Derecho de la energía → "Mercado eléctrico de España: claves regulatorias"**
     - ✅ Petición de Astrid (21/10; prioritaria el 22/10)
     - ✅ Keyword research y propuesta de temática: "mercado eléctrico español", 60 búsquedas (11/11) · ✅ OK de Astrid (11/11)
@@ -72,11 +73,26 @@ La tarea del mes va en la sección de **quién tiene ahora la pelota** (🟦 Run
     - **Artículo 2 · EMBA employability → "Cambiar de trabajo a los 40"** (adelantado de diciembre)
     - ✅ Petición de Astrid (26/10)
     - ✅ Keyword research: los términos de empleabilidad del EMBA casi no tienen búsquedas; propuesta "cambiar de trabajo a los 40 / 50" (10/11) · ✅ OK de Astrid, enfocado a 35-40 años (11/11)
-    - 🔄 Briefing en el Sheet, enlazando a la sección careers/employability del EMBA
+    - ✅ Briefing entregado en el Sheet (19/11), enlazando a la sección careers/employability del EMBA
     - **Actualización 16/11:** Olga: keyword research y briefing, esta semana. (fuente: Status compartido de Nina con Fer y Olga (16/11))
-    - ⬜ Astrid valida el briefing
+    - **Actualización 20/11:** Olga entregó el briefing en el Sheet el 19/11 (adjunto en el to-do); Astrid lo validó el 20/11 ("ok gracias"). Fuente: [Basecamp: Blogging KWR - EMBA employability](https://basecamp.com/1771388/projects/15430351/todos/521225180), 20/11.
+    - ✅ Astrid valida el briefing (20/11, "ok gracias")
     - ⬜ Redacción (Eleven) y publicación en Beyond (Esade)
     - Fuente: [Basecamp: Blogging KW R - Derecho de la energia](https://basecamp.com/1771388/projects/15430351/todos/521133723) · [Basecamp: Blogging KWR - EMBA employability](https://basecamp.com/1771388/projects/15430351/todos/521225180) · [Sheet: Briefings Beyond](https://docs.google.com/spreadsheets/d/10pRmB4FAOTsTiLZ1teLX6Ec_bzRI5H9f0aB_1A6huxw) — detectado 21/10/2026
+- [/] **[Contenidos]** Esade — Contenidos diciembre 2026
+    - **Línea:** Contenidos
+    - **Mes:** diciembre 2026 (1 artículo, porque el de "cambiar de trabajo a los 40" se adelantó a noviembre)
+    - **Entrega:** validado antes del 17/12
+    - **Responsable:** Olga (Astrid valida)
+    - **Ahora:** Olga tiene que hacer el keyword research y proponer temática a partir del contexto que dio Astrid (19/11).
+    - **Artículo · Programa internacional, enfoque Middle East** (custom programs, B2B; para la newsletter de Custom)
+    - ✅ Petición de Astrid (06/11): el artículo tiene que estar hecho y validado antes del 17/12, así que el keyword research se hace en noviembre
+    - ✅ Astrid dio el contexto (19/11): foco en Middle East/GCC (Saudi Arabia), Esade como partner estratégico de largo plazo en Executive Education; ejemplos internos (Badael, KAFD) solo como contexto, no publicables
+    - 🔄 Keyword research y propuesta de temática (Olga, en curso desde 19/11) · ⬜ OK de Astrid
+    - ⬜ Briefing en el Sheet · ⬜ Astrid lo valida
+    - ⬜ Redacción (Eleven), validación antes del 17/12 y publicación
+    - **Actualización 20/11:** Astrid envió el contexto detallado el 19/11 y Olga confirmó que avisará en cuanto tenga temática y keywords. Fuente: [Basecamp: Blogging KW R - Programa internacional, Enfoque Middle East](https://basecamp.com/1771388/projects/15430351/todos/521507283), 19/11.
+    - Fuente: [Basecamp: Blogging KW R - Programa internacional, Enfoque Middle East](https://basecamp.com/1771388/projects/15430351/todos/521507283) — detectado 06/11/2026
 - [ ] **[Informe y KPIs]** Esade — Informe y KPIs de noviembre 2026
     - **Línea:** Informe y KPIs
     - **Mes:** noviembre 2026 (se entrega a primeros de diciembre)
@@ -115,18 +131,6 @@ La tarea del mes va en la sección de **quién tiene ahora la pelota** (🟦 Run
 
 ## 🟧 Cliente
 
-- [ ] **[Contenidos]** Esade — Contenidos diciembre 2026
-    - **Línea:** Contenidos
-    - **Mes:** diciembre 2026 (1 artículo, porque el de "cambiar de trabajo a los 40" se adelantó a noviembre)
-    - **Esperando desde:** 06/11/2026
-    - **Info:** Ahora está en manos de Astrid: tiene que pasar contexto del artículo de Middle East.
-    - **Artículo · Programa internacional, enfoque Middle East** (custom programs, B2B; para la newsletter de Custom)
-    - ✅ Petición de Astrid (06/11): el artículo tiene que estar hecho y validado antes del 17/12, así que el keyword research se hace en noviembre
-    - ⏳ Astrid pide más contexto para poder hacer el keyword research
-    - ⬜ Keyword research y propuesta de temática (Olga) · ⬜ OK de Astrid
-    - ⬜ Briefing en el Sheet · ⬜ Astrid lo valida
-    - ⬜ Redacción (Eleven), validación antes del 17/12 y publicación
-    - Fuente: [Basecamp: Blogging KW R - Programa internacional, Enfoque Middle East](https://basecamp.com/1771388/projects/15430351/todos/521507283) — detectado 06/11/2026
 - [ ] **[Informe y KPIs]** Esade — Sergi: valorar el análisis de Fer sobre la caída de impresiones de Beyond
     - **Línea:** Informe y KPIs
     - **Esperando desde:** 12/11/2026
