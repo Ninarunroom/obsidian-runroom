@@ -2,12 +2,12 @@
 
 Status del día y tareas pendientes, separadas por **quién tiene la pelota**. Se actualiza cada mañana con la tarea diaria (Basecamp, correo y reuniones). Se añaden tareas nuevas en la sección que toca, pero nunca se borran ni se marcan como hechas automáticamente: márcalas tú con `[x]` cuando las completes.
 
-## Status (17/11/2026)
+## Status (20/11/2026)
 - 💶 **Saldo**: Google Ads en −197,70 € (sin cambios desde el 16/11). Pago manual de 15.000 € pendiente de aplicarse (transferencia, tarda unos días). Al ritmo actual (≈ 770 €/día) da para ≈ 19 días.
-- 💶 **Fee anual**: a 2,21 % (6.630,55 €) de cruzar el umbral de 300.000 € (el tramo baja de 18 % a 17 %). Aviso enviado por correo (borrador pendiente de revisar/enviar).
-- 🟧 **Esperando al cliente más de 7 días**: recarga de saldo de Clínica (22 d) · ROI 2026 (19 d) · patologías Magreb y landings de Estética en catalán (muy antiguas, desde 2025 y 03/2026; validez por confirmar) · pendientes de junio del informe (feedback del informe, geotarget de Egipto, análisis de países nuevos).
-- 🟦 **Nuestro, vencido o a punto**: nada nuevo hoy; las recurrentes de presupuesto/facturación se gestionan aparte en Kanbanize.
-- ⚠️ **Datos**: la pestaña de LinkedIn del plan de medios lleva más de 3 semanas sin actualizar.
+- 💶 **Fee anual**: a 2,21 % (6.630,55 €) de cruzar el umbral de 300.000 € (el tramo baja de 18 % a 17 %). Alerta enviada hoy por correo (borrador en Gmail, pendiente de revisar/enviar).
+- 🟧 **Esperando al cliente más de 7 días**: recarga de saldo de Clínica (25 d) · ROI 2026 (22 d) · vídeos de Madrid para la propuesta de notoriedad (8 d; Ari volvió a pedirlos el 18/11) · patologías Magreb y landings de Estética en catalán (muy antiguas, desde 2025 y 03/2026; validez por confirmar) · pendientes de junio del informe (feedback del informe, geotarget de Egipto, análisis de países nuevos).
+- 🟦 **Nuestro, vencido o a punto**: revisar enlaces de sitio y extensiones — Ari lo pidió para la semana del 23/11 (1 día laborable); las recurrentes de presupuesto/facturación se gestionan aparte en Kanbanize.
+- ⚠️ **Datos**: la pestaña de LinkedIn del plan de medios lleva 28 días (desde el 23/10) sin actualizar.
 
 ## 🟦 Runroom
 
@@ -40,6 +40,7 @@ Status del día y tareas pendientes, separadas por **quién tiene la pelota**. S
     - **Entrega:** sin fecha definida (Ari dice que se trabaja "la setmana vinent")
     - **Responsable:** Ari
     - **Info:** Awareness/captación genérica por patología en los países nuevos (la marca aún no tiene penetración). Con la reserva que queda (10,2k).
+    - **Actualización 20/11:** lanzadas el 18/11 las campañas genéricas de Egipto, Kuwait, Mauritania y Qatar (`google_clinica_search_conversion_<país>_generica`); reservados ≈ 3.000 € (750 €/campaña) para noviembre-diciembre. Reserva restante tras este lanzamiento y los 2.000 € reservados para la propuesta de promoción orgánica: 5,2k (antes 10,2k); total pendiente de activar ahora 20,2k (antes 25,2k).
     - Fuente: [Refuerzo patologías & push final año 2026](https://basecamp.com/1771388/projects/17192035/todos/521039257) · acta: [[2026-11-12 - Status RR - remanente, Madrid y contenidos]] — detectado 12/11/2026
 
 - [ ] **[Tarea]** Barraquer — Revisar enlaces de sitio y extensiones (sitelinks, textos destacados…)
@@ -82,7 +83,13 @@ Status del día y tareas pendientes, separadas por **quién tiene la pelota**. S
 - [ ] **[Petición cliente]** Barraquer — Compartir las creatividades de Madrid: vídeos cortos (≈ 30 s) de los doctores para la propuesta de notoriedad/consideración
     - **Esperando desde:** 12/11/2026
     - **Info:** Acordado en el status del 12/11. Ari se lo recuerda en el hilo de patologías: "ens has de passar els vídeos per revisar" (para la propuesta de notoriedad en Madrid).
+    - **Actualización 20/11:** Ari volvió a pedirlos el 18/11 en el mismo hilo ("quan puguis ens adjuntes els vídeos que ens vas comentar?"); sigue sin recibirlos.
     - Fuente: [Status RR 12/11](https://docs.google.com/document/d/1KwOa2-ND1Jp3jMdOULItwlId1BO8vZPsvtlEL-pKoRM/edit) · acta: [[2026-11-12 - Status RR - remanente, Madrid y contenidos]] — detectado 12/11/2026
+
+- [ ] **[Propuesta]** Barraquer — Dar el visto bueno (o feedback) a la propuesta de promoción de posts orgánicos de Instagram/Facebook (≈ 2.000 € hasta fin de año)
+    - **Esperando desde:** 18/11/2026
+    - **Info:** Reparto en 3 zonas (Catalunya, resto de España, Madrid; 666 €/zona, próximas 6 semanas). Piezas ya publicadas en 2026 con buen rendimiento orgánico, pensadas para pacientes, atemporales y compatibles con la política de salud de Meta; se promocionan tal cual (mantienen likes/comentarios, sin fecha de publicación visible), por franjas de edad (25-49 y 50+) más una pieza específica de Madrid (presentación Dra. Garrido). De momento no implementada; Ari pide opinión a Cristian. Se financiaría con 2.000 € de la reserva (parte de los 25,2k pendientes de activar antes de este push).
+    - Fuente: [Refuerzo patologías & push final año 2026](https://basecamp.com/1771388/projects/17192035/todos/521039257) — detectado 20/11/2026
 
 - [ ] **[Petición cliente]** Barraquer — Revisar el informe y trasladar feedback para futuros ajustes
     - **Esperando desde:** 22/06/2026
